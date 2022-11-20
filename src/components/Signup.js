@@ -1,5 +1,5 @@
 
-import  * as React from 'react';
+import  React from 'react';
 import Grid from '@mui/material/Grid';
 import { Paper, Typography } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
@@ -14,36 +14,25 @@ import FormLabel from '@mui/material/FormLabel';
 import { display } from '@mui/system';
 import Checkbox, { checkboxClasses } from '@mui/material/Checkbox';
 import FormGroup from '@mui/material/FormGroup';
-import Style from './Style.css';
+import  './Signup.css';
 
 const Signup = () => {
-  const paperStyle={padding:'80 px 80 px' , width: 500, margin:"60px auto" , borderRadius:'20px'};
-  const headerStyle={margin:0};
-const avatarStyle ={backgroundColor:'#256D85'};
-const buttonStyle={margin:'5px'};
-
-const myStyle = {
-  color: "white",
-  padding: "80px",
-  margin:'10px',
-  fontFamily: "Sans-Serif"
-}
 
   return (
-    
+
 <Grid>
+<Grid  align='center'>
 
-  <h1 style={myStyle}>
-    Welcome in e-wallet, please registration your information!
-  </h1>
-  <Paper  elevation={20}  style={paperStyle}>
-    <Grid  align='center'>
-      <Avatar style={avatarStyle}>
+  <Grid className='avatarStyle'>
+  <Avatar>
 <PersonAddAlt1Icon/>
-      </Avatar>
+</Avatar>
+  </Grid>
 
-<h2 style={headerStyle}> Sign up </h2>
-<Typography variant='caption' gutterBottom>Please fill this form if you do not have account !</Typography>
+<h2 className='headerStyle'> Sign up </h2>
+
+<Typography  variant='caption' gutterBottom>Please fill this form if you do not have account !</Typography>
+
 </Grid>
 
 <form>
@@ -55,22 +44,20 @@ const myStyle = {
 <TextField  id="standard-basic" label="Password" variant="standard"  placeholder='Enter your password'    required /> <br/> 
 <TextField  id="standard-basic" label="Confirm password" variant="standard"  placeholder='confirm password'    required/> <br/>
 
-<FormGroup>
-
-      <FormControlLabel control={<Checkbox defaultChecked  />} label="I accept to all terms and condition " />
-
+<FormGroup className='formStyle '>
+      <FormControlLabel  control={<Checkbox defaultChecked  />} label="I accept to all terms and condition " />
     </FormGroup>
 
-<Button type='Submit' variant='contained' color='inherit' style={buttonStyle} > Sign up </Button>
-
-</form>
-
-</Paper>
-
+<Grid className='buttonStyle'>
+<Button type='Submit' variant='contained' color='inherit'  > Sign up </Button>
 </Grid>
 
 
-  );
+</form>
+
+</Grid>
+
+  )
 }
 
 export default Signup;
