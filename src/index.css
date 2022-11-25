@@ -41,15 +41,31 @@ width:96% ;
 }
 
 .cards{
-  position: absolute;
-  left: 20%;
-top: 30%;
+  
+ position: fixed;
+left: 20%;
+/* top: 30%; */
 right: 30%;
-transition: translate(-50%,-50%);
+transition: translate(-80%,-70%);
 }
 
-.card3{
+/* .card3{
+  left: 50%;
+top: 20%;
+right: 20%; 
+} */
+
+.fot1 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(17, 1, 88);
+  color: white;
+  text-align: center;
+}
+
+.icons3{
   left: 70%;
-top: 30%;
-right: 70%; 
+  top: 20%;
 }
