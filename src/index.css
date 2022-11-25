@@ -28,7 +28,7 @@ transition: translate(-50%,-50%);
 
 .btnn{
  
-size: 10cm;
+
   width: 50%;
 
 }
@@ -38,4 +38,12 @@ width:96% ;
 }
 .user{
   width: 97%;
+}
+
+.cards{
+  position: absolute;
+  left: 20%;
+top: 30%;
+right: 30%;
+transition: translate(-50%,-50%);
 }
