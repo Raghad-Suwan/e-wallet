@@ -47,3 +47,9 @@ top: 30%;
 right: 30%;
 transition: translate(-50%,-50%);
 }
+
+.card3{
+  left: 70%;
+top: 30%;
+right: 70%; 
+}
