@@ -47,6 +47,7 @@ const Feature= () => {
       </div>
     </div>
     </div>
+    
    )     
 
 }
