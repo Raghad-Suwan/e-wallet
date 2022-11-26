@@ -12,17 +12,16 @@ const Card = (props) =>{
     <div>
         <Picture />
             <div className="card" >
-                
                 <div className="card-body">
                     <Titlee />
-
+                    <div className="input-group mb-4"></div>
                     <h6 className="text-name text-white" >Wallet_ID</h6>
                     <div className="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="userID" aria-label="userID" />
+                        <input type="text" class="form-control" placeholder="userID"  />
     </div>
         <h6 className="text-name text-white" >Agent's email</h6>
         <div className="input-group mb-3">
-            <input type="text" class="form-control" placeholder="example@gmail.com"  aria-describedby="basic-addon2" />
+            <input type="text" class="form-control" placeholder="example@gmail.com"   />
             <span class="input-group-text text-white" id="basic-addon2">@gmail.com</span>
         </div>
         <h6 className="text-name text-white" >Amount of money</h6> 

@@ -1,23 +1,19 @@
-body{
-  background: rgb(0,3,36);
+/* body{
+
   background: linear-gradient(90deg, rgba(0,3,36,1) 0%, rgba(9,25,121,1) 0%, rgba(0,53,255,0.4096989137451855) 100%);
 
 }
 .card{
-background: rgb(0,11,36);
+
 background: linear-gradient(90deg, rgba(0,11,36,0.7598389697675946) 0%, rgba(58, 65, 165, 0.676) 35%, rgba(255,166,0,0.17440479609812676) 100%);  border: 2px solid #000000;
-width: 500px;
-height: 500px;
+width: auto;
+height:auto;
 font-size: 15px;
 padding: 20px 20px 0;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
 position: absolute;
-}
-.card-body{
-text-emphasis-color: rgb(34, 32, 32);
-
 }
 .text-name{
 text-align: left;
@@ -26,7 +22,6 @@ text-align: left;
 background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 border-radius: 8px;
-
 }
 .btn-groub{
 
@@ -44,8 +39,8 @@ background: rgb(34,193,195);
 background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,179,253,0.5833683815323004) 100%);
 }
 .img{
-height: 100%;
-width: 100%;
+height: auto;
+width: auto;
 }
 .pic{
 border-image: 20px;
@@ -55,4 +50,80 @@ width:100%
 }
 .input-group-text{
 background-color: #001ae9;
+}
+.card-title{
+  font-family: 'Nerko One', cursive;
+font-family: 'Rubik Distressed', cursive;
+}
+.adress{
+  font-family: 'Lobster', cursive;
+} */
+
+body{
+  background:radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+  padding: 0 170px;
+  padding-top: 0px;
+  padding-right: 170px;
+  padding-bottom: 0px;
+  padding-left: 170px;
+}
+
+.card{
+font-size: 15px;
+padding: 20px 20px 0;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+margin: 15px;
+
+
+
+
+}
+.card-body{
+  padding: 3rem 0 !important;
+  margin: 0 auto 30px;
+  
+}
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.235) !important ;
+  border-radius: 4rem ;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,179,253,0.5833683815323004) 100%);
+  border: solid #3c61b1;
+
+}
+.card-text{
+  font-size: 0.9rem;
+  padding: 0.4rem 1.9rem;
+}
+.container-fluid .row{
+  padding-top: 2rem;
+}
+.btn:hover{
+  background: blue;
+}
+.btn{
+  background: #12336e;    
+margin: 8px;
+border-radius: 20px !important;
+
+
+}
+.overflow{
+  overflow: hidden;
+  border-radius: 20px;
+  
+}
+.card-img-top{
+  transform: scale(1);
+  transition:transform 0.5s ease ;
+  
+}
+.card-img-top:hover{
+  transform: scale(1.8);
+}
+.card-title{
+  color: #12336e;
 }
