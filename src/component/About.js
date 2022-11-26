@@ -1,29 +1,28 @@
-//import React, { Component } from 'react';
+import React, { Component } from 'react';
 
 
 function About(){
     return(
-     <>
+     
      <section className="about">
          <div className="main">
             <div class="container">
-                <div class ="row">
-                    <div class="col-md"> 
-                        <div className="image">
-                            <img src="/image/ewallet-icone.png"  alt="about the website"/>
-                                        {/* //<img src="/image/crypto-wallet.png" id="img2" alt="about the website"/> */}
-                        </div>
-                        <div className="about-us">
-                            <h1><b>About us</b></h1>
-                        </div>
+                <div className="row">
+                    <div className="col-md"> 
+                            <div className="image">
+                                <img src="/image/ewallet-icone.png"  alt="about the website"/>
+                                            {/* //<img src="/image/crypto-wallet.png" id="img2" alt="about the website"/> */}
+                            </div>
+                            <div className="about-us">
+                                <h1><b>About us</b></h1>
+                            </div> 
                     </div>
                 </div>
             </div>
-            
          <div className="about-text"> 
          <div class="container">
             <div class ="row">
-                <div class="col-md"> 
+                <div class="col"> 
                     <div>
                         {/* <img src="/image/551fffffffff-01.png"  alt="about the website"/> */}
                     </div>
@@ -46,7 +45,7 @@ function About(){
                  
         <div class="container">
                 <div class ="row">
-                    <div class="col-md"> 
+                    <div class="col"> 
                         <div className="text1">
                         <h4 > <b>Who Benefits from Services? </b></h4>
                         <p>
@@ -61,7 +60,7 @@ function About(){
         </div>
         <div class="container">
                 <div class ="row">
-                    <div class="col-md"> 
+                    <div class="col"> 
                         <div className="text1">
                             <h4 > <b>Our Vision and Mission</b></h4>
                             <p>
@@ -76,7 +75,7 @@ function About(){
         </div>
         </div>
    </section>
- </>
+ 
  );
  }
  export default About;

@@ -1,26 +1,27 @@
 .about{
-  color: white;
-  background-color: #23697a;
+  /* color: white;
+  background-color: #23697a; */
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
+}
+.about{
+  background-color: #23697a; 
 }
 .about-text{
   font-family:'Titillium Web', sans-serif;
  
 }
-
 .about-us{
   position: relative;
   top: -50%; 
-  color: #000000;
+  color: #080808;
+
 }
 h4{
   color: #6897a3 ;
-
 }
 img{
   position: relative;
