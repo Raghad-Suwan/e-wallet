@@ -15,7 +15,7 @@ const PicCard=()=>{
                     </div>  
             </div>
         </div>
-
+{/* 
         <div className='card  text-dark'>
            <div className='body-card'>
                 <img className='card-img' src=".image/jawwalpay.png" alt="Card image"></img>
@@ -37,7 +37,7 @@ const PicCard=()=>{
                     </div>  
             </div>
 
-        </div>
+        </div> */}
         </>
     );
 }
