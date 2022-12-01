@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --light: #d0d1d3;
+  --dark: #ffffff;
+  --black: #000000;
+  --blue:#264966;
+}
+
+body {
+  font-family: Poppins;
+  background: var(--dark);
+  line-height: 26px;
+  margin: 0;
+  font-weight: 400;
+font-family: Arial;
+height: 1500px;
+}
+
+
+.header-img{
+  background-image: url('../contact.jpeg') ;
+  height:35rem;
+max-width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; 
+width: 100%;
+}
+
+.hero-text {
+  color: white;
+  padding: 30px;
+}
+
+.hero-text h1 {
+  color: white;
+  font-size: 50px
+}
+
+.hero-text p {
+  width: 35%;
+  font-size: 25px;
+  text-overflow: wrap;
+  margin-top: 100px;
+}
+
+
+.h1-header {
+
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+margin-right: 5px;
+margin:0;
+
+
+}
+
+.inner-header2 {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  line-height: 60px;
+   margin-left: 5cm;
+}
+
+
+h1 {
+  color: var(--black);
+}
+
+.App {
+  height: 75vh;
+}
+
+form {
+ margin: 5rem;
+text-align: center;
+  background: var(--dark);
+  width: 30cm;
+margin-left: 5rem;
+height: 50px; 
+}
+
+.formRow {
+margin: 20px;
+}
+
+.formInput1 {
+   padding:30px 30px;
+  background-color: var(--dark);
+  box-shadow: 0 0 0 2px var(--black);
+  color: var(--green);
+margin-bottom: 2rem;
+height: 50px;
+border-radius: 20px; 
+
+}
+
+.formInput2 {
+  padding:30px 30px;
+ background-color: var(--dark);
+ box-shadow: 0 0 0 2px var(--black);
+ color: var(--black);
+margin-bottom: 3rem;
+height: 50px;
+border-radius: 20px; 
+
+}
+
+
+
+.formInput3 {
+ padding:30px 30px;
+ background-color: var(--dark);
+ box-shadow: 0 0 0 2px var(--black);
+ color: var(--black);
+margin-bottom: 3rem;
+height: 50px;
+border-radius: 20px;
+margin-left: 7cm;
+
+}
+
+
+.formInput4 {
+ background-color: var(--dark);
+ box-shadow: 0 0 0 2px var(--black);
+ color: var(--black);
+margin-bottom: 3rem;
+height: 250px;
+border-radius: 20px;
+
+}
+
+
+
+.formInput:focus {
+  background-color: var(--dark);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--black);
+  color: var(--light);
+}
+
+.formInput::placeholder {
+  color: var(--green);
+  opacity: 1;
+}
+
+.formInput:focus::placeholder {
+  color: var(--light);
+  opacity: 1;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  color: #fff;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 75px;
+  background-color: var(--black);
+}
+
+.submit-btn {
+  background-color: var(--dark);
+  color: var(--green) !important;
+  padding: 15px 50px;
+  border: 2px solid var(--black);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.submit-btn:hover {
+  background-color: var(--blue);
+  color: var(--dark) !important;
+  border: 2px solid var(--black);
+}
+
+.submit-btn:disabled:hover {
+  background-color: var(--dark);
+  color: var(--dark) !important;
+  cursor: wait;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+
+.h3-header {
+  margin-left: 10cm;
+  margin-top: 8px;
+  color: coral;
+ font-size: xx-large;
+}
