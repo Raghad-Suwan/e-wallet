@@ -1,14 +1,17 @@
 
 import './App.css';
-//import Contactus from './components/Contactus'
-import Signup from './components/Signup';
+import ContactForm from './components/ContactForm';
+import Image from './components/Header';
+//import Signform from './components/Signup';
+
 function App() {
   return (
     <div className="App">
+  <Image/>
+  <ContactForm/>
 
-<Signup/>
 
-    </div>
+</div>
   );
 }
 
