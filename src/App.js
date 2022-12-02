@@ -1,4 +1,7 @@
 
+import React, { Component } from 'react';
+import PicCard from './component/PicCard';
+import About from './component/About';
 import './App.css';
 import ContactForm from './components/ContactForm';
 import Image from './components/Header';
@@ -14,5 +17,5 @@ function App() {
 </div>
   );
 }
-
 export default App;
+
