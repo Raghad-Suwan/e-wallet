@@ -4,7 +4,7 @@ import React from "react";
 function Textt4 (){
     return(
 <div className="ee">
-  <h1>NOTES ON MONEY TRANSFER:</h1>
+  <h1 style={{color:"coral"}}>NOTES ON MONEY TRANSFER:</h1>
   <ul>
     <li>The recipient must have an active Jawwal Pay wallet </li>
     <li>Make sure you have enough balance to transfer money</li>

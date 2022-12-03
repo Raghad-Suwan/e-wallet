@@ -4,7 +4,7 @@ import React from "react";
 function Text2 (){
     return(
         <div>
-          <h1 className="aa">CHARGING YOUR ACCOUNT</h1>
+          <h1 className="aa" style={{color:"orange"}}>CHARGING YOUR ACCOUNT</h1>
           <p className="zz">Charging your wallet account by depositing money in your Jawwal Pay wallet </p>  
           <p className="zz">(Cash in) when visiting one of our agents will give you the opportunity to</p>
           <p className="zz">benefit from different online payment services such as:</p>

@@ -4,7 +4,7 @@ import React from "react";
 function Textt3 (){
     return(
 <div className="ww" >
-  <h1>STEPS TO TRANSFER MONEY THROUGH YOUR JAWWAL PAY WALLET:</h1>
+  <h1 style={{color:"coral"}}>STEPS TO TRANSFER MONEY THROUGH YOUR E-WALLET:</h1>
   <ul>
     <li>From your wallet’s main menu, press “Money Transfer”</li>
     <li>Enter the recipient’s information</li>

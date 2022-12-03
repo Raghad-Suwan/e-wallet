@@ -1,19 +1,18 @@
 .ss{
-  color: #fff;
-  background-color:#256d85 ;
-  padding: 30px;
-  border: 1px solid #256d85 ;    
-height:15rem;
-max-width: 100%;
+  color: white;
+  background-image: url("3.png") ;
+  padding: 130px;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 1540px 330px;
 }
 .aa{
   padding-left: 150px;
+  color: coral;
   
 }
 .zz{
+  padding: -1px;
   padding-left: 150px;
   
 }
@@ -39,25 +38,86 @@ background-size: cover;
   background-color: #256d85;
 }
 .z{
+
   padding-left: 50px;
 }
 .hh{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("2.png");
-  height: 3zz00px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-
+  color: white;
+  background-image: url("2.png") ;
+  padding: 130px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 1519px 350px;
 }
 .yy{
   color: #fff;
-  background-color:#256d85 ;
-  padding: 30px;
-  border: 1px solid #256d85 ;    
-height:26rem;
-max-width: 100%;
+  background-image: url("A.png") ;
+  padding: 130px;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 1540px 360px;
+}
+.m{
+background-image: url("5.gif");
+padding: 130px;
+background-position: center;
+background-repeat: no-repeat;
+background-position: 90%;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  background: #f9f9f9;
+    color: #000;
+    height: 74px;
+    width: 300px;
+    border-radius: 2px;
+    background-image: url("logo.webp");
+    background-size: 50px 90px;
+    background-repeat: no-repeat;
+    background-position:90% ;
+    
+}
+
+.box{
+position: relative;
+top: 10px;
+width: 40px;
+height: 40px;
+-webkit-appearance: none;
+outline: none;
+transition: .5s;
+
+
+}
+.box::before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #c1c1c1;
+  box-sizing: border-box;
+  translate: .5s;
+}
+.box:checked::before{
+border-left: none;
+border-top: none;
+width: 20px;
+border-color: green;
+transform: rotate(45deg) translate(5px,-10px);
+}
+.text{
+  padding-right: 120px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 17px;;
+  font-family: sans-serif;
+  
 }
