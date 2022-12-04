@@ -1,5 +1,12 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.container {
+display: flex;
+  width: 1200px;
+  max-width: 100%;
+height: 1200px;
+}
+
 :root {
   --light: #d0d1d3;
   --dark: #ffffff;
@@ -20,11 +27,12 @@ height: 1500px;
 
 .header-img{
   background-image: url('../contact.photo.webp') ;
-  height:100%;
+  height: 30rem;
   max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
+
 
 }
 
@@ -33,9 +41,10 @@ height: 1500px;
   padding: 30px;
 }
 
-.hero-text h1 {
+.hero-text h2 {
   color: white;
-  font-size: 50px
+  font-size: 40px;
+  margin-top: 3rem;
 }
 
 .hero-text p {
@@ -43,17 +52,9 @@ height: 1500px;
   font-size: 25px;
   text-overflow: wrap;
   margin-top: 100px;
+  
 }
 
-
-.h2-header {
-
-  font-weight: 700px;
-  color: rgb(255, 255, 255);
-margin-right: 5px;
-margin:0;
-
-}
 
 .formInput1 {
   padding:30px 30px;
@@ -61,7 +62,7 @@ margin:0;
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px; 
-
+width:100%;
 }
 
 .formInput2 {
@@ -70,7 +71,7 @@ border-radius: 20px;
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px; 
-
+width:100%;
 }
 
 
@@ -81,7 +82,7 @@ border-radius: 20px;
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px;
-
+width:100%;
 
 }
 
@@ -93,7 +94,7 @@ border-radius: 20px;
 margin-bottom: 3rem;
 height: 250px;
 border-radius: 20px;
-
+width:100%;
 }
 
 
@@ -101,15 +102,11 @@ border-radius: 20px;
 
 .inner-header2 {
   font-weight: 700;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   line-height: 60px;
    margin-left: 5cm;
 }
 
-
-h2 {
-  color: var(--black);
-}
 
 .App {
   height: 75vh;
@@ -164,13 +161,12 @@ margin: 20px;
   padding: 5px 20px;
   border-radius: 5px;
   margin-bottom: 25px;
-  margin-left: 10px;
-}
+ text-align: center;
 
-.submit-btn:hover {
-  background-color: var(--blue);
 }
-
+.submit-btn:hover{
+  color: #51a2bb;
+}
 
 .h3-header {
   margin-left: 10cm;
@@ -182,34 +178,30 @@ margin: 20px;
 
 @media (max-width: 844px){
   .header-img{
-    size: 50px;
-  }
-  .h1-header {
-    size: 10px;
-  }
-  .mt-3 {
     font-size: 40px;
   }
+
+  .h2-header {
+color: rgb(255, 255, 255);
+size: 50px;
+font-size: x-large;
+
+  }
+ 
   .text-parent {
     margin-right: 35%;
   }
   .send-msg {
     display: inline;
-    font-weight: 50;
+    font-weight:50 ;
     margin-right: 280%;   
   }
   .mt-5{
     text-align: center;
-    margin-left: 20px;
-
+    margin-left: 50px;
+   
   }
-  .row {
-    margin-left: 20px;
-  }
-
 }
-
-
 
 
 

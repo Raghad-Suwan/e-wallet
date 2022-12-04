@@ -64,17 +64,15 @@ import './ContactForm.css';
   };
 
     return (
+<>
 
-      <div className=' ContactForm'>
-        <div className='container'>
-          <div className='row'>
-            <div className=' col-6 text-center'>
-
-              <div className='contactForm'>
+<div className="ContactForm">
+                <div className='container'>
+            
                 <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
-                  {/* Row 1 of form */}
-                  <div className='row formRow'>
-                    <div className=' col-xs-6 col-sm-6 col-lg-6 '>
+
+                <div className=' row'>
+                    <div className='  col-xs-6  col-sm-12 col-md-12 col-lg-6'>
                       <input
                         type='text'
                         name='name'
@@ -93,13 +91,15 @@ import './ContactForm.css';
                       ></input>
                       {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                     </div>
-                    <div className='col-xs-6 col-sm-6 col-lg-6'>
+
+                    <div className='  col-xs-6 col-sm-12 col-md-12 col-lg-6'>
                       <input
                         type='email'
                         name='email'
                         {...register('email', {
                           required: true,
-                          pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+                          pattern:
+                            /yourname@gmail.com/
                         })}
                         className='form-control formInput2'
                         placeholder='Email address'
@@ -108,10 +108,12 @@ import './ContactForm.css';
                         <span className='errorMessage'>Please enter a valid email address</span>
                       )}
                     </div>
-                  </div>
-                  {/* Row 2 of form */}
-                  <div className='row formRow'>
-                    <div className='col-xs-6 col-sm-6  col-lg-6'>
+                 
+
+
+                 
+                    <div className=' column is-6  col-xs-6 col-sm-12  col-md-12 col-lg-6'>
+                   
                       <input
                         type='tel'
                         name='phonenumber'
@@ -121,7 +123,7 @@ import './ContactForm.css';
                             message: 'Please enter a phone number'
                           },
                           maxLength: {
-                            value: 10,
+                            value:10,
                             message: 'phone number cannot be more 10 digit'
                           }
                         })}
@@ -132,11 +134,11 @@ import './ContactForm.css';
                         <span className='errorMessage'>Please enter a phone number</span>
                       )}
                     </div>
-                  </div>
-                  {/* Row 3 of form */}
-                  <div className=' row formRow'>
-                    <div className='col-xs-12 col-sm-12 col-lg-12'>
-                      <textarea
+                
+               
+                    <div className=' column is-6 col-xs-6 col-sm-12  col-md-12 col-lg-6'>
+                      <textarea 
+                        rows={3}
                         name='message'
                         {...register('message', {
                           required: true
@@ -146,22 +148,26 @@ import './ContactForm.css';
                       ></textarea>
                       {errors.message && <span className='errorMessage'>Please enter a message</span>}
                     </div>
-
+                 
                   </div>
 
-                  <button  className='submit-btn' disabled={disabled} type='submit'>
+                  <button   className='submit-btn' disabled={disabled} type='submit' >
                     Send
                   </button>
+
+
                 </form>
-              </div>
+               
+               
+
               <ToastContainer />
-            </div>
-          </div>
-        </div>
-      </div>
-  
- 
-    );      
+              </div>
+              </div>
+      </>
+      
+    );
   };
+      
+
 
   export default ContactForm;
