@@ -1,8 +1,7 @@
 import React from 'react';
 import {  MDBCardBody, MDBCol, MDBContainer, MDBInput, MDBRow} from 'mdb-react-ui-kit';
-import './ContactForm.css';
 
-export default function ContactForm() {
+export default function Trying() {
 
 
   return (
@@ -16,20 +15,20 @@ export default function ContactForm() {
                     <MDBRow>
                       <MDBCol md="6" className="mb-4">
                         <MDBInput type='text' size="lg"   placeholder='First name' 
-                        id="name"
+                  
                         />
 
                        </MDBCol>
                      
                       <MDBCol md="6" className="mb-4">
-                        <MDBInput type='text' size="lg" placeholder='Last name' 
+                        <MDBInput  type='text' size="lg" placeholder='Last name' 
                        />
                       </MDBCol>
                     </MDBRow>
   
-                    <MDBInput  type='text' className="mb-4" size="lg" placeholder='Phone'/>
+                    <MDBInput type='text' className="mb-4" size="lg" placeholder='Phone'/>
   
-                    <MDBInput  type='text' className="mb-4" size="lg" placeholder='Email'/>
+                    <MDBInput type='text' className="mb-4" size="lg" placeholder='Email'/>
   
                     <div class="form-group">
     <textarea className="form-control"  rows="7"  placeholder='Message' ></textarea>
