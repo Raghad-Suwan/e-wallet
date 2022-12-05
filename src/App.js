@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import Contactus from './components/Contactus';
+// import Contactus from './components/Contactus';
 import  Navbar  from './components/Navbar';
 
 function App() {
