@@ -1,14 +1,14 @@
     import React from 'react'
     import Button from './Button'
     import Titlee from './Tittle'
-    import Picture from './Picture'
+    // import Picture from './Picture'
 
     //function 
 
 const Card = (props) =>{
     return(
         <div>
-            <Picture />
+            {/* <Picture /> */}
             <div className='container' >
         
 

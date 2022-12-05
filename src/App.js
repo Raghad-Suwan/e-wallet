@@ -1,18 +1,18 @@
 
-// import Adress from './Components/Adress';
-// import './deposit.css';
-// import Card from './Components/Card';
+// import Adress from './Components/deposite/Adress';
+// import './Components/deposite/deposit.css';
+// import Card from './Components/deposite/Card';
 
-import './services.css';
-import Cards from './Components/CardsServices ';
-import img1 from './Components/deposit1.jpg';
-import img2 from './Components/Transformation.jpg';
-import img3 from './Components/Withdrawal.jpg';
-import img4 from './Components/للدفع.jpg';
-import img5 from './Components/فاتورة.png';
+import './Components/services/services.css';
+import Cards from './Components/services/CardsServices ';
+import img1 from './Components/services/deposit1.jpg';
+import img2 from './Components/services/Transformation.jpg';
+import img3 from './Components/services/Withdrawal.jpg';
+import img4 from './Components/services/للدفع.jpg';
+import img5 from './Components/services/فاتورة.png';
 
 function App() {
-  return (
+return (
     <div className="container-fluid d-flex justify-content-center">
                 <section className="row">
                     <div className="col-md-4">
@@ -27,11 +27,11 @@ function App() {
                     <div className="col-md-4">
                         <Cards className='card44' imgsrc={img4} title="Pay for merchants" textt="Paying merchants, shops, and even restaurants is now easier and faster!..."/>
                     </div>
-                   
+                
                     <div className="col-md-4">
                         <Cards imgsrc={img5} title="Pay bills" textt="Now, through your e-wallet, you can pay your bills and save them directly and.."/>
                     </div>
-                  
+                
                     
                 </section>
             </div>
