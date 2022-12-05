@@ -15,7 +15,7 @@ const Image = () => {
             Contact us
           </h2>
           <p className='send-msg'>
-          Send your message and feedback to Jawwal Pay support 
+          Send your message and feedback to E-wallet support 
           and we will contact you as soon as possible!
           </p>
     </div>
