@@ -12,7 +12,6 @@ const PicCard=(props)=>{
                           <p className="card-text">{props.content}</p> 
                           <p className="card-text">{props.footer}</p>
                           {/* <button type="button" class="btn btn-outline-light">Read more</button>*/}
-                      
                       </div>
                     </div>         
             </div>
