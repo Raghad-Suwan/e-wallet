@@ -6,7 +6,7 @@ import './App.css';
 import ContactForm from './components/ContactForm';
 import Image from './components/Header';
 import FirstCard from './components/FirstCard';
-//import Signform from './components/Signup';
+import Signform from './components/Signup';
 
 function App() {
   return (
