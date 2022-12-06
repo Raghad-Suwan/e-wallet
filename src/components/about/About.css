@@ -1,15 +1,8 @@
 *{
   padding: 0.1%;
   margin: 0%;
-  /* box-sizing: border-box; */
-  /* background-color: #23697a;  */
-}
 
-body{
-  margin: 0;
-   background-color: #ffffff;
 }
-
 
 .about{
     height: 100%;
@@ -24,22 +17,18 @@ body{
     justify-content: stretch;
   }
 .about .header{
-    
     max-width: 1083px;
     padding: 0 20px;
     margin: 0 auto;
   }
- 
 .about-title h1{
   font-size: 100px;
   color:  #23697a; 
- align-content: center;
-     /* position: absolute;
-    display: block; */
-    /* top: -20%;  */
-    margin-bottom: 0,5rem;
+  align-content: center;
+  margin-bottom: 0,5rem;
+    
 }
-.about.grid.header.col.text-col
+.about.container.header.col.text-col.about-beside
 {
   display: flex;
   text-align: left;
@@ -50,9 +39,9 @@ body{
   flex-direction: column;
   box-sizing: border-box;
   align-items: inherit;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-family: sans-serif;
+ 
 }
-
 #img1{
   position: absolute;
   width: 100%;
@@ -62,16 +51,16 @@ body{
   object-fit: cover;
   flex-grow: 1;
 }
-
 .about-text{
   position: relative;
-  font-family:'Titillium Web', sans-serif;
   font-size: larger;
   top: 500px;
   font-family:'Titillium Web', sans-serif;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  font-family: "Lucida Console", "Courier New", monospace;
+
  }
 
 .about.about-text.container.seconed{

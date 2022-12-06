@@ -1,18 +1,17 @@
 
 import React from 'react';
-import PicCard from './components/PicCard';
-import About from './components/About';
+import PicCard from './components/pic-card/PicCard';
+import About from './components/about/About';
 import './App.css';
-import ContactForm from './components/ContactForm';
-import Image from './components/Header';
 import FirstCard from './components/FirstCard';
-import Signform from './components/Signup';
+import Signup from './components/singup/Signup';
+import Pic from './components/pic-card/Pic';
 
 function App() {
   return (
     <div className="App">
-      <FirstCard/>
-  
+
+<Pic/>
     </div>
   );
 }
