@@ -1,0 +1,56 @@
+    body{
+        background: linear-gradient(90deg, rgba(0,3,36,1) 0%, rgba(9,25,121,1) 0%, rgba(0,53,255,0.4096989137451855) 100%);
+    }
+    .card{
+    background: linear-gradient(90deg, rgba(0,11,36,0.7598389697675946) 0%, rgba(58, 65, 165, 0.676) 35%, rgba(255,166,0,0.17440479609812676) 100%);  border: 2px solid #000000;
+    width: auto;
+    height:auto;
+    font-size: 15px;
+    padding: 20px 20px 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    }
+    .text-name{
+    text-align: left;
+    }
+    .topic{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 8px;
+    }
+    .btn-groub{
+    margin: 20px;
+    }
+    .btn-groub .btn{
+    background-color: #12336e;
+    margin: 8px;
+    border-radius: 20px !important;
+    font-size: 12px;
+    border: 2px solid #000000;
+    }
+    .btn:hover{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,179,253,0.5833683815323004) 100%);
+    }
+    .img{
+    height: auto;
+    width: auto;
+    }
+    .pic{
+    border-image: 20px;
+    row-gap: 50%;
+    width:100%
+    ;
+    }
+    .input-group-text{
+    background-color: #001ae9;
+    }
+    .card-title{
+        font-family: 'Nerko One', cursive;
+    font-family: 'Rubik Distressed', cursive;
+    }
+    .adress{
+        font-family: 'Lobster', cursive;
+    }
