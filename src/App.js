@@ -1,18 +1,20 @@
 
 import React from 'react';
-import PicCard from './components/pic-card/PicCard';
-import About from './components/about/About';
-import './App.css';
-import FirstCard from './components/FirstCard';
-import Signup from './components/singup/Signup';
-import Pic from './components/pic-card/Pic';
+//import PicCard from './component/PicCard';
+//import About from './component/About';
+//import './App.css';
+//import Signform from './components/Signup';
+import ContactForm from './components/ContactForm';
+import Image from './components/Header';
+import './components/ContactForm.css';
 
 function App() {
   return (
     <div className="App">
-
-<Pic/>
-    </div>
+  <Image/>
+ <ContactForm/>
+ 
+</div>
   );
 }
 export default App;
