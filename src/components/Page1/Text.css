@@ -1,0 +1,33 @@
+
+  .aa{
+    padding-left: 150px;
+    color: coral;
+    
+  }
+  .zz{
+    padding: -1px;
+    padding-left: 150px;
+    
+  }
+  
+  .dd{
+    padding-left: 200px;
+  }
+  .ww{
+    padding-left: 140px;
+    background-color: aliceblue;
+    
+   
+  }
+  .ee{
+    padding-left: 150px;
+  }
+  .yy{
+    color: #fff;
+    background-image: url("A.png") ;
+    padding: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1540px 360px;
+  }
+  

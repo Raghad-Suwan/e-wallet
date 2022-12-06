@@ -1,0 +1,40 @@
+.ss{
+    color: white;
+    background-image: url("3.png") ;
+    padding: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1700px 330px;
+  }
+
+
+@media (min-width: 1200px) { 
+  ss{
+    background-position: center center;
+  }
+}
+
+  .aa{
+    padding-left: 150px;
+    color: coral;
+    
+  }
+  .zz{
+    padding: -1px;
+    padding-left: 150px;
+    
+  }
+  
+  .dd{
+    padding-left: 200px;
+  }
+  .ww{
+    padding-left: 150px;
+    background-color: aliceblue;
+  }
+  
+  .z{
+    padding-left: 50px;
+  }
+ 
+ 
