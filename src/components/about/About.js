@@ -3,16 +3,16 @@ import './About.css';
 
 function About(){
     return(
-     <section className="about">
+     <section className="cd about">
          <div className="main">
             <div className="grid container">
                 <div className="header">
-                    <div  className="row" >
-                        <div className="col col-md  text-col offset-md about-title">
+                    <div  className=" row">
+                        <div className=" col col-md  text-col offset-md about-title">
                                 <h1><b>This is</b></h1>
                                 <h1><b>E-Wallet</b></h1>
                         </div> 
-                        <div className=" col col-md  offset-md text-col" >
+                        <div className="about-beside col col-md  offset-md text-col" >
                             <p >
                                 Never heard of a “digital wallet”? No biggie.<br></br>
                                 Also called an e-wallet, digital wallets  can be used <br></br>                                          
@@ -30,7 +30,7 @@ function About(){
                 <div className="mid">
                     <div className="row">
                         <div className="col"> 
-                          {/* <img id="img1" src={require('../image/person.jpg')}  alt="person image"/> */}
+                          <img id="img1" src={require('../../image/person.jpg')}  alt="person image"/>
                         </div> 
                     </div>
                 </div>  
@@ -51,12 +51,11 @@ function About(){
                         </div>
                     </div>
                 
-                    <div class="container">
-                        <div class ="row text-center">
-                            <div class=" col col-sm-5 offset-sm-1"> 
-                             {/* <img src='../image/1-about.png'></img>   */}
+                    <div className="container">
+                        <div className ="row text-center">
+                            <div className=" col col-sm-5 offset-sm-1"> 
                             </div>
-                            <div class="col col-sm-5 offset-sm-1"> 
+                            <div className="col col-sm-5 offset-sm-1"> 
                                 <div className="text1 ">
                                     <h4 > <b>Who Benefits from Services? </b></h4>
                                     <p>
@@ -69,9 +68,9 @@ function About(){
                             </div>
                         </div>
                     </div>
-                        <div class="container">
-                            <div class ="row text-center">
-                                <div class="col col-sm-5 offset-sm-1"> 
+                        <div className=" container">
+                            <div className ="row text-center">
+                                <div className="col col-sm-5 offset-sm-1"> 
                                     <div className="text1">
                                         <h4 > <b>Our Vision and Mission</b></h4>
                                         <p>
