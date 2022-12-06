@@ -13,9 +13,10 @@
     overflow: hidden;
     background-size: cover;
     flex-wrap: wrap;
+    transform: skewX(-15deg);
+
 }
 .body-card{
-    transform: skewX(-15deg);
     overflow: hidden;
 
 } 
