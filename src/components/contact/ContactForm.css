@@ -1,10 +1,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .container {
-display: flex;
+  display: flex;
   width: 1200px;
   max-width: 100%;
-height: 1200px;
+  height: 1200px;
 }
 
 :root {
@@ -20,8 +20,8 @@ body {
   line-height: 26px;
   margin: 0;
   font-weight: 400;
-font-family: Arial;
-height: 1500px;
+  font-family: Arial;
+  height: 1500px;
 }
 
 
@@ -58,7 +58,7 @@ height: 1500px;
 
 .formInput1 {
   padding:30px 30px;
- color: var(--black);
+color: var(--black);
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px; 
@@ -67,7 +67,7 @@ width:100%;
 
 .formInput2 {
   padding:30px 30px;
- color: var(--black);
+color: var(--black);
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px; 
@@ -77,8 +77,8 @@ width:100%;
 
 
 .formInput3 {
- padding:30px 30px;
- color: var(--black);
+padding:30px 30px;
+color: var(--black);
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px;

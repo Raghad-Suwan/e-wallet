@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.min.css';
 import './ContactForm.css';
 
 
-function ContactForm() {
+ function ContactForm() {
 
   const {
     register, handleSubmit, reset, formState: { errors }
@@ -108,12 +108,12 @@ function ContactForm() {
                         <span className='errorMessage'>Please enter a valid email address</span>
                       )}
                     </div>
-                
+                 
 
 
-                
+                 
                     <div className=' column is-6  col-xs-6 col-sm-12  col-md-12 col-lg-6'>
-                  
+                   
                       <input
                         type='tel'
                         name='phonenumber'
@@ -135,7 +135,7 @@ function ContactForm() {
                       )}
                     </div>
                 
-              
+               
                     <div className=' column is-6 col-xs-6 col-sm-12  col-md-12 col-lg-6'>
                       <textarea 
                         rows={3}
@@ -148,7 +148,7 @@ function ContactForm() {
                       ></textarea>
                       {errors.message && <span className='errorMessage'>Please enter a message</span>}
                     </div>
-                
+                 
                   </div>
 
                   <button   className='submit-btn' disabled={disabled} type='submit' >
@@ -157,8 +157,8 @@ function ContactForm() {
 
 
                 </form>
-              
-              
+               
+               
 
               <ToastContainer />
               </div>

@@ -36,6 +36,7 @@ return(
 
 <div className="input-group mb-3">
 <input type="number" class="form-control" placeholder="Amount to be deposited" />
+<span className='error-msg'></span>
 <span className="input-group-text text-white">.00</span> 
 </div>
 
