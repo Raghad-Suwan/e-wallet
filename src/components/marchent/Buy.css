@@ -1,0 +1,30 @@
+.shopping{
+    padding-left: 150px;
+    color: coral;
+    
+  }
+  .sent{
+    padding: -1px;
+    padding-left: 150px;
+    
+  }
+  
+  .wallet{
+    padding-left: 200px;
+  }
+  .steps{
+    padding-left: 140px;
+    background-color: aliceblue;
+    
+   
+  }
+  
+ 
+  .i-left{
+    color: #fff;
+    background-image: url("Me.png") ;
+    padding: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1540px 360px;
+  }
