@@ -10,14 +10,14 @@ import './ContactForm.css';
  function ContactForm() {
 
   const {
-    register, handleSubmit, reset, formState:{ errors }
+    register, handleSubmit, reset, formState: { errors }
   } = useForm();
   const [disabled, setDisabled] = useState(false);
 
   // Function that displays a success toast on bottom right of the page when form submission is successful
   const toastifySuccess = () => {
-    toast('Send notes,we will get back in touch with you soon! Have a great day!', {
-      position: 'bottom-Top',
+    toast('Form sent!', {
+      position: 'bottom-right',
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,
@@ -72,7 +72,7 @@ import './ContactForm.css';
                 <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
 
                 <div className=' row'>
-                    <div className='  col-xs-12 col-sm-12 col-md-12 col-lg-6'>
+                    <div className='  col-xs-6  col-sm-12 col-md-12 col-lg-6'>
                       <input
                         type='text'
                         name='name'
@@ -92,7 +92,7 @@ import './ContactForm.css';
                       {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                     </div>
 
-                    <div className='  col-xs-12 col-sm-12 col-md-12 col-lg-6'>
+                    <div className='  col-xs-6 col-sm-12 col-md-12 col-lg-6'>
                       <input
                         type='email'
                         name='email'
@@ -112,7 +112,7 @@ import './ContactForm.css';
 
 
                  
-                    <div className='  col-xs-12 col-sm-12 col-md-12 col-lg-6'>
+                    <div className=' column is-6  col-xs-6 col-sm-12  col-md-12 col-lg-6'>
                    
                       <input
                         type='tel'
@@ -136,7 +136,7 @@ import './ContactForm.css';
                     </div>
                 
                
-                    <div className='  col-xs-12 col-sm-12 col-md-12 col-lg-6'>
+                    <div className=' column is-6 col-xs-6 col-sm-12  col-md-12 col-lg-6'>
                       <textarea 
                         rows={3}
                         name='message'
@@ -157,6 +157,9 @@ import './ContactForm.css';
 
 
                 </form>
+               
+               
+
               <ToastContainer />
               </div>
               </div>

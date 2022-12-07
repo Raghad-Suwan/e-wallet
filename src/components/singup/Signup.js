@@ -12,7 +12,10 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
+
+const theme = createTheme();
 
  function Signup() {
   const handleSubmit = (event) => {
@@ -25,7 +28,7 @@ import Container from '@mui/material/Container';
   };
 
   return (
-   
+    <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
         <Box
@@ -147,7 +150,7 @@ import Container from '@mui/material/Container';
         </Box>
     
       </Container>
-  
+    </ThemeProvider>
   );
 }
 

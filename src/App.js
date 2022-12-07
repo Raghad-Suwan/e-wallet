@@ -1,20 +1,76 @@
+import React from "react";
+import "./App.css";
+import "./services.css";
+import Cards from "./Components/CardsServices ";
+import img1 from "./Components/deposit1.jpg";
+import img2 from "./Components/Transformation.jpg";
+import img3 from "./Components/Withdrawal.jpg";
+import img4 from "./Components/للدفع.jpg";
+import img5 from "./Components/فاتورة.png";
+
+
 
 import React from 'react';
-import PicCard from './components/PicCard';
-//import About from './components/About';
+import PicCard from './component/PicCard';
+import About from './component/About';
 import './App.css';
-//import ContactForm from './components/ContactForm';
-//import Image from './components/Header';
-//import FirstCard from './components/FirstCard';
-//import Signform from './components/Signup';
-import  Texts1 from './components/Page1/Texts'
-import Texts2 from './components/page2/Texts2';
-import Texts3 from './components/page3/Texts3';
+import Signup from './components/Signup';
+import ContactForm from './components/ContactForm';
+import Image from './components/Header';
+import './components/ContactForm.css';
+
 function App() {
   return (
     <div className="App">
-      
+  <Image/>
+ <ContactForm/>
+ 
+</div>
+
+function App() {
+  return (
+    <div className="container-fluid d-flex justify-content-center">
+      <section className="row">
+        <div className="col-md-4">
+          <Cards
+            imgsrc={img1}
+            title="Money withdrawal"
+            textt="You can withdraw any amount of money from your e-wallet at any time ... "
+          />
+        </div>
+        <div className="col-md-4">
+          <Cards
+            imgsrc={img2}
+            title="Money transfer "
+            textt="Transferring money to your family and friends is now easier, faster, and ..."
+          />
+        </div>
+        <div className="col-md-4">
+          <Cards
+            imgsrc={img3}
+            title="Deposite money "
+            textt="Feeding your account by depositing money into your e-wallet when visiting one of ..."
+          />
+        </div>
+        <div className="col-md-4">
+          <Cards
+            className="card44"
+            imgsrc={img4}
+            title="Pay for merchants"
+            textt="Paying merchants, shops, and even restaurants is now easier and faster!..."
+          />
+        </div>
+        <div className="col-md-4">
+          <Cards
+            imgsrc={img5}
+            title="Pay bills"
+            textt="Now, through your e-wallet, you can pay your bills and save them directly and.."
+          />
+        </div>
+      </section>
     </div>
+
   );
 }
+
 export default App;
