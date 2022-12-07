@@ -1,9 +1,9 @@
 import React from "react";
 
 
-function Text3 (){
+function Paragraph2 (){
     return(
-<div className="ww" >
+<div className="conversion steps" >
   <h1 style={{color:"coral"}}>STEPS TO TRANSFER MONEY THROUGH YOUR E-WALLET:</h1>
   <ul>
     <li>From your wallet’s main menu, press “Money Transfer”</li>
@@ -20,4 +20,4 @@ function Text3 (){
 </div>    
     );
 }
-export default Text3;
+export default Paragraph2;

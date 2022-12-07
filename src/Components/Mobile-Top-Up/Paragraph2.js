@@ -1,7 +1,7 @@
 import React from "react";
-function Texttt3 (){
+function Paragraph2 (){
     return(
-      <div className="ww" >
+      <div className="RechargeSteps" >
         
          <h1 style={{color:"coral",marginBottom:"-5px"}}>STEPS TO RECHARGE MOBILE BALANCE FROM YOUR</h1>
          <h1 style={{color:"coral"}} >E-WALLET:</h1>
@@ -9,7 +9,7 @@ function Texttt3 (){
             <li>From your E-wallet main menu select “Mobile TOP UP”.</li>
             <li>Select the mobile phone Operator.</li>
             <li>Select the transaction you wish to carry out:</li>
-            <ul className="z">
+            <ul className="StyleTransactions">
             <li>Mobile Top-up</li>
             <li>Purchase internet bundles and packages</li>
             </ul>
@@ -26,4 +26,4 @@ function Texttt3 (){
       </div>
     );
 }
-export default Texttt3;
+export default Paragraph2;

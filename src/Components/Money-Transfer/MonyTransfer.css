@@ -1,23 +1,22 @@
 
-  .aa{
+  .TransmissionSteps{
     padding-left: 150px;
-    color: coral;
     
   }
   
-  .ww{
+  .conversionSteps{
     padding-left: 120px;
     background-color: aliceblue;
     
    
   }
-  .ee{
+  .StyleNote{
     padding-left: 150px;
   }
   
-  .hh{
+  .Style{
     color: white;
-    background-image: url("2.png") ;
+    background-image: url("MonyTransfer") ;
     padding: 130px;
   background-position: center;
   background-repeat: no-repeat;

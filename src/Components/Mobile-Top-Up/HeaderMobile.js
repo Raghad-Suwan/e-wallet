@@ -1,8 +1,8 @@
 import React from "react";
 
-function Texttt1 (){
+function HeaderMobile (){
     return(
-      <div className="ss" >
+      <div className="StyleHeaderMobile" >
           <h1>Mobile Top-up</h1>
             <h4>Recharge your Mobile credit or Internet data Bundle </h4>
             <h4 >anytime!</h4>
@@ -11,4 +11,4 @@ function Texttt1 (){
       </div>
     );
 }
-export default Texttt1;
+export default HeaderMobile;

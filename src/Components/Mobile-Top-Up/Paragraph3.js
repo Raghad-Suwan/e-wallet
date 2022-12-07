@@ -1,9 +1,9 @@
 import React from "react";
-function Texttt4 (){
+function Paragraph3 (){
     return(
       <div  >
-         <h1 className="aa">NOTES ON RECHARGING YOUR BALANCE</h1>
-         <ul className="dd">
+         <h1 className="StyleTitle">NOTES ON RECHARGING YOUR BALANCE</h1>
+         <ul className="StyleBenefits">
             <li>Make sure you have a sufficient balance in your wallet to complete the recharge process.</li>
             <li>Mobile top-up with E-wallet, is available for all mobile operators in Palestine, pre-paid lines.  </li>
             <li>All financial transactions in the E-wallet are performed in Shekels (ILS).</li>
@@ -14,4 +14,4 @@ function Texttt4 (){
       </div>
     );
 }
-export default Texttt4;
+export default Paragraph3;

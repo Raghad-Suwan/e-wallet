@@ -1,9 +1,9 @@
 import React from "react";
 
 
-function Text3 (){
+function Paragraph2 (){
     return(
-<div className="ww">
+<div className="StyleBack">
  <h1 style={{color:"orange"}}>STEPS TO CHARGE YOUR ACCOUNT (CASH IN):</h1>
  <ul>
     <li>Go to the nearest authorized Jawwal Pay services agent.</li>
@@ -15,4 +15,4 @@ function Text3 (){
  </ul>
 </div>    );
 }
-export default Text3;
+export default Paragraph2;

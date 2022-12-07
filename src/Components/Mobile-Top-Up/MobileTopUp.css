@@ -1,39 +1,32 @@
-.ss{
+.StyleHeaderMobile{
     color: white;
-    background-image: url("3.png") ;
+    background-image: url("MobileTopUp.png") ;
     padding: 130px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1700px 330px;
   }
 
-
-@media (min-width: 1200px) { 
-  ss{
-    background-position: center center;
-  }
-}
-
-  .aa{
+  .StyleTitle{
     padding-left: 150px;
     color: coral;
     
   }
-  .zz{
+  .StyleParagraph{
     padding: -1px;
     padding-left: 150px;
     
   }
   
-  .dd{
+  .StyleBenefits{
     padding-left: 200px;
   }
-  .ww{
+  .RechargeSteps{
     padding-left: 150px;
     background-color: aliceblue;
   }
   
-  .z{
+  .StyleTransactions{
     padding-left: 50px;
   }
  
