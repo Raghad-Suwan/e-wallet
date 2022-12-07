@@ -1,5 +1,4 @@
 import React from 'react'
-import  './PayMentOfBills.css';
 export default function PayMentOfBills() {
   return (
     <div>

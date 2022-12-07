@@ -1,5 +1,5 @@
 import React from 'react'
-import './Buy.css';
+
 export default function PAY() {
   return (
     <div className="i-left">

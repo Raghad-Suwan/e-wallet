@@ -1,5 +1,4 @@
 import React from 'react'
-import './Buy.css';
 export default function STEPS() {
   return (
     <div className='steps'>

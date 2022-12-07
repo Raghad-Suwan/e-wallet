@@ -1,5 +1,4 @@
 import React from 'react'
-import  './PayMentOfBills.css';
 export default function StepsToPay() {
   return (
     <div className='descrip'>
@@ -19,4 +18,3 @@ export default function StepsToPay() {
   )
 }
 
-  

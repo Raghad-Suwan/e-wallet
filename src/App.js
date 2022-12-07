@@ -3,13 +3,15 @@ import React from 'react';
 //import PicCard from './components/PicCard';
 //import About from './components/About';
 import './App.css';
-import Pay from './components/pay/Pay';
-import PAYMENTOFBILLS from './components/pay/PayMentOfBills';
+import Payment from './components/marchent-bilss/Payment.JS';
 import SearchBar from './components/searchbar/SearchBar';
-import StepsToPay from './components/pay/StepsToPay';
-import PAY from './components/marchent/PAY';
-import STEPS from './components/marchent/STEPS';
-import Shopping from './components/marchent/Shopping';
+import StepsToPay from './components/marchent-bilss/StepsToPay';
+import PayMentOfBills from './components/marchent-bilss/PayMentOfBills';
+import STEPS from './components/marchent-bilss/STEPS';
+import Shopping from './components/marchent-bilss/Shopping';
+import PAY from './components/marchent-bilss/Pay';
+import Payment from './components/marchent-bilss/Payment.JS';
+//import { Search } from '@mui/icons-material';
 //import ContactForm from './components/ContactForm';
 //import Image from './components/Header';
 //import FirstCard from './components/FirstCard';
@@ -18,13 +20,15 @@ import Shopping from './components/marchent/Shopping';
 function App() {
   return (
     <div className="App">
-      <SearchBar />
-      <PAY />
-      <PAYMENTOFBILLS />
-      <Pay />
+      <Search />
+      <PayMentOfBills />
+      <StepsToPay />
       <STEPS />
       <Shopping />
-      <StepsToPay />
+      <Payment />
+      <PAY />
+
+      
     </div>
   );
 }

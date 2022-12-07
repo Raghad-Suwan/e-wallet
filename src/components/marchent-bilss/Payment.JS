@@ -1,6 +1,6 @@
 import React from 'react'
-import  './PayMentOfBills.css';
-export default function Pay() {
+
+export default function Payment() {
   return (
     <div className='ment'>
       <h1>Payment of Bills</h1>
