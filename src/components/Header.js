@@ -9,7 +9,6 @@ const Image = () => {
       <header >
 
       <div className="row">
-        <div className="col">
         <div className='p-5 hero-text  bg-image  header-img img-fluid'>
       <div className='text-parent'>
         
@@ -22,8 +21,6 @@ const Image = () => {
             </p>
       </div>
       </div>
-   
-  </div>
    
   </div>
       </header>
