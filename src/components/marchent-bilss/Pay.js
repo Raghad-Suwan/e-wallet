@@ -12,3 +12,12 @@ export default function PAY() {
     
   )
 }
+import React from 'react'
+
+export default function PAY() {
+  return (
+    <div>
+      
+    </div>
+  )
+}

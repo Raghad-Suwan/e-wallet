@@ -1,4 +1,5 @@
 import React from 'react'
+
 export default function STEPS() {
   return (
     <div className='steps'>
@@ -6,8 +7,8 @@ export default function STEPS() {
  <ul>
     <li>From the main menu of your e-wallet:</li>
     <ul className="wallet">
-           <li> Select “Pay to Merchant” then search or enter merchant’s commercial name </li>
-           <li> Select “Scan QR” and scan the merchant’s code </li>
+           <li> Select “Pay to Merchant” then search or enter merchants commercial name </li>
+           <li> Select “Scan QR” and scan the merchants code </li>
         
            </ul>
    
