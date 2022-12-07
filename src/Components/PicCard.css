@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    /* display: inline-block; */
+    width: 400px;
+    text-align: center;
+    height: 200px;
+    transition: width 0.2s;
+    padding: 50px 60px; 
+    transform: skewX(-15deg);
+
+}
+.card:hover{
+    width: 500px;
+}
+/* }
+.body-card{
+    padding: 50px 60px;
+}
+.card-img{
+    padding: 50px 60px;
+} */
