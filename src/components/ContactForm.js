@@ -19,6 +19,7 @@ import './ContactForm.css';
     try {
       // Disable form while processing submission
       setDisabled(true);
+      
       // Define template params
       const templateParams = {
         name,
@@ -43,6 +44,7 @@ import './ContactForm.css';
       console.log(e);
     }
   };
+
 
             return (
             <>
@@ -72,6 +74,7 @@ import './ContactForm.css';
                       {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                     </div>
 
+
                     <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6'>
                       <input
                         type='email'
@@ -88,8 +91,7 @@ import './ContactForm.css';
                         <span className='errorMessage'>Please enter a valid email address</span>
                       )}
                     </div>
-                
-                 
+
                     <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6'>
                       <input
                         type='tel'
@@ -112,6 +114,7 @@ import './ContactForm.css';
                       )}
                     </div>
                 
+
                  
                     <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6'>
                       <textarea 
@@ -126,6 +129,7 @@ import './ContactForm.css';
                     </div>
                  
                   </div>
+
 
                   <button className='submit-btn' disabled={disabled} type='submit' >
                     Send
