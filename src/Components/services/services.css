@@ -1,0 +1,80 @@
+    body{
+        background:radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+        padding: 0 300px;
+        padding-top: 300px;
+        padding-right: 300px;
+        padding-bottom: 0px;
+        padding-left: 300px;
+    
+        
+    }
+
+    .card {
+    font-size: 15px;
+    padding: 20px 20px 0;
+    width:fit-content;
+    height: fit-content;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    margin: 15px;
+    border-radius: 5rem;
+    
+    
+
+    
+    }
+
+    .card-body{
+        padding: 3rem 0 !important;
+        
+        
+    }
+    .card:hover{
+        box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.235) !important ;
+        border-radius: 5rem ;
+        background: #022a5e;
+        border: solid #091121;
+        
+    
+    
+    }
+    .card-text{
+        color: #060d1a;
+        font-size: 0.9rem;
+        padding: 0.4rem 1.9rem;
+        
+    }
+    
+    
+    
+    .btn:hover{
+        background: rgb(167, 167, 198);
+    }
+    
+    
+    .btn{
+        background: #442e9d;    
+        border: #060d1a;
+    margin: 8px;
+    border-radius: 20px !important;
+    
+    
+    }
+    .overflow{
+        overflow: hidden;
+        border-radius: 20px;
+        
+    }
+    .card-img-top{
+        transform: scale(1);
+        transition:transform 0.5s ease ;
+        
+    }
+    .card-img-top:hover{
+        transform: scale(1.8);
+    }
+    .card-title{
+        color: #81a7d1;
+    } 
+    

@@ -1,0 +1,13 @@
+.myField fieldset {
+    border-width: 0px !important;
+    border-bottom-width: 2px !important;
+    border-radius: 0;
+}
+
+.myField input{
+    padding-left: 2px;
+}
+
+.myField label{
+    left: -12px;
+}
