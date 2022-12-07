@@ -58,7 +58,7 @@ body {
 
 .formInput1 {
   padding:30px 30px;
- color: var(--black);
+color: var(--black);
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px; 
@@ -67,7 +67,7 @@ width:100%;
 
 .formInput2 {
   padding:30px 30px;
- color: var(--black);
+color: var(--black);
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px; 
@@ -77,8 +77,8 @@ width:100%;
 
 
 .formInput3 {
- padding:30px 30px;
- color: var(--black);
+padding:30px 30px;
+color: var(--black);
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px;

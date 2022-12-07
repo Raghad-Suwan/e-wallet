@@ -1,0 +1,25 @@
+
+  .TransmissionSteps{
+    padding-left: 150px;
+    
+  }
+  
+  .conversionSteps{
+    padding-left: 120px;
+    background-color: aliceblue;
+    
+   
+  }
+  .StyleNote{
+    padding-left: 150px;
+  }
+  
+  .Style{
+    color: white;
+    background-image: url("MonyTransfer") ;
+    padding: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1519px 350px;
+  }
+   
