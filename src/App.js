@@ -1,7 +1,6 @@
 import React from "react";
-
 import "./App.css";
-import "./components/services/services.css";
+
 
 
 //import Signup from './components/Signup';
@@ -28,11 +27,6 @@ function App() {
   return (
     <div className="App">
   
-
-function App() {
-  return (
-    <div className="App">
-
 </div>
   );
 }
