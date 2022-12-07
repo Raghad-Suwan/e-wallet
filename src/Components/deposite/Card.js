@@ -63,12 +63,3 @@ return(
 }
 export default Card
 
-
-// const inputID = document.getElementsByClassName("form-control")
-// var check = true;
-// if (inputID[0].value.length === 10){
-//     check = false;
-// }
-// if (check){
-//     alert("Id should be 10 digits");
-// 
