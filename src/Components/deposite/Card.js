@@ -16,31 +16,26 @@ return(
     <Titlee />
 
 <div className="card-body">
+<h6 className="text-name " >Wallet_ID</h6>
 
-<h6 className="text-name " >Wallet-Id</h6>
 <div className="input-group mb-3">
-    <label for="user-id" className='form-label'></label>
-<input type="text" class="form-control" placeholder="userID" aria-label="userID" id="user-id" />
-<span className='error-msg'></span>
+<input type="number" class="form-control" placeholder="userID" aria-label="userID" />
 </div>
 <h6 className="text-name " >Agent's email</h6>
 
 <div className="input-group mb-3">
     <input type="text" class="form-control" placeholder="hadisawalmeh123"  aria-describedby="basic-addon2" />
-    <span className='error-msg'></span>
-    <span className="input-group-text text-white" id="basic-addon2">@gmail.com</span>
-    
+    <span class="input-group-text text-white" id="basic-addon2">@gmail.com</span>
 </div>
 
 <h6 className="text-name " >Amount of money</h6> 
 
 <div className="input-group mb-3">
 <input type="number" class="form-control" placeholder="Amount to be deposited" />
-<span className='error-msg'></span>
 <span className="input-group-text text-white">.00</span> 
 </div>
 
-<h6 className='text-name '>Currency type</h6>
+<h6 className='text-name '>currency type</h6>
 
 <div className="input-group mb-3">
 <select class="form-select" aria-label="Default select example">
@@ -63,3 +58,12 @@ return(
 }
 export default Card
 
+
+// const inputID = document.getElementsByClassName("form-control")
+// var check = true;
+// if (inputID[0].value.length === 10){
+//     check = false;
+// }
+// if (check){
+//     alert("Id should be 10 digits");
+// 
