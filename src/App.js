@@ -1,7 +1,6 @@
 import React from "react";
-
-import "./App.css";
-import "./services.css";
+//import "./App.css";
+//import "./services.css";
 /*import Cards from "./Components/CardsServices ";
 import img1 from "./Components/deposit1.jpg";
 import img2 from "./Components/Transformation.jpg";
@@ -10,9 +9,9 @@ import img4 from "./Components/للدفع.jpg";
 import img5 from "./Components/فاتورة.png";*/
 
 //import Signup from './components/Signup';
-//import ContactForm from './components/ContactForm';
-//import Image from './components/Header';
-//import './components/ContactForm.css';
+//import ContactForm from './components/contact/ContactForm';
+//import Image from './components/contact/Header';
+//import './components/contact/ContactForm.css';
 // import "./services.css";
 // import Cards from "./Components/CardsServices ";
 // import img1 from "./Components/deposit1.jpg";

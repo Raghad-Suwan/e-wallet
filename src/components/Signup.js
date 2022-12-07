@@ -15,12 +15,17 @@ import Container from '@mui/material/Container';
 
 
  function Signup() {
+  
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     console.log({
+      name1:data.get('firstName'),
+      name2:data.get('lastName'),
       email: data.get('email'),
       password: data.get('password'),
+      country:data.get('country'),
+      phone:data.get('phone')
     });
   };
 
