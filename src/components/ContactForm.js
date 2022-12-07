@@ -1,9 +1,7 @@
 import React from "react";
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
-import 'react-toastify/dist/ReactToastify.min.css';
 import './ContactForm.css';
 
 
@@ -14,20 +12,6 @@ import './ContactForm.css';
   } = useForm();
   const [disabled, setDisabled] = useState(false);
 
-  // Function that displays a success toast on bottom right of the page when form submission is successful
-  const toastifySuccess = () => {
-    toast('Send notes,we will get back in touch with you soon! Have a great day!', {
-      position: 'bottom-Top',
-      autoClose: 5000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: false,
-      className: 'submit-feedback success',
-      toastId: 'notifyToast'
-    });
-  };
-
   // Function called on submit that uses emailjs to send email of valid contact form
   const onSubmit = async (data) => {
     // Destrcture data object
@@ -35,7 +19,7 @@ import './ContactForm.css';
     try {
       // Disable form while processing submission
       setDisabled(true);
-
+      
       // Define template params
       const templateParams = {
         name,
@@ -54,8 +38,6 @@ import './ContactForm.css';
 
       // Reset contact form fields after submission
       reset();
-      // Display success toast
-      toastifySuccess();
       // Re-enable form submission
       setDisabled(false);
     } catch (e) {
@@ -63,16 +45,16 @@ import './ContactForm.css';
     }
   };
 
-    return (
-<>
 
-<div className="ContactForm">
+            return (
+            <>
+
+                <div className="ContactForm">
                 <div className='container'>
-            
                 <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
 
                 <div className=' row'>
-                    <div className='  col-xs-12 col-sm-12 col-md-12 col-lg-6'>
+                    <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6'>
                       <input
                         type='text'
                         name='name'
@@ -92,7 +74,8 @@ import './ContactForm.css';
                       {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
                     </div>
 
-                    <div className='  col-xs-12 col-sm-12 col-md-12 col-lg-6'>
+
+                    <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6'>
                       <input
                         type='email'
                         name='email'
@@ -108,12 +91,8 @@ import './ContactForm.css';
                         <span className='errorMessage'>Please enter a valid email address</span>
                       )}
                     </div>
-                 
 
-
-                 
-                    <div className='  col-xs-12 col-sm-12 col-md-12 col-lg-6'>
-                   
+                    <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6'>
                       <input
                         type='tel'
                         name='phonenumber'
@@ -135,10 +114,10 @@ import './ContactForm.css';
                       )}
                     </div>
                 
-               
-                    <div className='  col-xs-12 col-sm-12 col-md-12 col-lg-6'>
+
+                 
+                    <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6'>
                       <textarea 
-                        rows={3}
                         name='message'
                         {...register('message', {
                           required: true
@@ -151,20 +130,18 @@ import './ContactForm.css';
                  
                   </div>
 
-                  <button   className='submit-btn' disabled={disabled} type='submit' >
+
+                  <button className='submit-btn' disabled={disabled} type='submit' >
                     Send
                   </button>
 
-
                 </form>
-              <ToastContainer />
+            
               </div>
               </div>
       </>
       
     );
   };
-      
-
 
   export default ContactForm;

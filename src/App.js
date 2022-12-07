@@ -9,16 +9,26 @@ import "./App.css";
 // import img4 from "./Components/للدفع.jpg";
 // import img5 from "./Components/فاتورة.png";
 
+
+
+import Signup from './components/Signup';
+import ContactForm from './components/ContactForm';
+import Image from './components/Header';
+import './components/ContactForm.css';
+
+function App() {
+  return (
+    <div className="App">
+  <Image/>
+ <ContactForm/>
+
 // import Signup from './components/Signup';
 // import ContactForm from './components/ContactForm';
 // import Image from './components/Header';
 // import './components/ContactForm.css';
-import Navbar from './Components/Navbar';
+//import Navbar from './Components/Navbar';
 // import ContactForm from './components/Con
-function App() {
-  return (
-    <div className="App">
- <Navbar/>
+
  
 </div>
   );
