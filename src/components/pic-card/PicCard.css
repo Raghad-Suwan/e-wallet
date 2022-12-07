@@ -13,7 +13,7 @@
     overflow: hidden;
     background-size: cover;
     flex-wrap: wrap;
-    transform: skewX(-15deg);
+    transform: skewX(15deg);
 
 }
 .body-card{
@@ -29,14 +29,10 @@
 .card:hover{
     width: 400px;
 }
-
-
 /* .cardss{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-
-
 } */
 
 /* }
