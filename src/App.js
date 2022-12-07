@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./App.css";
-import "./services.css";
+import "./components/services/services.css";
 
 
 //import Signup from './components/Signup';
