@@ -4,7 +4,7 @@ import React from "react";
 function Paragraph2 (){
     return(
 <div className="StyleBack">
- <h1 style={{color:"orange"}}>STEPS TO CHARGE YOUR ACCOUNT (CASH IN):</h1>
+ <h1 className="StyleTitle">STEPS TO CHARGE YOUR ACCOUNT (CASH IN):</h1>
  <ul>
     <li>Go to the nearest authorized Jawwal Pay services agent.</li>
     <li>The agent will ask you for your mobile number affiliated with your e-wallet in which you wish to make the deposit.</li>

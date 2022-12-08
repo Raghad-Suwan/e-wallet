@@ -1,4 +1,18 @@
 import React from "react";
+<<<<<<< HEAD
+import "./App.css";
+import{BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './components/Home/Home';
+import ContactForm from './components/Contact/ContactForm';
+import MonyTransferPage from './components/Money-Transfer/MonyTransferPage';
+import MarchentBills from './components/Marchent-bilss/MarchentBills';
+import MobileTopUpPage from './components/Mobile-Top-Up/MobileTopUpPage';
+import CashInthoughAgents from './components/Cash-In-though-Agents/CashInthoughAgents';
+import Login from './components/Signing/Login';
+import Signup from './components/Signing/Signup';
+import AboutPage from './components/About/AboutPage';
+
+=======
 //import "./App.css";
 //import "./services.css";
 /*import Cards from "./Components/CardsServices ";
@@ -28,55 +42,32 @@ import img5 from "./Components/فاتورة.png";*/
 // import ContactForm from './components/Con
 
  
+>>>>>>> 6d7295a664f179e9b7598ff8e232d89d502cc8a9
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
+        <Routes>
+        <Route path="/" index element={<Home />} />
+        <Route path="/sign" element ={<Signup />} />
+        <Route path="/Contact " element={<ContactForm />} />
+        <Route path="/about" element ={<AboutPage/>} />
+        <Route path="/login" element ={< Login/>} />
 
+        <Route path="/cashInthoughAgentst" element={<CashInthoughAgents />} />
+        <Route path="/trancfer" element={<MonyTransferPage/>} />
+        <Route path="/mobiltop" element={<MobileTopUpPage/>} />
+        <Route path="/bills" element={<MarchentBills/>} />
+      </Routes>
+     </BrowserRouter>
+
+<Home/>
 </div>
   );
 }
 export default App;
 
-        /*<div className="container-fluid d-flex justify-content-center">
-        <section className="row">
-            <div className="col-md-4">
-            <Cards
-                imgsrc={img1}
-                title="Money withdrawal"
-                textt="You can withdraw any amount of money from your e-wallet at any time ... "
-            />
-            </div>
-            <div className="col-md-4">
-            <Cards
-                imgsrc={img2}
-                title="Money transfer "
-                textt="Transferring money to your family and friends is now easier, faster, and ..."
-            />
-            </div>
-            <div className="col-md-4">
-            <Cards
-                imgsrc={img3}
-                title="Deposite money "
-                textt="Feeding your account by depositing money into your e-wallet when visiting one of ..."
-            />
-            </div>
-            <div className="col-md-4">
-            <Cards
-                className="card44"
-                imgsrc={img4}
-                title="Pay for merchants"
-                textt="Paying merchants, shops, and even restaurants is now easier and faster!..."
-            />
-            </div>
-            <div className="col-md-4">
-            <Cards
-                imgsrc={img5}
-                title="Pay bills"
-                textt="Now, through your e-wallet, you can pay your bills and save them directly and.."
-            />
-            </div>
-        </section>
-        </div>*/
+ 
 
 
 
