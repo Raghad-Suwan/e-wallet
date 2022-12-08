@@ -29,7 +29,7 @@ root.render(
       <Route path="/cashInthoughAgentst" element={<CashInthoughAgents />} />
       <Route path="/trancfer" element={<MonyTransferPage/>} />
       <Route path="/mobiltop" element={<MobileTopUpPage/>} />
-      <Route path="/digital" element={<MarchentBills/>} />
+      <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
      </BrowserRouter>
     <App />
