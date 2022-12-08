@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import ContactForm from './components/ContactForm';
+
 const  Navbar= () => {
     return (
  
@@ -18,14 +20,18 @@ const  Navbar= () => {
           </a>
           <ul class="dropdown-menu ">
             <li><a class="dropdown-item" ><Link to="/trancfer"></Link>transfer</a></li>
-            <li><a class="dropdown-item" ><Link to=""></Link>Action</a></li>
-            <li><a class="dropdown-item" ><Link to=""></Link>Action</a></li>
-            <li><a class="dropdown-item" href="#"><Link to=""></Link>Another action</a></li>
+            <li><a class="dropdown-item" ><Link to="/bills"></Link>pay bills</a></li>
+            <li><a class="dropdown-item" ><Link to="/cashInthoughAgentst"></Link>Deposite</a></li>
+            <li><a class="dropdown-item" ><Link to="/mobiltop"></Link> withdrawal</a></li>
             <li><hr class="dropdown-divider"/></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            
           </ul>
         </li>
       <li class="nav-item">
+      <a class="nav-link p-lg-3" ><Link to="/Contact"></Link>Contact</a>
+        </li>
+        
+        <li class="nav-item">
           
 
           <a class="nav-link p-lg-3" ><Link to="/"></Link>Home</a>
