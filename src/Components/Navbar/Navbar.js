@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 const  Navbar= () => {
     return (
@@ -14,11 +14,13 @@ const  Navbar= () => {
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle p-2 p-lg-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Services
           </a>
           <ul class="dropdown-menu ">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" ><Link to="/trancfer"></Link>transfer</a></li>
+            <li><a class="dropdown-item" ><Link to=""></Link>Action</a></li>
+            <li><a class="dropdown-item" ><Link to=""></Link>Action</a></li>
+            <li><a class="dropdown-item" href="#"><Link to=""></Link>Another action</a></li>
             <li><hr class="dropdown-divider"/></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
@@ -26,18 +28,15 @@ const  Navbar= () => {
       <li class="nav-item">
           
 
-          <a class="nav-link p-lg-3" href="#">Home</a>
+          <a class="nav-link p-lg-3" ><Link to="/"></Link>Home</a>
         </li>
         
         <li class="nav-item">
           
-          <a class="nav-link p-lg-3" href="#">Link</a>
+          <a class="nav-link p-lg-3"><Link to="/about"></Link>About</a>
         </li>
        
-        <li class="nav-item">
-          <a class="nav-link disabled p-2 p-lg-3">Disabled</a>
-        </li>
-       
+      
       </ul>
       <div className='search'></div>
       <span className='icon'>

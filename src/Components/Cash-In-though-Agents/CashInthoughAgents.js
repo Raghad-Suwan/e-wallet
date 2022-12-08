@@ -3,7 +3,7 @@ import Paragraph2 from "./Paragraph2";
 import Paragraph3 from "./Paragraph3";
 import Paragraph4 from "./Paragraph4";
 import './Text.css'
-function Texts(){
+function CashInthoughAgents(){
     return(
         <div>
             <HeaderCash/>
@@ -15,4 +15,4 @@ function Texts(){
     );
 
 }
-export default Texts
+export default CashInthoughAgents

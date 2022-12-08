@@ -1,7 +1,7 @@
 import React  from 'react';
 import './About.css';
 
-function About(){
+function AboutPage(){
     return(
      <section className="cd about">
          <div className="main">
@@ -89,4 +89,4 @@ function About(){
  
  );
  }
- export default About;
+ export default AboutPage;
