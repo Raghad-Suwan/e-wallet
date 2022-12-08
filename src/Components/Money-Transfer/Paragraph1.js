@@ -3,7 +3,7 @@ import React from "react";
 
 function Paragraph1 (){
     return(
-<div className="TransmissionSteps">
+<div className="transmissionSteps">
   <h1 style={{color:"coral"}}>SENDING AND RECEIVING MONEY</h1>
   <p>Transferring money to your family members and friends has become much</p>
   <p>easier, faster, and safer through your Jawwal Pay wallet.</p>

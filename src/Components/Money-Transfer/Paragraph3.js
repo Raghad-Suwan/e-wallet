@@ -3,7 +3,7 @@ import React from "react";
 
 function Paragraph3 (){
     return(
-<div className="StyleNote">
+<div className="styleNote">
   <h1 style={{color:"coral"}}>NOTES ON MONEY TRANSFER:</h1>
   <ul>
     <li>The recipient must have an active Jawwal Pay wallet </li>

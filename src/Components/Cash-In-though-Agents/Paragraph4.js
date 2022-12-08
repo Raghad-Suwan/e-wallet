@@ -2,7 +2,7 @@ import React from "react";
 function Paragraph4 (){
     return(
       <div className="StyleBack">
-        <h1 className="StyleTitle" style={{color:"orange"}}>CASH IN YOUR THROUGH BANK ACCOUNT</h1>
+        <h1 className="StyleTitle" >CASH IN YOUR THROUGH BANK ACCOUNT</h1>
         <p className="StyleParagraph">Charging your wallet account by transferring money from your bank account to your E-wallet through your bank online and mobile channels, the</p>
         <p className="StyleParagraph">ervice is currently available</p>
         <ul className="ShippingSteps">
@@ -12,7 +12,7 @@ function Paragraph4 (){
         </ul>
         <p className="StyleParagraph">And many others. Such services are done through E-wallet safely, and quickly. </p>
         <p className="StyleParagraph">You will also be able to control your expenses more clearly and accurately.</p>
-        <h1 className="StyleTitle" style={{color:"orange"}}>STEPS TO CHARGE YOUR ACCOUNT (CASH IN):</h1>
+        <h1 className="StyleTitle">STEPS TO CHARGE YOUR ACCOUNT (CASH IN):</h1>
         <p className="StyleParagraph">You can cash in your E-wallet from your bank account through your bank online and mobile channels</p>
         <h className="StyleTitle">NOTES</h>
         <ul className="ShippingSteps">

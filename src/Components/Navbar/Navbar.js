@@ -1,7 +1,6 @@
 
-import { ClassNames } from '@emotion/react';
 import './Navbar.css';
-const  navbar= () => {
+const  Navbar= () => {
     return (
  
 <nav class="navbar navbar-expand-lg ">
@@ -53,6 +52,6 @@ const  navbar= () => {
 
 
 
-)
+);
 }
-export default navbar
+export default Navbar

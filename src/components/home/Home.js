@@ -3,15 +3,23 @@ import React, { Component } from 'react';
 
 import './Home.css';
 //import { Link } from 'react-router-dom';
-import Navbar from '../Navbar';
-import PicCard from '../piccard/PicCard';
-
+import Navbar from '../Navbar/Navbar';
+import Pic from '../Pic-Card/Pic';
+import CardImport from '../Properties/CardImport';
+import Footer from '../Footer/Footer';
+import ServiceImport from '../Card-Services/ServiceImport';
+import Card3 from "./components/Properties/Card3";
 
 function Home(){
     return(
       <>
         <Navbar/>
-        <PicCard/>
+        <Pic/>
+        <CardsServices/>
+        <CardImport/>
+        <ServiceImport/>
+        <Card3/>
+        <Footer/>
       </>
 );
 }

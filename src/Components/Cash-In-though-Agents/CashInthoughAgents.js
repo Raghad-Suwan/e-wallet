@@ -6,7 +6,11 @@ import './Text.css'
 function Texts(){
     return(
         <div>
-            
+            <HeaderCash/>
+            <Paragraph2/>
+            <Paragraph3/>
+            <Paragraph4/>
+
         </div>
     );
 
