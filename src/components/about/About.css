@@ -14,7 +14,7 @@
 .about .grid{
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    /* justify-content: stretch; */
   }
 .about .header{
     max-width: 1083px;

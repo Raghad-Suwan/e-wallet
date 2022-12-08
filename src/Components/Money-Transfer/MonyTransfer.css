@@ -1,5 +1,5 @@
 
-  .TransmissionSteps{
+  .transmissionSteps{
     padding-left: 150px;
     
   }
@@ -10,11 +10,11 @@
     
    
   }
-  .StyleNote{
+  .styleNote{
     padding-left: 150px;
   }
   
-  .Style{
+  .headerTrans{
     color: white;
     background-image: url("MonyTransfer") ;
     padding: 130px;

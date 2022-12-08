@@ -3,8 +3,8 @@ function Paragraph2 (){
     return(
       <div className="RechargeSteps" >
         
-         <h1 style={{color:"coral",marginBottom:"-5px"}}>STEPS TO RECHARGE MOBILE BALANCE FROM YOUR</h1>
-         <h1 style={{color:"coral"}} >E-WALLET:</h1>
+         <h1 >STEPS TO RECHARGE MOBILE BALANCE FROM YOUR</h1>
+         <h1 >E-WALLET:</h1>
          <ul>
             <li>From your E-wallet main menu select “Mobile TOP UP”.</li>
             <li>Select the mobile phone Operator.</li>

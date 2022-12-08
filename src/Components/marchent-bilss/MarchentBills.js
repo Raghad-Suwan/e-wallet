@@ -9,7 +9,7 @@ import StepsToPay from './StepsToPay';
 import Shopping from './Shopping';
 
 
-export default function impor() {
+export default function MarchentBills() {
   return (
     <div>
       <PAY></PAY>
