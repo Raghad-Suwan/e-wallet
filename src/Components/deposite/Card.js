@@ -12,10 +12,6 @@ return(
     <Titlee />
 <div className="card-body">
 <h6 className="text-name teext-naame" >Wallet_ID</h6>
-<<<<<<< HEAD
-
-=======
->>>>>>> 3a6eaa73b81a9a5c117c6b8119edcc34fe9153a7
 <div className="input-group mb-3">
 <input type="number" class="form-control" placeholder="userID" aria-label="userID" />
 </div>
@@ -27,11 +23,7 @@ return(
 <h6 className="text-name " >Amount of money</h6>
 <div className="input-group mb-3">
 <input type="number" class="form-control" placeholder="Amount to be deposited" />
-<<<<<<< HEAD
 <span className="input-group-text text-white input-group-textt">.00</span> 
-=======
-<span className="input-group-text text-white input-group-textt">.00</span>
->>>>>>> 3a6eaa73b81a9a5c117c6b8119edcc34fe9153a7
 </div>
 <h6 className='text-name '>currency type</h6>
 <div className="input-group mb-3">
