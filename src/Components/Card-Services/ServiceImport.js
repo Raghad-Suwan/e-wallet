@@ -1,11 +1,12 @@
       
 import React from 'react';
 import "./services.css";
-import img1 from "../../image/deposit1.jpg";
-import img2 from "../../image/Trasformation.jpg";
-import img3 from "../../image/Withdrawal.jpg";
-import img4 from "../../image/pay.jpg";
-import img5 from "../../image/bills.png";
+import img1 from "../../Images/deposit1.jpg";
+import img2 from "../../Images/Trasformation.jpg";
+import img3 from "../../Images/Withdrawal.jpg";
+import img4 from "../../Images/pay.jpg";
+import img5 from "../../Images/bills.png";
+require('../../Images/businessman.jpg')
 
 import { Link } from 'react-router-dom';
       
