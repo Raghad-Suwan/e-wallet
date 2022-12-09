@@ -1,5 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
 import "./App.css";
 import{BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './components/Home/Home';
@@ -12,40 +11,11 @@ import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import AboutPage from './components/About/AboutPage';
 
-=======
-//import "./App.css";
-//import "./services.css";
-/*import Cards from "./Components/CardsServices ";
-import img1 from "./Components/deposit1.jpg";
-import img2 from "./Components/Transformation.jpg";
-import img3 from "./Components/Withdrawal.jpg";
-import img4 from "./Components/للدفع.jpg";
-import img5 from "./Components/فاتورة.png";*/
-
-//import Signup from './components/Signup';
-//import ContactForm from './components/contact/ContactForm';
-//import Image from './components/contact/Header';
-//import './components/contact/ContactForm.css';
-// import "./services.css";
-
-// import Cards from "./Components/CardsServices ";
-// import img1 from "./Components/deposit1.jpg";
-// import img2 from "./Components/Transformation.jpg";
-// import img3 from "./Components/Withdrawal.jpg";
-// import img4 from "./Components/للدفع.jpg";
-// import img5 from "./Components/فاتورة.png";
-
-
-
-
-//import Navbar from './Components/Navbar';
-// import ContactForm from './components/Con
-
- 
->>>>>>> 6d7295a664f179e9b7598ff8e232d89d502cc8a9
 function App() {
   return (
     <div className="App">
+
+
       <BrowserRouter>
         <Routes>
         <Route path="/" index element={<Home />} />
@@ -60,8 +30,9 @@ function App() {
         <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
      </BrowserRouter>
-
 <Home/>
+
+
 </div>
   );
 }

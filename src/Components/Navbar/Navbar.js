@@ -1,4 +1,3 @@
-<<<<<<< HEAD:src/Components/Navbar/Navbar.js
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import ContactForm from './components/ContactForm';
@@ -61,5 +60,3 @@ const  Navbar= () => {
 );
 }
 export default Navbar
-=======
->>>>>>> 6d7295a664f179e9b7598ff8e232d89d502cc8a9:src/Components/Navbar.js

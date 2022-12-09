@@ -11,13 +11,13 @@ import Shopping from './Shopping';
 
 export default function MarchentBills() {
   return (
-    <div>
+    <>
       <PAY></PAY>
       <PayMentOfBills></PayMentOfBills>
       <Payment></Payment>
       <STEPS></STEPS>
       <Shopping></Shopping>
       <StepsToPay></StepsToPay>
-    </div>
+    </>
   )
 }
