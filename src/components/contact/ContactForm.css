@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .container {
   display: flex;
@@ -8,15 +8,14 @@
 }
 
 :root {
-  --light: #d0d1d3;
-  --dark: #ffffff;
+  --light: #ffffff;
   --black: #000000;
   --blue:#5aa1db;
 }
 
 body {
   font-family: Poppins;
-  background: var(--dark);
+  background: var(--light);
   line-height: 26px;
   margin: 0;
   font-weight: 400;
@@ -26,14 +25,12 @@ body {
 
 
 .header-img{
-  background-image: url('../contact.photo.webp') ;
+  background-image: url('../../image/contact.photo.webp') ;
   height: 30rem;
   max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
-
-
 }
 
 .hero-text {
@@ -58,7 +55,7 @@ body {
 
 .formInput1 {
   padding:30px 30px;
- color: var(--black);
+color: var(--black);
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px; 
@@ -67,7 +64,7 @@ width:100%;
 
 .formInput2 {
   padding:30px 30px;
- color: var(--black);
+color: var(--black);
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px; 
@@ -77,8 +74,8 @@ width:100%;
 
 
 .formInput3 {
- padding:30px 30px;
- color: var(--black);
+padding:30px 30px;
+color: var(--black);
 margin-bottom: 3rem;
 height: 50px;
 border-radius: 20px;
@@ -97,65 +94,6 @@ border-radius: 20px;
 width:100%;
 }
 
-
-
-
-.inner-header2 {
-  font-weight: 700;
-  color: rgb(255, 255, 255);
-  line-height: 60px;
-   margin-left: 5cm;
-}
-
-
-.App {
-  height: 75vh;
-}
-
-form {
- margin: 5rem;
-text-align: center;
-  background: var(--dark);
-  width: 30cm;
-margin-left: 5rem;
-height: 50px; 
-}
-
-.formRow {
-margin: 20px;
-}
-
-
-.formInput:focus {
-  background-color: var(--blue);
-  outline: none;
-  color: var(--light);
-}
-
-.formInput::placeholder {
-  color: var(--blue);
-  opacity: 1;
-}
-
-.formInput:focus::placeholder {
-  color: var(--light);
-  opacity: 1;
-}
-
-.errorMessage {
-  color: #f45532;
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-}
-
-#notifyToast {
-  color: #fff;
-  border-radius: 6px;
-  width: 200px;
-  margin-left: 75px;
-  background-color: var(--black);
-}
 
 .submit-btn {
   padding: 5px 20px;
@@ -202,7 +140,3 @@ font-size: x-large;
    
   }
 }
-
-
-
-
