@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 
 
 
@@ -23,9 +24,26 @@ import img5 from "./components/image/invoice.png";
 // import ContactForm from './components/Con
 
 
+=======
+import "./App.css";
+import{BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './components/Home/Home';
+import ContactForm from './components/Contact/ContactForm';
+import MonyTransferPage from './components/Money-Transfer/MonyTransferPage';
+import MarchentBills from './components/Marchent-bilss/MarchentBills';
+import MobileTopUpPage from './components/Mobile-Top-Up/MobileTopUpPage';
+import CashInthoughAgents from './components/Cash-In-though-Agents/CashInthoughAgents';
+import Login from './components/Signing/Login';
+import Signup from './components/Signing/Signup';
+import AboutPage from './components/About/AboutPage';
+import Card from "./components/Deposite/Card";
+import Card3 from "./components/Properties/Card3";
+
+>>>>>>> 3a6eaa73b81a9a5c117c6b8119edcc34fe9153a7
 function App() {
 return (
     <div className="App">
+<<<<<<< HEAD
  <div className="container-fluid d-flex justify-content-center">
         <section className="row">
             <div className="col-md-4">
@@ -66,6 +84,29 @@ return (
             </div>
         </section>
         </div>
+=======
+      <BrowserRouter>
+        <Routes>
+        <Route path="/" index element={<Home />} />
+        <Route path="/sign" element ={<Signup />} />
+        <Route path="/Contact " element={<ContactForm />} />
+        <Route path="/about" element ={<AboutPage/>} />
+        <Route path="/login" element ={< Login/>} />
+
+        <Route path="/cashInthoughAgentst" element={<CashInthoughAgents />} />
+        <Route path="/trancfer" element={<MonyTransferPage/>} />
+        <Route path="/mobiltop" element={<MobileTopUpPage/>} />
+        <Route path="/bills" element={<MarchentBills/>} />
+      </Routes>
+     </BrowserRouter>
+     <Card3/>
+</div>
+  );
+}
+export default App;
+
+ 
+>>>>>>> 3a6eaa73b81a9a5c117c6b8119edcc34fe9153a7
 
 
 

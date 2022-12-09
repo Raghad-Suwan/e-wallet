@@ -2,9 +2,9 @@ import React from 'react';
 import './PicCard.css';
 const PicCard=(props)=>{
     return (
-        <div className="card text-light">
-           <div className="body-card fluid">     
-                 <img className="card-img d-white " src={props.src} alt="Card image"/>
+        <div className="first card text-light">
+           <div className="seconed body-card fluid">     
+                 <img className="third card-img d-white " src={props.src} alt={props.alt}/>
                     <div className="card-img-overlay"> 
                       <div className="card-content">
                           <h5 className="card-title">{props.title}</h5>

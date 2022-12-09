@@ -2,7 +2,7 @@ import React from "react";
 function Paragraph3 (){
     return(
      <div>
-        <h1 className="StyleTitle" style={{color:"orange"}}>NOTES ON CHARGING THE ACCOUNT</h1>
+        <h1 className="StyleTitle" >NOTES ON CHARGING THE ACCOUNT</h1>
         <ul className="ShippingSteps">
             <li>Your wallet must be active.</li>
             <li>Make sure you hand the amount to the agent so they can make the deposit in your wallet.</li>

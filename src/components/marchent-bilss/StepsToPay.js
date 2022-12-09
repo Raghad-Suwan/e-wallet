@@ -2,7 +2,7 @@ import React from 'react'
 export default function StepsToPay() {
   return (
     <div className='descrip'>
-       <h1 style={{color:"orange"}}>STEPS TO PAY BILLS:</h1>
+       <h1 >STEPS TO PAY BILLS:</h1>
  <ul>
     <li>Select “Pay Bills” from the main menu of your e-wallet.</li>
     <li>Select the category, for example: Telecomes</li>

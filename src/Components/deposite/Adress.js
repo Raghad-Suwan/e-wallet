@@ -1,5 +1,4 @@
 import React from "react";
-
 const Adress=()=>{
     return(
         <div className ="walllet-contaeiner text-center">
