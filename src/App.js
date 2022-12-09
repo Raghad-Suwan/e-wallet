@@ -31,7 +31,7 @@ function App() {
         <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
      </BrowserRouter>
-   
+    <ContactForm/>
 </div>
   );
 }
