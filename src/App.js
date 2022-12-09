@@ -1,7 +1,9 @@
 import React from "react";
+import { Nav } from "react-bootstrap";
+import{BrowserRouter, Routes, Route} from 'react-router-dom';
 
-import "./App.css";
-import "./components/services/services.css";
+//import "./App.css";
+//import "./components/services/services.css";
 
 
 //import Signup from './components/Signup';
@@ -16,11 +18,24 @@ import "./components/services/services.css";
 // import img3 from "./Components/Withdrawal.jpg";
 // import img4 from "./Components/للدفع.jpg";
 // import img5 from "./Components/فاتورة.png";
+import Payment from "./components/marchent-bilss/Payment";
+import PayMentOfBills from "./components/marchent-bilss/PayMentOfBills";
+import StepsToPay from "./components/marchent-bilss/StepsToPay";
+//import PAY from "./components/marchent-bilss/Pay";
+//import Shopping from "./components/marchent-bilss/Shopping";
+//import STEPS from "./components/marchent-bilss/Steps";
+//import SearchBar from "./components/searchbar/SearchBar";
+
+
 
 function App() {
   return (
     <div className="App">
-</div>
+      <Payment />
+      <PayMentOfBills />
+      <StepsToPay />
+
+    </div>
   );
 }
 export default App;

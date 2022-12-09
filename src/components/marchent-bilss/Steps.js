@@ -3,7 +3,7 @@ import React from 'react'
 export default function STEPS() {
   return (
     <div className='steps'>
-       <h1 style={{color:"orange"}}>STEPS TO PAY MERCHANTS FROM YOUR E-WALLET</h1>
+       <h1 style={{color:"orang"}}>STEPS TO PAY MERCHANTS FROM YOUR E-WALLET</h1>
  <ul>
     <li>From the main menu of your e-wallet:</li>
     <ul className="wallet">

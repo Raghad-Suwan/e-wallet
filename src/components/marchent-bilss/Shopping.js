@@ -3,7 +3,7 @@ import React from 'react'
 export default function Shopping() {
   return (
     <div>
-               <h1 className="shopping" style={{color:"orange"}}>SHOPPING AND PAYING TO MERCHANTS AND STORES</h1>
+               <h1 className="shopping" style={{color:"orang"}}>SHOPPING AND PAYING TO MERCHANTS AND STORES</h1>
           <p className="sent">The process of paying merchants, supermarkets, stores, and even restaurants </p>  
           <p className="sen">and coffee shops is now easier and quicker!</p>
           <p className="sent">You do not have to carry cash anymore and wait for the change when you pay</p>
@@ -12,3 +12,4 @@ export default function Shopping() {
     </div>
   )
 }
+
