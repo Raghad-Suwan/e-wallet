@@ -3,8 +3,8 @@ import './Mentt.css';
 import './Buy.css';
 import PAY from './Pay';
 import PayMentOfBills from './PayMentOfBills';
-import Payment from './Payment.JS';
-import STEPS from './STEPS';
+import Payment from './Payment.js';
+import Steps from './Steps';
 import StepsToPay from './StepsToPay';
 import Shopping from './Shopping';
 
@@ -15,7 +15,7 @@ export default function MarchentBills() {
       <PAY></PAY>
       <PayMentOfBills></PayMentOfBills>
       <Payment></Payment>
-      <STEPS></STEPS>
+      <Steps></Steps>
       <Shopping></Shopping>
       <StepsToPay></StepsToPay>
     </>

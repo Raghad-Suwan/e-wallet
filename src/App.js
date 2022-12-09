@@ -11,6 +11,7 @@ import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import AboutPage from './components/About/AboutPage';
 
+
 function App() {
   return (
     <div className="App">
@@ -30,9 +31,7 @@ function App() {
         <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
      </BrowserRouter>
-<Home/>
-
-
+   
 </div>
   );
 }
