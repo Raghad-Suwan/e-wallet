@@ -1,10 +1,10 @@
 import React from "react";
 
 import "./App.css";
-import "./components/services/services.css";
+//import "./components/services/services.css";
 
 
-//import Signup from './components/Signup';
+//import Signup from './components/singup/Signup';
 //import ContactForm from './components/ContactForm';
 //import Image from './components/Header';
 //import './components/ContactForm.css';
@@ -16,10 +16,12 @@ import "./components/services/services.css";
 // import img3 from "./Components/Withdrawal.jpg";
 // import img4 from "./Components/للدفع.jpg";
 // import img5 from "./Components/فاتورة.png";
-
 function App() {
   return (
     <div className="App">
+      
+
+      
 </div>
   );
 }

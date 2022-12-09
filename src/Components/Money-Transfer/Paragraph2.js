@@ -3,7 +3,7 @@ import React from "react";
 
 function Paragraph2 (){
     return(
-<div className="conversion steps" >
+<div className="conversionSteps" >
   <h1 style={{color:"coral"}}>STEPS TO TRANSFER MONEY THROUGH YOUR E-WALLET:</h1>
   <ul>
     <li>From your wallet’s main menu, press “Money Transfer”</li>

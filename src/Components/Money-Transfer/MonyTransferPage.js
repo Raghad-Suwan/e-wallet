@@ -1,15 +1,15 @@
-import Text1 from "./Text1";
-import Text2 from "./Text2";
-import Text3 from "./Text3";
-import Text4 from "./Text4";
-import './Text.css'
+import HeaderTransfer from './HeaderTransfer'
+import Paragraph1 from './Paragraph1'
+import Paragraph2 from './Paragraph2'
+import Paragraph3 from './Paragraph3'
+import './MonyTransfer.css'
 function MonyTransferPage(){
     return(
         <div>
-            <Text1></Text1>
-            <Text2></Text2>
-            <Text3></Text3>
-            <Text4></Text4>
+            <HeaderTransfer></HeaderTransfer>
+            <Paragraph1></Paragraph1>
+            <Paragraph2></Paragraph2>
+            <Paragraph3></Paragraph3>
         </div>
     );
 
