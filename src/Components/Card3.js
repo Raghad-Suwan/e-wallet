@@ -14,7 +14,7 @@ const Card3=(props)=>{
             <p className='card-text text-secondary'>{props.textt}</p>
             <a href='./deposit1.jpg' className='btn btn-outline-success'>Read more</a>
         </div>
-   
+  
 
 
 <div className="fot1">

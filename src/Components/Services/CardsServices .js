@@ -6,17 +6,17 @@ import React from 'react'
 const Cards=(props)=>{
     return(
         
-    <div className='card text-center'>
-        <div className='overflow'>
+    <div className='card text-center caaard'>
+        <div className='overflow ovver'>
             <img src={props.imgsrc} alt="image1" className='card-img-top'/>
         </div>
-        <div className='card-body text-dark'>
-            <h4 className='card-title'><u>{props.title}</u></h4>
-            <p className='card-text text-secondary'>{props.textt}</p>
-            <a href='./deposit1.jpg' className='btn btn-outline-success text-white'>Read more</a>
+        <div className='card-body text-dark caaard-bodyy'>
+            <h4 className='card-title caaard-title'><u>{props.title}</u></h4>
+            <p className='card-text text-secondary caaard-textt'>{props.textt}</p>
+            <a href='./deposit1.jpg' className='btn btn-outline-success text-white buttooon'>Read more</a>
         </div>
     </div>
-   
+
             )
         }
 

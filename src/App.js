@@ -1,38 +1,32 @@
 import React from "react";
-import "./App.css";
+
 
 
 
 //import Signup from './components/Signup';
 //import ContactForm from './components/ContactForm';
 //import Image from './components/Header';
-//import './components/ContactForm.css';
-// import "./services.css";
+// import './components/ContactForm.css';
+import "./components/Services/services.css";
 
-// import Cards from "./Components/CardsServices ";
-// import img1 from "./Components/deposit1.jpg";
-// import img2 from "./Components/Transformation.jpg";
-// import img3 from "./Components/Withdrawal.jpg";
-// import img4 from "./Components/للدفع.jpg";
-// import img5 from "./Components/فاتورة.png";
-
-
+import Cards from "./components/Services/CardsServices ";
+import img1 from "./components/image/deposit1.jpg";
+import img2 from "./components/image/Transformation.jpg";
+import img3 from "./components/image/Withdrawal.jpg";
+import img4 from "./components/image/paay.jpg";
+import img5 from "./components/image/invoice.png";
 
 
-//import Navbar from './Components/Navbar';
+
+
+// import Navbar from './Components/Navbar';
 // import ContactForm from './components/Con
 
- 
+
 function App() {
-  return (
+return (
     <div className="App">
-
-</div>
-  );
-}
-export default App;
-
-        /*<div className="container-fluid d-flex justify-content-center">
+ <div className="container-fluid d-flex justify-content-center">
         <section className="row">
             <div className="col-md-4">
             <Cards
@@ -71,8 +65,15 @@ export default App;
             />
             </div>
         </section>
-        </div>*/
+        </div>
 
 
 
 
+
+</div>
+);
+}
+export default App;
+
+       
