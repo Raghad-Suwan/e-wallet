@@ -8,11 +8,15 @@ import Image from "./HeaderContact";
 
 
 
+
  function ContactForm() {
 
   const { register, formState: { errors }, handleSubmit } = useForm();
   const onSubmit = data => console.log(data);
   const notify = () => toast("Thank you for getting in touch! We appreciate you contacting us, we will get back in touch with you soon! Have a great day!" ,{position:'bottom-center'});
+
+
+ function ContactForm() {
 
     return (
 <>
