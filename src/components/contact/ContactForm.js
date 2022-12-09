@@ -1,10 +1,7 @@
 import React from "react";
 import './ContactForm.css';
 import Image from "./HeaderContact";
-
-
  function ContactForm() {
-
     return (
 <>
 <Image/>
