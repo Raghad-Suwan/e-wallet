@@ -4,7 +4,6 @@ const Image = () => {
 
     return (
       <>
-  
       <header >
 
       <div className="row">
