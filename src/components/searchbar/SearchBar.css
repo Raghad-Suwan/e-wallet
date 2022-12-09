@@ -21,6 +21,7 @@ body{
     height: 50px;
     max-width: 380px;
     margin: auto;
+    background: #23697A;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
     transition: all 0.5s ease;
@@ -43,7 +44,7 @@ input{
     height: 40px;
     text-align: center;
     line-height: 50px;
-    color: gray;
+    color: white;
     font-size: 20px;
     border-radius: 0 25px 25px 0;
 }
