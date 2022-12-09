@@ -52,20 +52,4 @@
     transition: trsform .5s ease;
    }
 
-   .fot1 {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(17, 1, 88);
-    color: white;
-    text-align: center;
-  }
-  
-  .icons{
-    right: 70%;
-    top: 20%;
-  }
-  .te1{
-   right: 60%;
-  }
+   

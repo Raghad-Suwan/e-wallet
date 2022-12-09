@@ -13,12 +13,12 @@ import "./App.css";
 // import ContactForm from './components/ContactForm';
 // import Image from './components/Header';
 // import './components/ContactForm.css';
-import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 // import ContactForm from './components/Con
 function App() {
   return (
     <div className="App">
- <Navbar/>
+ <Footer/>
  
 </div>
   );
