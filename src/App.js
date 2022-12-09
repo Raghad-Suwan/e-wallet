@@ -24,7 +24,6 @@ function App() {
         <Route path="/Contact " element={<ContactForm />} />
         <Route path="/about" element ={<AboutPage/>} />
         <Route path="/login" element ={< Login/>} />
-
         <Route path="/cashInthoughAgentst" element={<CashInthoughAgents />} />
         <Route path="/trancfer" element={<MonyTransferPage/>} />
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
@@ -36,9 +35,3 @@ function App() {
   );
 }
 export default App;
-
- 
-
-
-
-
