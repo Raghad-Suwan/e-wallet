@@ -1,0 +1,55 @@
+body{
+    background:radial-gradient(#E5E5E5,#ffff,#E5E5E5);
+    padding: 0 300px;
+    padding-top: 300px;
+    padding-right: 300px;
+    padding-bottom: 0px;
+    padding-left: 300px;
+}
+.caaard {
+font-size: 15px;
+padding: 20px 20px 0;
+left: 50%;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+margin: 15px;
+border-radius: 5rem;
+display: inline-block;
+}
+.caaard-bodyy{
+    padding: 3rem 0 !important;
+}
+.caaard:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.235) !important ;
+    border-radius: 5rem ;
+    background: #022A5E;
+    border: solid #091121;
+}
+.caaard-textt{
+    color: #060D1A;
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+}
+.buttooon:hover{
+    background: rgb(167, 167, 198);
+}
+.buttooon{
+    background: #442E9D;
+    border: #060D1A;
+margin: 8px;
+border-radius: 20px !important;
+}
+.ovver{
+    overflow: hidden;
+    border-radius: 20px;
+}
+.caaard-img-top{
+    transform: scale(1);
+    transition:transform 0.5s ease ;
+}
+.caaard-img-top:hover{
+    transform: scale(1.8);
+}
+.caaard-title{
+    color: #81A7D1;
+}

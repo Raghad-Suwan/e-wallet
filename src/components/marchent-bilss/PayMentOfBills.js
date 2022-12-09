@@ -2,7 +2,11 @@ import React from 'react'
 export default function PayMentOfBills() {
   return (
     <div>
+<<<<<<< HEAD
         <h1 className="bills" style={{color:"orang"}}>PAYMENT OF BILLS SERVICE </h1>
+=======
+        <h1 className="bills">PAYMENT OF BILLS SERVICE </h1>
+>>>>>>> 3a6eaa73b81a9a5c117c6b8119edcc34fe9153a7
           <p className="paybill">Through your e-wallet, you can now pay your bills and store them </p>  
           <p className="paybill">directly and easily from any location and at any time. This service is available 24/7.</p>
           <p className="paybill">Among the main services to pay your bills are:</p>

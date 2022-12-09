@@ -1,7 +1,7 @@
 .bills{
     padding-left: 150px;
     color: coral;
-    
+
   }
   .paybill{
     padding: -1px;
@@ -15,13 +15,14 @@
   .descrip{
     padding-left: 140px;
     background-color: aliceblue;
+    color: coral;
     
    
   }
   
   .ment{
     color: #fff;
-    background-image: url("Mo.png") ;
+    background-image: url("../../image/Mo.png") ;
     padding: 130px;
   background-position: center;
   background-repeat: no-repeat;
