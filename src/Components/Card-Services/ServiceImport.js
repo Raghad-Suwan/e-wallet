@@ -1,14 +1,9 @@
       
 import React from 'react';
 import "./services.css";
-import img1 from "../../image/deposit1.jpg";
-import img2 from "../../image/Trasformation.jpg";
-import img3 from "../../image/Withdrawal.jpg";
-import img4 from "../../image/pay.jpg";
-import img5 from "../../image/bills.png";
 
 import { Link } from 'react-router-dom';
-      
+import CardsServices from './CardsServices ';
       
 const ServiceImport=(props)=>{
     return (
@@ -16,7 +11,7 @@ const ServiceImport=(props)=>{
         <section className="row">
             <div className="col-md-4">
             <CardsServices
-                imgsrc={img1}
+                imgsrc={require('../../image/deposit1.jpg')}
                 title="Money withdrawal"
                 textt="You can withdraw any amount of money from your e-wallet at any time ... "
                 link={<Link to="/cashInthoughAgentst"></Link>}
@@ -24,7 +19,7 @@ const ServiceImport=(props)=>{
             </div>
             <div className="col-md-4">
             <CardsServices
-                imgsrc={img2}
+                // imgsrc={require('../../image/Trasformation.jpg')}
                 title="Money transfer "
                 textt="Transferring money to your family and friends is now easier, faster, and ..."
                 link={<Link to="/trancfer"></Link>}
@@ -33,7 +28,7 @@ const ServiceImport=(props)=>{
             </div>
             <div className="col-md-4">
             <CardsServices
-                imgsrc={img3}
+                // imgsrc={require('../../image/Withdrawal.jpg')}
                 title="Deposite money "
                 textt="Feeding your account by depositing money into your e-wallet when visiting one of ..."
                 link={<Link to="/mobiltop"></Link>}
@@ -43,7 +38,7 @@ const ServiceImport=(props)=>{
             <div className="col-md-4">
             <CardsServices
                 className="card44"
-                imgsrc={img4}
+                // imgsrc={require('../../image/pay.jpg')}
                 title="Pay for merchants"
                 textt="Paying merchants, shops, and even restaurants is now easier and faster!..."
                 link={<Link to="/bills"></Link>}
@@ -52,7 +47,7 @@ const ServiceImport=(props)=>{
             </div>
             <div className="col-md-4">
             <CardsServices
-                imgsrc={img5}
+                // imgsrc={require('../../image/bills.png')}
                 title="Pay bills"
                 textt="Now, through your e-wallet, you can pay your bills and save them directly and.."
                 link={<Link to="/bills"></Link>}
