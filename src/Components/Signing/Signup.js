@@ -31,7 +31,7 @@ import Container from '@mui/material/Container';
   return (
    
       <Container component="main" maxWidth="xs">
-        <CssBaseline />
+        <CssBaseline/>
         <Box
           sx={{
             marginTop: 25,

@@ -10,11 +10,13 @@ import CashInthoughAgents from './components/Cash-In-though-Agents/CashInthoughA
 import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import AboutPage from './components/About/AboutPage';
-import Card3 from "./components/Properties/Card3";
+
 
 function App() {
   return (
     <div className="App">
+
+
       <BrowserRouter>
         <Routes>
         <Route path="/" index element={<Home />} />
@@ -22,14 +24,13 @@ function App() {
         <Route path="/Contact " element={<ContactForm />} />
         <Route path="/about" element ={<AboutPage/>} />
         <Route path="/login" element ={< Login/>} />
-
         <Route path="/cashInthoughAgentst" element={<CashInthoughAgents />} />
         <Route path="/trancfer" element={<MonyTransferPage/>} />
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
         <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
      </BrowserRouter>
-     <Card3/>
+    <ContactForm/>
 </div>
   );
 }
