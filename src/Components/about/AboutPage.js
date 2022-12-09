@@ -30,7 +30,7 @@ function AboutPage(){
                 <div className="mid">
                     <div className="row">
                         <div className="col"> 
-                          {/* <img id="img1" src={require('../../image/person.jpg')}  alt="person image"/> */}
+                          <img id="img1" src={require('../../image/person.jpg')}  alt="person "/>
                         </div> 
                     </div>
                 </div>  
