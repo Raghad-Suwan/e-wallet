@@ -17,12 +17,7 @@
     "ng-recaptcha": "^10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
-    "react-hook-form": "^7.39.5",
-    "react-router-dom": "^6.4.4",
-=======
     "react-router-dom": "^6.4.5",
->>>>>>> 3a6eaa73b81a9a5c117c6b8119edcc34fe9153a7
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6"
   },
