@@ -8,21 +8,21 @@
     padding-left: 150px;
     
   }
-  
+  steps
   .wallet{
     padding-left: 200px;
   }
   .steps{
     padding-left: 140px;
     background-color: aliceblue;
-    
+    color:  coral;
    
   }
   
  
   .i-left{
     color: #fff;
-    background-image: url("Me.png") ;
+    background-image: url("../../image/Me.png") ;
     padding: 130px;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,7 +1,7 @@
 body{
     background-color: rgb(164, 163, 160);
 }
-.card{
+.caaaard{
     background: linear-gradient(90deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgba(0,212,255,1) 100%);
 width: auto;
 height:auto;
@@ -12,25 +12,25 @@ left: 50%;
 transform: translate(-50%,-50%);
 position: absolute;
 }
-.text-name{
+.teext-naame{
 text-align: left;
 }
-.topic{
+.titttle{
 background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 border-radius: 8px;
 }
-.btn-groub{
+.bttn-groubb{
 margin: 20px;
 }
-.btn-groub .btn{
-background-color: #12336e;
+.bttn-groubb .btn{
+background-color: #12336E;
 margin: 8px;
 border-radius: 20px !important;
 font-size: 12px;
 border: 2px solid #000000;
 }
-.btn:hover{
+.btnnnn:hover{
 background: rgb(34,193,195);
 background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,179,253,0.5833683815323004) 100%);
 }
@@ -38,19 +38,19 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,179,253,0.58336
 height: auto;
 width: auto;
 }
-.pic{
+.picc{
 border-image: 20px;
 row-gap: 50%;
 width:100%
 ;
 }
-.input-group-text{
-background-color: #001ae9;
+.input-group-textt{
+background-color: #001AE9;
 }
-.card-title{
+.cardd-tittle{
     font-family: 'Nerko One', cursive;
 font-family: 'Rubik Distressed', cursive;
 }
-.adress{
+.adresss{
     font-family: 'Lobster', cursive;
 }

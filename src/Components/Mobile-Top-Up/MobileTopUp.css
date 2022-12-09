@@ -1,6 +1,6 @@
 .StyleHeaderMobile{
     color: white;
-    background-image: url("MobileTopUp.png") ;
+    background-image: url("../../image/MobileTopUp.png") ;
     padding: 130px;
   background-position: 90%;
   background-repeat: no-repeat;
@@ -15,6 +15,7 @@
   .StyleParagraph{
     padding: -1px;
     padding-left: 150px;
+    
     
   }
   

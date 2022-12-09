@@ -1,7 +1,7 @@
 
   .StyleTitle{
     padding-left: 150px;
-    
+    color:"orange";
   }
   .StyleParagraph{
     padding: -15px;
@@ -20,7 +20,7 @@
   }
   .StyleCashPhoto{
     color: #fff;
-    background-image: url("CashInthoughAgents.png") ;
+    background-image: url("../../image/CashInthoughAgents.png") ;
     padding: 130px;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,7 +1,7 @@
-import React, { Components } from 'react';
+import React  from 'react';
 import './About.css';
 
-function About(){
+function AboutPage(){
     return(
      <section className="cd about">
          <div className="main">
@@ -30,7 +30,7 @@ function About(){
                 <div className="mid">
                     <div className="row">
                         <div className="col"> 
-                          <img id="img1" src={require('../../image/person.jpg')}  alt="person image"/>
+                          <img id="img1" src={require('../../image/person.jpg')}  alt="person "/>
                         </div> 
                     </div>
                 </div>  
@@ -89,4 +89,4 @@ function About(){
  
  );
  }
- export default About;
+ export default AboutPage;

@@ -4,7 +4,7 @@ import React from "react";
 function Paragraph1 (){
     return(
         <div>
-          <h1 className="StyleTitle" style={{color:"orange"}}>CHARGING YOUR ACCOUNT</h1>
+          <h1 className="StyleTitle">CHARGING YOUR ACCOUNT</h1>
           <p className="StyleParagraph">Charging your wallet account by depositing money in your Jawwal Pay wallet </p>  
           <p className="StyleParagraph">(Cash in) when visiting one of our agents will give you the opportunity to</p>
           <p className="StyleParagraph">benefit from different online payment services such as:</p>

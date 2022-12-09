@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-.card{
+.first{
     display: inline-block;
     line-height: 1.6;
     width: 300px;
@@ -13,30 +13,26 @@
     overflow: hidden;
     background-size: cover;
     flex-wrap: wrap;
-    transform: skewX(-15deg);
+    transform: skewX(15deg);
 
 }
-.body-card{
+.seconed{
     overflow: hidden;
 
 } 
-.card.body-card.card-img {
+.first.seconed.third {
     width: 100%;
     height: 100%;
     background-size:auto;
 }
 
-.card:hover{
+.first:hover{
     width: 400px;
 }
-
-
 /* .cardss{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-
-
 } */
 
 /* }
