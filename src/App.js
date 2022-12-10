@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./App.css";
 import{BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './components/Home/Home';
@@ -10,6 +11,7 @@ import CashInthoughAgents from './components/Cash-In-though-Agents/CashInthoughA
 import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import AboutPage from './components/About/AboutPage';
+
 
 function App() {
   return (
@@ -28,10 +30,12 @@ function App() {
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
         <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
+
      </BrowserRouter>
 
     
     }
+
 </div>
   );
 }
