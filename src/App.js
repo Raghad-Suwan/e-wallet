@@ -8,7 +8,7 @@ import React from "react";
 //import MobileTopUpPage from './components/Mobile-Top-Up/MobileTopUpPage';
 //import CashInthoughAgents from './components/Cash-In-though-Agents/CashInthoughAgents';
 //import Login from './components/Signing/Login';
-import Signup from './components/Signing/Signup';
+//import Signup from './components/Signing/Signup';
 //import AboutPage from './components/About/AboutPage';
 
 function App() {
@@ -28,11 +28,7 @@ function App() {
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
         <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
-     </BrowserRouter>
-    <ContactForm/> */
-    <Signup/>
-    
-    }
+  </BrowserRouter>*/}
 </div>
   );
 }
