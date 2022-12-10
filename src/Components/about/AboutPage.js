@@ -1,6 +1,7 @@
 import React  from 'react';
 import './About.css';
 
+
 function AboutPage(){
     return(
      <section className="cd about">
