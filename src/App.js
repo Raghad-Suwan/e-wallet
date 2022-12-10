@@ -10,7 +10,6 @@ import CashInthoughAgents from './components/Cash-In-though-Agents/CashInthoughA
 import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import AboutPage from './components/About/AboutPage';
-import Card3 from "./components/Properties/Card3";
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
         <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
      </BrowserRouter>
-     <Card3/>
 </div>
   );
 }

@@ -3,13 +3,13 @@ import './ContactForm.css';
 import Image from "./HeaderContact";
  function ContactForm() {
     return (
+  
 <>
 <Image/>
 <div className="ContactForm">
                 <div className='container'>
-            
                 <form>
-                <div className=' row'>
+                <div className='row'>
                     <div className='col-xs-6  col-sm-12 col-md-12 col-lg-6'>
                       <input
                       className='form-control formInput1'

@@ -10,19 +10,15 @@ import Footer from '../Footer/Footer';
 import ServiceImport from '../Card-Services/ServiceImport';
 import Card3 from '../Properties/Card3';
 
-
-
 function Home(){
     return(
       <>
-
         <Navbar/>
-        {/* <Pic/>
-        <CardsServices/>
+        <Pic/>
         <CardImport/>
         <ServiceImport/>
         <Card3/>
-        <Footer/> */}
+        <Footer/>
       </>
 );
 }
