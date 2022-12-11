@@ -14,13 +14,13 @@ import ContactForm from '../../ContactUs/ContactForm';
 function Home(){
     return(
       <>
-        <Navbar/>
+        {/* <Navbar/> */}
         <CardImport/>
         <ServiceImport/>
         <Card3/>
         <Footer/>
-        <Pic/>
-        <ContactForm/>
+        {/* <Pic/> */}
+        {/* <ContactForm/> */}
       </>
 );
 }

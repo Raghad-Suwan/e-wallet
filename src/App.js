@@ -11,15 +11,15 @@ import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import Home from "./components/Pages/Home/Home";
 import ContactForm from "./components/ContactUs/ContactForm";
+import Pic from "./components/Moving-Card/Pic";
+import Footer from "./components/Footer/Footer";
+import CardImport from "./components/Properties/CardImport";
 
 
 function App() {
   return (
     <div className="App">
-      <AboutPage/>
-      <Home/>
-
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
         <Route path="/" index element={<Home/>} />
         <Route path="/sign" element ={<Signup />} />
@@ -31,7 +31,7 @@ function App() {
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
         <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
-  </BrowserRouter>
+  </BrowserRouter> */}
 </div>
   );
 }
