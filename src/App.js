@@ -24,20 +24,14 @@ import Card3 from "./components/Properties/Card3";
             <Route path="/about" element ={<AboutPage/>} />
             <Route path="/login" element ={< Login/>} />
 
-            <Route path="/cashInthoughAgentst" element={<CashInthoughAgents />} />
-            <Route path="/trancfer" element={<MonyTransferPage/>} />
-            <Route path="/mobiltop" element={<MobileTopUpPage/>} />
-            <Route path="/bills" element={<MarchentBills/>} />
-        </Routes>
-        </BrowserRouter>
-        <Card3/>
-    </div>
-    );
-    }
-    export default App;
-
-    
-
-
-
-
+        <Route path="/cashInthoughAgentst" element={<CashInthoughAgents />} />
+        <Route path="/trancfer" element={<MonyTransferPage/>} />
+        <Route path="/mobiltop" element={<MobileTopUpPage/>} />
+        <Route path="/bills" element={<MarchentBills/>} />
+      </Routes>
+     </BrowserRouter>
+     <Card3/>
+</div>
+  );
+}
+export default App;
