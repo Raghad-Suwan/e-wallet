@@ -11,7 +11,7 @@ const ServiceImport=(props)=>{
         <section className="row">
             <div className="col-md-4">
             <CardsServices
-                imgsrc={require('../../image/deposit1.jpg')}
+                imgsrc={require('../../images/deposit1.jpg')}
                 title="Money withdrawal"
                 textt="You can withdraw any amount of money from your e-wallet at any time ... "
                 link={<Link to="/cashInthoughAgentst"></Link>}
@@ -19,7 +19,7 @@ const ServiceImport=(props)=>{
             </div>
             <div className="col-md-4">
             <CardsServices
-                // imgsrc={require('../../image/Trasformation.jpg')}
+                // imgsrc={require('../../images/Trasformation.jpg')}
                 title="Money transfer "
                 textt="Transferring money to your family and friends is now easier, faster, and ..."
                 link={<Link to="/trancfer"></Link>}
@@ -28,7 +28,7 @@ const ServiceImport=(props)=>{
             </div>
             <div className="col-md-4">
             <CardsServices
-                // imgsrc={require('../../image/Withdrawal.jpg')}
+                // imgsrc={require('../../images/Withdrawal.jpg')}
                 title="Deposite money "
                 textt="Feeding your account by depositing money into your e-wallet when visiting one of ..."
                 link={<Link to="/mobiltop"></Link>}
@@ -38,7 +38,7 @@ const ServiceImport=(props)=>{
             <div className="col-md-4">
             <CardsServices
                 className="card44"
-                // imgsrc={require('../../image/pay.jpg')}
+                // imgsrc={require('../../images/pay.jpg')}
                 title="Pay for merchants"
                 textt="Paying merchants, shops, and even restaurants is now easier and faster!..."
                 link={<Link to="/bills"></Link>}
@@ -47,7 +47,7 @@ const ServiceImport=(props)=>{
             </div>
             <div className="col-md-4">
             <CardsServices
-                // imgsrc={require('../../image/bills.png')}
+                // imgsrc={require('../../images/bills.png')}
                 title="Pay bills"
                 textt="Now, through your e-wallet, you can pay your bills and save them directly and.."
                 link={<Link to="/bills"></Link>}
