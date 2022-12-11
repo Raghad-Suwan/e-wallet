@@ -1,11 +1,11 @@
 *{
     box-sizing: border-box;
 }
-.Cards{
+/* .Cards{
   display: inline;
  position: fixed;
  left: 20%;
-/* top: 30%; */
+ top: 30%;
  right: 30%;
  transition: translate(-80%,-70%);
    }
@@ -68,4 +68,4 @@
   }
   .te1{
    right: 60%;
-  }
+  } */

@@ -2,6 +2,7 @@ import './Footer.css';
 import React, { components } from 'react';
 const Footer=()=>{
     return(
+    
 <div className="fot1">
 <div className="row my-3">
 <div className="col-sm-6 col-md-4 col-lg-3">

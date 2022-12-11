@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@hookform/error-message": "^2.0.1",
     "@mui/icons-material": "^5.10.14",
     "@mui/material": "^5.10.14",
     "@mui/styled-engine-sc": "^5.10.14",
@@ -13,12 +14,13 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.2",
-    "mdb-react-ui-kit": "^5.0.0",
     "ng-recaptcha": "^10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.40.0",
     "react-router-dom": "^6.4.5",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
     "styled-components": "^5.3.6"
   },
   "scripts": {
