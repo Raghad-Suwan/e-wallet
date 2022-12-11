@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function STEPS() {
+export default function Stepstopayingmarchent () {
   return (
     <div className='steps'>
        <h1 >STEPS TO PAY MERCHANTS FROM YOUR E-WALLET</h1>

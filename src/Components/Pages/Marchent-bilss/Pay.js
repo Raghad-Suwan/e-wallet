@@ -1,6 +1,6 @@
 import React from 'react'
-
-export default function PAY() {
+import'./Marchent.css';
+export default function Hedermarchent() {
   return (
     <div className="i-left">
       <h1>Pay to Merchants</h1>

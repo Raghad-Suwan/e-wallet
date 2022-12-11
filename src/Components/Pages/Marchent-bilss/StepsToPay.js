@@ -1,5 +1,5 @@
 import React from 'react'
-export default function StepsToPay() {
+export default function StepsToPayment() {
   return (
     <div className='descrip'>
        <h1 >STEPS TO PAY BILLS:</h1>
