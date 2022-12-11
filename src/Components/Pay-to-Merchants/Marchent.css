@@ -1,28 +1,27 @@
-.bills{
+.shopping{
     padding-left: 150px;
-    color: coral;
-
+    color: #23697A;
+    
   }
-  .paybill{
+  .sent{
     padding: -1px;
     padding-left: 150px;
     
   }
-  
-  .right{
+  .wallet{
     padding-left: 200px;
   }
-  .descrip{
+  .steps{
     padding-left: 140px;
     background-color: aliceblue;
-    color: coral;
-    
+    color:  #23697A;
    
   }
   
-  .ment{
+ 
+  .i-left{
     color: #fff;
-    background-image: url("../../image/Mo.png") ;
+    background-image: url("../../image/Me.png") ;
     padding: 130px;
   background-position: center;
   background-repeat: no-repeat;

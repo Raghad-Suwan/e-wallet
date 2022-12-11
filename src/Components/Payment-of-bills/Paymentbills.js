@@ -1,5 +1,5 @@
 import React from 'react'
-export default function PayMentOfBills() {
+export default function Paymentbills() {
   return (
     <div>
         <h1 className="bills">PAYMENT OF BILLS SERVICE </h1>
