@@ -1,0 +1,30 @@
+.bills{
+    padding-left: 150px;
+    color: #23697A;
+
+  }
+  .paybill{
+    padding: -1px;
+    padding-left: 150px;
+    
+  }
+  
+  .right{
+    padding-left: 200px;
+  }
+  .descrip{
+    padding-left: 140px;
+    background-color: aliceblue;
+    color: #23697A;
+    
+   
+  }
+  
+  .ment{
+    color: #fff;
+    background-image: url("../../../images/Mo.png") ;
+    padding: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1540px 360px;
+  }

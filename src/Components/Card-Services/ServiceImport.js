@@ -11,7 +11,7 @@ const ServiceImport=(props)=>{
         <section className="row">
             <div className="col-md-4">
             <CardsServices
-                imgsrc={require('../../image/deposit1.jpg')}
+                imgsrc={require('../../images/deposit1.jpg')}
                 title="Money withdrawal"
                 textt="You can withdraw any amount of money from your e-wallet at any time ... "
                 link={<Link to="/cashInthoughAgentst"></Link>}

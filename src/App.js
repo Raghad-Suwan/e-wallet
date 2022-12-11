@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./App.css";
 import{BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './components/Home/Home';
@@ -30,7 +31,8 @@ import Card3 from "./components/Properties/Card3";
         <Route path="/bills" element={<MarchentBills/>} />
       </Routes>
      </BrowserRouter>
-     <Card3/>
+     
+     
 </div>
   );
 }

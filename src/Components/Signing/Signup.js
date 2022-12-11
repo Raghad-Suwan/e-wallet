@@ -29,9 +29,9 @@ import Container from '@mui/material/Container';
   };
 
   return (
-   
-      <Container component="main" maxWidth="xs">
-        <CssBaseline />
+    
+      <Container  maxWidth="xs">
+        <CssBaseline/>
         <Box
           sx={{
             marginTop: 25,
@@ -40,7 +40,7 @@ import Container from '@mui/material/Container';
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'text.disabled' }}>
+          <Avatar sx={{ m: 1, bgcolor:'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -51,76 +51,69 @@ import Container from '@mui/material/Container';
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
-                  autoComplete="given-name"
                   name="firstName"
-                  required
                   fullWidth
                   id="firstName"
                   label="First Name"
-                  variant="standard"
+                  variant="outlined"
                   autoFocus
                 />
               </Grid>
 
               <Grid item xs={12} sm={6}>
                 <TextField
-                  required
                   fullWidth
                   id="lastName"
                   label="Last Name"
                   name="lastName"
                   autoComplete="family-name"
-                  variant="standard"
+                  variant="outlined"
                 />
 
               </Grid>
               <Grid item xs={12}>
                 <TextField
-                  required
                   fullWidth
                   id="email"
                   label="Email Address"
                   name="email"
                   autoComplete="email"
-                  variant="standard"
+                  variant="outlined"
                 /> 
               </Grid>
              
               <Grid item xs={12}>
                 <TextField
-                  required
                   fullWidth
                   id="country"
                   label="Country"
                   name="country"
                   autoComplete="country"
-                  variant="standard"
+                  variant="outlined"
                 /> 
               </Grid>
 
               <Grid item xs={12}>
                 <TextField
-                  required
                   fullWidth
                   name="phone"
                   label="Phone Number"
                   type="phone"
                   id="phone-num"
                   autoComplete="phone"
-                  variant="standard"
+                  variant="outlined"
                 />
               </Grid>
 
               <Grid item xs={12}>
                 <TextField
-                  required
                   fullWidth
                   name="password"
                   label="Password"
                   type="password"
                   id="password"
                   autoComplete="new-password"
-                  variant="standard"
+                  variant="outlined"
                 />
               </Grid>
 
@@ -134,15 +127,14 @@ import Container from '@mui/material/Container';
 
             <Button
               type="submit"
-              fullWidth
-              variant="contained"
-              sx={{ mt: 3, mb: 2 }}
+            variant="contained" color="warning"
+              sx={{ mt:3, mb: 2 ,marginLeft:17 }}
             >
               Sign Up
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Link href="#" variant="body2">
+                <Link href="#" variant="body">
                   Already have an account? Sign in
                 </Link>
               </Grid>
