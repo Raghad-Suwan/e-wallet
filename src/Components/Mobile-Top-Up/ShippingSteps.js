@@ -1,11 +1,11 @@
 import React from "react";
-function Paragraph2 (){
+function ShippingSteps (){
     return(
       <div className="RechargeSteps" >
         
-         <h1 >STEPS TO RECHARGE MOBILE BALANCE FROM YOUR</h1>
-         <h1 >E-WALLET:</h1>
-         <ul>
+         <h1 className="StyleTitle">STEPS TO RECHARGE MOBILE BALANCE FROM YOUR</h1>
+         <h1 className="StyleTitle">E-WALLET:</h1>
+         <ul className="StyleSteps">
             <li>From your E-wallet main menu select “Mobile TOP UP”.</li>
             <li>Select the mobile phone Operator.</li>
             <li>Select the transaction you wish to carry out:</li>
@@ -26,4 +26,4 @@ function Paragraph2 (){
       </div>
     );
 }
-export default Paragraph2;
+export default ShippingSteps;

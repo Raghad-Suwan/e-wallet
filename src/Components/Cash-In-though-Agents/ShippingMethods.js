@@ -1,5 +1,5 @@
 import React from "react";
-function Paragraph4 (){
+function ShippingMethods (){
     return(
       <div className="StyleBack">
         <h1 className="StyleTitle" >CASH IN YOUR THROUGH BANK ACCOUNT</h1>
@@ -12,7 +12,7 @@ function Paragraph4 (){
         </ul>
         <p className="StyleParagraph">And many others. Such services are done through E-wallet safely, and quickly. </p>
         <p className="StyleParagraph">You will also be able to control your expenses more clearly and accurately.</p>
-        <h1 className="StyleTitle">STEPS TO CHARGE YOUR ACCOUNT (CASH IN):</h1>
+        <h6 className="StyleTitle">STEPS TO CHARGE YOUR ACCOUNT (CASH IN):</h6>
         <p className="StyleParagraph">You can cash in your E-wallet from your bank account through your bank online and mobile channels</p>
         <h className="StyleTitle">NOTES</h>
         <ul className="ShippingSteps">
@@ -30,4 +30,4 @@ function Paragraph4 (){
       </div>
     );
 }
-export default Paragraph4;
+export default ShippingMethods;

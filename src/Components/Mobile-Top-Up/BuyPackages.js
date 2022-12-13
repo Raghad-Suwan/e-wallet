@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Paragraph1 (){
+function BuyPackages (){
     return(
       <div >
           <h1 className="StyleTitle" >RECHARGING YOUR MOBILE BALANCE</h1>
@@ -19,4 +19,4 @@ function Paragraph1 (){
       </div>
     );
 }
-export default Paragraph1;
+export default BuyPackages;

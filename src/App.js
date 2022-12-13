@@ -12,11 +12,9 @@ import "./App.css";
 // import AboutPage from './components/About/AboutPage';
 // import Card from "./components/Deposite/Card";
 //import Card3 from "./components/Properties/Card3";
-import A from './components/Money-Transfer/MonyTransferPage'
 function App() {
   return (
-    <div className="App">
-      
+   <div>
       {/* <BrowserRouter>
         <Routes>
         <Route path="/" index element={<Home />} />
@@ -32,9 +30,8 @@ function App() {
       </Routes>
      </BrowserRouter>
      <Home/> */}
-     <A/>
-
 </div>
+
   );
 }
 export default App;

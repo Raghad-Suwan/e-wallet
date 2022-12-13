@@ -1,5 +1,5 @@
 import React from "react";
-function Paragraph3 (){
+function ShippingNotes (){
     return(
      <div>
         <h1 className="StyleTitle" >NOTES ON CHARGING THE ACCOUNT</h1>
@@ -16,4 +16,4 @@ function Paragraph3 (){
 
     );
 }
-export default Paragraph3;
+export default ShippingNotes;

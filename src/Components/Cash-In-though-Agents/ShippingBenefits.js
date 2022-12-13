@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Paragraph1 (){
+function ShippingBenefits (){
     return(
         <div>
           <h1 className="StyleTitle">CHARGING YOUR ACCOUNT</h1>
@@ -21,4 +21,4 @@ function Paragraph1 (){
           </div>
     );
 }
-export default Paragraph1;
+export default ShippingBenefits;

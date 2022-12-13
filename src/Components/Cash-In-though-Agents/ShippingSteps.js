@@ -1,11 +1,11 @@
 import React from "react";
 
 
-function Paragraph2 (){
+function ShippingSteps (){
     return(
 <div className="StyleBack">
  <h1 className="StyleTitle">STEPS TO CHARGE YOUR ACCOUNT (CASH IN):</h1>
- <ul>
+ <ul className="StyleLink">
     <li>Go to the nearest authorized Jawwal Pay services agent.</li>
     <li>The agent will ask you for your mobile number affiliated with your e-wallet in which you wish to make the deposit.</li>
     <li>The agent will enter the amount received by them to be deposited.</li>
@@ -15,4 +15,4 @@ function Paragraph2 (){
  </ul>
 </div>    );
 }
-export default Paragraph2;
+export default ShippingSteps;

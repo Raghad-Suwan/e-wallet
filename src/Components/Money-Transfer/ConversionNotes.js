@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Paragraph3 (){
+function ConversionNotes (){
     return(
 <div className="styleNote">
   <h1 style={{color:"coral"}}>NOTES ON MONEY TRANSFER:</h1>
@@ -17,4 +17,4 @@ function Paragraph3 (){
 </div>    
     );
 }
-export default Paragraph3;
+export default ConversionNotes;

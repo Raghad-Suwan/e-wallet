@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Paragraph2 (){
+function ConversionSteps (){
     return(
 <div className="conversionSteps" >
   <h1 style={{color:"coral"}}>STEPS TO TRANSFER MONEY THROUGH YOUR E-WALLET:</h1>
@@ -20,4 +20,4 @@ function Paragraph2 (){
 </div>    
     );
 }
-export default Paragraph2;
+export default ConversionSteps;
