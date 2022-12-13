@@ -31,7 +31,7 @@ function AboutPage(){
                 <div className="mid">
                     <div className="row">
                         <div className="col"> 
-                          <img id="img1" src={require('../../../images/person.jpg')}  alt="person "/>
+                          <img className='img1 img-fluid' src={require('../../../images/person.jpg')}  alt="person "/>
                         </div> 
                     </div>
                 </div>  

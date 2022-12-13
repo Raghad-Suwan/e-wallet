@@ -10,7 +10,7 @@ const Pic=(props)=>{
 <div  className=" row">
         <PicCard src={require('../../images/businessman.jpg')} title="you’r our special client"
         content="" footer="know more about" alt="rr"/>
-        <PicCard src={require('../../images/computer-laptop.jpg')}  alt="rr"title="You know E-Wallet?"
+        <PicCard className="MiddleCard" src={require('../../images/computer-laptop.jpg')}  alt="rr"title="You know E-Wallet?"
         content=""  footer="know more about"/>
         <PicCard src={require('../../images/mid-businessman.jpg')}  alt="rr"title="Its the future"
         content=""  footer="know more about"/>
