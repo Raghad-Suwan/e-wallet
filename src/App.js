@@ -19,13 +19,12 @@ function App() {
     <SignPageRouter />
       {/* <BrowserRouter>
         <Routes>
-        <Route path="/" index element={<Home />} />
+        <Route path="/" index element={<Home/>} />
         <Route path="/sign" element ={<Signup />} />
-        <Route path="/Contact " element={<ContactForm />} />
+        <Route path="/Contact " element={<ContactForm/>} />
         <Route path="/about" element ={<AboutPage/>} />
         <Route path="/login" element ={< Login/>} />
-
-        <Route path="/cashInthoughAgentst" element={<CashInthoughAgents />} />
+        <Route path="/cashInthoughAgentst" element={<CashInthoughAgents/>} />
         <Route path="/trancfer" element={<MonyTransferPage/>} />
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
         <Route path="/bills" element={<MarchentBills/>} />
@@ -37,9 +36,4 @@ function App() {
   );
 }
 export default App;
-
- 
-
-
-
 

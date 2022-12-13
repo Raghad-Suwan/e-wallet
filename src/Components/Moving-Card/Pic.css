@@ -1,0 +1,8 @@
+.all{
+display: inline;
+display: inline-block;
+
+}
+.all.MiddleCard{
+    transform: skewX(15deg);
+}
