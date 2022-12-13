@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Shopping() {
+export default function Payingmarchent() {
   return (
     <div>
                <h1 className="shopping" >SHOPPING AND PAYING TO MERCHANTS AND STORES</h1>
@@ -12,3 +12,4 @@ export default function Shopping() {
     </div>
   )
 }
+
