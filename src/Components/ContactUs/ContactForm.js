@@ -1,6 +1,6 @@
 import React from "react";
 import './ContactForm.css';
-import { useForm } from "react-hook-form";
+import { useForm } from 'react-hook-form';
 import { ErrorMessage } from '@hookform/error-message';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -18,11 +18,11 @@ import Image from "./HeaderContact";
   
 <>
 <Image/>
-                <div className='container malak'>
+                <div className='container '>
                 <form onSubmit={handleSubmit(onSubmit)} >
                 <div className='row'>
 
-                    <div className=' col-xs col-sm-12 col-md-12 col-lg-6'>
+                    <div className=' col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6 '>
                       <input
                       className='form-control formInput1'
                         type='text'
@@ -35,7 +35,7 @@ import Image from "./HeaderContact";
                     </div>
                     </div>
 
-                    <div className='col-xs col-sm-12 col-md-12 col-lg-6'>
+                    <div className='col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                       <input
                       className='form-control formInput2'
                         type='email'
@@ -48,7 +48,7 @@ import Image from "./HeaderContact";
                     </div>
                     </div>
 
-                    <div className='col-xs col-sm-12 col-md-12 col-lg-6'>
+                    <div className='col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                       <input
                       className='form-control formInput3'
                         type='tel'
@@ -61,7 +61,7 @@ import Image from "./HeaderContact";
                     </div>
                     </div>
                
-                    <div className='col-xs col-sm-12 col-md-12 col-lg-6'>
+                    <div className='col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                       <textarea 
                         className='form-control formInput4'
                         placeholder='Message'

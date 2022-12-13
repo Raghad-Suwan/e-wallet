@@ -1,8 +1,8 @@
 # dependencies
 /node_modules
 node_modules/
-/src/image/
-/image
+/src/images/
+/images
 /.pnp
 .pnp.js
 # testing

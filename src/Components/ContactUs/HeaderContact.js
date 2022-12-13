@@ -1,5 +1,6 @@
 import React from 'react';
 import './ContactForm.css';
+
 const Image = () => {
 
   
@@ -7,13 +8,15 @@ const Image = () => {
       <>
       <header >
 
-      <div className="row">
         <div className='p-5 hero-text bg-image header-img img-fluid'>
+          <div className='container-contactus'>
+
+      <div className="row ">
       <div className='text-parent'>
         <h2 className="h2-header mt-3">
               Contact us
             </h2>
-            <p className='send-msg'>
+            <p className='co send-msg'>
             Send your message and feedback to Jawwal Pay support 
             and we will contact you as soon as possible!
             </p>
@@ -21,6 +24,7 @@ const Image = () => {
       </div>
    
   </div>
+          </div>
       </header>
 
     <div>
