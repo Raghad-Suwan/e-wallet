@@ -8,8 +8,8 @@ const Card3=(props)=>{
             {/* <img src={props.imgsrc} alt="image1" className='card-img-top'/> */}
         </div>
         <div className='card-body text-dark lara'>
-            <h4 className='card-title titlelll'><u>{props.title}</u></h4>
-            <p className='card-text text-secondary textlll'>{props.textt}</p>
+            <h4 className='card-title m-3 titlelll'><u>{props.title}</u></h4>
+            <p className='card-text text-dark textlll'>{props.textt}</p>
             <div ></div>
         </div >
 </div>

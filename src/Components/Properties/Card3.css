@@ -19,8 +19,8 @@
     box-shadow: 10px 10px 20px 1px rgba(0,0,0,0.235) !important ;
     border-radius: 2rem ;
     background: rgba(37, 109, 148, 0.583);
-    background: linear-gradient(0deg, rgb(168, 231, 233) 0%, rgba(66, 130, 165, 0.583) 100%);
-    border: solid #4ca193b4;
+    background: linear-gradient(0deg, rgb(206, 221, 221) 0%, rgba(117, 162, 187, 0.583) 100%);
+    border:  #23697a;
 }
 
 .containCard {

@@ -1,6 +1,6 @@
 
 .bodyServices{
-    background:radial-gradient(#E5E5E5,#ffff,#E5E5E5);
+    /* background:radial-gradient(#E5E5E5,#ffff,#E5E5E5); */
     padding: 0 300px;
     padding-top: 300px;
     padding-right: 00px;
@@ -23,21 +23,25 @@
 }
 .caaard:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.235) !important ;
+    background: linear-gradient(0deg, rgb(206, 221, 221) 0%, rgba(117, 162, 187, 0.583) 100%);
+
     border-radius: 5rem ;
-    background: #022A5E;
-    border: solid #091121;
+    /* background: #022A5E; */
+    border: solid #8698bb;
 }
 .caaard-textt{
-    color: #060D1A;
+    color: #050911;
     font-size: 0.9rem;
     padding: 0.4rem 1.9rem;
 }
 .buttooon:hover{
-    background: rgb(167, 167, 198);
+    background:#8698bb!important;
+
 }
 .buttooon{
-    background: #442E9D;
-    border: #060D1A;
+    
+
+    border: #5a6475  !important;
     margin: 8px;
     border-radius: 20px !important;
 }
