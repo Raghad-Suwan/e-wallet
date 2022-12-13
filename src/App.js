@@ -12,9 +12,11 @@ import "./App.css";
 // import AboutPage from './components/About/AboutPage';
 // import Card from "./components/Deposite/Card";
 //import Card3 from "./components/Properties/Card3";
+import SignPageRouter from './components/Signing/SignPageRouter'
 function App() {
   return (
    <div>
+    <SignPageRouter />
       {/* <BrowserRouter>
         <Routes>
         <Route path="/" index element={<Home />} />
