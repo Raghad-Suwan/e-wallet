@@ -7,20 +7,47 @@ import Navbar from '../../Navbar/Navbar';
 import CardImport from '../../Properties/CardImport';
 import Footer from '../../Footer/Footer';
 import ServiceImport from '../../Card-Services/ServiceImport';
-import Card3 from '../../Properties/Card3';
 import Pic from '../../Moving-Card/Pic';
 import ContactForm from '../../ContactUs/ContactForm';
 
 function Home(){
     return(
       <>
-        {/* <Navbar/> */}
-        <CardImport/>
+      {/* <header>
+        <Navbar/>
+      </header> */}
+        
+        <section className='container'>
+        <div className='row g-5'>
         <ServiceImport/>
-        <Card3/>
-        <Footer/>
-        {/* <Pic/> */}
-        {/* <ContactForm/> */}
+        </div>  
+        <div className='container'>
+
+        </div>
+        <div className='row specialColToLog'>
+          <div className='col'>
+            <p>
+             
+            </p>
+
+          </div>
+          <div className='col'>
+
+          </div>
+
+
+        </div>
+        <div className='row '>
+         
+          <CardImport/>
+
+        </div>
+
+       
+        </section>
+        {/* <footer>
+                  <Footer/>
+        </footer> */}
       </>
 );
 }

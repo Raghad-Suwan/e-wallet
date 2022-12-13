@@ -14,12 +14,15 @@ import ContactForm from "./components/ContactUs/ContactForm";
 import Pic from "./components/Moving-Card/Pic";
 import Footer from "./components/Footer/Footer";
 import CardImport from "./components/Properties/CardImport";
+import GetStarted from "./components/GetStarted";
 
 
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
+<GetStarted/>
+{/* 
+      <BrowserRouter>
         <Routes>
         <Route path="/" index element={<Home/>} />
         <Route path="/sign" element ={<Signup />} />

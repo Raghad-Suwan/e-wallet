@@ -1,71 +1,58 @@
 *{
     box-sizing: border-box;
 }
- .Cards{
+
+ /* .Cards{
   display: inline;
  position: fixed;
  left: 20%;
  top: 30%;
  right: 30%;
  transition: translate(-80%,-70%);
-   }
+   } */
 
-   .container-fluied .row{
+ .rroowwss{
     padding-top: 2rem;
-   }
-.card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.235) !important ;
-    border-radius: 2rem ;
-    background: rgba(160, 207, 233, 0.583);
-    background: linear-gradient(0deg, rgb(156, 243, 245) 0%, rgba(69, 98, 114, 0.583) 100%);
-    border: solid #92a7f3;
-    
+   }  
 
+.perent:hover{
+    box-shadow: 10px 10px 20px 1px rgba(0,0,0,0.235) !important ;
+    border-radius: 2rem ;
+    background: rgba(37, 109, 148, 0.583);
+    background: linear-gradient(0deg, rgb(168, 231, 233) 0%, rgba(66, 130, 165, 0.583) 100%);
+    border: solid #4ca193b4;
 }
 
-.body{
-    background:radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+.containCard {
+    /* background:radial-gradient(#964c4c,rgb(157, 144, 233),#143cc0); */
     padding: 0 190px;
     padding-top: 0px;
-    padding-right: 1px;
+    padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 170px;
   
-}
+} 
 
-   .card-body{
+.lara{
    
     padding: 3rem 0 !important;
-  margin: 0 auto 30px;
+    margin: 0 auto 30px;
   
-   }
-   .card-text{
-    font-size: .9rem;
+}
+.textlll{
+    font-size: 1.2rem;
     padding: 0.4rem 1.9rem;
-   }
-
-   .card-title{
+}
+.titlelll{
     color: #12336e;
-   }
-   .card-img-top{
+}
+.card-img-top{
     transform: scale(1);
     transition: trsform .5s ease;
-   }
-
-   .fot1 {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(17, 1, 88);
-    color: white;
-    text-align: center;
-  }
-  
-  .icons{
-    right: 70%;
-    top: 20%;
-  }
-  .te1{
-   right: 60%;
+}
+.perent{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content:center;
   }
