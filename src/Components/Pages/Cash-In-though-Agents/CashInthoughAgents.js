@@ -1,16 +1,18 @@
 import HeaderCash from './HeaderCash'
-import Paragraph2 from "./Paragraph2";
-import Paragraph3 from "./Paragraph3";
-import Paragraph4 from "./Paragraph4";
+import ShippingBenefits from './ShippingBenefits'
+import ShippingSteps from './ShippingSteps'
+import ShippingNotes from './ShippingNotes'
+import ShippingMethods from './ShippingMethods'
 import './CashInthoughAgents.css'
 function CashInthoughAgents(){
     return(
         <div>
             <HeaderCash/>
-            <Paragraph2/>
-            <Paragraph3/>
-            <Paragraph4/>
-
+            <ShippingBenefits/>
+            <ShippingSteps/>
+            <ShippingNotes/>
+            <ShippingMethods/>
+            
         </div>
     );
 
