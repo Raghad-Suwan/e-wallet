@@ -16,7 +16,6 @@ import AboutPage from './components/Pages/About-Us/AboutPage';
 
 
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
