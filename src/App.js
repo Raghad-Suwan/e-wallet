@@ -11,7 +11,7 @@ import "./App.css";
 // import Signup from './components/Signing/Signup';
 // import AboutPage from './components/About/AboutPage';
 // import Card from "./components/Deposite/Card";
-//import Card3 from "./components/Properties/Card3";
+//import Card3 from "./components/Properties/Card3"; 
 import SignPageRouter from './components/Signing/SignPageRouter'
 function App() {
   return (
