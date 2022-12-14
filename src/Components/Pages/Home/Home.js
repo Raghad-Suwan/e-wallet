@@ -18,7 +18,7 @@ function Home(){
         <Navbar/>
       </header> */}
       <div>
-        <img className='img-fluid' src={require('../../../images/head-home.jpeg')} />
+        <img className='img-fluid' src={require('../../../image/head-home.jpeg')} />
       </div>
 
         <section className=' '>

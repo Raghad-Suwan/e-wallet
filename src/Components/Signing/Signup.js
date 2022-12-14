@@ -119,7 +119,7 @@ import Container from '@mui/material/Container';
 
               <Grid item xs={12}>
                 <FormControlLabel
-                  control={<Checkbox value="allowExtraEmails" color="primary" />}
+                  control={<Checkbox value="allowExtraEmails" color="warning" />}
                   label="I agree to all Terms privacy policy and fees "
                 />
               </Grid>

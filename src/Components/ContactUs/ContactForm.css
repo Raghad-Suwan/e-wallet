@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .header-img{
-  background-image: url('../../image/contact.photo.webp') ;
+  background-image: url('../../images/contact.photo.webp') ;
   height:35rem;
   max-width:100%;
   background-position: center;
