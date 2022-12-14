@@ -2,7 +2,7 @@
     color: white;
     background-image: url("../../../images/MobileTopUp.png") ;
     padding: 130px;
-  background-position: center;
+  background-position: 90%;
   background-repeat: no-repeat;
   background-size: 1700px 330px;
   }
@@ -15,6 +15,7 @@
   .StyleParagraph{
     padding: -1px;
     padding-left: 150px;
+    margin-bottom: 1px;
     
     
   }
@@ -23,12 +24,13 @@
     padding-left: 200px;
   }
   .RechargeSteps{
-    padding-left: 150px;
     background-color: aliceblue;
   }
   
   .StyleTransactions{
     padding-left: 50px;
   }
- 
+ .StyleSteps{
+  padding-left: 200px;
+ }
  

@@ -1,7 +1,6 @@
 
   .transmissionSteps{
     padding-left: 150px;
-    
   }
   
   .conversionSteps{
@@ -22,4 +21,10 @@
   background-repeat: no-repeat;
   background-size: 1519px 350px;
   }
-   
+   .StelyTitle{
+    color: coral;
+   }
+   .StyleParagraph{
+    margin-bottom: 1px;
+  }
+  
