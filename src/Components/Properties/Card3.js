@@ -20,11 +20,6 @@ const Card3=(props)=>{
    
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 3d98d2076fdc271dc7a86edf6fe4f6bdec2e311e
 </div>
     
             )
