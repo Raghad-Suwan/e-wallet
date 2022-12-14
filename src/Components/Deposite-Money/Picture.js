@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../images/deposit1.jpg'
+import logo from '../../image/deposit1.jpg'
 const Picture=()=>{
     return(
         <div className="picture">
