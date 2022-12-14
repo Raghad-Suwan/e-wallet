@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import {  } from "./image";
+// import {  } from "./images";
 import './About.css';
 
 function About(){
@@ -32,7 +32,7 @@ function About(){
                 <div className="mid">
                     <div className="row">
                         <div className="col"> 
-                          <img id="img1" src={require('../image/person.jpg')}  alt="person image"/>
+                          <img id="img1" src={require('../images/person.jpg')}  alt="person image"/>
                         </div> 
                     </div>
                 </div>  
