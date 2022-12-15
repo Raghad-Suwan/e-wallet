@@ -1,9 +1,12 @@
 import React  from 'react';
 import './About.css';
+import Navbar from '../../Navbar/Navbar';
 
 
 function AboutPage(){
     return(
+        <header >
+        <Navbar/>
      <section className="cd about">
          <div className="main">
             <div className="grid container">
@@ -13,7 +16,7 @@ function AboutPage(){
                                 <h1><b>This is</b></h1>
                                 <h1><b>E-Wallet</b></h1>
                         </div> 
-                        <div className="about-beside col col-md  offset-md text-col" >
+                        <div className="about-beside col col-md offset-md text-col" >
                             <p >
                                 Never heard of a “digital wallet”? No biggie.<br></br>
                                 Also called an e-wallet, digital wallets  can be used <br></br>                                          
@@ -31,7 +34,7 @@ function AboutPage(){
                 <div className="mid">
                     <div className="row">
                         <div className="col"> 
-                          <img className='img1 img-fluid' src={require('../../../image/person.jpg')}  alt="person "/>
+                          <img className='img1 img-fluid' src={require('../../../images/person.jpg')}  alt="person "/>
                         </div> 
                     </div>
                 </div>  
@@ -56,7 +59,7 @@ function AboutPage(){
                         <div className ="row text-center">
                             <div className=" col col-sm-5 offset-sm-1"> 
                             </div>
-                            <div className="col col-sm-5 offset-sm-1"> 
+                            <div className="col col-sm-5 offset-sm-1 d-flex justify-content-end"> 
                                 <div className="text1 ">
                                     <h4 > <b>Who Benefits from Services? </b></h4>
                                     <p>
@@ -87,7 +90,8 @@ function AboutPage(){
             </div>
         </div>
    </section>
- 
+   </header>
+
  );
  }
  export default AboutPage;

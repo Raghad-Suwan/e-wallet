@@ -23,7 +23,7 @@ return(
 <h6 className="text-name " >Amount of money</h6>
 <div className="input-group mb-3">
 <input type="number" class="form-control" placeholder="Amount to be deposited" />
-<span className="input-group-text text-white input-group-textt">.00</span>
+<span className="input-group-text text-white input-group-textt">.00</span> 
 </div>
 <h6 className='text-name '>currency type</h6>
 <div className="input-group mb-3">

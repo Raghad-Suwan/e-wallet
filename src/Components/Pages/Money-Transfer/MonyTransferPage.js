@@ -13,6 +13,5 @@ function MonyTransferPage(){
            
         </div>
     );
-
 }
 export default MonyTransferPage;
