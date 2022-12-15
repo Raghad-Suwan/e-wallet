@@ -136,12 +136,6 @@ const BarChartDemo = () => {
                 <Chart type="bar" data={basicData} options={basicOptions}/>
             </div>
          </div>
-
-             {/* <div className='chartContainer-2'>
-             <div className="chart-malak-2">
-                <Chart type="bar" data={basicData} options={horizontalOptions} />
-            </div> 
-            </div> */}
 </div>
 
   <div className='container lineContainer'>

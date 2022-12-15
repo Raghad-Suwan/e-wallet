@@ -4,8 +4,8 @@ import SignPageRouter from './components/Signing/SignPageRouter';
 
 //import ContactForm from './components/ContactUs/ContactForm';
 //import Signup from './components/Signing/Signup';
-import ChartsAndDraw from './components/ChartsAndDraw';
-
+import ChartsAndDraw from './components/WalletDesign/ChartsAndDraw';
+import Menue from './components/WalletDesign/Menue';
 function App() {
   return (
     <div className="App">
@@ -22,7 +22,7 @@ function App() {
        <Route path="/bills" element={<MarchentBills/>}/>
       </Routes>
      </BrowserRouter> */}
-        
+        <Menue/>
 <ChartsAndDraw/> 
 
      
