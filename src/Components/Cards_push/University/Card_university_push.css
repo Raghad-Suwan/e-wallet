@@ -1,32 +1,28 @@
-body{
-    background-color: rgb(223, 220, 212);
-}
-.card{
+
+.card_university{
     background: linear-gradient(90deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
-width: auto;
-height:auto;
+width: 40%;
+height:50%;
 font-size: 15px;
 padding: 20px 20px 0;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+left: 30%;
 position: absolute;
-border-radius: 3rem;
+border-radius: 50px !important;
 border:solid black;
 
 }
-.text-name{
+.text-name_university{
 text-align: left;
 
 }
-.topic{
+.topic_university{
 
 border-radius: 8px;
 }
-.btn-groub{
+.btn-groub_university{
 margin: 30px;
 }
-.btn-groub .btn{
+.btn-groub_university .btn{
     background-color: #15404a;
 margin: 8px;
 border-radius: 20px !important;
@@ -37,27 +33,17 @@ border: 2px solid #000000;
 background: rgb(34,193,195);
 background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,179,253,0.5833683815323004) 100%);
 }
-.img{
-height: auto;
-width: auto;
-}
-.pic{
-border-image: 20px;
-row-gap: 50%;
-width:100%;
-height: 100%;
-}
-.input-group-text{
+.input-group-text_university{
 background-color: #0e3b46;
 }
-.card-title{
+.card-title_university{
 font-family: 'Rubik Distressed', cursive;
 
 }
 .adress{
     font-family: 'Lobster', cursive;
 }
-.note{
+.note_university{
 width: 100%;
 height: 100px;
 }

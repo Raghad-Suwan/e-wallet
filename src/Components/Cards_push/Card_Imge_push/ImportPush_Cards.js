@@ -1,8 +1,8 @@
-import Card_push_kind from "./Component/Cards_Push/Cards_push";
-import './Component/Cards_Push/Card_push.css';
-import image1 from './Component/electricity1.jpg';
-import image2 from './Component/university_new.jpg';
-import image3 from './Component/Telecom.jpg';
+import Card_push_kind from "./Card_push";
+import './Card_push.css';
+import image1 from '../../../images/electricity1.jpg';
+import image2 from '../../../images/university_new.jpg';
+import image3 from '../../../images/Telecom.jpg';
 
 const PushImport_Cards=()=>{
 return(

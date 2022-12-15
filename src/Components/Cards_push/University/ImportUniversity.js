@@ -1,11 +1,11 @@
-import Adress_university from './Adress_university_push';
-import './Component/Cards_Push/Card_push_university.css';
-import Card_push_university from './Component/Cards_Push/Card_push_university';
+import Adress_push from '../Adress_Card_push';
+import './Card_university_push.css';
+import Card_push_university from './Card_university_push';
 
 const UniversityImport=()=>{
     return(
-        <div>
-                <Adress_university />
+        <div className="col-12">
+                <Adress_push />
                 <Card_push_university />
         </div>
     )

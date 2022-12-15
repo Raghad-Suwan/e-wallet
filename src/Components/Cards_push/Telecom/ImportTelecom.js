@@ -1,11 +1,12 @@
-import './Component/Cards_Push/telecom/Card_push_telecom.css';
-import Adress_telecom from './Component/Cards_Push/telecom/Adress_telecom_push';
-import Card_push_telecom from './Component/Cards_Push/telecom/Card_push_telecom';
+import './Card_telecom_push.css';
+import Adress_push from '../Adress_Card_push';
+import Card_push_telecom from './Adress_telecom_push';
+import './Card_telecom_push.css';
 
 const TelecomImport=()=>{
 return(
     <div>
-        <Adress_telecom />
+        <Adress_push />
         <Card_push_telecom />
     </div>
 )

@@ -1,11 +1,11 @@
-import './Component/Cards_Push/electricity/Card_electricity_push.css';
-import Adress_electricity from "./Component/Cards_Push/electricity/Adress_electricity_push";
-import Card_electricity from "./Component/Cards_Push/electricity/Card_Charging_electricity";
+import './Card_electricity.css';
+import Adress_push from '../Adress_Card_push';
+import Card_electricity from "./Card_electricity_push";
 
 const ElectricityImport =()=>{
     return(
         <div>
-<Adress_electricity />
+<Adress_push />
 <Card_electricity />
 </div>
     )
