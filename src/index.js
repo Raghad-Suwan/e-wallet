@@ -23,7 +23,7 @@ root.render(
          <App/>
      <BrowserRouter>
         <Routes>
-        <Route path="/" index element={<Home/>} />
+        {/* <Route path="/" index element={<Home/>} /> */}
         <Route path="/sign" element ={<Signup />} />
         <Route path="/contact " element={<ContactForm/>} />
         <Route path="/about" element ={<AboutPage/>} />
