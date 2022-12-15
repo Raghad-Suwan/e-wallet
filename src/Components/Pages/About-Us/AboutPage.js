@@ -1,9 +1,12 @@
 import React  from 'react';
 import './About.css';
+import Navbar from '../../Navbar/Navbar';
 
 
 function AboutPage(){
     return(
+        <header >
+        <Navbar/>
      <section className="cd about">
          <div className="main">
             <div className="grid container">
@@ -87,7 +90,8 @@ function AboutPage(){
             </div>
         </div>
    </section>
- 
+   </header>
+
  );
  }
  export default AboutPage;
