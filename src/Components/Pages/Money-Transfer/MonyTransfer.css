@@ -1,7 +1,6 @@
 
   .transmissionSteps{
     padding-left: 150px;
-    
   }
   
   .conversionSteps{
@@ -16,10 +15,16 @@
   
   .headerTrans{
     color: white;
-    background-image: url("../../../images/MonyTransfer.png") ;
+    background-image: url("../../../image/MonyTransfer.png") ;
     padding: 130px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1519px 350px;
   }
-   
+   .StelyTitle{
+    color: coral;
+   }
+   .StyleParagraph{
+    margin-bottom: 1px;
+  }
+  

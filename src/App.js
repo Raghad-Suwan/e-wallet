@@ -1,13 +1,12 @@
 import React from "react";
-
 import "./App.css";
-import HowWorks from "./components/How-Works/HowWorks";
-import Home from "./components/Pages/Home/Home";
+import Menue from "./components/Menue/Menue";
 function App() {
   return (
     <div className="App">
+      <Menue />
+      </div>
 
-  </div>
   );
 }
 export default App;
