@@ -34,7 +34,7 @@ function AboutPage(){
                 <div className="mid">
                     <div className="row">
                         <div className="col"> 
-                          <img className='img1 img-fluid' src={require('../../../image/person.jpg')}  alt="person "/>
+                          <img className='img1 img-fluid' src={require('../../../images/person.jpg')}  alt="person "/>
                         </div> 
                     </div>
                 </div>  
@@ -59,7 +59,7 @@ function AboutPage(){
                         <div className ="row text-center">
                             <div className=" col col-sm-5 offset-sm-1"> 
                             </div>
-                            <div className="col col-sm-5 offset-sm-1"> 
+                            <div className="col col-sm-5 offset-sm-1 d-flex justify-content-end"> 
                                 <div className="text1 ">
                                     <h4 > <b>Who Benefits from Services? </b></h4>
                                     <p>
