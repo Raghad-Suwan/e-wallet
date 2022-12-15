@@ -20,6 +20,10 @@ function Home(){
       </header>
       <div className=' cover-container d-flex flex-column  h-100 w-100 parentImg '>
         <img className='w-100  homeImage1 img-fluid img-responsive' src={require('../../../images/finaaaaaal.jpeg')} />
+        <div className="card-img-overlay d-flex align-items-center ">
+        FAST ,
+        SAFE ,
+        SECURE</div>
         <img className='w-100 homeImage2 img-fluid img-responsive' src={require('../../../images/head-home.jpeg')} />
       </div>
       <div className='container p-5 mb-5'>

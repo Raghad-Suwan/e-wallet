@@ -12,6 +12,7 @@ import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import ContactForm from "./components/ContactUs/ContactForm";
 import AboutPage from './components/Pages/About-Us/AboutPage';
+import Marchent from './components/Pages/Pay-to-Merchants/Marchent';
 //import ChartsAndDraw from './components/WalletDesign/ChartsAndDraw';
 //import Menue from './components/WalletDesign/Menue';
 
