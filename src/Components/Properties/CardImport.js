@@ -6,7 +6,7 @@ const CardImport=(props)=>{
     return (
 <div class="container text-center containCard ">
   <div class="row align-items-start g-5 w-40 rroowwss">
-    <div class="col-12 col-lg-4">
+    <div class="col-12 col-lg-4 ">
       < Card3 title="A User-Friendly App" textt=" Our app is user-friendly and fast, and offers exclusive benefits and numerous services. You can establish your own account and control settings or check transactions at any point in time."/>
     </div>
     <div class="col-12 col-lg-4 ">

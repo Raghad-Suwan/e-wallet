@@ -13,7 +13,7 @@ function AboutPage(){
                                 <h1><b>This is</b></h1>
                                 <h1><b>E-Wallet</b></h1>
                         </div> 
-                        <div className="about-beside col col-md  offset-md text-col" >
+                        <div className="about-beside col col-md offset-md text-col" >
                             <p >
                                 Never heard of a “digital wallet”? No biggie.<br></br>
                                 Also called an e-wallet, digital wallets  can be used <br></br>                                          

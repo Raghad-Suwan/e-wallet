@@ -12,6 +12,5 @@ function MonyTransferPage(){
             <Text4></Text4> */}
         </div>
     );
-
 }
 export default MonyTransferPage;

@@ -6,7 +6,6 @@ import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Home from "./components/Pages/Home/Home";
 
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
-import MarchentBills from './components/Pages/Marchent-bilss/MarchentBills';
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
 import CashInthoughAgents from './components/Pages/Cash-In-though-Agents/CashInthoughAgents';
 import Login from './components/Signing/Login';
@@ -24,13 +23,13 @@ root.render(
         <Routes>
         <Route path="/" index element={<Home/>} />
         <Route path="/sign" element ={<Signup />} />
-        <Route path="/Contact " element={<ContactForm/>} />
+        <Route path="/contact " element={<ContactForm/>} />
         <Route path="/about" element ={<AboutPage/>} />
         <Route path="/login" element ={< Login/>} />
         <Route path="/cashInthoughAgentst" element={<CashInthoughAgents/>} />
         <Route path="/trancfer" element={<MonyTransferPage/>} />
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
-        <Route path="/bills" element={<MarchentBills/>} />
+        {/* <Route path="/bills" element={<MarchentBills/>} /> */}
         </Routes>
       </BrowserRouter>
   </React.StrictMode>
