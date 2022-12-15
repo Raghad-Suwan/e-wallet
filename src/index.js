@@ -13,8 +13,7 @@ import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import ContactForm from "./components/ContactUs/ContactForm";
 import AboutPage from './components/Pages/About-Us/AboutPage';
-//import ChartsAndDraw from './components/WalletDesign/ChartsAndDraw';
-//import Menue from './components/WalletDesign/Menue';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -35,7 +34,7 @@ root.render(
         </Routes>
       </BrowserRouter>
   </React.StrictMode>
-          // <Menue/>
-          // <ChartsAndDraw/> 
+
+          
 );
 
