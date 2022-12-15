@@ -14,4 +14,4 @@ const CardsServices =(props)=>{
     </div>
             )
         }
-    export default CardsServices 
+    export default CardsServices;
