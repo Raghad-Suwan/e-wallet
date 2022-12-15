@@ -1,5 +1,5 @@
 import React from 'react'
-import'./Marchent.css';
+import'../../Pay-to-Merchants/Marchent.css';
 export default function Hedermarchent() {
   return (
     <div className="i-left">
