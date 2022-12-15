@@ -8,7 +8,7 @@ import Image from "./HeaderContact";
 
 
 
- function ContactForm() {
+function ContactForm() {
 
   const { register, formState: { errors }, handleSubmit } = useForm();
   const onSubmit = data => console.log(data);
@@ -31,7 +31,7 @@ import Image from "./HeaderContact";
                         {...register("singleErrorInput1", { required: "Please,fill valid name"})}
                       ></input>
                       <div className="errorMsg">
-                       <ErrorMessage errors={errors} name="singleErrorInput1"/>
+                      <ErrorMessage errors={errors} name="singleErrorInput1"/>
                     </div>
                     </div>
 
@@ -57,11 +57,16 @@ import Image from "./HeaderContact";
                         {...register("singleErrorInput3", { required: "Please,fill valid phone number"})}
                       ></input>
                       <div className="errorMsg">
-                       <ErrorMessage errors={errors} name="singleErrorInput3"/>
+                      <ErrorMessage errors={errors} name="singleErrorInput3"/>
                     </div>
                     </div>
+<<<<<<< HEAD
+              
+                    <div className='col-xs col-sm-12 col-md-12 col-lg-6'>
+=======
                
                     <div className='col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+>>>>>>> 82ba3494714972d15b4b6c018e8434c595b2cd84
                       <textarea 
                         className='form-control formInput4'
                         placeholder='Message'

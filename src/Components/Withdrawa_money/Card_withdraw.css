@@ -1,0 +1,51 @@
+
+.card_withdraw{
+    background: linear-gradient(90deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
+width: auto;
+height:auto;
+font-size: 15px;
+padding: 20px 20px 0;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+position: absolute;
+border-radius: 3rem;
+border:solid black;
+
+}
+.text-name_withdraw{
+text-align: left;
+
+}
+.topic_withdraw{
+
+border-radius: 8px;
+}
+.btn-groub_withdraw{
+margin: 30px;
+}
+.btn-groub_withdraw .btn{
+    background-color: #15404a;
+margin: 8px;
+border-radius: 20px !important;
+font-size: 12px;
+border: 2px solid #000000;
+}
+.btn_withdraw:hover{
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,179,253,0.5833683815323004) 100%);
+}
+.input-group-text_withdraw{
+background-color: #0e3b46;
+}
+.card-title_withdraw{
+font-family: 'Rubik Distressed', cursive;
+
+}
+.adress{
+    font-family: 'Lobster', cursive;
+}
+.note_withdraw{
+width: 100%;
+height: 100px;
+}

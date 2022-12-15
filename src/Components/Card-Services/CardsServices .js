@@ -4,7 +4,7 @@ const CardsServices =(props)=>{
         
     <div className='card text-center caaard'>
         <div className='overflow ovver'>
-            <img src={props.imgsrc} alt="image1" className='card-img-top'/>
+            <img src={props.imgsrc} alt="image1" className='caaard-img-top'/>
         </div>
         <div className='card-body text-dark caaard-bodyy'>
             <h4 className='card-title caaard-title'><u>{props.title}</u></h4>

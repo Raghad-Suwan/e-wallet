@@ -20,8 +20,8 @@ import Marchent from './components/Pages/Pay-to-Merchants/Marchent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-         <App/>
-     <BrowserRouter>
+        <App/>
+    <BrowserRouter>
         <Routes>
         <Route path="/" index element={<Home/>} />
         <Route path="/sign" element ={<Signup />} />
@@ -31,7 +31,7 @@ root.render(
         <Route path="/cashInthoughAgentst" element={<CashInthoughAgents/>} />
         <Route path="/transfer" element={<MonyTransferPage/>} />
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
-        <Route path="/bills" element={<Marchent/>} />
+        {/* <Route path="/bills" element={<Marchent/>} /> */}
         </Routes>
       </BrowserRouter>
   </React.StrictMode>

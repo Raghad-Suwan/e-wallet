@@ -1,10 +1,10 @@
-      
+    
 import React from 'react';
 import "./services.css";
 
 import { Link } from 'react-router-dom';
 import CardsServices from './CardsServices ';
-      
+    
 const ServiceImport=(props)=>{
     return (
       <div className="container-fluid d-flex justify-content-center bodyServices">
@@ -21,7 +21,7 @@ const ServiceImport=(props)=>{
             <CardsServices
                 imgsrc={require('../../images/transactions_card-services.png')}
                 title="Money transfer "
-                textt="Transferring money to your family and friends is now easier, faster, and ..."
+                textt="Transferring money to your family and friends is now easier, faster, and easy ..."
                 link={<Link to="/trancfer"></Link>}
 
             />
