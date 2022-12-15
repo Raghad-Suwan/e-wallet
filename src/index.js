@@ -12,8 +12,8 @@ import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import ContactForm from "./components/ContactUs/ContactForm";
 import AboutPage from './components/Pages/About-Us/AboutPage';
-
-
+//import ChartsAndDraw from './components/WalletDesign/ChartsAndDraw';
+//import Menue from './components/WalletDesign/Menue';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,16 +22,19 @@ root.render(
         <App/>
     <BrowserRouter>
         <Routes>
-        <Route path="/" index element={<Home/>} />
+        {/* <Route path="/" index element={<Home/>} /> */}
         <Route path="/sign" element ={<Signup />} />
-        <Route path="/Contact " element={<ContactForm/>} />
+        <Route path="/contact " element={<ContactForm/>} />
         <Route path="/about" element ={<AboutPage/>} />
         <Route path="/login" element ={< Login/>} />
         <Route path="/cashInthoughAgentst" element={<CashInthoughAgents/>} />
-        <Route path="/trancfer" element={<MonyTransferPage/>} />
+        <Route path="/transfer" element={<MonyTransferPage/>} />
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
+        {/* <Route path="/bills" element={<Marchent/>} /> */}
         </Routes>
       </BrowserRouter>
   </React.StrictMode>
+          // <Menue/>
+          // <ChartsAndDraw/> 
 );
 

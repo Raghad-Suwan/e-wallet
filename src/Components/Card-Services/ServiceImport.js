@@ -7,9 +7,9 @@ import CardsServices from './CardsServices ';
     
 const ServiceImport=(props)=>{
     return (
-    <div className="container-fluid d-flex justify-content-center bodyServices">
+      <div className="container-fluid d-flex justify-content-center bodyServices">
         <section className="row  justify-content-center">
-            <div className="col-12  col-md-6 col-lg-3 ">
+            <div className="col-12 col-md-6 col-lg-3 ">
             <CardsServices
                 imgsrc={require('../../images/withdraw-card-services.png')}
                 title="Money withdrawa"

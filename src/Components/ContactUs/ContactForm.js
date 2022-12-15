@@ -18,11 +18,11 @@ function ContactForm() {
   
 <>
 <Image/>
-                <div className='container malak'>
+                <div className='container '>
                 <form onSubmit={handleSubmit(onSubmit)} >
                 <div className='row'>
 
-                    <div className=' col-xs col-sm-12 col-md-12 col-lg-6'>
+                    <div className=' col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6 '>
                       <input
                       className='form-control formInput1'
                         type='text'
@@ -35,7 +35,7 @@ function ContactForm() {
                     </div>
                     </div>
 
-                    <div className='col-xs col-sm-12 col-md-12 col-lg-6'>
+                    <div className='col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                       <input
                       className='form-control formInput2'
                         type='email'
@@ -48,7 +48,7 @@ function ContactForm() {
                     </div>
                     </div>
 
-                    <div className='col-xs col-sm-12 col-md-12 col-lg-6'>
+                    <div className='col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                       <input
                       className='form-control formInput3'
                         type='tel'
@@ -60,8 +60,13 @@ function ContactForm() {
                       <ErrorMessage errors={errors} name="singleErrorInput3"/>
                     </div>
                     </div>
+<<<<<<< HEAD
               
                     <div className='col-xs col-sm-12 col-md-12 col-lg-6'>
+=======
+               
+                    <div className='col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+>>>>>>> 82ba3494714972d15b4b6c018e8434c595b2cd84
                       <textarea 
                         className='form-control formInput4'
                         placeholder='Message'
