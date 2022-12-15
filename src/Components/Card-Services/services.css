@@ -1,11 +1,10 @@
 
 .bodyServices{
-    /* background:radial-gradient(#E5E5E5,#ffff,#E5E5E5); */
     padding: 0 300px;
-    padding-top: 300px;
-    padding-right: 00px;
+    padding-top: 50px;
+    padding-right: 0px;
     padding-bottom: 0px;
-    padding-left: 00px;
+    padding-left: 0px;
 }
 .caaard {
     font-size: 15px;
@@ -26,7 +25,6 @@
     background: linear-gradient(0deg, rgb(206, 221, 221) 0%, rgba(117, 162, 187, 0.583) 100%);
 
     border-radius: 5rem ;
-    /* background: #022A5E; */
     border: solid #8698bb;
 }
 .caaard-textt{
@@ -35,13 +33,13 @@
     padding: 0.4rem 1.9rem;
 }
 .buttooon:hover{
-    background:#8698bb!important;
+    background:#97999e!important;
 
 }
 .buttooon{
     
-
-    border: #5a6475  !important;
+    background:#23697a!important;
+    border:solid #c6c9cf  !important;
     margin: 8px;
     border-radius: 20px !important;
 }
@@ -57,5 +55,5 @@
     transform: scale(1.8);
 }
 .caaard-title{
-    color: #81A7D1;
+    color: #ca0c45;
 }

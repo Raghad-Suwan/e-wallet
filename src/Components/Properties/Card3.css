@@ -2,14 +2,6 @@
     box-sizing: border-box;
 }
 
- /* .Cards{
-  display: inline;
- position: fixed;
- left: 20%;
- top: 30%;
- right: 30%;
- transition: translate(-80%,-70%);
-   } */
 
  .rroowwss{
     padding-top: 2rem;
@@ -24,7 +16,6 @@
 }
 
 .containCard {
-    /* background:radial-gradient(#964c4c,rgb(157, 144, 233),#143cc0); */
     padding: 0 190px;
     padding-top: 0px;
     padding-right: 0px;

@@ -10,20 +10,26 @@ import ServiceImport from '../../Card-Services/ServiceImport';
 import Pic from '../../Moving-Card/Pic';
 import ContactForm from '../../ContactUs/ContactForm';
 import GetStarted from '../../Get-Started/GetStarted';
+import HowWorks from '../../How-Works/HowWorks';
 
 function Home(){
     return(
       <>
-      {/* <header>
+      <header >
         <Navbar/>
-      </header> */}
-      <div>
-        <img className='img-fluid' src={require('../../../images/head-home.jpeg')} />
+      </header>
+      <div className=' cover-container d-flex flex-column  h-100 w-100 parentImg '>
+        <img className='w-100  homeImage1 img-fluid img-responsive' src={require('../../../images/finaaaaaal.jpeg')} />
+        <img className='w-100 homeImage2 img-fluid img-responsive' src={require('../../../images/head-home.jpeg')} />
       </div>
-
-        <section className=' '>
-          <div className='container g-5 p-5'>
-            <div className='row g-5'>
+      <div className='container p-5 mb-5'>
+            <div className='row g-5 pt-5'>
+              <HowWorks/>
+            </div>
+          </div>
+        <section className=''>
+          <div className='container mt-5'>
+            <div className='row mt-5'>
               <ServiceImport/>
             </div>
           </div>
@@ -32,19 +38,15 @@ function Home(){
 
           </div>
       
-          <div className='container g-5 p-5'>
+          <div className='container p-5'>
             <div className='row g-5 pt-5'>
               <CardImport/>
             </div>
           </div>
-
-        
-
-       
         </section>
-        {/* <footer>
-                  <Footer/>
-        </footer> */}
+        <footer className='mt-auto'>
+          <Footer/>
+        </footer>
       </>
 );
 }

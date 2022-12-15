@@ -121,7 +121,10 @@ font-size: 30px;
        color:white;
        
        }
-   
+   .log{
+    border-radius: 50%;
+    size: 1000pc;
+   }
    /* nav ul{
      float :right;
      margin-right: 10px;

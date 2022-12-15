@@ -6,7 +6,7 @@ const GetStarted =()=>{
     const navigate= useNavigate();
     return(
 <section className='text-center p-5 rag '>
-    <div className='container '>
+    <div className='container w-100'>
         <div className='d-md-flex justify-content-center '>
             <div>
                 <h1 className='text-capitalize m-4 textGetStarted'>
