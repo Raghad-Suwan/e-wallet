@@ -6,16 +6,16 @@ const Footer=()=>{
 
       <div className="footer">
 <footer className="margin">
-<div class="container-fluid">
+<div className="container-fluid">
                 
                 
 <div className='social'>
 
-   <a href="#"><i class="fab fa-facebook" ></i></a>
-  <a href="#"><i class="fab fa-twitter"></i></a>
-  <a href="#"><i class="fab fa-google-plus-g" ></i></a>
-  <a href="#"><i class="fab fa-linkedin" ></i></a>
-  <a href="#"><i class="fab fa-instagram"></i></a>
+   <a href="#"><i className="fab fa-facebook" ></i></a>
+  <a href="#"><i className="fab fa-twitter"></i></a>
+  <a href="#"><i className="fab fa-google-plus-g" ></i></a>
+  <a href="#"><i className="fab fa-linkedin" ></i></a>
+  <a href="#"><i className="fab fa-instagram"></i></a>
 
 </div>
 
