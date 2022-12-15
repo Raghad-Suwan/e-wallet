@@ -2,6 +2,8 @@ import './index.css';
 import React from 'react';              
 import App from './App';                
 import ReactDOM from "react-dom/client";
+<<<<<<< HEAD
+=======
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Home from "./components/Pages/Home/Home";
 
@@ -16,10 +18,14 @@ import Marchent from './components/Pages/Pay-to-Merchants/Marchent';
 //import ChartsAndDraw from './components/WalletDesign/ChartsAndDraw';
 //import Menue from './components/WalletDesign/Menue';
 
+>>>>>>> e50a2af6ea52199e725a4a81b92e43d4d02b6777
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<<<<<<< HEAD
+         <App/>
+=======
         <App/>
     <BrowserRouter>
         <Routes>
@@ -34,6 +40,7 @@ root.render(
         {/* <Route path="/bills" element={<Marchent/>} /> */}
         </Routes>
       </BrowserRouter>
+>>>>>>> e50a2af6ea52199e725a4a81b92e43d4d02b6777
   </React.StrictMode>
           // <Menue/>
           // <ChartsAndDraw/> 
