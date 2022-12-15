@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import CardImport  from "./components/Properties/CardImport";
 
 
 function App() {
   return (
-<CardImport/>
+    <div className="App">
+      </div>
+
+
   );
 }
 export default App;

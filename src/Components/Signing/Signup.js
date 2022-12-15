@@ -119,16 +119,17 @@ import Container from '@mui/material/Container';
 
               <Grid item xs={12}>
                 <FormControlLabel
-                  control={<Checkbox value="allowExtraEmails" color="primary" />}
+                  control={<Checkbox value="allowExtraEmails" color="warning" />}
                   label="I agree to all Terms privacy policy and fees "
                 />
               </Grid>
             </Grid>
 
             <Button
+            fullWidth
               type="submit"
             variant="contained" color="warning"
-              sx={{ mt:3, mb: 2 ,marginLeft:17 }}
+              sx={{ mt:3, mb: 2}}
             >
               Sign Up
             </Button>

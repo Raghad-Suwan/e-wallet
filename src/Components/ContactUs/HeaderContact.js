@@ -1,14 +1,15 @@
 import React from 'react';
 import './ContactForm.css';
-const Image = () => {
 
-  
+const Image = () => {
     return (
       <>
       <header >
 
-      <div className="row ">
         <div className='p-5 hero-text bg-image header-img img-fluid'>
+          <div className='container-contactus'>
+
+      <div className="row ">
       <div className='text-parent'>
         <h2 className="h2-header mt-3">
               Contact us
@@ -21,6 +22,7 @@ const Image = () => {
       </div>
    
   </div>
+          </div>
       </header>
 
     <div>
@@ -28,7 +30,7 @@ const Image = () => {
       </div>
       
       </>
-    )
+    );
   };
   
   export default Image;
