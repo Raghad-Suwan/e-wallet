@@ -28,6 +28,10 @@
    
     padding: 3rem 0 !important;
     margin: 0 auto 30px;
+    width: 50%;
+    height: 50%;
+    border: #12336e;
+    border-width: 10%;
   
 }
 .textlll{
