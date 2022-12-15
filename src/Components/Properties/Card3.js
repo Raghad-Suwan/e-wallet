@@ -5,7 +5,7 @@ import './Card3.css';
 import React from 'react';
 const Card3=(props)=>{
     return(
- <div className='h-100   text-center perent'>
+ <div className=' text-center perent'>
         <div className='overflow '>
             {/* <img src={props.imgsrc} alt="image1" className='card-img-top'/> */}
         </div>
