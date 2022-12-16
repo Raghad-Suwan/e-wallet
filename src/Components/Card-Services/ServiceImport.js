@@ -1,15 +1,15 @@
-      
+    
 import React from 'react';
 import "./services.css";
 
 import { Link } from 'react-router-dom';
 import CardsServices from './CardsServices ';
-      
+    
 const ServiceImport=(props)=>{
     return (
       <div className="container-fluid d-flex justify-content-center bodyServices">
-        <section className="row h-200 justify-content-center">
-            <div className="col-12 h-200 col-md-6 col-lg-3 ">
+        <section className="row  justify-content-center">
+            <div className="col-12 col-md-6 col-lg-3 ">
             <CardsServices
                 imgsrc={require('../../images/withdraw-card-services.png')}
                 title="Money withdrawa"
@@ -17,11 +17,11 @@ const ServiceImport=(props)=>{
                 link={<Link to="/cashInthoughAgentst"></Link>}
             />
             </div>
-            <div className="col-12 h-200 col-md-6 col-lg-3 ">
+            <div className="col-12  col-md-6 col-lg-3 ">
             <CardsServices
                 imgsrc={require('../../images/transactions_card-services.png')}
                 title="Money transfer "
-                textt="Transferring money to your family and friends is now easier, faster, and ..."
+                textt="Transferring money to your family and friends is now easier, faster, and easy ..."
                 link={<Link to="/trancfer"></Link>}
 
             />

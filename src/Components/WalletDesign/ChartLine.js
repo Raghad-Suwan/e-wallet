@@ -8,10 +8,10 @@ const data = {
   labels: labels,
   datasets: [
     {
-      label: "The number of times the user has used the e-wallet",
+      label: "The amount of withdrawals and deposits per month",
       backgroundColor: "",
       borderColor: "#E11400",
-      data: [0,1,2,3,4,5,6,7,8,9,10],
+      data: [0,1,2,5],
     },
   ],
 };

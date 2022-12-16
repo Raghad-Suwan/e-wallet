@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-// import ChartsAndDraw from './components/WalletDesign/ChartsAndDraw';
-// import Menue from './components/WalletDesign/Menue';
+import Menue from './components/WalletDesign/Menue';
+import ChartToPage from './components/WalletDesign/CallCards';
 
 function App() {
   return (
     <div className="App">
-          {/* <Menue/>
-          <ChartsAndDraw/>  */}
+           <Menue/>
+        <ChartToPage/>
 
       </div>
 
@@ -15,4 +15,3 @@ function App() {
   );
 }
 export default App;
-

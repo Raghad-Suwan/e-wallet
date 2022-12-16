@@ -1,10 +1,8 @@
 
 import React, { useState } from 'react';
 import { Chart } from 'primereact/chart';
-import './ChartsAndDraw.css';
-import Cards1 from './CardsToChart1';
-//import MultiLineChart from './ChartLine';
-import LineChart from "./ChartLine";
+ import './ChartsAndDraw.css';
+
 
 const BarChartDemo = () => {
     const [basicData] = useState({
@@ -121,32 +119,11 @@ const BarChartDemo = () => {
 
     return (
 
-        <>
-<div className="container-fluid malakContainer">
-  <div className="row">
-<Cards1 header="Todays Fee" title="$0.0000000"/>
-<Cards1 header="Total Fee" title="$0.00000000"/> 
-<Cards1 header="current balance"  title="$500.00"/>
-<div className='co'>
-</div>
-</div> 
-
-           <div className='chartContainrt'>
-            <div className="chart-malak">
-                <Chart type="bar" data={basicData} options={basicOptions}/>
-            </div>
+        
+         <div className="chart-malak">
+             <Chart type="bar" data={basicData} options={basicOptions}/>
          </div>
-</div>
-
-  <div className='container lineContainer'>
-    <div className='lineChart'>
-<LineChart/>
-</div>
-</div>
-            </>
-         
-    );
+     
+ );
 }
 export default BarChartDemo;  
-
-         

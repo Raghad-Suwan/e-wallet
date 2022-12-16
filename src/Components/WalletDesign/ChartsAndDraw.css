@@ -1,13 +1,4 @@
 
-.chart-malak{
-margin-top:8rem;
-   max-width: 100%;
-margin-left:1rem;
-font-size: x-large;
-}
-
-
-
 .card-body-malak {
    width: 100%;
   height:50%;
@@ -34,38 +25,39 @@ font-size: x-large;
 
 .malakContainer{
     background-color: #ffffff;
-    border: 1px solid rgba(242, 241, 241, 0.1);
+    border: 1px solid rgba(246, 246, 246, 0.1);
     margin-top:12rem;
     max-width: 100%;
     margin-left: 20rem;
-   
     }
 
+
+    .chart-malak{
+      margin-top:5rem;
+         width:90%;
+      margin-left:4rem;
+      }
+
     
-.chartContainrt{
-    background-color: #f8f8f8;
-    border: 1px solid rgba(126, 126, 126, 0.1);
-    margin-top: 2rem;
-    max-width: 100%;
-    border-radius: 15px;
 
+.card-header-bar{
+   margin-left:2rem;
+   margin-top:2rem;
+   font-size: large;
+   color: rgb(0, 0, 0);
+}
+
+.cardChart-bar{
+   margin-top: 1rem;
 }
 
 
-
-.lineContainer{
-    background-color: #f8f8f8;
-    border: 1px solid rgba(126, 126, 126, 0.1);
-    margin-top: 2rem;
-    max-width: 100%;
-    border-radius: 15px;
-    padding:20px;
-    margin-bottom:60px;
+.Line-malak {
+   margin-top: 1rem;
+   width:100%;
+  
 }
 
-.lineChart{
-    margin-top:1rem;
-   max-width:100%;
-margin-left:3rem;
+.pie-malak{
 
 }
