@@ -60,13 +60,8 @@ function ContactForm() {
                       <ErrorMessage errors={errors} name="singleErrorInput3"/>
                     </div>
                     </div>
-<<<<<<< HEAD
-              
-                    <div className='col-xs col-sm-12 col-md-12 col-lg-6'>
-=======
                
                     <div className='col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6'>
->>>>>>> 82ba3494714972d15b4b6c018e8434c595b2cd84
                       <textarea 
                         className='form-control formInput4'
                         placeholder='Message'

@@ -7,7 +7,7 @@ const Card_push_kind=(props)=>{
     return(
     
     
-        <div className='row'>
+        <div className='container-fluid d-flex justify-content-center bodyServices'>
     <div className='card text-center card_push'>
         <div className='overflow ovver'>
             <img src={props.imgsrc} alt="image1" className='card-img-top card-img-top_push'/>

@@ -34,7 +34,7 @@ function Home(){
             </div>
           </div>
           <div className='pb-5'>
-             <GetStarted/>
+            <GetStarted/>
 
           </div>
       
