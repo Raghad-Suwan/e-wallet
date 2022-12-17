@@ -12,7 +12,7 @@ import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import ContactForm from "./components/ContactUs/ContactForm";
 import AboutPage from './components/Pages/About-Us/AboutPage';
-import Marchent from './components/Pages/Pay-to-Merchants/Marchent';
+// import Marchent from './components/Pages/Pay-to-Merchants/Marchent';
 import ForgotPassword from './components/Signing/ForgotPassword';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,7 +29,7 @@ root.render(
         <Route path="/cashInthoughAgentst" element={<CashInthoughAgents/>} />
         <Route path="/transfermoney" element={<MonyTransferPage/>} />
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
-        <Route path="/billsmarchent" element={<Marchent/>} />
+        {/* <Route path="/billsmarchent" element={<Marchent/>} /> */}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

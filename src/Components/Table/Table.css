@@ -11,12 +11,14 @@
     width: 60%;
     height :300px;
   }
-    
+    table th{
+      text-align: center;
+    }
   th {
     border-bottom: 5px solid rgb(0, 0, 0);
     color: aliceblue;
     background-color: #043a48;
-    text-align: center;
+  
   }
     
   td {
