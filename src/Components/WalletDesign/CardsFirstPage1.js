@@ -1,18 +1,22 @@
 import React from 'react';
-    const CardsFirts1 = () =>{
+
+    const Cards1 = (props) =>{
     
     return (
     <>
    
-   <div class="card text-bg-warning ">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h5 class="card-title">Warning card title</h5>
-  </div>
-</div>
+            <div className='col-md-4 cardChart1'> 
+                <div className="card text-bg-secondary mb-3">
+                        <div className="card-header-malak1">{props.header}</div>
+                            <div className="card-body-malak">
+                                <h6 className="card-title-malak1">{props.title} </h6>
+                            </div> 
+                        </div>
+                </div>
+              
     </>
 
     );
     }
 
-    export default CardsFirts1;
+    export default Cards1;

@@ -3,7 +3,7 @@ import React from 'react';
 import App from './App';                
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
-// import Home from "./components/Pages/Home/Home";
+ //import Home from "./components/Pages/Home/Home";
 
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
@@ -19,22 +19,22 @@ import AboutPage from './components/Pages/About-Us/AboutPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-        <App/>
-    <BrowserRouter>
-        <Routes>
-         {/* <Route path="/" index element={<Home/>} /> */}
-        <Route path="/sign" element ={<Signup />} />
+   <React.StrictMode>
+         <App/>
+     <BrowserRouter>
+         <Routes>
+          {/* <Route path="/" index element={<Home/>} />  */}
+         <Route path="/sign" element ={<Signup />} />
         <Route path="/contact " element={<ContactForm/>} />
         <Route path="/about" element ={<AboutPage/>} />
-        <Route path="/login" element ={< Login/>} />
+         <Route path="/login" element ={< Login/>} />
         <Route path="/cashInthoughAgentst" element={<CashInthoughAgents/>} />
         <Route path="/transfer" element={<MonyTransferPage/>} />
-        <Route path="/mobiltop" element={<MobileTopUpPage/>} />
+         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
         {/* <Route path="/bills" element={<Marchent/>} /> */}
-        </Routes>
+      </Routes>
       </BrowserRouter>
-  </React.StrictMode>
+   </React.StrictMode>
 
           
 );
