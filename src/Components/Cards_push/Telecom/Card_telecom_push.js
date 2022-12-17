@@ -9,7 +9,7 @@ return(
         
 
     <div className='container' >
-<div className="card">
+<div className="card hadiCardsT">
 <div className="topic text-center">
         <h2 className="card-title text-white">Telecom bill payment voucher</h2>
         <h5 className="card-text text-white">Enter your data in the table</h5>

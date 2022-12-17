@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Chart } from 'primereact/chart';
 import './ChartsAndDraw.css';
 import Cards1 from './CardsToChart1';
-//import MultiLineChart from './ChartLine';
+import MultiLineChart from './ChartLine';
 import LineChart from "./ChartLine";
 
 const BarChartDemo = () => {
