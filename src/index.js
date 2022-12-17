@@ -12,29 +12,26 @@ import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
 import ContactForm from "./components/ContactUs/ContactForm";
 import AboutPage from './components/Pages/About-Us/AboutPage';
-//import ChartsAndDraw from './components/WalletDesign/ChartsAndDraw';
-//import Menue from './components/WalletDesign/Menue';
-
+// import Marchent from './components/Pages/Pay-to-Merchants/Marchent';
+import ForgotPassword from './components/Signing/ForgotPassword';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-         <App/>
-     <BrowserRouter>
-        <Routes>
+    <BrowserRouter>
+      <Routes>
         <Route path="/" index element={<Home/>} />
         <Route path="/sign" element ={<Signup />} />
+        <Route path="/login" element ={< Login/>} />
+        <Route path="/ForgotPassword" element={<ForgotPassword/>} />
         <Route path="/contact " element={<ContactForm/>} />
         <Route path="/about" element ={<AboutPage/>} />
-        <Route path="/login" element ={< Login/>} />
         <Route path="/cashInthoughAgentst" element={<CashInthoughAgents/>} />
-        <Route path="/transfer" element={<MonyTransferPage/>} />
+        <Route path="/transfermoney" element={<MonyTransferPage/>} />
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
-        <Route path="/bills" element={<marchent/>} />
-        </Routes>
-      </BrowserRouter>
+        {/* <Route path="/billsmarchent" element={<Marchent/>} /> */}
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
-          // <Menue/>
-          // <ChartsAndDraw/> 
 );
 

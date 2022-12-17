@@ -48,7 +48,7 @@ export default function ForgotPassword() {
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
-             className={styles.myField}
+              className={styles.myField}
               margin="normal"
               required
               fullWidth

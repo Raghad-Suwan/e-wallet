@@ -1,0 +1,64 @@
+/* .avatar{
+ background-image: url("/src/image/image/PicCard/avatar.jpg"); 
+    width: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 100px;
+    cursor: pointer;
+    height: 30px;
+    margin-left: -60px;
+    margin-top: 3px;
+}
+.name{
+    color: aliceblue;
+    height: 100px;
+    font-family: sans-serif;
+    border: 30px;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+.notification{
+    position: fixed;
+    height: 100px;
+    max-width: 100px;
+    color: #fff;
+    line-height: 15px;
+    text-align: center;
+    font-size: 30px;
+    left: 1050px;
+    margin-top: 30px;
+}
+nav div{
+    display: block;
+    background-color: #233e47;
+    border: 10px solid #233e47;
+    margin-top: -10px;
+   
+}
+nav div ul li {
+    background-color: #233e47;
+    border: 10px solid #233e47;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.offcanvas-body ul li a{
+    cursor: pointer;
+    padding: 15px 30px;
+    padding-top:1px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    display: block;
+    font-size: 18px;
+    margin-right: 50px;
+}
+.offcanvas-body ul li a i{
+    margin-right: 15px;
+    font-size: 25px;
+} */
