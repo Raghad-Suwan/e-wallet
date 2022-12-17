@@ -1,19 +1,14 @@
 import React from "react";
 import "./App.css";
-<<<<<<< HEAD
-import Menue from "./components/WalletDesign/Menue";
-=======
-import './components/WalletDesign/ChartsAndDraw'
+//import Patment from "./components/Pages/Payment-of-bills/Patment";
+//import Marchent from "./components/Pages/Pay-to-Merchants/Marchent";
+//import Menue from "./components/WalletDesign/Menue";
 
->>>>>>> e50a2af6ea52199e725a4a81b92e43d4d02b6777
 function App() {
   return (
-    <div className="App">
-      <>
-      <ChartsAndDraw/>
-      </>
-   
-      </div>
+    <>
+
+    </>
 
 
   );

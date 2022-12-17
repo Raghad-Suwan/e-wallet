@@ -1,29 +1,41 @@
 .shopping{
     padding-left: 150px;
-    color: #23697A;
+    color: coral;
+    margin-top: 1px;
     
   }
   .sent{
     padding: -1px;
     padding-left: 150px;
+    margin-bottom: 1px;
     
   }
   .wallet{
-    padding-left: 200px;
+    padding-left: 40px;
   }
   .steps{
     padding-left: 140px;
     background-color: aliceblue;
-    color:  #23697A;
+    color:  black;
    
+  }
+  .the-head{
+    padding-left: 140px;
+    color: coral;
   }
   
  
   .i-left{
     color: #fff;
-    /* background-image: url("../../images/Me.png") ; */
+   background-image: url("/src/image/image/marchent.png") ;
+   width: 100%;
+    height: 100%;
+    background: cover;
+    transform: translateY(-10%);
+    background-blend-mode: luminosity;
     padding: 130px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1540px 360px;
+  margin-top: -50px;
   }
