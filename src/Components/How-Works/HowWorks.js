@@ -13,7 +13,7 @@ const HowWorks = () => {
                         </p>
                     </div>
                     <div className='col col-md-12 col-lg-6 col-sm-12'>
-                        <img className='img-fluid ' src={require('../../images/Sign in-pana.png')} alt='' />
+                        <img className='img-fluid ' src={require('../../images/sign_in-pana.png')} alt='' />
                     </div>
                 </div>
                 <div className='row d-sm-flex'>
@@ -34,7 +34,7 @@ const HowWorks = () => {
                         </p>
                     </div>
                     <div className='col col-md-12 col-lg-6 col-sm-12'>
-                        <img className='img-fluid ' src={require('../../images/E-Wallet-bro.png')} alt='' />
+                        <img className='img-fluid ' src={require('../../images/e-wallet-bro.png')} alt='' />
                     </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@ root.render(
          <App/>
      <BrowserRouter>
         <Routes>
-        {/* <Route path="/" index element={<Home/>} /> */}
+        <Route path="/" index element={<Home/>} />
         <Route path="/sign" element ={<Signup />} />
         <Route path="/contact " element={<ContactForm/>} />
         <Route path="/about" element ={<AboutPage/>} />
@@ -30,7 +30,7 @@ root.render(
         <Route path="/cashInthoughAgentst" element={<CashInthoughAgents/>} />
         <Route path="/transfer" element={<MonyTransferPage/>} />
         <Route path="/mobiltop" element={<MobileTopUpPage/>} />
-        <Route path="/bills" element={<Marchent/>} />
+        <Route path="/bills" element={<marchent/>} />
         </Routes>
       </BrowserRouter>
   </React.StrictMode>

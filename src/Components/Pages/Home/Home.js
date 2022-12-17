@@ -18,10 +18,10 @@ function Home(){
       <header >
         <Navbar/>
       </header>
-      <div className=' cover-container d-flex flex-column  h-100 w-100 parentImg '>
+      {/* <div className=' cover-container d-flex flex-column  h-100 w-100 parentImg '>
         <img className='w-100  homeImage1 img-fluid img-responsive' src={require('../../../images/finaaaaaal.jpeg')} />
         <img className='w-100 homeImage2 img-fluid img-responsive' src={require('../../../images/head-home.jpeg')} />
-      </div>
+      </div> */}
       <div className='container p-5 mb-5'>
             <div className='row g-5 pt-5'>
               <HowWorks/>
