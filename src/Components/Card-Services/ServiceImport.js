@@ -13,7 +13,7 @@ const ServiceImport=(props)=>{
             <CardsServices
                 imgsrc={require('../../images/withdraw-card-services.png')}
                 title="Money withdrawa"
-                textt="You can withdraw any amount of money from your e-wallet at any time ... "
+                textt="You can withdraw any amount of money from your e-wallet at any time and any ... "
                 link={<Link to="/cashInthoughAgentst"></Link>}
             />
             </div>
@@ -21,7 +21,7 @@ const ServiceImport=(props)=>{
             <CardsServices
                 imgsrc={require('../../images/transactions_card-services.png')}
                 title="Money transfer "
-                textt="Transferring money to your family and friends is now easier, faster, and easy ..."
+                textt="Transferring money to your family and friends is now easier, faster,and easy work ..."
                 link={<Link to="/trancfer"></Link>}
 
             />
@@ -30,7 +30,7 @@ const ServiceImport=(props)=>{
             <CardsServices
                 imgsrc={require('../../images/Savings_card-services.png')}
                 title="Deposite money "
-                textt="Feeding your account by depositing money into your e-wallet when visiting..."
+                textt="Feeding your account by depositing money into your e-wallet when visiting page..."
                 link={<Link to="/mobiltop"></Link>}
 
             />
@@ -39,7 +39,7 @@ const ServiceImport=(props)=>{
             <CardsServices
                 imgsrc={require('../../images/Payments_card-services.png')}
                 title="Pay bills"
-                textt="Now, through your e-wallet, you can pay your bills and save them directly and.."
+                textt="Now, through your e-wallet, you can pay your bills and save them directly and how..."
                 link={<Link to="/bills"></Link>}
 
             />

@@ -3,7 +3,7 @@ import React from 'react'
 
 
 
-const Card_push_kind=(props)=>{
+const Cardpushkind=(props)=>{
     return(
     
     
@@ -23,4 +23,4 @@ const Card_push_kind=(props)=>{
             )
         }
 
-    export default Card_push_kind
+    export default Cardpushkind

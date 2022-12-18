@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Card_withdraw=()=>{
+const CardWithdraw=()=>{
 return(
 <>
     <div>
@@ -52,4 +52,4 @@ return(
 }
 
 
-export default Card_withdraw
+export default CardWithdraw

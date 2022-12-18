@@ -1,12 +1,13 @@
 import React from 'react'
 import Button from './Button'
 import Titlee from './Titlee'
-import Picture from './Picture'
+import './deposit.css'
+import AdresDeposite from './Adress'
 //function
 const Card = (props) =>{
 return(
     <div>
-        <Picture />
+    <AdresDeposite />
         <div className='container' >
 <div className="card caaaard">
     <Titlee />

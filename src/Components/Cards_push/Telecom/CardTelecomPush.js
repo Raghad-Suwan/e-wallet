@@ -2,7 +2,7 @@ import React from "react";
 import './Card_telecom_push.css';
 
 
-const Card_push_telecom=()=>{
+const CardTelecomPush=()=>{
 return(
 <>
     <div>
@@ -56,4 +56,4 @@ return(
 }
 
 
-export default Card_push_telecom
+export default CardTelecomPush
