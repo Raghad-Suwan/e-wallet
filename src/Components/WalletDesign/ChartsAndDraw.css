@@ -1,71 +1,70 @@
-/* 
-.chart-malak{
-margin-top:8rem;
-   max-width: 100%;
-margin-left:1rem;
-font-size: x-large;
+
+
+.card-header-malak1{
+   font-size: x-small;
+   color: #ffffff;
+   margin-top:1rem;
+   margin-left:1rem;
 }
 
-
-
-.card-body-malak {
-   width: 100%;
-  height:50%;
-  color: rgb(0, 0, 0);
-  padding:30px;
-}
-
-.card-header {
-   font-size: larger;
-}
-
-.cardChart1{
-  margin-top:30rem;
-  width:100%;
-}
-
-
-.card-title{
-    margin-top:15px;
- margin-right:10px;
-    font-size: xx-large;
-}
+ .cardChart1{
+   width: 40%;
+   height:10%;
+ }
+ .card-body-malak{
+   flex: 1 1 auto;
+   padding: 1rem 1rem;
+   display: flex;
+ }
 
 
 .malakContainer{
     background-color: #ffffff;
     border: 1px solid rgba(242, 241, 241, 0.1);
-    margin-top:12rem;
+    margin-top:5rem;
     max-width: 100%;
     margin-left: 20rem;
-   
     }
 
-    
-.chartContainrt{
-    background-color: #f8f8f8;
-    border: 1px solid rgba(126, 126, 126, 0.1);
-    margin-top: 2rem;
-    max-width: 100%;
-    border-radius: 15px;
 
+
+     .chart-malak{
+      margin-bottom: 1rem;
+     margin-right: 3rem;
+     width:100%;
+      } 
+
+  
+
+ .card-header-bar{
+   margin-left:1rem;
+   color: rgb(156, 153, 153);
+   font-size: xx-small;
+} 
+
+.cardChart-bar{
+  padding:5px;
+  width:100%;
+}
+
+.card-body-bar{
+   background-color: #ffffff;
+}
+
+.cardChart-line{
+font-size: xx-small;
+width:100%;
+padding:5px;
 }
 
 
-
-.lineContainer{
-    background-color: #f8f8f8;
-    border: 1px solid rgba(126, 126, 126, 0.1);
-    margin-top: 2rem;
-    max-width: 100%;
-    border-radius: 15px;
-    padding:20px;
-    margin-bottom:60px;
+.card-header-line{
+   margin-left:1rem;
+   color: rgb(130, 128, 128);
+   font-size: xx-small;
+  
 }
-
-.lineChart{
-    margin-top:1rem;
-   max-width:100%;
-margin-left:3rem;
-
-} */
+.card-body-line{
+   background-color: #ffffff;
+   width: 100%;
+}
