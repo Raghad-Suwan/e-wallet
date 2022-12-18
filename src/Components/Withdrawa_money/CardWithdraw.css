@@ -1,14 +1,15 @@
 
 .card_withdraw{
     background: linear-gradient(90deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
-width: 40%;
+width: 50%;
+height: 10%;
 font-size: 15px;
 padding: 20px 20px 0;
 left: 30%;
 position: absolute;
 border-radius: 50px !important;
 border:solid black;
-
+padding-top: 50%;
 }
 .text-name_withdraw{
 text-align: left;

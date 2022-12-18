@@ -5,8 +5,8 @@ import Card_push_telecom from './CardTelecomPush';
 const ImportTelecom=()=>{
 return(
     <div>
-        <Adress_push />
-        <Card_push_telecom />
+        <Adress_push/>
+        <Card_push_telecom/>
     </div>
 )
 
