@@ -1,17 +1,18 @@
+
 import React from "react";
 import Chart from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 
-const labels = ["Sundy", "Monday", "Tusday", "Wedensday", "Thursday", "Friday"];
+const labels = ["January", "February", "March", "April", "May", "June"];
 
 const data = {
   labels: labels,
   datasets: [
     {
-      label: "The number of times the user has used the e-wallet",
-      backgroundColor: "",
-      borderColor: "#E11400",
-      data: [0,1,2,3,4,5,6,7,8,9,10],
+      label: "Frequency of use",
+      backgroundColor: "#343a40",
+      borderColor: "rgb(32,191,170)",
+      data: [0,1,2,6,5,4],
     },
   ],
 };

@@ -3,7 +3,7 @@ export default function Paymentbills() {
   return (
     <div>
         <h1 className="bills">PAYMENT OF BILLS SERVICE </h1>
-          <p className="paybill">Through your e-wallet, you can now pay your bills and store them </p>  
+          <p className="paybill">Through your e-wallet, you can now pay your bills and store them  </p>  
           <p className="paybill">directly and easily from any location and at any time. This service is available 24/7.</p>
           <p className="paybill">Among the main services to pay your bills are:</p>
           <ul className="right">

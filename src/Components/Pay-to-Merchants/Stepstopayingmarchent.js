@@ -2,14 +2,13 @@ import React from 'react'
 
 export default function Stepstopayingmarchent () {
   return (
-    <div className='steps'>
-       <h1 >STEPS TO PAY MERCHANTS FROM YOUR E-WALLET</h1>
- <ul>
+    <div>
+       <h1 className='the-head'>STEPS TO PAY MERCHANTS FROM YOUR E-WALLET</h1>
+ <ul className='steps'>
     <li>From the main menu of your e-wallet:</li>
     <ul className="wallet">
            <li> Select “Pay to Merchant” then search or enter merchants commercial name </li>
            <li> Select “Scan QR” and scan the merchants code </li>
-        
            </ul>
    
     <li>Enter the amount to be paid</li>
