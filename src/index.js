@@ -2,6 +2,14 @@ import './index.css';
 import React from 'react';              
 import App from './App';                
 import ReactDOM from "react-dom/client";
+<<<<<<< HEAD
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+         <App/>
+  </React.StrictMode>
+       
+=======
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
  //import Home from "./components/Pages/Home/Home";
 
@@ -37,5 +45,6 @@ root.render(
    </React.StrictMode>
 
           
+>>>>>>> d8465d823a64c45ba3d2c076d4e753d4c605b781
 );
 
