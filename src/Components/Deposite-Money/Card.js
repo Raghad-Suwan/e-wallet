@@ -1,7 +1,8 @@
-import React from 'react'
-import Button from './Button'
-import Titlee from './Titlee'
-import Picture from './Picture'
+import React from 'react';
+import Button from './Button';
+import Titlee from './Titlee';
+import Picture from './Picture';
+import './deposit.css';
 //function
 const Card = (props) =>{
 return(

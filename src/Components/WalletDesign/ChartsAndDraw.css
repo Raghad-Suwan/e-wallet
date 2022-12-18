@@ -51,20 +51,20 @@
    background-color: #ffffff;
 }
 
-.cardChart-pie{
+.cardChart-line{
 font-size: xx-small;
 width:100%;
 padding:5px;
 }
 
 
-.card-header-pie{
+.card-header-line{
    margin-left:1rem;
    color: rgb(130, 128, 128);
    font-size: xx-small;
   
 }
-.card-body-pie{
+.card-body-line{
    background-color: #ffffff;
    width: 100%;
 }
