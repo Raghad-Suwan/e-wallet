@@ -12,10 +12,13 @@ import TelecomImport from "./components/Cards_push/Telecom/ImportTelecom";
 import UniversityImport from "./components/Cards_push/University/ImportUniversity";
 import HowWorks from "./components/How-Works/HowWorks";
 import ServiceImport from "./components/Card-Services/ServiceImport";
+import CashInthoughAgents from "./components/Pages/Cash-In-though-Agents/CashInthoughAgents";
+import Marchent from "./components/Pay-to-Merchants/Marchent";
+import MonyTransferPage from "./components/Pages/Money-Transfer/MonyTransferPage";
 function App() {
   return (
-    <div >
-    </div>
-  );
+<>
+</> 
+ )
 }
 export default App;
