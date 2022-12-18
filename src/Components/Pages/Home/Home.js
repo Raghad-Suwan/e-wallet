@@ -40,8 +40,13 @@ function Home() {
           <div className='row g-5 pt-5'>
             <CardImport />
           </div>
+<<<<<<< HEAD
+          <div className='pb-5'>
+            <GetStarted/>
+=======
         </div>
       </section>
+>>>>>>> 46fe7fc2585b0436725c86d8ed74cadec64e25e1
 
       <footer className='mt-auto '>
         <Footer />

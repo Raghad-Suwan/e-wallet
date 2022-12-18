@@ -5,11 +5,9 @@ width: 50%;
 height: 10%;
 font-size: 15px;
 padding: 20px 20px 0;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+left: 30%;
 position: absolute;
-border-radius: 3rem;
+border-radius: 50px !important;
 border:solid black;
 padding-top: 50%;
 }
@@ -42,7 +40,7 @@ background-color: #0e3b46;
 font-family: 'Rubik Distressed', cursive;
 
 }
-.adress{
+.adress_withdraw{
     font-family: 'Lobster', cursive;
 }
 .note_withdraw{

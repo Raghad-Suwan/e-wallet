@@ -1,8 +1,8 @@
-import Adress_push from '../Adress_Card_push';
-import './Card_university_push.css';
-import Card_push_university from './Card_university_push';
+import Adress_push from '../AdressCardpush';
+import './CardUniversityPush.css';
+import Card_push_university from './CardUniversityPush';
 
-const UniversityImport=()=>{
+const ImportUniversity=()=>{
     return(
         <div className="col-12">
                 <Adress_push />
@@ -10,4 +10,4 @@ const UniversityImport=()=>{
         </div>
     )
 }
-export default UniversityImport
+export default ImportUniversity

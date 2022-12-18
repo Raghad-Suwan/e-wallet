@@ -1,9 +1,8 @@
-import './Card_telecom_push.css';
-import './Card_telecom_push.css';
-import Adress_push from '../Adress_Card_push';
-import Card_push_telecom from './Card_telecom_push';
+import './CardTelecomPush.css';
+import Adress_push from '../AdressCardpush';
+import Card_push_telecom from './CardTelecomPush';
 
-const TelecomImport=()=>{
+const ImportTelecom=()=>{
 return(
     <div>
         <Adress_push/>
@@ -12,4 +11,4 @@ return(
 )
 
 }
-export default TelecomImport
+export default ImportTelecom

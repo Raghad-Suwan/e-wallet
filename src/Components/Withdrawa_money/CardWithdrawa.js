@@ -52,4 +52,4 @@ const Card_withdraw = () => {
 }
 
 
-export default Card_withdraw
+export default CardWithdraw
