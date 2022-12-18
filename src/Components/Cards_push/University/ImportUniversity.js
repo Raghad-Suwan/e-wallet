@@ -1,12 +1,12 @@
-import Adress_push from '../AdressCardpush';
+import AdressPush from '../AdressCardpush';
 import './CardUniversityPush.css';
-import Card_push_university from './CardUniversityPush';
+import CardPushUniversity from './CardUniversityPush';
 
 const ImportUniversity=()=>{
     return(
         <div className="col-12">
-                <Adress_push />
-                <Card_push_university />
+                <AdressPush />
+                <CardPushUniversity />
         </div>
     )
 }

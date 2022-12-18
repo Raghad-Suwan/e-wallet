@@ -1,15 +1,15 @@
 import React from "react";
 
 
-const Card_withdraw = () => {
-    return (
-        <>
-            <div>
-                <div className='container' >
-                    <div className="card card_withdraw">
-                        <div className="topic text-center topic_withdraw">
-                            <h2 className="card-title text-white card-title_withdraw">cash withdrawal slip money</h2>
-                            <h5 className="card-text text-white">Enter your data in the table</h5>
+const CardWithdraw=()=>{
+return(
+<>
+    <div>
+    <div className='container' >
+<div className="card card_withdraw">
+<div className="topic text-center topic_withdraw">
+        <h2 className="card-title text-white card-title_withdraw">cash withdrawal slip money</h2>
+        <h5 className="card-text text-white">Enter your data in the table</h5>
 
                         </div>
 

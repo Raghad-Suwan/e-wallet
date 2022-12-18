@@ -1,12 +1,12 @@
-import Adress_withdraw from "./AdressCardWithdraw";
+import AdressWithdraw from "./AdressCardWithdraw";
 import './CardWithdraw.css';
-import Card_withdraw from "./CardWithdrawa";
+import CardWithdraw from "./CardWithdrawa";
 
 const ImportWithdraw=()=>{
     return(
         <div>
-            <Adress_withdraw />
-            <Card_withdraw />
+            <AdressWithdraw />
+            <CardWithdraw />
         </div>
     )
 }
