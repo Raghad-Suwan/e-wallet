@@ -1,10 +1,7 @@
 
 .bodyServices{
-    padding: 0 100px;
-    padding-top: 200px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    
+    padding-top: 20%;
 }
 .caaard {
     border:  solid black;
@@ -17,7 +14,9 @@
     margin: 10px;
     display: inline-block;
     border-radius: 80px !important;
+    
 }
+
 .caaard-bodyy{
     padding: 3rem 0 !important;
 }

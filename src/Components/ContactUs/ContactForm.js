@@ -3,7 +3,7 @@ import './ContactForm.css';
 import { useForm } from 'react-hook-form';
 import { ErrorMessage } from '@hookform/error-message';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+ import 'react-toastify/dist/ReactToastify.css';
 import Image from "./HeaderContact";
 
 
@@ -13,7 +13,7 @@ function ContactForm() {
   const { register, formState: { errors }, handleSubmit } = useForm();
   const onSubmit = data => console.log(data);
   const notify = () => toast("Thank you for getting in touch! We appreciate you contacting us, we will get back in touch with you soon! Have a great day!" ,{position:'bottom-center'});
-
+ 
     return (
   
 <>
@@ -73,7 +73,7 @@ function ContactForm() {
                   </div>
                   </div>
 
-                  <button className='submit-btn' type='submit' onClick={handleSubmit(notify)} >
+                   <button className='submit-btn' type='submit' onClick={handleSubmit(notify)}>
                     Send
                   </button>
                   <ToastContainer />
