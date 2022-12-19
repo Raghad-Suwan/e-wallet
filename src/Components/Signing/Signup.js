@@ -135,7 +135,7 @@ import Container from '@mui/material/Container';
             </Button>
             <Grid container justifyContent="center">
               <Grid item>
-                <Link href="/login" variant="body2">
+                <Link href="/login">
                   Already have an account? Sign in
                 </Link>
               </Grid>
