@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Card_push_university=()=>{
+const CardPushUniversity=()=>{
 return(
 <>
     <div>
@@ -56,4 +56,4 @@ return(
 }
 
 
-export default Card_push_university
+export default CardPushUniversity

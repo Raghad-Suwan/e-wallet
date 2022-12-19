@@ -1,9 +1,9 @@
 import React from 'react'
 export default function StepsToPayment() {
   return (
-    <div className='descrip'>
-       <h1 >STEPS TO PAY BILLS:</h1>
- <ul>
+    <div >
+       <h1 className='HEAD'>STEPS TO PAY BILLS:</h1>
+ <ul className='descrip'>
     <li>Select “Pay Bills” from the main menu of your e-wallet.</li>
     <li>Select the category, for example: Telecomes</li>
     <li>From the category you selected, search for the company / service whose bill you wish to pay.</li>
