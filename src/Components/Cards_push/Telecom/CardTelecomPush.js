@@ -1,5 +1,5 @@
 import React from "react";
-import './Card_telecom_push.css';
+import './CardTelecomPush.css';
 
 
 const CardTelecomPush=()=>{
