@@ -1,7 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 import "./services.css";
 
 const CardsServices = (props) => {
+    const  navigate = useNavigate(); 
+    const routeChange = () =>{ 
+        navigate(props.link);
+    }
     return (
         <div className='card text-center caaard '>
             <div className='overflow ovver'>
@@ -10,7 +15,7 @@ const CardsServices = (props) => {
             <div className='card-body text-dark caaard-bodyy'>
                 <h4 className='card-title caaard-title'><u>{props.title}</u></h4>
                 <p className='card-text text-secondary caaard-textt'>{props.textt}</p>
-                <a href={props.link} className='btn btn-outline-dark text-dark buttooon'>Read more</a>
+                <button onClick={routeChange} className='btn btn-outline-dark text-dark buttooon'>Read more</button>
             </div>
         </div>
     )
