@@ -9,10 +9,9 @@ function SignPageRouter() {
       <div className="App">
         <Routes>
           <Route path="/Login" element={<Login />} />
-          <Route path="/Signup" element={<Signup />} />
+          <Route path="/signup" element={<Signup />} />
           <Route path="/ForgotPassword" element={<ForgotPassword />} />
         </Routes>
-       
   </div>
   </BrowserRouter>
     );

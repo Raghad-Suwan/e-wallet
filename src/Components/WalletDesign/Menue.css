@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +8,6 @@
     background-image: url("/src/image/image/Avatart.jpg");
     background-size: 50px;
     width: 54px;
-=======
-/* .avatar{
- background-image: url("/src/image/image/PicCard/avatar.jpg"); 
-    width: 30px;
->>>>>>> d8465d823a64c45ba3d2c076d4e753d4c605b781
     margin-left: 30px;
     border-radius: 50%;
     border: 1px solid white;
@@ -49,7 +43,6 @@ div{
     background-color: #233e47;
     border: 10px solid #233e47;
     margin-top: -10px;
-   
 }
 div ul li {
     background-color: #233e47;
@@ -81,18 +74,12 @@ div ul li {
 }
 .item i{
     margin-right: 15px;
-<<<<<<< HEAD
     align-items: center;
     justify-items: center;
 }
-
 .item li a{
     
     text-decoration: none;
     font-size: 1rem;
     transition: 0.5s ease-in-out;
 }
-=======
-    font-size: 25px;
-} */
->>>>>>> d8465d823a64c45ba3d2c076d4e753d4c605b781

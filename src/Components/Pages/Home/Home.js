@@ -1,14 +1,9 @@
-
 import React from 'react';
-//import { Link } from 'react-router-dom';
-
 import './Home.css';
 import Navbar from '../../Navbar/Navbar';
 import CardImport from '../../Properties/CardImport';
 import Footer from '../../Footer/Footer';
 import ServiceImport from '../../Card-Services/ServiceImport';
-import Pic from '../../Moving-Card/Pic';
-import ContactForm from '../../ContactUs/ContactForm';
 import GetStarted from '../../Get-Started/GetStarted';
 import ImageHome from '../../Image-Home/ImageHome';
 import HowWorksImport from '../../How-Works/HowWorksImport';
