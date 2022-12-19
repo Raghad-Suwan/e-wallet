@@ -19,7 +19,7 @@ root.render(
   <React.StrictMode>
     <App />
     <BrowserRouter>
-      <Routes>
+      {/* <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/sign" element={<Signup />} />
         <Route path="/login" element={< Login />} />
@@ -30,7 +30,7 @@ root.render(
         <Route path="/transfermoney" element={<MonyTransferPage />} />
         <Route path="/mobiltop" element={<MobileTopUpPage />} />
         <Route path="/billsmarchent" element={<Marchent/>} />
-      </Routes>
+      </Routes> */}
     </BrowserRouter>
   </React.StrictMode>
 );
