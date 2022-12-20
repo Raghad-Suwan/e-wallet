@@ -12,7 +12,7 @@ const HowWorksImport = () => {
             <HowWorks
                 text1="need to enter your information in our signup form"
                 text2="  sign up first"
-                src={require('../../images/Sign-in-pana.png')}
+                src={require('../../images/Sign in-pana.png')}
                 alt="sing up image"
             />
 
@@ -27,8 +27,8 @@ const HowWorksImport = () => {
                 src={require('../../images/E-Wallet-bro.png')}
                 alt="transfer"
             />
-             </div>
-             </div>
+            </div>
+            </div>
         </>
     )
 }

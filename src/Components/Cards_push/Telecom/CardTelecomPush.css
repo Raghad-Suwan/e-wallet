@@ -49,5 +49,9 @@ margin-block-end: 10%;
 .adress{
     font-family: 'Lobster', cursive;
 }
+.error-input-hadi{
+    color: red;
+    text-align: end;
+}
 
 
