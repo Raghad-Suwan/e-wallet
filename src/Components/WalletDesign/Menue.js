@@ -1,5 +1,5 @@
 import React from 'react'
-import './Menue.css';
+import'./Menue.css';
 
 export default function Menue() {
   return (
@@ -34,10 +34,20 @@ export default function Menue() {
             <ul className="dropdown-menu dropdown-menu-dark">
               <li><a className="dropdown-item" href="index.html">Withdraw money</a></li>
               <li><a className="dropdown-item" href="index.html">Deposite Money</a></li>
-              <li><a className="dropdown-item" href="index.html">Pay bills</a></li>
               <li><a className="dropdown-item" href="index.html">Money transfer</a></li>
+              <li><a className="dropdown-item" href="index.html">MobileTopUp</a></li>
             </ul>
-            </li><li className="item">
+            </li>
+              <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i className="bi-credit-card"></i>Pay bills</a>
+            <ul className="dropdown-menu dropdown-menu-dark">
+              <li><a className="dropdown-item" href="index.html">ImportElectricity </a></li>
+              <li><a className="dropdown-item" href="index.html">ImportTelecom </a></li>
+              <li><a className="dropdown-item" href="index.html">ImportUniversity</a></li>
+            </ul>
+            </li>
+            <li className="item">
             <a className="nav-link " aria-current="page" href="index.html"><i className='bi-box-arrow-in-right'></i>log out</a>
           </li>
           </li>

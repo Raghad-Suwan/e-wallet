@@ -5,9 +5,9 @@ import CallCards from "./components/WalletDesign/CallCards";
 
 function App() {
   return (
-    <div className="App">
-      <CallCards/>
-      </div>
+    <>
+        
+      </>
 
 
   );
