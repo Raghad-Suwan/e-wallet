@@ -2,11 +2,14 @@ import React from 'react'
 import Button from './Button'
 import Titlee from './Titlee'
 import './deposit.css'
+import Menue from '../WalletDesign/Menue';
 import AdresDeposite from './Adress'
 //function
 const Card = (props) =>{
 return(
+  
     <div>
+        <Menue/>
     <AdresDeposite />
         <div className='container' >
 <div className="card caaaard">

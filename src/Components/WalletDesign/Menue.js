@@ -31,7 +31,7 @@ export default function Menue() {
             <i className='bi-bag-plus-fill'></i>Services</a>
             <ul className="dropdown-menu">
               <div className='in-dropdown '>
-            <li><Link to="/CashInthoughAgents" className="dropdown-item" >Withdraw money</Link></li>
+            <li><Link to="/wallet-withdraw-money" className="dropdown-item" >Withdraw money</Link></li>
              <li><Link to="/wallet-deposit-money" className="dropdown-item">Deposite money</Link></li><br/>
              <li><Link to="/transfermoney" className="dropdown-item">Money transfer</Link></li>
              <li><Link to="/pushcards" className="dropdown-item">pay bills</Link></li>
