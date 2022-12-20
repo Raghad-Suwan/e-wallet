@@ -23,10 +23,9 @@ import CallCards from './components/WalletDesign/CallCards';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
     <BrowserRouter>
       <Routes>
-        <Route path="/" index element={<Home />} />
+        {/* <Route path="/" index element={<Home />} />
         <Route path="/sign" element={<Signup />} />
         <Route path="/login" element={< Login />} />
         <Route path="/forgotPassword" element={<ForgotPassword />} />
@@ -42,8 +41,10 @@ root.render(
         <Route path="/wallet-deposit-money" element={<Card />} />
         <Route path="/wallet-pay-bills-electricity" element={<ImportElectricity />} />
         <Route path="/wallet-pay-bills-telecom" element={<ImportTelecom />} />
-        <Route path="/wallet-pay-bills-university" element={<ImportUniversity />} />
+        <Route path="/wallet-pay-bills-university" element={<ImportUniversity />} /> */}
       </Routes>
     </BrowserRouter>
+        <App />
+
   </React.StrictMode>
 );

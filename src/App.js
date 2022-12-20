@@ -1,14 +1,11 @@
 import React from "react";
-import { from } from "rxjs";
 import "./App.css";
-
+import ImportPushCard from "./components/Cards_push/Card-Imge-push/ImportPushCards"
 function App() {
   return (
-    <div className="App">
-        
-      </div>
-
-
+    <div >
+      <ImportPushCard/>
+    </div>
   );
 }
 export default App;
