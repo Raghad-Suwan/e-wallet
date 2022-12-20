@@ -25,7 +25,7 @@ return(
 <h6 className="text-name teext-naame" >Wallet_ID</h6>
 <div className="input-group mb-3">
 <input type="number" class="form-control" placeholder="userID" aria-label="userID" 
-                {...register("input1", { required: "Please,input valid id "})}
+                {...register("input1", { required: "Please,input Wallet_ID"})}
 />
 </div>
 <div className="error-input-hadi">
@@ -34,7 +34,7 @@ return(
 <h6 className="text-name " >Agent's email</h6>
 <div className="input-group mb-3">
     <input type="text" class="form-control" placeholder="hadisawalmeh123"  aria-describedby="basic-addon2" 
-                    {...register("input2", { required: "Please,input valid id "})}
+                    {...register("input2", { required: "Please,input Agent's email "})}
                     />
     <span class="input-group-text text-white input-group-textt" id="basic-addon2">@gmail.com</span>
 </div>

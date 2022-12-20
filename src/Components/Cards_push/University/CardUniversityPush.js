@@ -34,7 +34,7 @@
                 class="form-control" 
                 placeholder="userID" 
                 aria-label="userID"
-                {...register("input1", { required: "Please,input valid id "})}
+                {...register("input1", { required: "Please,input student_number "})}
                 
                 />
                 
@@ -45,7 +45,7 @@
                 <h6 className="text-name text-name_university" >University_Name</h6>
                 <div className="input-group mb-4">
                 <input type="text" class="form-control" placeholder="an_najah" aria-label="an_najah" 
-                {...register("input2", { required: "Please,input valid id "})}
+                {...register("input2", { required: "Please,input University_Name "})}
                 />
                 </div>
                 <div className="error-input-hadi">
@@ -54,7 +54,7 @@
                 <h6 className="text-name text-name_university" >Student premium</h6> 
                 <div className="input-group mb-4">
                 <input type="number" class="form-control" placeholder="Amount to be deposited" 
-                {...register("input3", { required: "Please,input valid id "})}/>
+                {...register("input3", { required: "Please,input Student premium"})}/>
                 <span className="input-group-text text-white input-group-text_university">.00</span> 
                 </div>
                 <div className="error-input-hadi">

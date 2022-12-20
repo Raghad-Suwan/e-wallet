@@ -27,7 +27,7 @@ const CardElectricity=()=>{
         <h6 className="text-name text-name_electricity" >electricity_number</h6>
         <div className="input-group mb-4">
         <input type="number" class="form-control" placeholder="userID" aria-label="userID"
-                        {...register("input1", { required: "Please,input valid id "})}
+                        {...register("input1", { required: "Please,input valid number"})}
 
         />
         </div>
@@ -38,7 +38,7 @@ const CardElectricity=()=>{
         <h6 className="text-name text-name_electricity" >The amount to be shipped</h6> 
         <div className="input-group mb-4">
         <input type="number" className="form-control" placeholder="Amount to be deposited" 
-                        {...register("input2", { required: "Please,input valid id "})}
+                        {...register("input2", { required: "Please,input The amount to be shipped"})}
                         />
         <span className="input-group-text text-white input-group-text_electricity">.00</span> 
         </div>

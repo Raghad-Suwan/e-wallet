@@ -31,7 +31,7 @@ return(
 <h6 className="text-name text-name_telecom" >Subscriber_number</h6>
 <div className="input-group mb-4">
 <input type="number" class="form-control" placeholder="user_Number" aria-label="user_Number"
-{...register("input1", { required: "Please,input valid id "})}
+{...register("input1", { required: "Please,input Subscriber_number "})}
 />
 </div>
 <div className="error-input-hadi">
@@ -40,7 +40,7 @@ return(
 <h6 className="text-name text-name_telecom" >invoice value</h6> 
 <div className="input-group mb-4">
 <input type="number" class="form-control" placeholder="price" 
-                {...register("input2", { required: "Please,input valid id "})}/>
+                {...register("input2", { required: "Please,input invoice value"})}/>
 
 
 <span className="input-group-text text-white input-group-text_telecom">.00</span> 
@@ -51,7 +51,7 @@ return(
 <h6 className="text-name text-name_telecom" >The Company's_name</h6>
 <div className="input-group mb-4">
 <input type="text" class="form-control" placeholder="Jawwal / ooredo /paltel" aria-label="Jawwal / ooredo /paltel"
-                {...register("input3", { required: "Please,input valid id "})}/>
+                {...register("input3", { required: "Please,input The Company's_name"})}/>
 
 
 </div>

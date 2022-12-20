@@ -1,14 +1,15 @@
 // import { Home } from "@mui/icons-material";
 import React from "react";
 import "./App.css";
+import Card from "./components/Deposite-Money/Card";
+import ImportTelecom from "./components/Cards_push/Telecom/ImportTelecom";
 
-import ImportPushCard from "./components/Cards_push/Card-Imge-push/ImportPushCards";
 
 function App() {
   return (
     <>
-  <ImportPushCard />
-
+    <Card/>
+    
     </>
   );
 }
