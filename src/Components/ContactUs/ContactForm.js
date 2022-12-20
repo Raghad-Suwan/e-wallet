@@ -14,7 +14,7 @@ function ContactForm() {
 
   return (
     <>
-      <Navbar/>
+      
       <Image />
       <div className='container '>
         <form onSubmit={handleSubmit(onSubmit)} >

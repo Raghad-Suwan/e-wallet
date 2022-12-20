@@ -1,4 +1,4 @@
-import Table from "../Table/Table";
+import Table from "./Table";
 import React from "react";
 
 
