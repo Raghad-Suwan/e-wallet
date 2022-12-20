@@ -1,10 +1,9 @@
 import React from 'react'
-import './Menue.css';
-
+import'./Menue.css';
+import { Link } from 'react-router-dom';
 export default function Menue() {
   return (
     <div>
-<<<<<<< HEAD
       <header className='sidebar'>
         <nav className="navbar">
             <div className="container-fluid">
@@ -29,51 +28,35 @@ export default function Menue() {
           </li>
           <li className="item">
                <a className="nav-link " aria-current="page" href="index.html"><i className='bi-wallet2'></i>My wallet</a>
+               <Link to='/all-transection'>all transection</Link>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i className='bi-bag-plus-fill'></i>Services</a>
             <ul className="dropdown-menu dropdown-menu-dark">
               <li><a className="dropdown-item" href="index.html">Withdraw money</a></li>
+              <li><Link to="/CashInthoughAgents"  >Money withdraw</Link></li>
               <li><a className="dropdown-item" href="index.html">Deposite Money</a></li>
-              <li><a className="dropdown-item" href="index.html">Pay bills</a></li>
+              <li><Link to="/mobiltop" >Deposite money</Link></li>
               <li><a className="dropdown-item" href="index.html">Money transfer</a></li>
+              <li><Link to="/transfermoney">Money transfer</Link></li>
             </ul>
-            </li><li className="item">
+            </li>
+              <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i className="bi-credit-card"></i>Pay bills</a>
+            <ul className="dropdown-menu dropdown-menu-dark">
+              <li><a className="dropdown-item" href="index.html">ImportElectricity </a></li>
+              <li><Link to='/wallet-pay-bills-electricity' >ImportElectricity</Link></li>
+              <li><a className="dropdown-item" href="index.html">ImportTelecom </a></li>
+              <li><Link to='/wallet-pay-bills-telecom'>ImportTelecom</Link></li>
+              <li><a className="dropdown-item" href="index.html">ImportUniversity</a></li>
+              <li><Link to='/wallet-pay-bills-university'>ImportUniversity</Link></li>
+            </ul>
+            </li>
+            <li className="item">
             <a className="nav-link " aria-current="page" href="index.html"><i className='bi-box-arrow-in-right'></i>log out</a>
+            <Link to ="/login">Already have an account? Sign in</Link>
           </li>
-=======
-      <nav class="navbar navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><i className='bi-person-circle'>Karma astro</i></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">menu</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html"><i className='bi bi-wallet2'></i>My wallet</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html"><i className='bi-person-bounding-box'></i>My account</a>
-          </li><li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html"><i className='bi-box-arrow-in-right'></i>log out</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i className='bi-bag-plus-fill'></i>Serves
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="index.html">withdraw money</a></li>
-              <li><a class="dropdown-item" href="index.html">deposit money</a></li>
-              <li><a class="dropdown-item" href="index.html">mobile top-up</a></li>
-              <li><a class="dropdown-item" href="index.html">money transfer</a></li>
-            </ul>
->>>>>>> 0b1c1069724a2bafbc961a50c4cbee2030f21db1
           </li>
         </ul>
        
