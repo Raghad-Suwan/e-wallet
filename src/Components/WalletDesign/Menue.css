@@ -15,7 +15,7 @@
     cursor: pointer;
     height: 54px;
     margin-left: -60px;
-    margin-top: -7px;
+    margin-top: -18px;
 }
 .sidebar{
     background-color: #233e47;
@@ -32,8 +32,8 @@
     border: 30px;
     font-size: 20px;
     position: relative;
-   top: 35px;
-    left: 5px;
+   top: 25px;
+left: 5px;
 }
 .notification{
     position: fixed;

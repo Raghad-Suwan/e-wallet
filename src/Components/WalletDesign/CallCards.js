@@ -18,8 +18,9 @@ const CallCards = () => {
           <CardBarDemo />
           <CardLine />
         </div>
-      < TableCard/>
+        <TableCard/>
       </div>
+      
     </>
   );
 }

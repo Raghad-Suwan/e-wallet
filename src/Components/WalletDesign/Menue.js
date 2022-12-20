@@ -49,5 +49,5 @@ export default function Menue() {
 </nav>
 </header>
     </div>
-  );
+  )
 }
