@@ -26,7 +26,7 @@ const CardElectricity=()=>{
         <div className="card-body">
         <h6 className="text-name text-name_electricity" >electricity_number</h6>
         <div className="input-group mb-4">
-        <input type="number" class="form-control" placeholder="userID" aria-label="userID"
+        <input type="number" className="form-control" placeholder="userID" aria-label="userID"
                         {...register("input1", { required: "Please,input valid number"})}
 
         />

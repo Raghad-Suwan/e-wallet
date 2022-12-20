@@ -25,7 +25,7 @@ return(
                             <h6 className="text-name text-name_withdraw" >receiver_number</h6>
 
                             <div className="input-group mb-4">
-                                <input type="number" class="form-control" placeholder="userID" aria-label="userID"
+                                <input type="number" className="form-control" placeholder="userID" aria-label="userID"
                                                                                 {...register("input1", { required: "Please,input valid id "})}
                                                                                 />
                             </div>
@@ -34,7 +34,7 @@ return(
                         </div>
                             <h6 className="text-name text-name_withdraw" >Amount of money</h6>
                             <div className="input-group mb-4">
-                                <input type="number" class="form-control" placeholder="Amount to be deposited" 
+                                <input type="number" className="form-control" placeholder="Amount to be deposited" 
                                                 {...register("input2", { required: "Please,input valid id "})}
                                                 />
                                 <span className="input-group-text text-white input-group-text_withdraw">.00</span>

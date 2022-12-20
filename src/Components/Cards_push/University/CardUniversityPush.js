@@ -31,7 +31,7 @@
                 <div className="input-group mb-4">
                 <input 
                 type="number" 
-                class="form-control" 
+                className="form-control" 
                 placeholder="userID" 
                 aria-label="userID"
                 {...register("input1", { required: "Please,input student_number "})}
@@ -44,7 +44,7 @@
                         </div>
                 <h6 className="text-name text-name_university" >University_Name</h6>
                 <div className="input-group mb-4">
-                <input type="text" class="form-control" placeholder="an_najah" aria-label="an_najah" 
+                <input type="text" className="form-control" placeholder="an_najah" aria-label="an_najah" 
                 {...register("input2", { required: "Please,input University_Name "})}
                 />
                 </div>
@@ -53,7 +53,7 @@
                         </div>
                 <h6 className="text-name text-name_university" >Student premium</h6> 
                 <div className="input-group mb-4">
-                <input type="number" class="form-control" placeholder="Amount to be deposited" 
+                <input type="number" className="form-control" placeholder="Amount to be deposited" 
                 {...register("input3", { required: "Please,input Student premium"})}/>
                 <span className="input-group-text text-white input-group-text_university">.00</span> 
                 </div>
@@ -66,7 +66,7 @@
                 </div>
                 </div>
                 <div className="btn-groub text-center text-black btn-groub_university">
-                        <button type="button" className="btn btn-outline-light "  onClick={handleSubmit(showToastMessage)}>add money</button>
+                        <button type="button" className="btn btn-outline-light button_University"  onClick={handleSubmit(showToastMessage)}>add money</button>
                         
                         
                         

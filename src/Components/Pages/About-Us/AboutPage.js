@@ -82,7 +82,7 @@ function AboutPage(props) {
                                 alt="hadi avatar "
                                 name="Hadi " />
                             <TeamMember
-                                // src={require('../../../images/inas.png')}
+                                src={require('../../../images/inas.png')}
                                 alt="inas avatar "
                                 name="Inas " />
                         </div>

@@ -1,9 +1,13 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router';
 
 
 
 const Cardpushkind=(props)=>{
+    const  navigate = useNavigate(); 
+    const routeChange = () =>{ 
+        navigate(props.link);
+    }
     return(
     
     
@@ -14,7 +18,7 @@ const Cardpushkind=(props)=>{
         </div>
         <div className='card-body text-dark card-body_push'>
             <p className='card-text text-secondary card-text_push'>{props.textt}</p>
-            <a href='#' className='btn btn-outline-success button_push text-white'>continue</a>
+            <button onClick={routeChange} className='btn btn-outline-success button_push text-white'>continue</button>
         </div>
     </div>
     </div>
