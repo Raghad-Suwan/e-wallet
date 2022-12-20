@@ -3,47 +3,28 @@ import React from 'react';
 import App from './App';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
-<<<<<<< HEAD
 import Home from "./components/Pages/Home/Home";
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
 import Login from './components/Signing/Login';
-=======
-
- import Home from "./components/Pages/Home/Home";
-import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
-import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
-import Login from './components/Signing/Login';*/
->>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
 import Signup from './components/Signing/Signup';
 import ContactForm from "./components/ContactUs/ContactForm";
 import AboutPage from './components/Pages/About-Us/AboutPage';
 import ForgotPassword from './components/Signing/ForgotPassword';
 import CashInthoughAgents from './components/Pages/Cash-In-though-Agents/CashInthoughAgents';
-import Payment from './components/Pages/Payment-of-bills/Payment';
+import Patment from './components/Pages/Payment-of-bills/Patment';
 import Card from './components/Deposite-Money/Card';
 import ImportUniversity from './components/Cards_push/University/ImportUniversity';
 import ImportTelecom from './components/Cards_push/Telecom/ImportTelecom';
 import ImportElectricity from './components/Cards_push/Electricity/ImportElectricity';
 import ImportWithdraw from './components/Withdrawa_money/ImportWithdraw';
 import CallCards from './components/WalletDesign/CallCards';
-<<<<<<< HEAD
-import Table from './components/WalletDesign/Table';
-import ImportPushCards from './components/Cards_push/Card-Imge-push/ImportPushCards';
-=======
-
-
->>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-<<<<<<< HEAD
         <Route path="/" index element={<Home />} />
-=======
-       <Route path="/" index element={<Home />} />
->>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
         <Route path="/sign" element={<Signup />} />
         <Route path="/login" element={< Login />} />
         <Route path="/forgotPassword" element={<ForgotPassword />} />
@@ -52,26 +33,16 @@ root.render(
         <Route path="/cashInthoughAgents" element={<CashInthoughAgents/>} />
         <Route path="/transfermoney" element={<MonyTransferPage />} />
         <Route path="/mobiltop" element={<MobileTopUpPage />} />
-        <Route path="/payment" element={<Payment/>} />
+        <Route path="/payment" element={<Patment/>} />
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
         <Route path="/wallet" element={<CallCards />} />
         <Route path="/wallet-withdraw-money" element={<ImportWithdraw />} />
         <Route path="/wallet-deposit-money" element={<Card />} />
         <Route path="/wallet-pay-bills-electricity" element={<ImportElectricity />} />
         <Route path="/wallet-pay-bills-telecom" element={<ImportTelecom />} />
-<<<<<<< HEAD
-        <Route path="/wallet-pay-bills-university" element={<ImportUniversity />}/>
-        <Route path='/all-Transaction' element={<Table />}/>
-        <Route path='/pushcards' element={<ImportPushCards/>}/>
-      </Routes>
-</BrowserRouter>
-=======
         <Route path="/wallet-pay-bills-university" element={<ImportUniversity />} />
-        <Route path ='/all-transection' element={<Table/>}/>
       </Routes>
-</BrowserRouter>
-
-     
->>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
+    </BrowserRouter>
+        <App />
   </React.StrictMode>
 );
