@@ -1,0 +1,23 @@
+
+  
+    table th{
+      text-align: center;
+    }
+  th {
+    border-bottom: 5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    
+  
+  }
+    
+  td {
+    text-align: center;
+    color: rgb(0, 0, 0);
+ 
+  }
+  a{
+    text-align:start;
+  }
+.card-header-table {
+  margin-left: 1rem;
+}

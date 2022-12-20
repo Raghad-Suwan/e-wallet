@@ -1,32 +1,34 @@
-.bills{
+.shopping{
     padding-left: 150px;
     color: coral;
-
+    margin-top: 1px;
+    
   }
-  .paybill{
+  .sent{
     padding: -1px;
     padding-left: 150px;
     margin-bottom: 1px;
     
   }
-  
-  .right{
-    padding-left: 200px;
+  .wallet{
+    padding-left: 40px;
   }
-  .descrip{
+  .steps{
     padding-left: 140px;
     background-color: aliceblue;
-    color: black;
+    color:  black;
+   
   }
-  .HEAD{
-    color: coral;
+  .the-head{
     padding-left: 140px;
+    color: coral;
   }
   
-  .ment{
+ 
+  .i-left{
     color: #fff;
-    background-image: url("/src/image/image/payment.png") ;
-    width: 100%;
+   background-image: url("../../../images/marchent.png") ;
+   width: 100%;
     height: 100%;
     background: cover;
     transform: translateY(-10%);
@@ -35,6 +37,5 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1540px 360px;
-  
+  margin-top: -50px;
   }
-  

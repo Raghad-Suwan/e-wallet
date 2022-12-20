@@ -5,12 +5,12 @@ import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+import { Link, useNavigate } from 'react-router-dom';
 
 
  function Signup() {
@@ -27,26 +27,25 @@ import Container from '@mui/material/Container';
       phone:data.get('phone')
     });
   };
-
+const signupbutton = useNavigate();
   return (
     
       <Container  maxWidth="xs">
         <CssBaseline/>
         <Box
           sx={{
-            marginTop: 25,
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor:'chocolate' }}>
+          <Avatar sx={{ m:5, bgcolor:'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
+          <Typography>
             Sign up
           </Typography>
-          <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+          <Box component="form" onSubmit={handleSubmit} sx={{ mt:5}}>
 
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
@@ -69,8 +68,8 @@ import Container from '@mui/material/Container';
                   autoComplete="family-name"
                   variant="outlined"
                 />
-
               </Grid>
+
               <Grid item xs={12}>
                 <TextField
                   fullWidth
@@ -125,17 +124,22 @@ import Container from '@mui/material/Container';
               </Grid>
             </Grid>
 
+        
+         
             <Button
             fullWidth
               type="submit"
             variant="contained" color="warning"
               sx={{ mt:3, mb: 2}}
+              onClick={() => signupbutton('/wallet')}
             >
               Sign Up
             </Button>
+
+
             <Grid container justifyContent="center">
               <Grid item>
-                <Link href="/login" variant="body2">
+                <Link to ="/login">
                   Already have an account? Sign in
                 </Link>
               </Grid>

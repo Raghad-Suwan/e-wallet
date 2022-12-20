@@ -1,0 +1,49 @@
+
+
+.card_transfer{
+ background: linear-gradient(90deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
+width: 50%;
+height: 10%;
+font-size: 15px;
+padding: 20px 20px 0;
+top:30%;
+left: 50%;
+transform: translate(-50%,-50%);
+position: absolute;
+border-radius: 3rem;
+border:solid black;
+padding-top: 50%;
+
+}
+
+.text-name_transfer
+{
+  text-align: left;
+  
+  }
+  .btn-groub_transfer{
+    margin: 30px;
+    }
+    .btn-groub_transfer .btn{
+        background-color: #02576a;
+    margin: 8px;
+    border-radius: 20px !important;
+    
+    font-size: 20px;
+    border: 2px solid #000000;
+    }
+
+    .adress{
+    font-family: 'Lobster', cursive;
+}
+      .input-group-text_transfer{
+      background-color: #0e3b46;
+      }
+      .card-title_transfer{
+        font-family: 'Rubik Distressed', cursive;
+        
+        }
+        .topic{
+
+          border-radius: 20px;
+          }

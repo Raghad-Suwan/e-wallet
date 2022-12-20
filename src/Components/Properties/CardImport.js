@@ -2,11 +2,11 @@ import React from 'react';
 import Card3 from './Card3';
 import './Card3.css';
 
-const CardImport=(props)=>{
+const CardImport=()=>{
     return (
-<div class="container text-center containCard ">
-  <div class="row align-items-start g-5 h-30 rroowwss">
-    <div class="col-12 col-lg-4 ">
+<div className="container text-center containCard ">
+  <div className="row align-items-start g-5 h-30 rroowwss">
+    <div className="col-12 col-lg-4 ">
       < Card3 title="A User-Friendly App" textt=" Our app is user-friendly and fast, and offers exclusive benefits and numerous services. You can establish your own account and control settings or check transactions at any point in time."/>
     </div>
     <div className="col-12 col-lg-4 ">

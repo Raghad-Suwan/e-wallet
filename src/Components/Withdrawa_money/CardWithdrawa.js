@@ -20,7 +20,6 @@ return(
         <h5 className="card-text text-white card-text_withdraw">Enter your data in the table</h5>
 
                         </div>
-
                         <div className="card-body">
 
                             <h6 className="text-name text-name_withdraw" >receiver_number</h6>
