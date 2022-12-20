@@ -39,13 +39,13 @@ const signupbutton = useNavigate();
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor:'chocolate' }}>
+          <Avatar sx={{ m:5, bgcolor:'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
+          <Typography>
             Sign up
           </Typography>
-          <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+          <Box component="form" onSubmit={handleSubmit} sx={{ mt:5}}>
 
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
@@ -68,8 +68,8 @@ const signupbutton = useNavigate();
                   autoComplete="family-name"
                   variant="outlined"
                 />
-
               </Grid>
+
               <Grid item xs={12}>
                 <TextField
                   fullWidth
@@ -124,6 +124,8 @@ const signupbutton = useNavigate();
               </Grid>
             </Grid>
 
+        
+         
             <Button
             fullWidth
               type="submit"
@@ -133,6 +135,8 @@ const signupbutton = useNavigate();
             >
               Sign Up
             </Button>
+
+
             <Grid container justifyContent="center">
               <Grid item>
                 <Link to ="/login">
