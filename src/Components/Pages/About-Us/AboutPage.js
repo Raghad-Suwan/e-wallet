@@ -32,7 +32,7 @@ function AboutPage() {
                         </div>
                     </div>
                     <div className='container-fluid  d-flex  justify-content-end'>
-                        <img className='imgAbout img-fluid img-responsive d-none d-sm-block w-70' src={require('../../../images/aboutusheader.png')} alt="person " />
+                         <img className='imgAbout img-fluid img-responsive d-none d-sm-block w-70' src={require('../../../images/aboutusheader.png')} alt="person " />
                     </div>
                     <section className='md-mb-0 pt-1'>
                         <AboutText />
@@ -62,19 +62,19 @@ function AboutPage() {
 
                         <div className='row m-3 p-2 justify-content-center text-center align-items-center' >
                             <TeamMember
-                                src={require('../../../images/user.png')}
+                                 src={require('../../../images/user.png')}
                                 alt="lara avatar "
                                 name="Lara " />
                             <TeamMember
-                                src={require('../../../images/woman.png')}
+                                 src={require('../../../images/woman.png')}
                                 alt="raghad avatar "
                                 name="Raghad " />
                             <TeamMember
-                                src={require('../../../images/girl.png')}
+                                 src={require('../../../images/girl.png')}
                                 alt="malak avatar "
                                 name="Malak " />
                             <TeamMember
-                                src={require('../../../images/man.png')}
+                                 src={require('../../../images/man.png')}
                                 alt="ize avatar "
                                 name="Ize " />
                             <TeamMember
@@ -82,7 +82,7 @@ function AboutPage() {
                                 alt="hadi avatar "
                                 name="Hadi " />
                             <TeamMember
-                                src={require('../../../images/inas.png')}
+                                // src={require('../../../images/inas.png')}
                                 alt="inas avatar "
                                 name="Inas " />
                         </div>
