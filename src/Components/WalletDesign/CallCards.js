@@ -12,7 +12,12 @@ import './ChartsAndDraw.css';
 const CallCards = () => {
   return (
     <>
+<<<<<<< HEAD
+    <header>
+    <Menue />
+=======
    <Menue/>
+>>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
       <div className="container-fluid  malakContainer">
         <div className="row">
           <Cards1 header="Todays Fee" title="$0.0000000" />
@@ -21,9 +26,14 @@ const CallCards = () => {
           <CardBarDemo />
           <CardLine />
         </div>
+<<<<<<< HEAD
         <TableCard/>
+        
       </div>
-      
+      </header>
+=======
+      </div>
+>>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
     </>
   );
 

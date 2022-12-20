@@ -1,3 +1,7 @@
+.sidebar header{
+    background-color: #115262;
+    position:relative;
+}
 .avatar{
     background-image: url("/src/images/Avatart.jpg");
     background-size: 50px;
@@ -5,73 +9,71 @@
     margin-left: 30px;
     border-radius: 50%;
     border: 1px solid white;
-    height: 100px;
-    cursor: pointer;
     height: 54px;
-    margin-left: -60px;
+    margin-right: 100px;
     margin-top: -18px;
 }
-.sidebar{
-    background-color: #233e47;
-}
 .bi-list {
-    color: aliceblue;
+    color: white;
     font-size: 30px;
     text-align: center;
 }
 .name{
-    color: aliceblue;
+    color: white;
     height: 100px;
     font-family: sans-serif;
     border: 30px;
     font-size: 20px;
     position: relative;
    top: 25px;
-left: 5px;
+left: 90px;
+position: relative;
 }
-.notification{
-    position: fixed;
-    height: 100px;
-    max-width: 100px;
-    color: #fff;
-    line-height: 55px;
-    text-align: center;
-    font-size: 30px;
-    left: 1050px;
-    margin-top: 20px;
+.bi-bell{
+   color: white;
+   position: absolute;
+   right: 190px;
+   top: 23px;
+   font-size: 30px;
 }
 .offcanvas-body{
-    display: block;
-    background-color: #233e47;
-    border: 10px solid #233e47;
-    margin-top: -10px;
-}
-.body {
-    width: 100%;
-    margin-top: 30px;
+    background-color: #115262;
     margin-top: -50px;
-    background-color: #233e47;
+<<<<<<< HEAD
+    width: 100%;
+=======
+    background-color: #6d929f;
     height:100%;
+>>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
 }
-.body .item a{
-    color:aliceblue;
-    font-size: 20px;
-    text-decoration: none;
-    display: block;
-    padding: 5px 30px;
-    line-height: 60px;
+.sidebar-side .nav-link {
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 17px;
+    margin-right: 40px;
 }
+<<<<<<< HEAD
+.in-dropdown{
+    background-color: #115262;
+    height: 150px;
+=======
 .item i{
     margin-right: 15px;
     align-items: center;
     justify-items: center;
 }
 .body .navbar-nav .item a{
-    background-color: #233e47;
-    border: 10px solid #233e47;
+    background-color: #7ba9b8;
+    border: 10px solid #b8c6ca;
+>>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
     margin-top: -10px;
-    margin-bottom: -10px;
-    margin-left: -1px;
-    margin-right: -1px;
-    margin-bottom: -20px;
+    margin-left: -40px;
+}
+.main-menu i{
+    color: aliceblue;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+position: absolute;
+margin-top: 10px;
 }
