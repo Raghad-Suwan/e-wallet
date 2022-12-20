@@ -24,7 +24,7 @@ export default function Login() {
       password: data.get('password'),
     });
   };
-  const navigate = useNavigate();
+  const loginbutton = useNavigate();
   return (
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
@@ -75,8 +75,7 @@ export default function Login() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
-              onClick={() => navigate('/wallet')}
-            
+              onClick={() => loginbutton('/wallet')}
             >
               Log In
             </Button>

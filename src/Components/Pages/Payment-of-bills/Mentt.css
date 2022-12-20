@@ -25,7 +25,8 @@
   
   .ment{
     color: #fff;
-    background-image: url("/src/images/payment.png") ;
+    background-image: url("../../../images/payment.png") ;
+
     width: 100%;
     height: 100%;
     background: cover;
