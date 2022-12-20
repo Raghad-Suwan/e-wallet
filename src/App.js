@@ -12,7 +12,7 @@ import { CarCrash } from "@mui/icons-material";
 function App() {
   return (
  
-    <Transfer/>
+    <Table/>
    
    
   );

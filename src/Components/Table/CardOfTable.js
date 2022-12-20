@@ -5,16 +5,17 @@ import React from "react";
 const  TableCard= () => {
     return (
  
-
-<div className="card text-bg-light mb-3 text-center">
-  <div className="card-header ">ALL TRANSICTION </div>
-  <div className="card-body col-12">
-
+<>
+< div className="container">
+<div className="card text-bg-light mt-3  ">
+  <div className="card-header-table text-center ">ALL TRANSICTION </div>
+  <div className=" card-body-table">
 <Table/>
   </div>
 
 </div>
-
+</div>
+</>
 
 
 
