@@ -26,7 +26,7 @@ function Home() {
         </div>
       </section>
       <section>
-        <div className='pb-0'>
+        <div className='pb-0 pt-0'>
           <GetStarted />
         </div>
       </section>

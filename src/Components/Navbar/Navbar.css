@@ -33,11 +33,9 @@
   width: 800px;
   display: inline-block;
 }
-
 .navbar ul li a {
   font-size: 7px 13px;
   border-radius: 3px;
-  /* color: darkgray; */
   text-align: center;
   text-transform: uppercase;
 }

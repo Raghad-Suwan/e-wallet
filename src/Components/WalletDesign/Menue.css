@@ -39,7 +39,12 @@ position: relative;
 .offcanvas-body{
     background-color: #115262;
     margin-top: -50px;
+<<<<<<< HEAD
     width: 100%;
+=======
+    background-color: #6d929f;
+    height:100%;
+>>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
 }
 .sidebar-side .nav-link {
     color: aliceblue;
@@ -47,9 +52,20 @@ position: relative;
     font-size: 17px;
     margin-right: 40px;
 }
+<<<<<<< HEAD
 .in-dropdown{
     background-color: #115262;
     height: 150px;
+=======
+.item i{
+    margin-right: 15px;
+    align-items: center;
+    justify-items: center;
+}
+.body .navbar-nav .item a{
+    background-color: #7ba9b8;
+    border: 10px solid #b8c6ca;
+>>>>>>> 6d82893b434b02ee24147e0fe5b18a82fe832970
     margin-top: -10px;
     margin-left: -40px;
 }
