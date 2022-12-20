@@ -1,5 +1,6 @@
 import React from 'react'
-import'./Marchent.css';
+import './Mentt.css';
+
 export default function Hedermarchent() {
   return (
     <div className="i-left">

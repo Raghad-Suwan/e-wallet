@@ -11,23 +11,39 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-
-
+import react, {useRef,useState} from 'react';
+import { Co2Sharp, Phone, Update } from '@mui/icons-material';
  function Signup() {
-  
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      name1:data.get('firstName'),
-      name2:data.get('lastName'),
-      email: data.get('email'),
-      password: data.get('password'),
-      country:data.get('country'),
-      phone:data.get('phone')
-    });
-  };
+  const data=useRef();
+  const [country,setcountry]=useState("")
+  const [firstName,setfirstName]=useState("")
+  const [email,setemail]=useState("")
+  const [lastName,setlastName]=useState("")
 
+function onchange_country(value){
+  console.log(value)
+  setcountry(value)
+}
+function onchange_firstName(value){
+  console.log(value)
+  setfirstName(value)
+}
+function onchange_email(value){
+  console.log(value)
+  setemail(value)
+}
+function onchange_lastName(value){
+  console.log(value)
+  setlastName(value)
+}
+  const handleSubmit = () => {
+  console.log(data.current.value,"phone")
+  localStorage.setItem("phone",data.current.value)
+  localStorage.setItem("country",country)
+  localStorage.setItem("firstName",firstName)
+  localStorage.setItem("email",email)
+  localStorage.setItem("lastName",lastName)
+  };
   return (
     
       <Container  maxWidth="xs">
@@ -47,7 +63,6 @@ import Container from '@mui/material/Container';
             Sign up
           </Typography>
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
-
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
@@ -57,6 +72,9 @@ import Container from '@mui/material/Container';
                   label="First Name"
                   variant="outlined"
                   autoFocus
+                  onChange={(e)=>{
+                    onchange_firstName(e.target.value)
+                  }}
                 />
               </Grid>
 
@@ -68,6 +86,9 @@ import Container from '@mui/material/Container';
                   name="lastName"
                   autoComplete="family-name"
                   variant="outlined"
+                  onChange={(e)=>{
+                    onchange_lastName(e.target.value)
+                  }}
                 />
 
               </Grid>
@@ -79,22 +100,30 @@ import Container from '@mui/material/Container';
                   name="email"
                   autoComplete="email"
                   variant="outlined"
+                  onChange={(e)=>{
+                    onchange_email(e.target.value)
+                  }}
                 /> 
               </Grid>
              
               <Grid item xs={12}>
                 <TextField
+                 inputRef={data}
                   fullWidth
                   id="country"
                   label="Country"
                   name="country"
                   autoComplete="country"
                   variant="outlined"
+                  onChange={(e)=>{
+                    onchange_country(e.target.value)
+                  }}
                 /> 
               </Grid>
 
               <Grid item xs={12}>
                 <TextField
+                inputRef={data}
                   fullWidth
                   name="phone"
                   label="Phone Number"
@@ -102,6 +131,7 @@ import Container from '@mui/material/Container';
                   id="phone-num"
                   autoComplete="phone"
                   variant="outlined"
+                  
                 />
               </Grid>
 
@@ -126,7 +156,8 @@ import Container from '@mui/material/Container';
             </Grid>
 
             <Button
-              type="submit"
+            onClick={ handleSubmit }
+              type="button"
             variant="contained" color="warning"
               sx={{ mt:3, mb: 2 ,marginLeft:17 }}
             >

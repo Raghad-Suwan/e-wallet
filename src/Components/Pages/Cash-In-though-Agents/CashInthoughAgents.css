@@ -19,13 +19,13 @@
   .StyleCashPhoto{
     color: #fff;
     margin-bottom: -8px;
-    background-image: url("../../image/CashInthoughAgents.png") ;
+    background-image: url("../../../images/CashInthoughAgents.png") ;
     padding: 130px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1540px 360px;
+  background-size: 100% 93% ;
   }
   .StyleLink{
     padding-left: 200px;
   }
-  
+    
