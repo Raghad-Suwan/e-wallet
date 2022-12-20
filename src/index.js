@@ -2,16 +2,6 @@ import './index.css';
 import React from 'react';
 import App from './App';
 import ReactDOM from "react-dom/client";
-<<<<<<< HEAD
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-         <App/>
-  </React.StrictMode>
-       
-);
-
-=======
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Home from "./components/Pages/Home/Home";
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
@@ -57,4 +47,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
->>>>>>> 0b1c1069724a2bafbc961a50c4cbee2030f21db1
