@@ -9,11 +9,8 @@ import './ChartsAndDraw.css';
 const CallCards = () => {
   return (
     <>
-<<<<<<< HEAD
+    <header>
     <Menue />
-=======
-   <Menue/>
->>>>>>> f0035381a600a688b907db3ef8d3ed4022ab1476
       <div className="container-fluid  malakContainer">
         <div className="row">
           <Cards1 header="Todays Fee" title="$0.0000000" />
@@ -23,8 +20,9 @@ const CallCards = () => {
           <CardLine />
         </div>
         <TableCard/>
+        
       </div>
-      
+      </header>
     </>
   );
 }
