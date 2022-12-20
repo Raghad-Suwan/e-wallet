@@ -1,4 +1,4 @@
-.navbar {
+.navbarBasic {
   background-color: #043a48;
   height: 80px;
   width: 100%;
@@ -11,16 +11,16 @@
   list-style: none;
 }
 
-.navbar li a {
+.navbarBasic li a {
   color: darkgray;
   text-align: center;
 }
 
-.collapse {
+.navbarBasic .collapse {
   background-color: #043a48;
 }
 
-.navbar ul li {
+.navbarBasic ul li {
   display: inline-block;
   line-height: 40px;
   margin: 0 22px;
@@ -28,16 +28,15 @@
   color: darkgray;
 }
 
-.dropdown-menu {
+.dropBasic {
   height: 150px;
   width: 800px;
   display: inline-block;
 }
 
-.navbar ul li a {
+.navbarBasic ul li a {
   font-size: 7px 13px;
   border-radius: 3px;
-  /* color: darkgray; */
   text-align: center;
   text-transform: uppercase;
 }
