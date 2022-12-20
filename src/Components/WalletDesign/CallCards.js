@@ -21,9 +21,7 @@ const CallCards = () => {
           <CardBarDemo />
           <CardLine />
         </div>
-        <TableCard/>
       </div>
-      
     </>
   );
 

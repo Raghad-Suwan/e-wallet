@@ -5,7 +5,7 @@ import React from 'react';
     return (
     <>
    
-            <div className='col-md-4 col-sm-12 col-lg-4 col-xl-4 cardChart1'> 
+            <div className='col-md-4 col-lg-4 col-sm-12 '> 
                 <div className="card text-bg-secondary">
                         <div className="card-header-malak1">{props.header}</div>
                             <div className="card-body-malak">
