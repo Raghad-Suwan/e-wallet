@@ -10,8 +10,7 @@ const BarChart = () => {
     datasets: [
       {
         label: "amount of money",
-        backgroundColor: "rgb(32,191,170)",
-        borderColor: "rgb(32,191,170)",
+        backgroundColor: "#FF7F50",
         data: [0,200,300,400,500,1000],
       },
     ],

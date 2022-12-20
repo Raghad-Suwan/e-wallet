@@ -11,7 +11,7 @@ const data = {
     {
       label: "Frequency of use",
       backgroundColor: "#343a40",
-      borderColor: "rgb(32,191,170)",
+      borderColor: "#FF7F50",
       data: [0,1,2,6,5,4],
     },
   ],
