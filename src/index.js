@@ -3,6 +3,8 @@ import React from 'react';
 import App from './App';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
+CallCards from './components/WalletDesign/CallCards';
+
 import Home from "./components/Pages/Home/Home";
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
@@ -19,12 +21,15 @@ import ImportTelecom from './components/Cards_push/Telecom/ImportTelecom';
 import ImportElectricity from './components/Cards_push/Electricity/ImportElectricity';
 import ImportWithdraw from './components/Withdrawa_money/ImportWithdraw';
 import CallCards from './components/WalletDesign/CallCards';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
+
         <Route path="/" index element={<Home />} />
+
         <Route path="/sign" element={<Signup />} />
         <Route path="/login" element={< Login />} />
         <Route path="/forgotPassword" element={<ForgotPassword />} />
@@ -40,7 +45,9 @@ root.render(
         <Route path="/wallet-deposit-money" element={<Card />} />
         <Route path="/wallet-pay-bills-electricity" element={<ImportElectricity />} />
         <Route path="/wallet-pay-bills-telecom" element={<ImportTelecom />} />
+
         <Route path="/wallet-pay-bills-university" element={<ImportUniversity />} />
+
       </Routes>
     </BrowserRouter>
         <App />
