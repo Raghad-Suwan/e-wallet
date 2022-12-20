@@ -1,16 +1,17 @@
 import React from 'react'
 import './Menue.css';
-<<<<<<< HEAD
+
 export default function Menue() {
   return (
-   <div>
-        <nav className="navbar navbar-dark  fixed-top">
-          
-            <div className="offcanvas-end container-fluid">
+    <div>
+<<<<<<< HEAD
+      <header className='sidebar'>
+        <nav className="navbar">
+            <div className="container-fluid">
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-      <span className="navbar-toggler-icon"></span>
+      <span ><i className='bi-list'></i></span>
     </button>
-    <div className="flexbox-container">
+    <div className="flexbox">
     <span className='name'>Jennie kim</span>
     <span className='notification'><i className='bi-bell'></i></span>
     <div className='avatar'>
@@ -21,31 +22,26 @@ export default function Menue() {
         <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
         <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      
-      <div className="offcanvas-body">
-        <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+      <div className="body">
+        <ul className="navbar-nav ">
           <li className="item">
             <a className="nav-link " aria-current="page" href="index.html"><i className='bi-person-bounding-box'></i>My account</a>
           </li>
           <li className="item">
-            <a className="nav-link " aria-current="page" href="index.html"><i className='bi-wallet2'></i>My wallet</a>
+               <a className="nav-link " aria-current="page" href="index.html"><i className='bi-wallet2'></i>My wallet</a>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i className='bi-bag-plus-fill'></i>Serves</a>
+            <i className='bi-bag-plus-fill'></i>Services</a>
             <ul className="dropdown-menu dropdown-menu-dark">
-              <li><a className="dropdown-item" href="index.html">withdraw money</a></li>
-              <li><a className="dropdown-item" href="index.html">deposit money</a></li>
-              <li><a className="dropdown-item" href="index.html">mobile top-up</a></li>
-              <li><a className="dropdown-item" href="index.html">money transfer</a></li>
+              <li><a className="dropdown-item" href="index.html">Withdraw money</a></li>
+              <li><a className="dropdown-item" href="index.html">Deposite Money</a></li>
+              <li><a className="dropdown-item" href="index.html">Pay bills</a></li>
+              <li><a className="dropdown-item" href="index.html">Money transfer</a></li>
             </ul>
             </li><li className="item">
             <a className="nav-link " aria-current="page" href="index.html"><i className='bi-box-arrow-in-right'></i>log out</a>
           </li>
 =======
-
-export default function Menue() {
-  return (
-    <div>
       <nav class="navbar navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html"><i className='bi-person-circle'>Karma astro</i></a>
@@ -77,13 +73,15 @@ export default function Menue() {
               <li><a class="dropdown-item" href="index.html">mobile top-up</a></li>
               <li><a class="dropdown-item" href="index.html">money transfer</a></li>
             </ul>
->>>>>>> d8465d823a64c45ba3d2c076d4e753d4c605b781
+>>>>>>> 0b1c1069724a2bafbc961a50c4cbee2030f21db1
           </li>
         </ul>
+       
       </div>
     </div>
   </div>
 </nav>
+</header>
     </div>
   )
 }

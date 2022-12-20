@@ -1,15 +1,14 @@
-import './Card_telecom_push.css';
-import './Card_telecom_push.css';
-import Adress_push from '../Adress_Card_push';
-import Card_push_telecom from './Card_telecom_push';
+import './CardTelecomPush.css';
+import AdressPush from '../AdressCardpush';
+import CardTelecomPush from './CardTelecomPush';
 
-const TelecomImport=()=>{
+const ImportTelecom=()=>{
 return(
     <div>
-        <Adress_push/>
-        <Card_push_telecom/>
+        <AdressPush />
+        <CardTelecomPush />
     </div>
 )
 
 }
-export default TelecomImport
+export default ImportTelecom
