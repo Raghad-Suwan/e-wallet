@@ -14,6 +14,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import styles from './myStyle.module.css';
+import { useNavigate } from 'react-router';
 
 
 const theme = createTheme();
@@ -27,7 +28,7 @@ export default function ForgotPassword() {
       password: data.get('password'),
     });
   };
-
+const forgetbutton= useNavigate();
   return (
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
@@ -63,6 +64,7 @@ export default function ForgotPassword() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 1 }}
+              onClick={() => forgetbutton('/login')}
             >
               Submit
             </Button>

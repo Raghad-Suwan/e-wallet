@@ -38,3 +38,7 @@ font-family: 'Rubik Distressed', cursive;
 .adresss{
     font-family: 'Lobster', cursive;
 }
+.error-input-hadi{
+    color: red;
+    text-align: end;
+}
