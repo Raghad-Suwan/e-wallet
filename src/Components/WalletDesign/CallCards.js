@@ -5,10 +5,6 @@ import CardLine from './CardsOfLine';
 import TableCard from './CardOfTable';
 import Menue from './Menue';
 import './ChartsAndDraw.css';
-
-
-
-
 const CallCards = () => {
   return (
     <>
