@@ -1,5 +1,5 @@
 import React from "react";
-import './Card_telecom_push.css';
+import './CardTelecomPush.css';
 import { useForm } from 'react-hook-form';
         import { ErrorMessage } from '@hookform/error-message'; 
         import { ToastContainer, toast } from 'react-toastify';
