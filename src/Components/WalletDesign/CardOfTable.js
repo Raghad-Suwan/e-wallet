@@ -6,7 +6,7 @@ const  TableCard= () => {
     return (
  
 
-<div className="card text-bg-light mb-3 text-center">
+<div className="card text-bg-light text-center">
   <div className="card-header ">ALL TRANSICTION </div>
   <div className="card-body col-12">
 
