@@ -8,8 +8,8 @@ import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
 import Login from './components/Signing/Login';
 import Signup from './components/Signing/Signup';
-import ContactForm from "./components/ContactUs/ContactForm";
 import AboutPage from './components/Pages/About-Us/AboutPage';
+import ContactForm from "./components/ContactUs/ContactForm";
 import ForgotPassword from './components/Signing/ForgotPassword';
 import CashInthoughAgents from './components/Pages/Cash-In-though-Agents/CashInthoughAgents';
 import Patment from './components/Pages/Payment-of-bills/Patment';
@@ -25,12 +25,12 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" index element={<Home />} />
+        <Route path="/" index element={<Home />} />
         <Route path="/sign" element={<Signup />} />
         <Route path="/login" element={< Login />} />
         <Route path="/forgotPassword" element={<ForgotPassword />} />
-        <Route path="/contact " element={<ContactForm />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact " element={<ContactForm />} />
         <Route path="/cashInthoughAgents" element={<CashInthoughAgents/>} />
         <Route path="/transfermoney" element={<MonyTransferPage />} />
         <Route path="/mobiltop" element={<MobileTopUpPage />} />
@@ -41,10 +41,9 @@ root.render(
         <Route path="/wallet-deposit-money" element={<Card />} />
         <Route path="/wallet-pay-bills-electricity" element={<ImportElectricity />} />
         <Route path="/wallet-pay-bills-telecom" element={<ImportTelecom />} />
-        <Route path="/wallet-pay-bills-university" element={<ImportUniversity />} /> */}
+        <Route path="/wallet-pay-bills-university" element={<ImportUniversity />} />
       </Routes>
     </BrowserRouter>
-        <App />
-
+    <App />
   </React.StrictMode>
 );

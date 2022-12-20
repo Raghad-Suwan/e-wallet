@@ -6,7 +6,7 @@ const  Navbar= () => {
   const walletButton= useNavigate();
     return (
             <nav className="navbar navbar-expand-lg ">
-                <div className="container-fluid containerNavbarOne">
+                <div className="container-fluid">
                     <li className='logoo'>
                     <Link to="/" className=" nav-link nav-logo">E-Wallet</Link>
                     </li>
@@ -20,10 +20,10 @@ const  Navbar= () => {
                             <Link to="/contact"className= "nav-link ">Contact</Link>
                             </li>
                             <li className="nav-item">
-                            <Link to="/about" className="nav-link" >About</Link>
+                            <Link to="/about" className="nav-link " >About</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a className="nav-link  dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     services
                                 </a>
                                 <ul className="dropdown-menu">

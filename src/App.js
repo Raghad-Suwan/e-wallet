@@ -1,10 +1,9 @@
 import React from "react";
 import "./App.css";
-import ImportPushCard from "./components/Cards_push/Card-Imge-push/ImportPushCards"
+import Home from "./components/Pages/Home/Home";
 function App() {
   return (
-    <div >
-      <ImportPushCard/>
+    <div>
     </div>
   );
 }

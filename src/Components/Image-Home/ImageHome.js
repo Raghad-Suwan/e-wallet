@@ -4,8 +4,8 @@ import '../Pages/Home/Home.css'
 return(
 <div className=' cover-container d-flex h-10  parentImg '>
           <img className='img-fluid img-responsive ' src={require('../../images/finaaaaaal.png')} alt='phone cover' />
-          <div className="textoverlay text-capitalize ">
-           make life easier with wallet</div> 
+          {/* <div className="textoverlay text-capitalize ">
+           make life easier with wallet</div>  */}
         </div>
 );
  }
