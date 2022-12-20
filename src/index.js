@@ -3,7 +3,7 @@ import React from 'react';
 import App from './App';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
-//import Home from "./components/Pages/Home/Home";
+import Home from "./components/Pages/Home/Home";
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
 import Login from './components/Signing/Login';
@@ -26,11 +26,11 @@ root.render(
     <App />
     <BrowserRouter>
       <Routes>
-      {/* <Route path="/" index element={<Home />} />  */}
+       <Route path="/" index element={<Home />} />   
         <Route path="/sign" element={<Signup />} />
         <Route path="/login" element={< Login />} />
         <Route path="/forgotPassword" element={<ForgotPassword />} />
-        <Route path="/contact " element={<ContactForm />} />
+         <Route path="/contact " element={<ContactForm />} /> 
         <Route path="/about" element={<AboutPage />} />
         <Route path="/cashInthoughAgents" element={<CashInthoughAgents/>} />
         <Route path="/transfermoney" element={<MonyTransferPage />} />
@@ -43,7 +43,7 @@ root.render(
         <Route path="/wallet-pay-bills-electricity" element={<ImportElectricity />} />
         <Route path="/wallet-pay-bills-telecom" element={<ImportTelecom />} />
         <Route path="/wallet-pay-bills-university" element={<ImportUniversity />} />
-      </Routes>
+      </Routes> 
     </BrowserRouter>
   </React.StrictMode>
 );
