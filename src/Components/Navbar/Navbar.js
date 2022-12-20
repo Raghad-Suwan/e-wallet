@@ -6,7 +6,7 @@ const  Navbar= () => {
   const walletButton= useNavigate();
     return (
             <nav className="navbar navbar-expand-lg ">
-                <div className="container-fluid">
+                <div className="container-fluid containerNavbarOne">
                     <li className='logoo'>
                     <Link to="/" className=" nav-link nav-logo">E-Wallet</Link>
                     </li>
@@ -20,17 +20,17 @@ const  Navbar= () => {
                             <Link to="/contact"className= "nav-link ">Contact</Link>
                             </li>
                             <li className="nav-item">
-                            <Link to="/about" className="nav-link " >About</Link>
+                            <Link to="/about" className="nav-link" >About</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a className="nav-link  dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     services
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><Link to="/CashInthoughAgents" className="dropdown-item" >Money withdraw</Link></li>
                                     <li><Link to="/transfermoney" className="dropdown-item" >Money transfer</Link></li>
                                     <li><Link to="/mobiltop" className="dropdown-item" >Deposite money</Link></li>
-                                    <li><Link to="/patment" className="dropdown-item" >Pay bills </Link></li>
+                                    <li><Link to="/payment" className="dropdown-item" >Pay bills </Link></li>
                                 </ul>
                             </li>
                         </ul>

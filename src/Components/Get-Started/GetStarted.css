@@ -1,11 +1,13 @@
 .sectionGetStart {
     background-color: #23697a;
+    position: static;
 }
 .btnGetSterted {
     background-color: #b884a5 !important;
     border: none;
     color: aliceblue;
     border-radius: 20px !important;
+
 }
 .textGetStarted {
     color: aliceblue;

@@ -5,9 +5,10 @@ const AboutText = () => {
     return (
         
         <div className="container d-flex pt-5 ">
-            <div className="aboutText">
-                <div className="row text-center">
+            <div className="aboutText"  >
+                <div className="row text-center" data-aos= "zoom-out" >
                     <div class="col-12 col-lg-4 ">
+                    
                         <AboutContent
                             subtitle="Why Was Established?"
                             content="Cash financial transactions control the economy in Palestine.
@@ -16,7 +17,7 @@ const AboutText = () => {
              to transfer the national economy into an advanced digital economy."
                         />
                     </div>
-                    <div class="col-12 col-lg-4 ">
+                    <div class="col-12 col-lg-4 " >
                         <AboutContent
                             subtitle="Who Benefits from Services?"
                             content="Palestenian individuals will benefit .
@@ -25,7 +26,7 @@ const AboutText = () => {
              nd time for users."
                         />
                     </div>
-                    <div class="col-12 col-lg-4 ">
+                    <div class="col-12 col-lg-4 " >
                         <AboutContent
                             subtitle="Our Vision and Mission"
                             content="aims at leading the Palestinian society and transferring it into a non-cash

@@ -6,6 +6,9 @@ import TableCard from './CardOfTable';
 import Menue from './Menue';
 import './ChartsAndDraw.css';
 
+
+
+
 const CallCards = () => {
   return (
     <>
@@ -21,5 +24,6 @@ const CallCards = () => {
       </div>
     </>
   );
+
 }
 export default CallCards;

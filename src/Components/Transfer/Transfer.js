@@ -36,7 +36,7 @@ const Transfer = () => {
 
                                 <div className="col-md-3">
 
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select className="form-select" aria-label="Default select example">
                                         <option value="1">dollar</option>
                                         <option value="2">dinar</option>
                                         <option value="3">shekel</option>
