@@ -5,7 +5,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
@@ -13,14 +12,9 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import styles from './myStyle.module.css';
+import { Link, useNavigate } from 'react-router-dom';
 
 const theme = createTheme();
-const fieldStyle={
-  borderWidth: '0px',
-  borderBottomWidth: '2px'
-
-};
-
 export default function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -30,7 +24,7 @@ export default function Login() {
       password: data.get('password'),
     });
   };
-
+  const loginbutton = useNavigate();
   return (
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
@@ -81,18 +75,18 @@ export default function Login() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
+              onClick={() => loginbutton('/wallet')}
             >
               Log In
             </Button>
             <Grid container>
               <Grid item xs>
-                <Link href="/ForgotPassword" variant="body2">
+                <Link to="/forgotPassword">
                   Forgot password?
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="/Signup" variant="body2">
-                  
+                <Link to="/sign">
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>

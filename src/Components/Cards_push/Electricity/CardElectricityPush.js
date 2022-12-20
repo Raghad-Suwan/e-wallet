@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Card_electricity=()=>{
+const CardElectricity=()=>{
         return(
         <>
             
@@ -41,4 +41,4 @@ const Card_electricity=()=>{
         }
 
 
-        export default Card_electricity
+        export default CardElectricity

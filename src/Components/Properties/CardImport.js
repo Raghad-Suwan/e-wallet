@@ -2,7 +2,7 @@ import React from 'react';
 import Card3 from './Card3';
 import './Card3.css';
 
-const CardImport=(props)=>{
+const CardImport=()=>{
     return (
 <div className="container text-center containCard ">
   <div className="row align-items-start g-5 h-30 rroowwss">

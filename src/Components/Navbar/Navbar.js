@@ -13,8 +13,8 @@ const  Navbar= () => {
                     <button className=" btn navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                  
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <div className="collapse navbar-collapse" >
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                             <Link to="/contact"className= "nav-link ">Contact</Link>
@@ -30,7 +30,7 @@ const  Navbar= () => {
                                     <li><Link to="/CashInthoughAgents" className="dropdown-item" >Money withdraw</Link></li>
                                     <li><Link to="/transfermoney" className="dropdown-item" >Money transfer</Link></li>
                                     <li><Link to="/mobiltop" className="dropdown-item" >Deposite money</Link></li>
-                                    <li><Link to="/billsmarchent" className="dropdown-item" >Pay bills </Link></li>
+                                    <li><Link to="/payment" className="dropdown-item" >Pay bills </Link></li>
                                 </ul>
                             </li>
                         </ul>
