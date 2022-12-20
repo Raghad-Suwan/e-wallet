@@ -10,7 +10,7 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
  function Signup() {
@@ -27,15 +27,13 @@ import { Link } from 'react-router-dom';
       phone:data.get('phone')
     });
   };
-
-
+const signupbutton = useNavigate();
   return (
     
       <Container  maxWidth="xs">
         <CssBaseline/>
         <Box
           sx={{
-            marginTop: 25,
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
@@ -133,6 +131,7 @@ import { Link } from 'react-router-dom';
               type="submit"
             variant="contained" color="warning"
               sx={{ mt:3, mb: 2}}
+              onClick={() => signupbutton('/wallet')}
             >
               Sign Up
             </Button>

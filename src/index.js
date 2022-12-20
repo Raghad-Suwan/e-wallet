@@ -13,12 +13,12 @@ import AboutPage from './components/Pages/About-Us/AboutPage';
 import ForgotPassword from './components/Signing/ForgotPassword';
 import CashInthoughAgents from './components/Pages/Cash-In-though-Agents/CashInthoughAgents';
 import Patment from './components/Pages/Payment-of-bills/Patment';
-import CallCards from './components/WalletDesign/CallCards';
 import Card from './components/Deposite-Money/Card';
 import ImportUniversity from './components/Cards_push/University/ImportUniversity';
 import ImportTelecom from './components/Cards_push/Telecom/ImportTelecom';
 import ImportElectricity from './components/Cards_push/Electricity/ImportElectricity';
 import ImportWithdraw from './components/Withdrawa_money/ImportWithdraw';
+import CallCards from './components/WalletDesign/CallCards';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
