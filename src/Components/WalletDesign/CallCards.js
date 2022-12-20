@@ -3,7 +3,6 @@ import Cards1 from './CardsFirstPage1';
 import CardBarDemo from './CardOfBar';
 import CardLine from './CardsOfLine';
 import './ChartsAndDraw.css';
-import Menue from './Menue';
 
 const CallCards = () => {
   return (
@@ -16,9 +15,7 @@ const CallCards = () => {
           <Cards1 header="current balance" title="$500.00" />
           <CardBarDemo />
           <CardLine />
-          
         </div>
-        
       </div>
     </>
   );
