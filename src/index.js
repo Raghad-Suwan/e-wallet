@@ -3,7 +3,7 @@ import React from 'react';
 import App from './App';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
-import Home from "./components/Pages/Home/Home";
+//import Home from "./components/Pages/Home/Home";
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
 import Login from './components/Signing/Login';
@@ -26,7 +26,7 @@ root.render(
     <App />
     <BrowserRouter>
       <Routes>
-        <Route path="/" index element={<Home />} />
+      {/* <Route path="/" index element={<Home />} />  */}
         <Route path="/sign" element={<Signup />} />
         <Route path="/login" element={< Login />} />
         <Route path="/forgotPassword" element={<ForgotPassword />} />

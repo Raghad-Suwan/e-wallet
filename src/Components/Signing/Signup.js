@@ -28,6 +28,7 @@ import { Link } from 'react-router-dom';
     });
   };
 
+
   return (
     
       <Container  maxWidth="xs">
@@ -69,8 +70,8 @@ import { Link } from 'react-router-dom';
                   autoComplete="family-name"
                   variant="outlined"
                 />
-
               </Grid>
+
               <Grid item xs={12}>
                 <TextField
                   fullWidth
@@ -125,6 +126,8 @@ import { Link } from 'react-router-dom';
               </Grid>
             </Grid>
 
+        
+         
             <Button
             fullWidth
               type="submit"
@@ -133,13 +136,11 @@ import { Link } from 'react-router-dom';
             >
               Sign Up
             </Button>
+
+
             <Grid container justifyContent="center">
               <Grid item>
-<<<<<<< HEAD
-                <Link href="/login">
-=======
                 <Link to ="/login">
->>>>>>> 0b1c1069724a2bafbc961a50c4cbee2030f21db1
                   Already have an account? Sign in
                 </Link>
               </Grid>
