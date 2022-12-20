@@ -42,5 +42,37 @@
 }
 .memberIemText {
   font-family:'Titillium Web', sans-serif;
+}
+.aboutTitle{
+  animation: fadeInLeft 1s ease forwards;
+}
+.aboutBeside{
+  animation: fadeInRight 1.1s ease forwards;
+}
+.imgAbout{
+  animation: fadeInRight 1.1s ease forwards;
 
+}
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-40px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(20px);
+	}
+}
+
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(40px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
 }

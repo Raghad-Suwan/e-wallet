@@ -3,7 +3,7 @@ import './HowWorks.css';
 const HowWorksReverse = (props) => {
     return (
         <div className='container '>
-            <div className='row d-sm-flex'>
+            <div className='row d-sm-flex'  data-aos= "fade-left">
                 <div className='col col-md-12 col-lg-5 '>
                     <img className=' img-fluid '
                         src={props.src}

@@ -8,7 +8,7 @@ const HowWorksImport = () => {
     return (
         <>
           <div className='container howWorks '>
-                <div className='row d-sm-flex m-0 p-0'>
+                <div className='row d-sm-flex m-0 p-0' >
             <HowWorks
                 text1="need to enter your information in our signup form"
                 text2="  sign up first"
