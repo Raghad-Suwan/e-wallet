@@ -3,10 +3,12 @@ import Cards1 from './CardsFirstPage1';
 import CardBarDemo from './CardOfBar';
 import CardLine from './CardsOfLine';
 import './ChartsAndDraw.css';
+import Menue from './Menue';
 
 const CallCards = () => {
   return (
     <>
+    <Menue />
       <div className="container-fluid  malakContainer">
         <div className="row">
           <Cards1 header="Todays Fee" title="$0.0000000" />
@@ -14,7 +16,9 @@ const CallCards = () => {
           <Cards1 header="current balance" title="$500.00" />
           <CardBarDemo />
           <CardLine />
+          
         </div>
+        
       </div>
     </>
   );
