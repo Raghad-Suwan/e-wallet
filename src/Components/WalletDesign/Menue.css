@@ -1,0 +1,79 @@
+.sidebar header{
+    background-color: #115262;
+    position:relative;
+}
+.avatar{
+    background-image: url("/src/images/Avatart.jpg");
+    background-size: 50px;
+    width: 54px;
+    margin-left: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 54px;
+    margin-right: 100px;
+    margin-top: -18px;
+}
+.bi-list {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.name{
+    color: white;
+    height: 100px;
+    font-family: sans-serif;
+    border: 30px;
+    font-size: 20px;
+    position: relative;
+   top: 25px;
+left: 90px;
+position: relative;
+}
+.bi-bell{
+   color: white;
+   position: absolute;
+   right: 190px;
+   top: 23px;
+   font-size: 30px;
+}
+.offcanvas-body{
+    background-color: #115262;
+    margin-top: -50px;
+<<<<<<< HEAD
+    width: 100%;
+=======
+    background-color: #6d929f;
+    height:100%;
+>>>>>>> b13bf4386c561899d360b33e35fc5e2346018d8f
+}
+.sidebar-side .nav-link {
+    color: aliceblue;
+    margin-top: 40px;
+    font-size: 17px;
+    margin-right: 40px;
+}
+<<<<<<< HEAD
+.in-dropdown{
+    background-color: #115262;
+    height: 150px;
+=======
+.item i{
+    margin-right: 15px;
+    align-items: center;
+    justify-items: center;
+}
+.body .navbar-nav .item a{
+    background-color: #7ba9b8;
+    border: 10px solid #b8c6ca;
+>>>>>>> b13bf4386c561899d360b33e35fc5e2346018d8f
+    margin-top: -10px;
+    margin-left: -40px;
+}
+.main-menu i{
+    color: aliceblue;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+position: absolute;
+margin-top: 10px;
+}

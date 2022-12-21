@@ -1,0 +1,12 @@
+.needInfo{
+    align-items:center ;
+    flex-wrap: wrap;
+}
+.HowWorks img{
+    width: 100%;
+}
+.howWorks{
+    position: relative;
+    left: 0;
+
+}

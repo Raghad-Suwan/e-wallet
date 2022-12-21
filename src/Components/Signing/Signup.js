@@ -5,7 +5,6 @@ import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
@@ -50,19 +49,19 @@ function onchange_lastName(value){
         <CssBaseline/>
         <Box
           sx={{
-            marginTop: 25,
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor:'chocolate' }}>
+          <Avatar sx={{ m:5, bgcolor:'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
+          <Typography>
             Sign up
           </Typography>
-          <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+          <Box component="form" onSubmit={handleSubmit} sx={{ mt:2}}>
+
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
@@ -90,8 +89,8 @@ function onchange_lastName(value){
                     onchange_lastName(e.target.value)
                   }}
                 />
-
               </Grid>
+
               <Grid item xs={12}>
                 <TextField
                   fullWidth
@@ -149,23 +148,37 @@ function onchange_lastName(value){
 
               <Grid item xs={12}>
                 <FormControlLabel
-                  control={<Checkbox value="allowExtraEmails" color="primary" />}
+                  control={<Checkbox value="allowExtraEmails" color="warning" />}
                   label="I agree to all Terms privacy policy and fees "
                 />
               </Grid>
             </Grid>
 
+        
+         
             <Button
+<<<<<<< HEAD
             onClick={ handleSubmit }
               type="button"
+=======
+            fullWidth
+              type="submit"
+>>>>>>> 71468a558fd05e72242ed55349e901949478c037
             variant="contained" color="warning"
-              sx={{ mt:3, mb: 2 ,marginLeft:17 }}
+              sx={{ mt:3, mb: 2}}
+              onClick={() => signupbutton('/walletdashbord')}
             >
               Sign Up
             </Button>
-            <Grid container justifyContent="flex-end">
+
+
+            <Grid container justifyContent="center">
               <Grid item>
+<<<<<<< HEAD
                 <Link href="/Login">
+=======
+                <Link to ="/login">
+>>>>>>> 71468a558fd05e72242ed55349e901949478c037
                   Already have an account? Sign in
                 </Link>
               </Grid>

@@ -1,0 +1,61 @@
+.card-header-malak1{
+   font-size: small;
+   color: #ffffff;
+   margin-top:1rem;
+   margin-left:1rem;
+}
+
+ .card-body-malak{
+   padding: 1rem;
+   
+ }
+.card-title-malak1{
+   font-size: large;
+}
+
+
+.malakContainer{
+    background-color: #ffffff;
+    border: 1px solid rgba(242, 241, 241, 0.1);
+    margin-top:5rem;
+    max-width: 100%;
+    margin-left:20rem;
+    }
+
+     .chart-malak{
+      margin-bottom: 1rem;
+     margin-right: 3rem;
+     width:100%;
+      } 
+
+  
+
+ .card-header-bar{
+   margin-left:1rem;
+   color: rgb(130, 128, 128);
+   font-size:small;
+} 
+
+.cardChart-bar{
+  margin-top:1rem;
+}
+
+.card-body-bar{
+   background-color: #ffffff;
+}
+
+.cardChart-line{
+   margin-top:1rem;
+}
+
+
+.card-header-line{
+   margin-left:1rem;
+   color: rgb(130, 128, 128);
+   font-size:small;
+  
+}
+.card-body-line{
+   background-color: #ffffff;
+   width: 100%;
+}

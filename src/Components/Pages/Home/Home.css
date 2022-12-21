@@ -1,5 +1,19 @@
-
-
-.specialColToLog{
-    color: aliceblue;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;600&family=Open+Sans:wght@600&display=swap');
+ 
+ .parentImg {
+    background-color: rgb(23,136,160);
+     padding-top: 0%;
+     z-index: -1;
+     top: 0;
+ }
+ .textoverlay {
+     position: absolute;
+     top: 650px;
+     left: 200px;
+     width: 100%;
+     width: 600px;
+     height: 50px;
+     z-index: 100;
+     font-size: 50px;
+     font-family: 'Open Sans', sans-serif;
+ }

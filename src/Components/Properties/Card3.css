@@ -2,14 +2,6 @@
     box-sizing: border-box;
 }
 
- /* .Cards{
-  display: inline;
- position: fixed;
- left: 20%;
- top: 30%;
- right: 30%;
- transition: translate(-80%,-70%);
-   } */
 
  .rroowwss{
     padding-top: 2rem;
@@ -24,19 +16,22 @@
 }
 
 .containCard {
-    /* background:radial-gradient(#964c4c,rgb(157, 144, 233),#143cc0); */
     padding: 0 190px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 170px;
-  
+  height: 20%;
 } 
 
 .lara{
    
     padding: 3rem 0 !important;
     margin: 0 auto 30px;
+    width: 10%;
+    height: 30%;
+    border: #12336e;
+    border-width: 10%;
   
 }
 .textlll{

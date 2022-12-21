@@ -1,65 +1,53 @@
-
+import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import './Navbar.css';
-const  navbar= () => {
+
+const  Navbar= () => {
+  const walletButton= useNavigate();
     return (
- 
 
-<nav className="navbar navbar-expand-lg bg">
-  <div className="container">
+            <nav className="navbar navbar-expand-lg navbarBasic ">
+                <div className="container-fluid">
+                    <li className='logoo'>
+                    <Link to="/" className=" nav-link nav-logo">E-Wallet</Link>
+                    </li>
+                    <button className=" btn navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
 
-
-   <div className="col-xs col-md-1 logo1"  >
-      <img id="Logo"  src='../../logo.png' />                  
-  </div>
-          
-   
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav  ">
-        
-        
-   
-        <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
-        </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            services
-          </a>
-          <ul className="dropdown-menu">
-          <li><a className="dropdown-item" href="#">Money withdrawal</a></li>
-            <li><a className="dropdown-item" href="#">Money transfer</a></li>
-            <li><a className="dropdown-item" href="#">Deposite money</a></li>
-            <li><a className="dropdown-item" href="#">Pay for merchants</a></li>
-            <li><a className="dropdown-item" href="#">Pay bills </a></li>
-
-          </ul>
-        </li>
-        
-      </ul>
-      <div className="container h-100">
-      <div className="d-flex justify-content-end h-50s"> 
-        <div className="searchbar">
-          <input className="search_input" type="text" name="mmmk" placeholder="Search..."/>
-          <a href="#" className="search_icon"><i className="fas fa-search" ></i></a>
-
-        </div>
-      </div>
-                   </div>
-                   
-                   <button  className="btn btn-outline-light">
-    <i className="fa-solid fa-right-to-bracket"></i>
-
-           </button>       </div></div>
-                 
-                 
-                         </nav>
-
-
-)
+                    <div className="collapse navbar-collapse " >
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                            <Link to="/contact"className= "nav-link ">Contact</Link>
+                            </li>
+                            <li className="nav-item">
+                            <Link to="/about" className="nav-link " >About</Link>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <a className="nav-link  dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    services
+                                </a>
+                                <ul className="dropdown-menu dropBasic">
+                                    <li><Link to="/CashInthoughAgents" className="dropdown-item" >Money withdraw</Link></li>
+                                    <li><Link to="/transfermoney" className="dropdown-item" >Money transfer</Link></li>
+                                    <li><Link to="/mobiltop" className="dropdown-item" >Deposite money</Link></li>
+                                    <li><Link to="/wallet-pay-bills-Cards" className="dropdown-item" >Pay bills </Link></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form className="d-flex" role="search">
+                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button className="btn btn-outline-light" 
+                            onClick={()=>walletButton('/login')} >
+                                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+    )
 }
-export default navbar
+export default Navbar
+
 
 

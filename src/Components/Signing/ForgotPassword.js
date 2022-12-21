@@ -4,16 +4,17 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
-import Link from '@mui/material/Link';
-import Grid from '@mui/material/Grid';
+// import FormControlLabel from '@mui/material/FormControlLabel';
+// import Checkbox from '@mui/material/Checkbox';
+// import Link from '@mui/material/Link';
+// import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import styles from './myStyle.module.css';
+import { useNavigate } from 'react-router';
 
 
 const theme = createTheme();
@@ -27,7 +28,7 @@ export default function ForgotPassword() {
       password: data.get('password'),
     });
   };
-
+const forgetbutton= useNavigate();
   return (
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
@@ -48,7 +49,7 @@ export default function ForgotPassword() {
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
-             className={styles.myField}
+              className={styles.myField}
               margin="normal"
               required
               fullWidth
@@ -63,6 +64,7 @@ export default function ForgotPassword() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 1 }}
+              onClick={() => forgetbutton('/login')}
             >
               Submit
             </Button>
