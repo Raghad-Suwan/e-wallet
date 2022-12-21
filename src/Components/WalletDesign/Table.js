@@ -1,11 +1,10 @@
 import './Table.css';
-  
-
+import Menue from './Menue';
 const  Table= () => {
     return (
  
   <>
-  
+  <Menue/>
 <div className='container'>
 <table className="table caption-top">
  

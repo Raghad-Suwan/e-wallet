@@ -33,12 +33,11 @@
  .card-header-bar{
    margin-left:1rem;
    color: rgb(130, 128, 128);
-   font-size:90%;
+   font-size:small;
 } 
 
 .cardChart-bar{
-  padding:5px;
-  width:100%;
+  margin-top:1rem;
 }
 
 .card-body-bar{
@@ -46,16 +45,14 @@
 }
 
 .cardChart-line{
-font-size: xx-small;
-width:100%;
-padding:5px;
+   margin-top:1rem;
 }
 
 
 .card-header-line{
    margin-left:1rem;
    color: rgb(130, 128, 128);
-   font-size:150%;
+   font-size:small;
   
 }
 .card-body-line{

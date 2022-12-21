@@ -5,7 +5,7 @@ import AboutText from "./AboutText";
 import TeamMember from './TeamMember';
 import Footer from '../../Footer/Footer';
 
-function AboutPage(props) {
+function AboutPage() {
     return (
         <header >
             <Navbar />
@@ -39,7 +39,7 @@ function AboutPage(props) {
                     </section>
                     <section className='p-2  pt-1 sec3 text-center w-100'>
                         <div className='container-fluid w-100 '>
-                            <div className='row '>
+                            <div className='row ' data-aos= "fade-right">
                                 <div className='col col-sm-12  col-lg-4'>
                                     <p className='h1 text-info '>+1000</p>
                                     <p className='fs-3 lead'>users</p>
@@ -56,11 +56,11 @@ function AboutPage(props) {
                         </div>
                     </section>
                     <section className='team-people'>
-                        <div className='row '>
+                        <div className='row '   data-aos= "zoom-in">
                             <h2 className='peopleHeader m-3 p-3 text-center'>Team Members</h2>
                         </div>
 
-                        <div className='row m-3 p-2 justify-content-center text-center align-items-center'>
+                        <div className='row m-3 p-2 justify-content-center text-center align-items-center' >
                             <TeamMember
                                  src={require('../../../images/user.png')}
                                 alt="lara avatar "
@@ -82,7 +82,7 @@ function AboutPage(props) {
                                 alt="hadi avatar "
                                 name="Hadi " />
                             <TeamMember
-                                // src={require('../../../images/inas.png')}
+                                src={require('../../../images/inas.png')}
                                 alt="inas avatar "
                                 name="Inas " />
                         </div>
