@@ -6,12 +6,12 @@ import Navbar from '../../Navbar/Navbar';
 export default function Payment() {
   return (
     <header>
-      <Navbar/>
-    <div>
-      <Headerpayment />
-      <Paymentbills />
-      <StepsToPayment/>
-    </div>
+      <Navbar />
+      <div>
+        <Headerpayment />
+        <Paymentbills />
+        <StepsToPayment />
+      </div>
     </header>
   )
 }

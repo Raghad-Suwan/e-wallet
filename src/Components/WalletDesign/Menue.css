@@ -1,6 +1,5 @@
-.sidebar header{
+.sidebar{
     background-color: #115262;
-    position:relative;
 }
 .avatar{
     background-image: url("/src/images/Avatart.jpg");
@@ -38,42 +37,25 @@ position: relative;
 }
 .offcanvas-body{
     background-color: #115262;
-    margin-top: -50px;
-<<<<<<< HEAD
+    margin-top: -30px;
     width: 100%;
-=======
-    background-color: #6d929f;
-    height:100%;
->>>>>>> b13bf4386c561899d360b33e35fc5e2346018d8f
 }
 .sidebar-side .nav-link {
     color: aliceblue;
-    margin-top: 40px;
-    font-size: 17px;
-    margin-right: 40px;
+    margin-top: 60px;
+    font-size: 20px;
+    padding-left: 90px;
 }
-<<<<<<< HEAD
 .in-dropdown{
     background-color: #115262;
-    height: 150px;
-=======
-.item i{
-    margin-right: 15px;
-    align-items: center;
-    justify-items: center;
-}
-.body .navbar-nav .item a{
-    background-color: #7ba9b8;
-    border: 10px solid #b8c6ca;
->>>>>>> b13bf4386c561899d360b33e35fc5e2346018d8f
+    border: none;
     margin-top: -10px;
-    margin-left: -40px;
+    margin-bottom: -10px;
+    font-size: larger;
 }
 .main-menu i{
-    color: aliceblue;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: row;
-position: absolute;
-margin-top: 10px;
+    /* #b6d8f5da */
+    /* #67b0c2 */
+    color:  #bceaf5;
+    padding-right: 10px;
 }

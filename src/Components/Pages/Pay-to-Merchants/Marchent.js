@@ -7,15 +7,13 @@ import Navbar from '../Navbar/Navbar';
 export default function Marchent() {
   return (
     <header>
-        <Navbar />
-
-    <div>
-      <Hedermarchent />
-      <Payingmarchent />
-      <Stepstopayingmarchent />
-      
-    </div>
+      <Navbar />
+      <div>
+        <Hedermarchent />
+        <Payingmarchent />
+        <Stepstopayingmarchent />
+      </div>
+      <Footer />
     </header>
-
   )
 }

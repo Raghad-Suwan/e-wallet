@@ -131,7 +131,7 @@ const signupbutton = useNavigate();
               type="submit"
             variant="contained" color="warning"
               sx={{ mt:3, mb: 2}}
-              onClick={() => signupbutton('/walletdashbord')}
+              onClick={() => signupbutton('/wallet')}
             >
               Sign Up
             </Button>

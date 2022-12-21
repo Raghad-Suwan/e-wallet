@@ -1,4 +1,4 @@
-.center{
+.centerrobot{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,7 +17,7 @@
       background-position:90% ;
       
   }
-.box{
+.boxrobot{
     position: relative;
     top: 10px;
     width: 40px;
@@ -28,7 +28,7 @@
     
     
     }
-    .box::before{
+    .boxrobot::before{
       content: '';
       position: absolute;
       top: 10px;
@@ -39,14 +39,14 @@
       box-sizing: border-box;
       translate: .5s;
     }
-    .box:checked::before{
+    .boxrobot:checked::before{
     border-left: none;
     border-top: none;
     width: 20px;
     border-color: green;
     transform: rotate(45deg) translate(5px,-10px);
     }
-    .text{
+    .textrobot{
       padding-right: 120px;
       font-size: 16px;
       font-weight: 400px;

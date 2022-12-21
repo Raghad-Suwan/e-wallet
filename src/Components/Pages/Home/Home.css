@@ -1,10 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;600&family=Open+Sans:wght@600&display=swap');
  
  .parentImg {
-    background-color: rgb(23,136,160);
+     position: relative;
      padding-top: 0%;
      z-index: -1;
      top: 0;
+     left: 0;
+     background-size: cover;
  }
  .textoverlay {
      position: absolute;

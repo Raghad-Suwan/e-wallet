@@ -1,4 +1,6 @@
 import React from 'react'
+import './Mentt.css';
+
 export default function Paymentbills() {
   return (
     <div>
@@ -6,8 +8,7 @@ export default function Paymentbills() {
           <p className="paybill">Through your e-wallet, you can now pay your bills and store them  </p>  
           <p className="paybill">directly and easily from any location and at any time. This service is available 24/7.</p>
           <p className="paybill">Among the main services to pay your bills are:</p>
-          <ul className="right">
-           
+          <ul className="rightpay">
           <li> Payment of your Paltel bills </li>
           <li> Payment of your Jawwal mobile phone bills</li>
           <li> untilities ( coming soon) </li>

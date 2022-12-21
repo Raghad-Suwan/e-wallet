@@ -1,3 +1,4 @@
+import React from 'react';
 import AdressWithdraw from "./AdressCardWithdraw";
 import './CardWithdraw.css';
 import CardWithdraw from "./CardWithdrawa";
@@ -7,8 +8,11 @@ const ImportWithdraw=()=>{
     return(
         <div>
             <Menue />
-            <AdressWithdraw />
-            <CardWithdraw />
+            {/* <AdressWithdraw /> */}
+            <div className='mt-3 p-5'>
+                  <CardWithdraw />
+            </div>
+          
         </div>
     )
 }
