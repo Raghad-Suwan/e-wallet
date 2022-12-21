@@ -2,9 +2,8 @@ import './index.css';
 import React from 'react';
 import App from './App';
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-
+import { BrowserRouter, Routes,Route } from 'react-router-dom';
+import Transfer from './components/Transfer/Transfer';
 import Home from "./components/Pages/Home/Home";
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
@@ -23,7 +22,6 @@ import ImportWithdraw from './components/Withdrawa_money/ImportWithdraw';
 import CallCards from './components/WalletDesign/CallCards';
 import Table from './components/WalletDesign/Table';
 import ImportPushCards from './components/Cards_push/Card-Imge-push/ImportPushCards';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -45,12 +43,11 @@ root.render(
         <Route path="/wallet-deposit-money" element={<Card />} />
         <Route path="/wallet-pay-bills-electricity" element={<ImportElectricity />} />
         <Route path="/wallet-pay-bills-telecom" element={<ImportTelecom />} />
-
         <Route path="/wallet-pay-bills-university" element={<ImportUniversity />}/>
         <Route path='/all-Transaction' element={<Table />}/>
         <Route path='/pushcards' element={<ImportPushCards/>}/>
+        <Route path ='/Tranfer' element={<Transfer />}/>
       </Routes>
 </BrowserRouter>
-        <App />
   </React.StrictMode>
 );

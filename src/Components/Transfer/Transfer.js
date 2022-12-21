@@ -1,8 +1,11 @@
 import React from 'react';
 import './Transfer.css';
+import Menue from '../WalletDesign/Menue';
 const Transfer = () => {
     return (
-            <div className="container tranfer" >
+        <div>
+        <Menue />
+            <div className="container" >
                 <div className="card card_transfer">
                     <div className="topic text-center topic_transfer">
                         <h2 className="card-title text-white card-title_transfer">cash Transfer slip money</h2>
@@ -60,6 +63,7 @@ const Transfer = () => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
     );
 }

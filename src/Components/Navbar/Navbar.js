@@ -31,7 +31,7 @@ const  Navbar= () => {
                                     <li><Link to="/CashInthoughAgents" className="dropdown-item" >Money withdraw</Link></li>
                                     <li><Link to="/transfermoney" className="dropdown-item" >Money transfer</Link></li>
                                     <li><Link to="/mobiltop" className="dropdown-item" >Deposite money</Link></li>
-                                    <li><Link to="/wallet-pay-bills-Cards" className="dropdown-item" >Pay bills </Link></li>
+                                    <li><Link to="/payment" className="dropdown-item" >Pay bills </Link></li>
                                 </ul>
                             </li>
                         </ul>
