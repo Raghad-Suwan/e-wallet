@@ -18,9 +18,13 @@
     margin-bottom: -8px;
     background-image: url("../../../images/MonyTransfer.png") ;
     padding: 130px;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 93%;
+  background-size: 100% 95%;
+  }
+  @media (max-width: 844px){
+    .headerTrans{
+      font-size:40px;
+    }
   }
   .StelyTitle{
     color: coral;
