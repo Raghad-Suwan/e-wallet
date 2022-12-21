@@ -7,7 +7,7 @@ import { BrowserRouter, Routes,Route } from 'react-router-dom';
  import Home from "./components/Pages/Home/Home";
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
-import Login from './components/Signing/Login';*/
+import Login from './components/Signing/Login'
 import Signup from './components/Signing/Signup';
 import ContactForm from "./components/ContactUs/ContactForm";
 import AboutPage from './components/Pages/About-Us/AboutPage';
@@ -36,7 +36,7 @@ root.render(
         <Route path="/cashInthoughAgents" element={<CashInthoughAgents/>} />
         <Route path="/transfermoney" element={<MonyTransferPage />} />
         <Route path="/mobiltop" element={<MobileTopUpPage />} />
-        <Route path="/payment" element={<Patment/>} />
+        {/* <Route path="/payment" element={<Patment/>} /> */}
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
         <Route path="/wallet" element={<CallCards />} />
         <Route path="/wallet-withdraw-money" element={<ImportWithdraw />} />
@@ -44,7 +44,7 @@ root.render(
         <Route path="/wallet-pay-bills-electricity" element={<ImportElectricity />} />
         <Route path="/wallet-pay-bills-telecom" element={<ImportTelecom />} />
         <Route path="/wallet-pay-bills-university" element={<ImportUniversity />} />
-        <Route path ='/all-transection' element={<Table/>}/>
+        {/* <Route path ='/all-transection' element={<Table/>}/> */}
       </Routes>
 </BrowserRouter>
 
