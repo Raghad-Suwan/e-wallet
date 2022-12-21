@@ -75,24 +75,15 @@ export default function Login() {
             onClick={ handleSubmit }
               type="submit" 
               fullWidth
-<<<<<<< HEAD
-              variant="contained" color="warning"
-               sx={{ mt: 3, mb: 2 }}
-=======
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
               onClick={() => loginbutton('/wallet')}
->>>>>>> 71468a558fd05e72242ed55349e901949478c037
             >
               Log In
             </Button>
             <Grid container>
               <Grid item xs>
-<<<<<<< HEAD
-                <Link href="/ForgotPassword" >
-=======
                 <Link to="/forgotPassword">
->>>>>>> 71468a558fd05e72242ed55349e901949478c037
                   Forgot password?
                 </Link>
               </Grid>

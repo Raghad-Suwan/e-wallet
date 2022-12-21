@@ -157,13 +157,8 @@ function onchange_lastName(value){
         
          
             <Button
-<<<<<<< HEAD
             onClick={ handleSubmit }
               type="button"
-=======
-            fullWidth
-              type="submit"
->>>>>>> 71468a558fd05e72242ed55349e901949478c037
             variant="contained" color="warning"
               sx={{ mt:3, mb: 2}}
               onClick={() => signupbutton('/walletdashbord')}
@@ -174,11 +169,7 @@ function onchange_lastName(value){
 
             <Grid container justifyContent="center">
               <Grid item>
-<<<<<<< HEAD
-                <Link href="/Login">
-=======
                 <Link to ="/login">
->>>>>>> 71468a558fd05e72242ed55349e901949478c037
                   Already have an account? Sign in
                 </Link>
               </Grid>
