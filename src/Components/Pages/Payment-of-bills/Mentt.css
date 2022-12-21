@@ -9,20 +9,20 @@
     text-align: justify;
     padding: -1px;
     padding-left:20px;
-    font-size: 3vw;
+    font-size: 2.3vw;
     
   }
   .right{
     padding-left: 50px;
     text-align: justify;
-    font-size: 3vw;
+    font-size: 2vw;
   }
   .descrip{
     padding-left: 50px;
     text-align: justify;
     background-color: aliceblue;
     color: black;
-    font-size: 3vw;
+    font-size: 2vw;
   }
   .HEAD{
     color: coral;
