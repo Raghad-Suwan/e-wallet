@@ -27,8 +27,8 @@ const HowWorksImport = () => {
                 src={require('../../images/E-Wallet-bro.png')}
                 alt="transfer"
             />
-             </div>
-             </div>
+            </div>
+            </div>
         </>
     )
 }

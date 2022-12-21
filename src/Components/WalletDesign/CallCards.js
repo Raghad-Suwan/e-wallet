@@ -5,14 +5,11 @@ import CardLine from './CardsOfLine';
 import TableCard from './CardOfTable';
 import Menue from './Menue';
 import './ChartsAndDraw.css';
-
-
-
-
 const CallCards = () => {
   return (
     <>
-   <Menue/>
+    <header>
+    <Menue />
       <div className="container-fluid  malakContainer">
         <div className="row">
           <Cards1 header="Todays Fee" title="$0.0000000" />
@@ -21,7 +18,10 @@ const CallCards = () => {
           <CardBarDemo />
           <CardLine />
         </div>
+        <TableCard/>
+        
       </div>
+      </header>
     </>
   );
 
