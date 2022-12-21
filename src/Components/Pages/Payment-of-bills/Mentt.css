@@ -1,42 +1,47 @@
 .bills{
-    padding-left: 50px;
+    padding-left: 20px;
     text-align: start;
     color: coral;
+    font-size: 3vw;
 
   }
   .paybill{
     text-align: justify;
     padding: -1px;
-    padding-left:50px;
+    padding-left:20px;
     margin-bottom: 1px;
+    font-size: 2vw;
     
   }
   .right{
-    padding-left: 90px;
+    padding-left: 50px;
     text-align: justify;
+    font-size: 1.5vw;
   }
   .descrip{
-    padding-left: 90px;
+    padding-left: 50px;
     text-align: justify;
     background-color: aliceblue;
     color: black;
+    font-size: 2vw;
   }
   .HEAD{
     color: coral;
     text-align: start;
-    padding-left: 50px;
+    padding-left: 20px;
+    font-size: 3vw;
   }
   .img-pay{
     position: relative;
   }
 .ment{
   text-align: start;
-  font-size: 4vw;
+  font-size: 3vw;
   padding: 10px;
   margin-bottom: -200px;
   text-transform: uppercase;
   top:20%;
-  left: 10%;
+  left: 5%;
   color: aliceblue;
   position: absolute;
   z-index: 2;
