@@ -13,14 +13,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import styles from './myStyle.module.css';
-
 const theme = createTheme();
-const fieldStyle={
-  borderWidth: '0px',
-  borderBottomWidth: '2px'
-
-};
-
 export default function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -32,12 +25,13 @@ export default function Login() {
   };
 
   return (
-    
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
+       <Box>
+        <img src='../../Login.jpg' alt='p'/>
+       </Box>
         <Box
-        
           sx={{
             marginTop: 8,
             display: 'flex',
@@ -45,7 +39,7 @@ export default function Login() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '#9e9e9e' }}>
+          <Avatar sx={{ m: 1, bgcolor: 'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -75,20 +69,21 @@ export default function Login() {
               autoComplete="current-password"
             />
             <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
+              control={<Checkbox value="remember" color="warning" />}
               label="Remember me"
             />
             <Button
+            onClick={ handleSubmit }
               type="submit" 
               fullWidth
-              variant="contained"
-              sx={{ mt: 3, mb: 2 }}
+              variant="contained" color="warning"
+               sx={{ mt: 3, mb: 2 }}
             >
               Sign In
             </Button>
             <Grid container>
               <Grid item xs>
-                <Link href="/ForgotPassword" variant="body2">
+                <Link href="/ForgotPassword" >
                   Forgot password?
                 </Link>
               </Grid>

@@ -3,34 +3,26 @@ import './Myaccount.css'
 
  function Myaccount() {
   return (
-
-    <div>
-      <h3>MyAccount</h3>
-      <table className="table table-sm">
-  <thead>
-    
-  </thead>
-  <tbody>
-  <tr >
-    <td colspan="2" className="table-active">name</td>
-      <td>{localStorage.getItem("firstName")} {localStorage.getItem("lastName")}</td>
-    </tr>
-    <tr >
-    <td colspan="2" className="table-active">email</td>
-      <td>{localStorage.getItem("email")}</td>
-    </tr>
-    <tr >
-    <td colspan="2" className="table-active">country</td>
-      <td>{localStorage.getItem("country")}</td>
-    </tr>
-    <tr >
-      <td colspan="2" className="table-active">phone</td>
-      <td>{localStorage.getItem("phone")}</td>
-    </tr>
-  </tbody>
-</table>
-
+    <div className='profile'>
+    <div className='name'>
+      <h6 className='stylename'>FullName</h6>
+  <p className='locname'>{localStorage.getItem("firstName")} {localStorage.getItem("lastName")}</p>
       </div>
+      <div className='email'>
+      <h6 className='styleemail'>email</h6>
+  <p className='locemail'>{localStorage.getItem("email")}</p>
+      </div>
+      <div className='name'>
+      <h6 className='stylename'>country</h6>
+  <p className='locemail'>{localStorage.getItem("country")}</p>
+      </div>
+      <div className='email'>
+      <h6 className='styleemail'>phone</h6>
+  <p className='locemail'>{localStorage.getItem("phone")}</p>
+      </div>
+      <div className='styleavtar'>
+     <h4 className='g'> {localStorage.getItem("firstName")} {localStorage.getItem("lastName")}  </h4> </div>
+   </div>
    
   )
 }

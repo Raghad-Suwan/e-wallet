@@ -165,7 +165,7 @@ function onchange_lastName(value){
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Link href="/Login" variant="body2">
+                <Link href="/Login">
                   Already have an account? Sign in
                 </Link>
               </Grid>
