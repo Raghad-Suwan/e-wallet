@@ -12,8 +12,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import styles from './myStyle.module.css';
-import { Link, useNavigate } from 'react-router-dom';
-
+import { Link } from '@mui/material';
 const theme = createTheme();
 export default function Login() {
   const handleSubmit = (event) => {
@@ -29,6 +28,9 @@ export default function Login() {
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
+       <Box>
+        <img src='../../Login.jpg' alt='p'/>
+       </Box>
         <Box
           sx={{
             marginTop: 8,
@@ -37,7 +39,7 @@ export default function Login() {
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '#9e9e9e' }}>
+          <Avatar sx={{ m: 1, bgcolor: 'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -67,10 +69,11 @@ export default function Login() {
               autoComplete="current-password"
             />
             <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
+              control={<Checkbox value="remember" color="warning" />}
               label="Remember me"
             />
             <Button
+            onClick={ handleSubmit }
               type="submit" 
               fullWidth
               variant="contained"

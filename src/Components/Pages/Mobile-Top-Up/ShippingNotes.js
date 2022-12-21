@@ -1,3 +1,4 @@
+import { Link } from "@mui/material";
 import React from "react";
 function ShippingNotes (){
     return(
@@ -9,7 +10,7 @@ function ShippingNotes (){
             <li>All financial transactions in the E-wallet are performed in Shekels (ILS).</li>
             <li>Make sure you selected the right number if you are recharging a number other than yours.</li>
             <li>For information about fees Press Here.</li>
-            <li>For support and assistance Contact Us or visit the nearest authorized agent. </li>
+            <li>For support and assistance <Link>Contact Us</Link> or visit the nearest authorized agent. </li>
          </ul>
       </div>
     );
