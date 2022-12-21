@@ -6,9 +6,13 @@ import Menue from "../WalletDesign/Menue";
 const ImportWithdraw=()=>{
     return(
         <div>
-            <Menue />
+
+            <Menue/>
+
+            
             <AdressWithdraw />
             <CardWithdraw />
+      
         </div>
     )
 }

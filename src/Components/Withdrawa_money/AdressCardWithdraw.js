@@ -7,4 +7,4 @@ const AdressWithdraw=()=>{
         </div>
         )
     }
-    export default AdressWithdraw
+    export default AdressWithdraw;

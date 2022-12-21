@@ -9,7 +9,8 @@ const Transfer = () => {
                 <div className="card card_transfer">
                     <div className="topic text-center topic_transfer">
                         <h2 className="card-title text-white card-title_transfer">cash Transfer slip money</h2>
-                        <h5 className="card-text text-white">Enter your data in the table</h5>
+                        <h5 className="card-text text-white ">Enter your data in the table</h5>
+                        <br></br>
                     </div>
                     <div className="cardd-body">
                         <div className="col-md-11">

@@ -5,6 +5,7 @@ import './ContactForm.css';
  import { ToastContainer, toast } from 'react-toastify';
  import 'react-toastify/dist/ReactToastify.css';
 import Image from "./HeaderContact";
+import Navbar from "../Navbar/Navbar";
 
 function ContactForm() {
   const { register, formState: { errors }, handleSubmit } = useForm();
@@ -13,15 +14,12 @@ function ContactForm() {
 
   return (
     <>
-
-   onSubmit={handleSubmit(onSubmit)} */}
-
-      
-
+      <Navbar/>
       <Image />
       <div className='container '>
-        <form  >
+        <form onSubmit={handleSubmit(onSubmit)} >
           <div className='row'>
+
             <div className=' col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6 '>
               <input
                 className='form-control formInput1'
@@ -31,7 +29,7 @@ function ContactForm() {
                 {...register("singleErrorInput1", { required: "Please,fill valid name" })}
               ></input>
               <div className="errorMsg">
-                 <ErrorMessage errors={errors} name="singleErrorInput1" /> 
+                <ErrorMessage errors={errors} name="singleErrorInput1" />
               </div>
             </div>
 
@@ -76,7 +74,7 @@ function ContactForm() {
           <button className='submit-btn' type='submit' onClick={handleSubmit(notify)}>
             Send
           </button>
-         <ToastContainer /> */}
+          <ToastContainer />
         </form>
       </div>
       </>
