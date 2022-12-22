@@ -10,10 +10,11 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import styles from './myStyle.module.css';
-import { Link } from '@mui/material';
-const theme = createTheme();
+import {Link} from 'react-router-dom';
+ import LoginImage from './LoginImage';
+
+
+
 export default function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -23,31 +24,32 @@ export default function Login() {
       password: data.get('password'),
     });
   };
-  const loginbutton = useNavigate();
+
   return (
-    <ThemeProvider theme={theme}>
-      <Container component="main" maxWidth="xs">
+    <>
+ <Grid>
+      <Container item xs={6} lg={4} md={6} sm={6}>
         <CssBaseline />
-       <Box>
-        <img src='../../Login.jpg' alt='p'/>
-       </Box>
         <Box
           sx={{
-            marginTop: 8,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
+            marginTop:20,
+            display:'flex',
+            flexDirection:'column',
+            alignItems:'center',
+      marginLeft:90,
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
+
+          <Typography>
             Log in
           </Typography>
+
+      
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
-              className={styles.myField}
               margin="normal"
               required
               fullWidth
@@ -58,7 +60,6 @@ export default function Login() {
               autoFocus
             />
             <TextField
-              className={styles.myField}
               margin="normal"
               required
               fullWidth
@@ -72,16 +73,17 @@ export default function Login() {
               control={<Checkbox value="remember" color="warning" />}
               label="Remember me"
             />
+
             <Button
-            onClick={ handleSubmit }
+             onClick={ handleSubmit }
+             fullWidth
               type="submit" 
-              fullWidth
-              variant="contained"
+              variant="contained" color="warning"
               sx={{ mt: 3, mb: 2 }}
-              onClick={() => loginbutton('/wallet')}
             >
-              Log In
+               <Link to='/wallet'>Log In</Link> 
             </Button>
+
             <Grid container>
               <Grid item xs>
                 <Link to="/forgotPassword">
@@ -95,8 +97,20 @@ export default function Login() {
               </Grid>
             </Grid>
           </Box>
+       
+
         </Box>
       </Container>
-    </ThemeProvider>
+
+
+      </Grid>
+        
+        <Grid  item xs={6} lg={4} md={6} sm={6}>
+        <LoginImage/>
+        </Grid> 
+
+
+        </>
+     
   );
         }
