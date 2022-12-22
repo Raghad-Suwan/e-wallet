@@ -1,9 +1,14 @@
 .bodyServices {
     padding-top: 20%;
 }
+<<<<<<< HEAD
+.card_services {
+    border:  solid black;
+=======
 
 .cardsevices {
     border: solid black;
+>>>>>>> 61982b72ea82d3553ac2cc492b231bfd2f864f99
     font-size: 15px;
     height: 100%;
     padding: 20px 20px 0;
@@ -14,6 +19,13 @@
     display: inline-block;
     border-radius: 80px !important;
 }
+<<<<<<< HEAD
+.card-body_services{
+    padding: 3rem 0 !important;
+}
+.card_services:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.235) !important ;
+=======
 
 .cardsevices-bodyy {
     padding: 3rem 0 !important;
@@ -21,6 +33,7 @@
 
 .cardsevices:hover {
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.235) !important;
+>>>>>>> 61982b72ea82d3553ac2cc492b231bfd2f864f99
     background: linear-gradient(0deg, rgb(206, 221, 221) 0%, rgba(117, 162, 187, 0.583) 100%);
 
     border-radius: 5rem;

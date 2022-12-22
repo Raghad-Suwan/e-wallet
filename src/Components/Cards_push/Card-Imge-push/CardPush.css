@@ -1,57 +1,54 @@
+
 .bodyPush{
-    padding: 0 300px;
-    padding-top: 300px;
-    padding-right: 00px;
-    padding-bottom: 0px;
-    padding-left: 00px;
+    padding-top: 10%;
 }
-.card-push  {  
+
+.card_paybill {
     border:  solid black;
     font-size: 15px;
+    width: 100%;
     height: 100%;
     padding: 20px 20px 0;
-    left: 50%;
-    transform: translate(-50%,-50%);
     box-sizing: border-box;
     margin: 10px;
     display: inline-block;
-    border-radius: 80px !important;
+    border-radius: 50px !important;
 }
-.card-body-push{
+.card-body_paybill{
     padding: 3rem 0 !important;
 }
-.card-push:hover{
+.card_paybill:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.235) !important ;
+    background: linear-gradient(0deg, rgb(206, 221, 221) 0%, rgba(117, 162, 187, 0.583) 100%);
     border-radius: 5rem ;
-    background: #022A5E;
-    border: solid #091121;
+    border: solid #8698bb;
 }
-.card-text-push{
-    color: #060D1A;
-    font-size: 1.9rem;
+.card-text_paybill{
+    font-size: 1.5rem;
     padding: 0.4rem 1.9rem;
 }
-.button_push:hover{
+.button_paybill:hover{
     background:#97999e!important;
+
 }
-.button_push{
+.button_paybill{
     
     background:#23697a!important;
     border:solid #c6c9cf  !important;
     margin: 8px;
     border-radius: 20px !important;
 }
-.ovverpush{
-    overflow: hidden;
+.over_paybill{
+    overflow:hidden ;
     border-radius: 20px;
 }
-.card-img-top{
+.card-img-top_paybill{
     transform: scale(1);
     transition:transform 0.5s ease ;
-    width: 50%;
-    height:180px;
-    border-radius: 1rem ;
+    width: 100%;
+    height: 100px;
 }
-.card-img-top:hover{
+.card-img-top_paybill:hover{
     transform: scale(1.8);
+
 }
