@@ -22,7 +22,6 @@
 .cardsevices:hover {
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.235) !important;
     background: linear-gradient(0deg, rgb(206, 221, 221) 0%, rgba(117, 162, 187, 0.583) 100%);
-
     border-radius: 5rem;
     border: solid #8698bb;
 }

@@ -18,7 +18,7 @@
     text-align: center;
 }
 .name{
-    color: white;
+    color: white !important;
     height: 100px;
     font-family: sans-serif;
     border: 30px;

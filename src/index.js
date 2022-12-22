@@ -48,7 +48,6 @@ root.render(
         <Route path='/all-Transaction' element={<TablePage />}/>
         <Route path='/pushcards' element={<ImportPushCards/>}/>
         <Route path ='/Tranfer' element={<Transfer />}/>
-
         <Route path ='/Myaccount' element={<Myaccount/>}/>
       </Routes>
 </BrowserRouter>
