@@ -12,8 +12,8 @@ export default function Payment() {
       <Headerpayment />
       <Paymentbills />
       <StepsToPayment/>
-      <Footer />
     </div>
+    <Footer />
     </header>
   )
 }
