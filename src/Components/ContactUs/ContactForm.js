@@ -14,12 +14,11 @@ function ContactForm() {
 
   return (
     <>
-      <Navbar/>
+    <Navbar/>
       <Image />
       <div className='container '>
         <form onSubmit={handleSubmit(onSubmit)} >
           <div className='row'>
-
             <div className=' col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6 '>
               <input
                 className='form-control formInput1'

@@ -2,6 +2,7 @@ import React from 'react'
 import './Mentt.css';
 export default function Headerpayment() {
   return (
+
             <div className='img-pay'>
                   <div className='ment' >
                     <span>Payment of Bills</span><br></br>

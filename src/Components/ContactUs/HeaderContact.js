@@ -5,10 +5,8 @@ const Image = () => {
   return (
     <>
       <header >
-
-        <div className='p-5 hero-text bg-image header-img img-fluid'>
+        <div className='p-5 hero-text bg-image header-img img-fluid img-responsive'>
           <div className='container-contactus'>
-
             <div className="row ">
               <div className='text-parent'>
                 <h2 className="h2-header mt-3">

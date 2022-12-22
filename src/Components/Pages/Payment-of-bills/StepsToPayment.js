@@ -1,7 +1,10 @@
 import React from 'react'
+import './Mentt.css';
+
 export default function StepsToPayment() {
   return (
     <div >
+
        <h1 className='HEAD'>STEPS TO PAY BILLS:</h1>
  <ul className='descrip'>
     <li>Select “Pay Bills” from the main menu of your e-wallet.</li>

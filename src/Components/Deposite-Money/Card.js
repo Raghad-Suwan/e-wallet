@@ -8,6 +8,10 @@ import { toast } from 'react-toastify'
 import './deposit.css'
 import Menue from '../WalletDesign/Menue'
 import AdresDeposite from './Adress'
+import { useForm } from 'react-hook-form';
+import { ErrorMessage } from '@hookform/error-message'; 
+import { ToastContainer, toast } from 'react-toastify';
+
 const Card = (props) =>{
     const { register, formState: { errors }, handleSubmit } = useForm();
         const onSubmit = data => console.log(data);

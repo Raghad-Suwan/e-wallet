@@ -1,3 +1,4 @@
+import React from 'react';
 import Cardpushkind from './CardPush';
 import './CardPush.css';
 import image1 from '../../../images/university_new.jpg';
@@ -9,18 +10,20 @@ const ImportPushCard = () => {
     return (
         <div>
             <Menue />
-        
-        <div className="container-fluid d-flex justify-content-center bodyPush">
-            <section className="row h-200 justify-content-center">
-                <div className="col-12 h-200 col-md-6 col-lg-3 ">
-                    
-                    <Cardpushkind imgsrc={image2} textt="university" />
+
+        <div className="container d-flex justify-content-center align-items-center bodyPush">
+            <section className="row h-200 justify-content-center align-items-center">
+                <div className="col-4  col-md-5 col-lg-3 ">
+                    <Cardpushkind imgsrc={image2} textt="University"
+                    continue="/wallet-pay-bills-university" />
                 </div>
-                <div className="col-12 h-200 col-md-6 col-lg-3 ">
-                    <Cardpushkind imgsrc={image1} textt="electricity" />
+                <div className="col-4  col-md-5 col-lg-3 ">
+                    <Cardpushkind imgsrc={image1} textt="Electricity" 
+                     continue="/wallet-pay-bills-electricity" />
                 </div>
-                <div className="col-12 h-200 col-md-6 col-lg-3 ">
-                    <Cardpushkind imgsrc={image3} textt="telecom" />
+                <div className="col-4  col-md-5 col-lg-3 ">
+                    <Cardpushkind imgsrc={image3} textt="Telecom" 
+                     continue="/wallet-pay-bills-telecom" />
                 </div>
             </section>
         </div>

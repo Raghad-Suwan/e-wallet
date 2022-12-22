@@ -166,6 +166,7 @@ function onchange_lastName(value){
             fullWidth
               type="submit"
             variant="contained" color="warning"
+
               sx={{ mt:3, mb: 3}}
             >
              <Link to='/wallet'>Sign Up</Link> 

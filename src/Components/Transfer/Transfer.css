@@ -1,3 +1,4 @@
+
 /* .imagerT{
   background-size: cover;
   width: 100%;
@@ -20,34 +21,27 @@
   
 }
 
-.text-name_transfer
-{
-  text-align: left;
-  
-  }
-  .btn-groub_transfer{
-    margin: 30px;
-    }
-    .btn-groub_transfer .btn{
-        background-color: #02576a;
-    margin: 8px;
-    border-radius: 20px !important;
-    
-    font-size: 20px;
-    border: 2px solid #000000;
-    }
-
-    .adress{
-    font-family: 'Lobster', cursive;
+.btn-groub_transfer {
+  margin: 30px;
 }
-      .input-group-text_transfer{
-      background-color: #0e3b46;
-      }
-      .card-title_transfer{
-        font-family: 'Rubik Distressed', cursive;
-        
-        }
-        .topic{
 
-          border-radius: 20px;
-          }
+.btn-groub_transfer .btn {
+  background-color: #02576a;
+  margin: 8px;
+  border-radius: 20px !important;
+
+  font-size: 20px;
+  border: 2px solid #000000;
+}
+.input-group-text_transfer {
+  background-color: #0e3b46;
+}
+
+.card-title-transfer {
+  font-family: 'Rubik Distressed', cursive;
+
+}
+
+.topic-transfer {
+  border-radius: 20px;
+}

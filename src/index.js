@@ -13,15 +13,16 @@ import AboutPage from './components/Pages/About-Us/AboutPage';
 import ContactForm from "./components/ContactUs/ContactForm";
 import ForgotPassword from './components/Signing/ForgotPassword';
 import CashInthoughAgents from './components/Pages/Cash-In-though-Agents/CashInthoughAgents';
-import Patment from './components/Pages/Payment-of-bills/Payment';
 import Card from './components/Deposite-Money/Card';
 import ImportUniversity from './components/Cards_push/University/ImportUniversity';
 import ImportTelecom from './components/Cards_push/Telecom/ImportTelecom';
 import ImportElectricity from './components/Cards_push/Electricity/ImportElectricity';
 import ImportWithdraw from './components/Withdrawa_money/ImportWithdraw';
 import CallCards from './components/WalletDesign/CallCards';
-import Table from './components/WalletDesign/Table';
+import TablePage from './components/WalletDesign/Table';
 import ImportPushCards from './components/Cards_push/Card-Imge-push/ImportPushCards';
+import Transfer from './components/Transfer/Transfer';
+import Payment from './components/Pages/Payment-of-bills/Payment';
 import Myaccount from './components/My-Account/Myaccount';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,17 +38,18 @@ root.render(
         <Route path="/cashInthoughAgents" element={<CashInthoughAgents />} />
         <Route path="/transfermoney" element={<MonyTransferPage />} />
         <Route path="/mobiltop" element={<MobileTopUpPage />} />
-        <Route path="/payment" element={<Patment />} />
+        <Route path="/payment" element={<Payment />} />
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
         <Route path="/wallet" element={<CallCards />} />
-        <Route path="/wallet-withdraw-money" element={<ImportWithdraw />} />
         <Route path="/wallet-deposit-money" element={<Card />} />
+        <Route path="/wallet-withdraw-money" element={<ImportWithdraw />} />
         <Route path="/wallet-pay-bills-electricity" element={<ImportElectricity />} />
         <Route path="/wallet-pay-bills-telecom" element={<ImportTelecom />} />
         <Route path="/wallet-pay-bills-university" element={<ImportUniversity />}/>
-        <Route path='/all-Transaction' element={<Table />}/>
+        <Route path='/all-Transaction' element={<TablePage />}/>
         <Route path='/pushcards' element={<ImportPushCards/>}/>
         <Route path ='/Tranfer' element={<Transfer />}/>
+
         <Route path ='/Myaccount' element={<Myaccount/>}/>
       </Routes>
 </BrowserRouter>

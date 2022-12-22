@@ -14,7 +14,7 @@ const ServiceImport = () => {
                         link="/cashInthoughAgents"
                     />
                 </div>
-                <div className="col-10  col-md-5 col-lg-3 "  data-aos="fade-right">
+                <div className="col-10  col-md-5 col-lg-3 " data-aos="fade-right">
                     <CardsServices
                         imgsrc={require('../../images/transactions_card-services.png')}
                         title="Money transfer "
@@ -23,7 +23,7 @@ const ServiceImport = () => {
 
                     />
                 </div>
-                <div className="col-10 col-md-5 col-lg-3 "  data-aos="fade-left">
+                <div className="col-10 col-md-5 col-lg-3 " data-aos="fade-left">
                     <CardsServices
                         imgsrc={require('../../images/Savings_card-services.png')}
                         title="Deposite money "
@@ -32,7 +32,7 @@ const ServiceImport = () => {
 
                     />
                 </div>
-                <div className="col-10 col-md-5 col-lg-3 "  data-aos="fade-left">
+                <div className="col-10 col-md-5 col-lg-3 " data-aos="fade-left">
                     <CardsServices
                         imgsrc={require('../../images/Payments_card-services.png')}
                         title="Pay bills"
