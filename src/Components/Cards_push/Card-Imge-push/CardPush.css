@@ -16,6 +16,7 @@
 }
 .card-body_paybill{
     padding: 3rem 0 !important;
+    
 }
 .card_paybill:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.235) !important ;

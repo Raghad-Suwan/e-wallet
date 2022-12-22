@@ -6,29 +6,37 @@ import image2 from '../../../images/electricity1.jpg';
 import image3 from '../../../images/Telecom.jpg';
 import Menue from '../../WalletDesign/Menue';
 
-const ImportPushCard = () => {
-    return (
-        <div>
-            <Menue />
-
-        <div className="container d-flex justify-content-center align-items-center bodyPush">
-            <section className="row h-200 justify-content-center align-items-center">
-                <div className="col-4  col-md-5 col-lg-3 ">
-                    <Cardpushkind imgsrc={image2} textt="University"
-                    continue="/wallet-pay-bills-university" />
+const ImportPushCard=()=>{
+return(
+    <>
+        <Menue />
+<div className="container-fluid d-flex justify-content-center bodyPush">
+    <section className="row justify-content-center ">
+        <div className="col-10 col-md-5 col-lg-4 p-4" data-aos="fade-right" >
+                <Cardpushkind 
+                imagsrc={image1} 
+                text="university" 
+                linke="/wallet-pay-bills-university"
+                />
+            </div>
+                <div className="col-10 col-md-5 col-lg-4  p-4"data-aos="fade-right" >
+                    <Cardpushkind
+                    imagsrc={image2} 
+                    text="electricity"
+                    linke="/wallet-pay-bills-electricity"
+                    />
                 </div>
-                <div className="col-4  col-md-5 col-lg-3 ">
-                    <Cardpushkind imgsrc={image1} textt="Electricity" 
-                     continue="/wallet-pay-bills-electricity" />
-                </div>
-                <div className="col-4  col-md-5 col-lg-3 ">
-                    <Cardpushkind imgsrc={image3} textt="Telecom" 
-                     continue="/wallet-pay-bills-telecom" />
-                </div>
-            </section>
-        </div>
-        </div>
-        
-    )
+                    <div className="col-10 col-md-5 col-lg-4 p-4" data-aos="fade-right">
+                        <Cardpushkind 
+                        imagsrc={image3} 
+                        text="telecom" 
+                        linke="/wallet-pay-bills-telecom"
+                        />
+                    </div>
+    
+        </section>
+    </div>
+    </>
+)
 }
 export default ImportPushCard
