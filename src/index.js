@@ -3,7 +3,6 @@ import React from 'react';
 import App from './App';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
-import Transfer from './components/Transfer/Transfer';
 import Home from "./components/Pages/Home/Home";
 import MonyTransferPage from './components/Pages/Money-Transfer/MonyTransferPage';
 import MobileTopUpPage from './components/Pages/Mobile-Top-Up/MobileTopUpPage';
@@ -49,9 +48,9 @@ root.render(
         <Route path='/all-Transaction' element={<TablePage />}/>
         <Route path='/pushcards' element={<ImportPushCards/>}/>
         <Route path ='/Tranfer' element={<Transfer />}/>
-
         <Route path ='/Myaccount' element={<Myaccount/>}/>
       </Routes>
 </BrowserRouter>
+<App/>
   </React.StrictMode>
 );

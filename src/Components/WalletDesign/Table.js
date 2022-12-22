@@ -4,7 +4,6 @@ import './Table.css';
 const  Table= () => {
     return (
  
-  <>
 <div className='container'>
 <table className="table caption-top">
  
@@ -40,8 +39,6 @@ const  Table= () => {
           <td>17.3.2022</td>
     </tr>
 
-            <td>12.12.2022</td>
-          </tr>
           <tr>
             <td>Deposite Money</td>
             <td>510</td>

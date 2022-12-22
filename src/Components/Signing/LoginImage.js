@@ -1,6 +1,6 @@
 
 import React from "react";
-import image from "../../images/logIn.photo.jpg"; 
+import image from "../../Login.jpg"; 
 import Grid from '@mui/material/Grid';
 import './Login.css';
 
