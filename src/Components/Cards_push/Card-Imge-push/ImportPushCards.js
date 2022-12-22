@@ -7,16 +7,29 @@ import image3 from '../../../images/Telecom.jpg';
 
 const ImportPushCard=()=>{
 return(
+    
 <div className="container-fluid d-flex justify-content-center bodyPush">
-    <section className="row h-200 justify-content-center">
-        <div className="col-12 h-200 col-md-5 col-lg-3 ">
-                <Cardpushkind imgsrc={image1} textt="university" link="/wallet-pay-bills-university" />
+    <section className="row justify-content-center">
+        <div className="col-10 col-md-5 col-lg-4 " data-aos="fade-right" >
+                <Cardpushkind 
+                imagsrc={image1} 
+                text="university" 
+                linke="/wallet-paybills-university"
+                />
             </div>
-                <div className="col-12 h-200 col-md-5 col-lg-3 ">
-                    <Cardpushkind imgsrc={image2} textt="electricity" link="/wallet-pay-bills-electricity"/>
+                <div className="col-10 col-md-5 col-lg-4 "data-aos="fade-right" >
+                    <Cardpushkind
+                    imagsrc={image2} 
+                    text="electricity"
+                    linke="/wallet-paybill-selectricity"
+                    />
                 </div>
-                    <div className="col-12 h-200 col-md-5 col-lg-3 ">
-                        <Cardpushkind imgsrc={image3} textt="telecom" link="/wallet-pay-bills-telecom" />
+                    <div className="col-10 col-md-5 col-lg-4 " data-aos="fade-right">
+                        <Cardpushkind 
+                        imagsrc={image3} 
+                        text="telecom" 
+                        linke="/wallet-paybills-telecom"
+                        />
                     </div>
     
         </section>

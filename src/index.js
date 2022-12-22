@@ -38,9 +38,9 @@ root.render(
         <Route path="/wallet" element={<CallCards />} />
         <Route path="/wallet-withdraw-money" element={<ImportWithdraw />} />
         <Route path="/wallet-deposit-money" element={<Card />} />
-        <Route path="/wallet-pay-bills-electricity" element={<ImportElectricity />} />
-        <Route path="/wallet-pay-bills-telecom" element={<ImportTelecom />} />
-        <Route path="/wallet-pay-bills-university" element={<ImportUniversity />} />
+        <Route path="/wallet-paybills-electricity" element={<ImportElectricity />} />
+        <Route path="/wallet-paybills-telecom" element={<ImportTelecom />} />
+        <Route path="/wallet-paybills-university" element={<ImportUniversity />} />
       </Routes>
     </BrowserRouter>
         <App />

@@ -8,11 +8,11 @@ const CardsServices = (props) => {
         navigate(props.link);
     }
     return (
-        <div className='card text-center caaard '>
+        <div className='card text-center card_services '>
             <div className='overflow ovver'>
                 <img src={props.imgsrc} alt="image1" className='caaard-img-top' />
             </div>
-            <div className='card-body text-dark caaard-bodyy'>
+            <div className='card-body text-dark card-body_services'>
                 <h4 className='card-title caaard-title'><u>{props.title}</u></h4>
                 <p className='card-text text-secondary caaard-textt'>{props.textt}</p>
                 <button onClick={routeChange} className='btn btn-outline-dark text-dark buttooon'>Read more</button>
