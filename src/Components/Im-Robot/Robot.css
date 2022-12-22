@@ -1,56 +1,61 @@
-.centerrobot{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    border: 1px solid #d3d3d3;
-    background: #f9f9f9;
-      color: #000;
-      height: 74px;
-      width: 300px;
-      border-radius: 2px;
-      background-image: url("logo.webp");
-      background-size: 60px 90px;
-      background-repeat: no-repeat;
-      background-position:90% ;
-      
-  }
-.boxrobot{
-    position: relative;
-    top: 10px;
-    width: 40px;
-    height: 40px;
-    -webkit-appearance: none;
-    outline: none;
-    transition: .5s;
-    
-    
-    }
-    .boxrobot::before{
-      content: '';
-      position: absolute;
-      top: 10px;
-      left: -10px;
-      width: 30px;
-      height: 30px;
-      border: 4px solid #c1c1c1;
-      box-sizing: border-box;
-      translate: .5s;
-    }
-    .boxrobot:checked::before{
-    border-left: none;
-    border-top: none;
-    width: 20px;
-    border-color: green;
-    transform: rotate(45deg) translate(5px,-10px);
-    }
-    .textrobot{
-      padding-right: 120px;
-      font-size: 16px;
-      font-weight: 400px;
-      line-height: 17px;;
-      font-family: sans-serif;
-      
-    }
+.centerrobot {
+  position: absolute;
+  top: 150%;
+  left: 70%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  background: #f9f9f9;
+  color: #000;
+  height: 74px;
+  width: 300px;
+  border-radius: 2px;
+  background-image: url("logo.webp");
+  background-size: 60px 90px;
+  background-repeat: no-repeat;
+  background-position: 90%;
+
+}
+
+.boxrobot {
+  position: relative;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  -webkit-appearance: none;
+  outline: none;
+  transition: .5s;
+
+
+}
+
+.boxrobot::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #c1c1c1;
+  box-sizing: border-box;
+  translate: .5s;
+}
+
+.boxrobot:checked::before {
+  border-left: none;
+  border-top: none;
+  width: 20px;
+  border-color: green;
+  transform: rotate(45deg) translate(5px, -10px);
+}
+
+.textrobot {
+  padding-right: 120px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 17px;
+  ;
+  font-family: sans-serif;
+
+}
