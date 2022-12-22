@@ -1,30 +1,37 @@
 
   .transmissionSteps{
-    padding-left: 150px;
+    padding-left: 130px;
   }
   
   .conversionSteps{
-    padding-left: 120px;
+    padding-left: 130px;
     background-color: aliceblue;
     
    
   }
   .styleNote{
-    padding-left: 150px;
+    padding-left: 130px;
   }
   
   .headerTrans{
     color: white;
+    margin-bottom: -8px;
     background-image: url("../../../images/MonyTransfer.png") ;
     padding: 130px;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: 1519px 350px;
+  background-size: 100% 95%;
   }
-   .StelyTitle{
+  @media (max-width: 844px){
+    .headerTrans{
+      font-size:40px;
+    }
+  }
+  .StelyTitle{
     color: coral;
-   }
-   .StyleParagraph{
+    
+    
+  }
+   .StyleParagrap{
     margin-bottom: 1px;
   }
   

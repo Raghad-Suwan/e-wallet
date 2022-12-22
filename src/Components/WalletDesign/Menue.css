@@ -18,7 +18,7 @@
     text-align: center;
 }
 .name{
-    color: white;
+    color: white !important;
     height: 100px;
     font-family: sans-serif;
     border: 30px;
@@ -46,6 +46,7 @@ position: relative;
     font-size: 20px;
     padding-left: 90px;
 }
+
 .sidebar-side .nav-link:hover{
     color: darkgray;
     transition: 0.2s ease-in-out;

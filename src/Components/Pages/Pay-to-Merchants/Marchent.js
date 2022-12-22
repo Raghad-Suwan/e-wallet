@@ -8,15 +8,13 @@ import Footer from '../../Footer/Footer';
 export default function Marchent() {
   return (
     <header>
-        <Navbar />
-
-    <div>
-      <Hedermarchent />
-      <Payingmarchent />
-      <Stepstopayingmarchent />
+      <Navbar />
+      <div>
+        <Hedermarchent />
+        <Payingmarchent />
+        <Stepstopayingmarchent />
+      </div>
       <Footer />
-    </div>
     </header>
-
   )
 }

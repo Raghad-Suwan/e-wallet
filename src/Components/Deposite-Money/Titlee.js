@@ -1,5 +1,5 @@
 import React from "react"
-//function
+
 const Titlee = () =>{
     return(
         <div className="topic text-center titttle">
