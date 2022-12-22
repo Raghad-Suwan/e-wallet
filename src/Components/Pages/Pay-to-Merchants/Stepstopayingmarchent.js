@@ -6,7 +6,7 @@ export default function Stepstopayingmarchent () {
        <h1 className='the-head'>STEPS TO PAY MERCHANTS FROM YOUR E-WALLET</h1>
  <ul className='steps'>
     <li>From the main menu of your e-wallet:</li>
-    <ul className="wallet">
+    <ul className="walletpay">
            <li> Select “Pay to Merchant” then search or enter merchants commercial name </li>
            <li> Select “Scan QR” and scan the merchants code </li>
            </ul>

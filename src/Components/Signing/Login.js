@@ -9,12 +9,13 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
+import {Link} from 'react-router-dom';
+import Paper from '@mui/material/Paper';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import styles from './myStyle.module.css';
-import { Link, useNavigate } from 'react-router-dom';
+
 
 const theme = createTheme();
+
 export default function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -24,30 +25,48 @@ export default function Login() {
       password: data.get('password'),
     });
   };
-  const loginbutton = useNavigate();
+
   return (
+  
+   
     <ThemeProvider theme={theme}>
-      <Container component="main" maxWidth="xs">
+      <Grid container  sx={{ height: '100vh' }}>
         <CssBaseline />
-        <Box
+        <Grid
+          item
+          sm={4}
+          md={7}
           sx={{
-            marginTop: 8,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
+            backgroundImage: 'url(https://img.freepik.com/free-vector/tablet-login-concept-illustration_114360-7863.jpg?w=826&t=st=1671703121~exp=1671703721~hmac=85c45190a28d00722a19474a2b96f86ce901d3a580721a720231bf44b7166496)',
+            backgroundRepeat: 'no-repeat',
+            backgroundColor: (t) =>
+              t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
-        >
-          <Avatar sx={{ m: 1, bgcolor: '#9e9e9e' }}>
+        />
+        <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6}>
+          <Box
+            sx={{
+              my:15,
+              mx:4,
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+            }}
+          >
+          <Avatar sx={{ m: 1, bgcolor: 'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
+
+          <Typography>
             Log in
           </Typography>
+
+      
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
-              className={styles.myField}
               margin="normal"
-              required
               fullWidth
               id="email"
               label="Email Address"
@@ -56,9 +75,7 @@ export default function Login() {
               autoFocus
             />
             <TextField
-              className={styles.myField}
               margin="normal"
-              required
               fullWidth
               name="password"
               label="Password"
@@ -67,18 +84,20 @@ export default function Login() {
               autoComplete="current-password"
             />
             <FormControlLabel
-              control={<Checkbox value="remember" color="primary" />}
+              control={<Checkbox value="remember" color="warning" />}
               label="Remember me"
             />
+
             <Button
+             onClick={ handleSubmit}
+             fullWidth
               type="submit" 
-              fullWidth
-              variant="contained"
+              variant="contained" color="warning"
               sx={{ mt: 3, mb: 2 }}
-              onClick={() => loginbutton('/wallet')}
             >
-              Log In
+               <Link to='/wallet'>Log In</Link> 
             </Button>
+
             <Grid container>
               <Grid item xs>
                 <Link to="/forgotPassword">
@@ -92,8 +111,13 @@ export default function Login() {
               </Grid>
             </Grid>
           </Box>
-        </Box>
-      </Container>
+      
+          </Box>
+        </Grid>
+      </Grid>
     </ThemeProvider>
   );
         }
+
+
+     

@@ -1,6 +1,5 @@
-.sidebar header{
+.sidebar{
     background-color: #115262;
-    position:relative;
 }
 .avatar{
     background-image: url("/src/images/Avatart.jpg");
@@ -11,7 +10,7 @@
     border: 1px solid white;
     height: 54px;
     margin-right: 100px;
-    margin-top: -18px;
+    margin-top: -10px;
 }
 .bi-list {
     color: white;
@@ -32,38 +31,58 @@ position: relative;
 .bi-bell{
    color: white;
    position: absolute;
-   right: 190px;
-   top: 23px;
+   right: 140px;
+   top:-60px;
    font-size: 30px;
 }
 .offcanvas-body{
     background-color: #115262;
-    margin-top: -50px;
-    background-color: #6d929f;
-    height:100%;
+    margin-top: -30px;
+    width: 100%;
 }
 .sidebar-side .nav-link {
-    color: aliceblue;
-    margin-top: 40px;
-    font-size: 17px;
-    margin-right: 40px;
+    color: white;
+    margin-top: 60px;
+    font-size: 20px;
+    padding-left: 90px;
 }
-.item i{
-    margin-right: 15px;
-    align-items: center;
-    justify-items: center;
+
+.sidebar-side .nav-link:hover{
+    color: darkgray;
+    transition: 0.2s ease-in-out;
 }
-.body .navbar-nav .item a{
-    background-color: #7ba9b8;
-    border: 10px solid #b8c6ca;
+.in-dropdown .dropdown-item{
+    background-color: #115262;
     margin-top: -10px;
-    margin-left: -40px;
+    margin-bottom: -10px;
+    font-size: larger;
+    height: 40px;
+    color: white;
+    margin-left: 1px;
+    margin-right: -1px;
+}
+.in-dropdown .dropdown-item:hover{
+    background-color: #115262;
+    color: darkgray;
 }
 .main-menu i{
     color: aliceblue;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: row;
-position: absolute;
-margin-top: 10px;
+    padding-right: 10px;
+}
+.notification{
+    color: aliceblue;
+    font-size: 0;
+    top: 50px;
+    right: 40px;
+}
+.inside li{
+    background-color: white;
+    margin-right: 50px;
+    color:black;
+    font-size: 15px;
+    border-radius: 10%;
+    border: 10px black;
+}
+.inside li a{
+    margin-left: 15px;
 }

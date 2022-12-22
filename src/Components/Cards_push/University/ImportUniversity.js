@@ -1,3 +1,5 @@
+import React from "react";
+
 import AdressPush from '../AdressCardpush';
 import './CardUniversityPush.css';
 import CardPushUniversity from './CardUniversityPush';

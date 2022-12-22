@@ -3,6 +3,7 @@ import Headerpayment from './Headerpayment';
 import Paymentbills from './Paymentbills';
 import StepsToPayment from './StepsToPayment';
 import Navbar from '../../Navbar/Navbar';
+import Footer from '../../Footer/Footer';
 export default function Payment() {
   return (
     <header>
@@ -11,6 +12,7 @@ export default function Payment() {
       <Headerpayment />
       <Paymentbills />
       <StepsToPayment/>
+      <Footer />
     </div>
     </header>
   )

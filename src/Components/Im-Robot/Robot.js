@@ -1,16 +1,13 @@
 import React from "react";
-import  './Robot.css'
+import './Robot.css'
 function Robot() {
     return (
-       
-< div className="center">
-<label className="text">
-    <input className="box" type={"checkbox"} />
-    im not a robot
-    </label>
-</div>
-
-
+        < div className="centerrobot mt-5 m-5 mb-3">
+            <label className="textrobot">
+                <input className="boxrobot" type={"checkbox"} />
+                im not a robot
+            </label>
+        </div>
     );
 }
 export default Robot

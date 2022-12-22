@@ -1,41 +1,82 @@
-.bills{
-    padding-left: 150px;
-    color: coral;
 
+.bills {
+  padding-left: 150px;
+  color: coral;
+
+}
+
+.paybill {
+  padding: -1px;
+  padding-left: 150px;
+  margin-bottom: 1px;
+
+}
+
+.rightpay {
+  padding-left: 200px;
+}
+
+.descrip {
+  padding-left: 140px;
+  background-color: aliceblue;
+  color: black;
+}
+
+.headPayment {
+  color: coral;
+  padding-left: 140px;
+}
+
+.ment {
+  color: #fff;
+  background-image: url("../../../images/payment.png");
+  width: 100%;
+  height: 100%;
+  background: cover;
+  /* transform: translateY(-10%); */
+  /* background-blend-mode: luminosity; */
+  padding: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: 1540px 360px; */
+
+=======
+.bills{
+  padding-left: 50px;
+  color: coral;
+  margin-top: 1px;
   }
   .paybill{
     padding: -1px;
-    padding-left: 150px;
+    padding-left: 50px;
     margin-bottom: 1px;
-    
   }
-  
   .right{
-    padding-left: 200px;
+    padding-left: 100px;
   }
   .descrip{
-    padding-left: 140px;
+    padding-left: 100px;
     background-color: aliceblue;
-    color: black;
+    color:  black;
+   
   }
   .HEAD{
+    padding-left: 50px;
     color: coral;
-    padding-left: 140px;
   }
-  
-  .ment{
-    color: #fff;
-    background-image: url("../../../images/payment.png") ;
-
-    width: 100%;
-    height: 100%;
-    background: cover;
-    transform: translateY(-10%);
-    background-blend-mode: luminosity;
-    padding: 130px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 1540px 360px;
-  
-  }
-  
+.ment{
+  text-align: start;
+  font-size: 3.3vw;
+  padding: 10px;
+  text-transform: uppercase;
+  top:15%;
+  left: 5%;
+  color: aliceblue;
+  position: absolute;
+  z-index: 2;
+}
+.mobile-app{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
