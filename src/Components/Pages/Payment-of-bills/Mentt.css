@@ -1,32 +1,30 @@
 .bills{
-  padding-left: 50px;
+  padding-left: 100px;
   color: coral;
-  margin-top: 1px;
+  margin-top: 20px;
   }
   .paybill{
-    padding: -1px;
-    padding-left: 50px;
-    margin-bottom: 1px;
+    padding-left: 100px;
+    margin-top: 1px;
   }
   .right{
-    padding-left: 100px;
+    padding-left: 150px;
   }
   .descrip{
-    padding-left: 100px;
+    padding-left: 150px;
     background-color: aliceblue;
     color:  black;
-   
   }
   .HEAD{
-    padding-left: 50px;
+    padding-left: 100px;
     color: coral;
+    margin-top: 1px;
   }
 .ment{
   text-align: start;
-  font-size: 3.3vw;
   padding: 10px;
   text-transform: uppercase;
-  top:15%;
+  top:20%;
   left: 5%;
   color: aliceblue;
   position: absolute;
