@@ -52,6 +52,6 @@ root.render(
         <Route path ='/Myaccount' element={<Myaccount/>}/>
       </Routes>
 </BrowserRouter>
-<App />
+<App/>
   </React.StrictMode>
 );
