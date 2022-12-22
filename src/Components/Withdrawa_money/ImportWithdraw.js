@@ -7,12 +7,14 @@ import Menue from "../WalletDesign/Menue";
 const ImportWithdraw=()=>{
     return(
         <div>
-            <Menue />
-            {/* <AdressWithdraw /> */}
-            <div className='mt-3 p-5'>
-                  <CardWithdraw />
-            </div>
-          
+
+
+            <Menue/>
+
+            
+            <AdressWithdraw />
+            <CardWithdraw />
+      
         </div>
     )
 }

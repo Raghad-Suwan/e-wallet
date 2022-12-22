@@ -11,7 +11,7 @@ function MonyTransferPage(){
         <div>
             <HeaderTransfer></HeaderTransfer>
             <SendMoney/>
-            <ConversionSteps/>
+             <ConversionSteps/>
             <ConversionNotes/>
            
         </div>

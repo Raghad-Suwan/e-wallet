@@ -10,7 +10,7 @@
     border: 1px solid white;
     height: 54px;
     margin-right: 100px;
-    margin-top: -18px;
+    margin-top: -10px;
 }
 .bi-list {
     color: white;
@@ -31,8 +31,8 @@ position: relative;
 .bi-bell{
    color: white;
    position: absolute;
-   right: 190px;
-   top: 23px;
+   right: 140px;
+   top:-60px;
    font-size: 30px;
 }
 .offcanvas-body{
@@ -41,21 +41,48 @@ position: relative;
     width: 100%;
 }
 .sidebar-side .nav-link {
-    color: aliceblue;
+    color: white;
     margin-top: 60px;
     font-size: 20px;
     padding-left: 90px;
 }
-.in-dropdown{
+
+.sidebar-side .nav-link:hover{
+    color: darkgray;
+    transition: 0.2s ease-in-out;
+}
+.in-dropdown .dropdown-item{
     background-color: #115262;
-    border: none;
     margin-top: -10px;
     margin-bottom: -10px;
     font-size: larger;
+    height: 40px;
+    color: white;
+    margin-left: 1px;
+    margin-right: -1px;
+}
+.in-dropdown .dropdown-item:hover{
+    background-color: #115262;
+    color: darkgray;
 }
 .main-menu i{
-    /* #b6d8f5da */
-    /* #67b0c2 */
-    color:  #bceaf5;
+    color: aliceblue;
     padding-right: 10px;
+}
+.notification{
+    color: aliceblue;
+    font-size: 0;
+    top: 50px;
+    right: 40px;
+}
+.inside li{
+    background-color: white;
+    margin-right: 50px;
+    color:black;
+    font-size: 15px;
+    border-radius: 10%;
+    border: 10px black;
+}
+.inside li a{
+    margin-left: 15px;
 }

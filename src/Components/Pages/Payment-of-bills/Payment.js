@@ -3,15 +3,17 @@ import Headerpayment from './Headerpayment';
 import Paymentbills from './Paymentbills';
 import StepsToPayment from './StepsToPayment';
 import Navbar from '../../Navbar/Navbar';
+import Footer from '../../Footer/Footer';
 export default function Payment() {
   return (
     <header>
-      <Navbar />
-      <div>
-        <Headerpayment />
-        <Paymentbills />
-        <StepsToPayment />
-      </div>
+      <Navbar/>
+    <div>
+      <Headerpayment />
+      <Paymentbills />
+      <StepsToPayment/>
+      <Footer />
+    </div>
     </header>
   )
 }

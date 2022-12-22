@@ -1,3 +1,4 @@
+import { Link } from "@mui/material";
 import React from "react";
 function ShippingMethods (){
     return(
@@ -23,7 +24,7 @@ function ShippingMethods (){
             <li>Fees on the transaction may apply by the bank
 </li>
             <li>All financial transactions on the wallet are within the Limits specified by the Palestine Monetary Authority.</li>
-            <li>For support and assistance, please contact us.
+            <li>For support and assistance, please <Link>contact us</Link>.
 </li>
 
         </ul>
