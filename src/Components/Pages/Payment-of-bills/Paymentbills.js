@@ -4,7 +4,7 @@ import './Mentt.css';
 export default function Paymentbills() {
   return (
     <div>
-        <h1 className="bills">PAYMENT OF BILLS SERVICE </h1>
+        <h1 className="bills pt-3">PAYMENT OF BILLS SERVICE </h1>
 
           <p className="paybill">Through your e-wallet, you can now pay your bills and store them<br></br>
           directly and easily from any location and at any time. This service is available 24/7<br></br>

@@ -7,7 +7,6 @@ const CardPush = (props) => {
     const routChange=()=>{
         navigate(props.linke);
     }
-
     return (
         <div className='card text-center card_paybill '>
             <div className='overflow over_paybill'>

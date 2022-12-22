@@ -10,9 +10,6 @@ const ImportWithdraw=()=>{
 
 
             <Menue/>
-
-            
-            <AdressWithdraw />
             <CardWithdraw />
       
         </div>
