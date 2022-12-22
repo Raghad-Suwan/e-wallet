@@ -159,8 +159,6 @@ function onchange_lastName(value){
               </Grid>
             </Grid>
 
-        
-
             <Button
             onClick={ handleSubmit }
             fullWidth
