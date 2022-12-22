@@ -22,6 +22,7 @@ import ImportWithdraw from './components/Withdrawa_money/ImportWithdraw';
 import CallCards from './components/WalletDesign/CallCards';
 import Table from './components/WalletDesign/Table';
 import ImportPushCards from './components/Cards_push/Card-Imge-push/ImportPushCards';
+import Myaccount from './components/My-Account/Myaccount';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -47,6 +48,7 @@ root.render(
         <Route path='/all-Transaction' element={<Table />}/>
         <Route path='/pushcards' element={<ImportPushCards/>}/>
         <Route path ='/Tranfer' element={<Transfer />}/>
+        <Route path ='/Myaccount' element={<Myaccount/>}/>
       </Routes>
 </BrowserRouter>
   </React.StrictMode>

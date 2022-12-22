@@ -11,7 +11,6 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import {useRef,useState} from 'react';
-import { useNavigate} from 'react-router';
 import { Link } from 'react-router-dom';
 
  function Signup() {
@@ -45,7 +44,7 @@ function onchange_lastName(value){
   localStorage.setItem("email",email)
   localStorage.setItem("lastName",lastName)
   };
-  const navigate = useNavigate();
+  
 
 
   return (
@@ -54,12 +53,13 @@ function onchange_lastName(value){
         <CssBaseline/>
         <Box
           sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
+            display:'flex',
+            alignItems:'center',
+            marginTop: 10,
+            flexDirection:'column'
           }}
         >
-          <Avatar sx={{ m:5, bgcolor:'chocolate' }}>
+          <Avatar sx={{ m:3, bgcolor:'chocolate'}}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography>
@@ -160,16 +160,16 @@ function onchange_lastName(value){
             </Grid>
 
         
-         
+
             <Button
-              type="button"
+            onClick={ handleSubmit }
+            fullWidth
+              type="submit"
             variant="contained" color="warning"
-              sx={{ mt:3, mb: 2}}
-              onClick={handleSubmit}
+              sx={{ mt:3, mb: 3}}
             >
              <Link to='/wallet'>Sign Up</Link> 
             </Button>
-
 
             <Grid container justifyContent="center">
               <Grid item>

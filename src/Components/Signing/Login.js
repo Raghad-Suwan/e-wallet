@@ -10,7 +10,9 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import {Link, useNavigate} from 'react-router-dom';
+import {Link} from 'react-router-dom';
+ import LoginImage from './LoginImage';
+
 
 
 export default function Login() {
@@ -23,27 +25,29 @@ export default function Login() {
     });
   };
 
-
   return (
-   
-      <Container component="main" maxWidth="xs">
+    <>
+ <Grid>
+      <Container item xs={6} lg={4} md={6} sm={6}>
         <CssBaseline />
         <Box
           sx={{
-            marginTop: 8,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
+            marginTop:20,
+            display:'flex',
+            flexDirection:'column',
+            alignItems:'center',
+      marginLeft:90,
           }}
         >
           <Avatar sx={{ m: 1, bgcolor: 'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
 
-          <Typography component="h1" variant="h5">
+          <Typography>
             Log in
           </Typography>
 
+      
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
               margin="normal"
@@ -69,11 +73,12 @@ export default function Login() {
               control={<Checkbox value="remember" color="warning" />}
               label="Remember me"
             />
+
             <Button
-          
+             onClick={ handleSubmit }
+             fullWidth
               type="submit" 
-              fullWidth
-              variant="contained"
+              variant="contained" color="warning"
               sx={{ mt: 3, mb: 2 }}
             >
                <Link to='/wallet'>Log In</Link> 
@@ -92,8 +97,20 @@ export default function Login() {
               </Grid>
             </Grid>
           </Box>
+       
+
         </Box>
       </Container>
-  
+
+
+      </Grid>
+        
+        <Grid  item xs={6} lg={4} md={6} sm={6}>
+        <LoginImage/>
+        </Grid> 
+
+
+        </>
+     
   );
         }
