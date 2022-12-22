@@ -1,25 +1,16 @@
 
-import * as React from 'react';
+import React from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
-// import FormControlLabel from '@mui/material/FormControlLabel';
-// import Checkbox from '@mui/material/Checkbox';
-// import Link from '@mui/material/Link';
-// import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import styles from './myStyle.module.css';
 import { useNavigate } from 'react-router';
 
 
-const theme = createTheme();
-
-export default function ForgotPassword() {
+ function ForgotPassword() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -30,26 +21,24 @@ export default function ForgotPassword() {
   };
 const forgetbutton= useNavigate();
   return (
-    <ThemeProvider theme={theme}>
-      <Container component="main" maxWidth="xs">
-        <CssBaseline />
+  
+      <Container>
         <Box
           sx={{
-            marginTop: 8,
+            marginTop: 30,
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: '#9e9e9e' }}>
+          <Avatar sx={{ m:2, bgcolor: 'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
-          <Typography component="h1" variant="h5">
+          <Typography variant="h5">
             Forgot Password
           </Typography>
-          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt:1}}>
             <TextField
-              className={styles.myField}
               margin="normal"
               required
               fullWidth
@@ -62,8 +51,8 @@ const forgetbutton= useNavigate();
             <Button
               type="submit"
               fullWidth
-              variant="contained"
-              sx={{ mt: 3, mb: 1 }}
+              variant="contained" color="warning"
+              sx={{ mt:3, mb: 1}}
               onClick={() => forgetbutton('/login')}
             >
               Submit
@@ -71,6 +60,8 @@ const forgetbutton= useNavigate();
           </Box>
         </Box>
       </Container>
-    </ThemeProvider>
+   
   );
 }
+
+export default ForgotPassword;

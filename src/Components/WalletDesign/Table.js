@@ -3,7 +3,6 @@ import './Table.css';
 
 const  Table= () => {
     return (
- 
 <div className='container'>
 <table className="table caption-top">
  

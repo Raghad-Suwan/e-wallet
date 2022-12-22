@@ -9,11 +9,12 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
 import {Link} from 'react-router-dom';
- import LoginImage from './LoginImage';
+import Paper from '@mui/material/Paper';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 
+const theme = createTheme();
 
 export default function Login() {
   const handleSubmit = (event) => {
@@ -26,19 +27,34 @@ export default function Login() {
   };
 
   return (
-    <>
- <Grid>
-      <Container item xs={6} lg={4} md={6} sm={6}>
+  
+   
+    <ThemeProvider theme={theme}>
+      <Grid container  sx={{ height: '100vh' }}>
         <CssBaseline />
-        <Box
+        <Grid
+          item
+          sm={4}
+          md={7}
           sx={{
-            marginTop:20,
-            display:'flex',
-            flexDirection:'column',
-            alignItems:'center',
-      marginLeft:90,
+            backgroundImage: 'url(https://img.freepik.com/free-vector/tablet-login-concept-illustration_114360-7863.jpg?w=826&t=st=1671703121~exp=1671703721~hmac=85c45190a28d00722a19474a2b96f86ce901d3a580721a720231bf44b7166496)',
+            backgroundRepeat: 'no-repeat',
+            backgroundColor: (t) =>
+              t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
-        >
+        />
+        <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6}>
+          <Box
+            sx={{
+              my:15,
+              mx:4,
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+            }}
+          >
           <Avatar sx={{ m: 1, bgcolor: 'chocolate' }}>
             <LockOutlinedIcon />
           </Avatar>
@@ -51,7 +67,6 @@ export default function Login() {
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
               margin="normal"
-              required
               fullWidth
               id="email"
               label="Email Address"
@@ -61,7 +76,6 @@ export default function Login() {
             />
             <TextField
               margin="normal"
-              required
               fullWidth
               name="password"
               label="Password"
@@ -75,7 +89,7 @@ export default function Login() {
             />
 
             <Button
-             onClick={ handleSubmit }
+             onClick={ handleSubmit}
              fullWidth
               type="submit" 
               variant="contained" color="warning"
@@ -97,20 +111,13 @@ export default function Login() {
               </Grid>
             </Grid>
           </Box>
-       
-
-        </Box>
-      </Container>
-
-
+      
+          </Box>
+        </Grid>
       </Grid>
-        
-        <Grid  item xs={6} lg={4} md={6} sm={6}>
-        <LoginImage/>
-        </Grid> 
-
-
-        </>
-     
+    </ThemeProvider>
   );
         }
+
+
+     
