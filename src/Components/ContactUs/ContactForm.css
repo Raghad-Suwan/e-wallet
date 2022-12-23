@@ -72,10 +72,10 @@ width:100%;
 
 
 .submit-btn {
-  padding: 5px 20px;
+  padding: 10px 25px;
   border-radius:5px;
-  margin-top:10px;
- text-align: center;
+margin-bottom: 5rem;
+ text-align:center;
 margin-left:9rem;
 }
 .submit-btn:hover{
@@ -83,10 +83,9 @@ margin-left:9rem;
 }
 
 .h3-header {
-  margin-left:5cm;
+  margin-left:4cm;
   color: coral;
  font-size: xx-large;
- 
 }
 
 .errorMsg{
@@ -113,12 +112,11 @@ font-size: xx-large;
   .send-msg {
     display: inline;
     font-weight:30%;
-    /* margin-right:100%;    */
   }
   .mt-5{
     text-align: center;
     margin-left:30px;
-    
+    margin-bottom:3rem;
   }
 }
 
