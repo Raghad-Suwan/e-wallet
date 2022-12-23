@@ -1,6 +1,6 @@
 import React from 'react'
 import Titlee from './Titlee'
-import './deposit.css'
+import '../Services.css'
 import { useForm } from 'react-hook-form';
 import { ErrorMessage } from '@hookform/error-message';
 import { ToastContainer, toast } from 'react-toastify';
@@ -15,18 +15,21 @@ const Card = (props) => {
         });
     }
     return (
+<header>
+    <Menue />
+    <div className="container-fluid d-flex justify-content-center ">
+        <section className="row  ">
+            <div className="col-12 col-md-12 p-2" data-aos="fade-right"></div>
 
-        <div>
-            <Menue />
             <div className='container pt-4' >
                 <form onSubmit={handleSubmit(onSubmit)} >
 
-                    <div className="card caaaard">
+                    <div className="card card_services">
                         <Titlee />
                         <div className="card-body">
-                            <h6 className="text-name teext-naame" >Wallet_ID</h6>
+                            <h6 className="text-name text-name_services" >Wallet_ID</h6>
                             <div className="input-group mb-3">
-                                <input type="number" className="form-control" placeholder="userID" aria-label="userID"
+                                <input type="text" className="form-control" placeholder="userID" aria-label="userID"
                                     {...register("input1", { required: "Please,input Wallet_ID" })}
                                 />
                             </div>
@@ -38,17 +41,17 @@ const Card = (props) => {
                                 <input type="text" className="form-control" placeholder="Agent's email" aria-describedby="basic-addon2"
                                     {...register("input2", { required: "Please,input Agent's name " })}
                                 />
-                                <span className="input-group-text text-white input-group-textt" id="basic-addon2">@gmail.com</span>
+                                <span className="input-group-text input-group-textt" id="basic-addon2">@gmail.com</span>
                             </div>
                             <div className="error-input-hadi">
                                 <ErrorMessage errors={errors} name="input2" />
                             </div>
                             <h6 className="text-name " >Amount of money</h6>
                             <div className="input-group mb-3">
-                                <input type="number" className="form-control" placeholder="Amount to be deposited"
+                                <input type="text" className="form-control" placeholder="Amount to be deposited"
                                     {...register("input3", { required: "Please,input valid id " })} />
 
-                                <span className="input-group-text text-white input-group-textt">.00</span>
+                                <span className="input-group-text input-group-text_services ">.00</span>
                             </div>
                             <div className="error-input-hadi">
                                 <ErrorMessage errors={errors} name="input3" />
@@ -61,9 +64,9 @@ const Card = (props) => {
                                     <option value="3">shekel</option>
                                 </select>
                             </div>
-                            <div className="btn-groub text-center text-black bttn-groubb">
-                                <button type="button" className="btn btn-outline-light btnnnn" onClick={handleSubmit(showToastMessage)} >add money</button>
-                                <button type="button" className="btn btn-outline-light btnnnn">cancel</button>
+                            <div className="btn-groub text-center text-black btn-groub_services">
+                                <button type="button" className="btn btn-outline-light btn_services" onClick={handleSubmit(showToastMessage)} >add money</button>
+                                <button type="button" className="btn btn-outline-light btn_services">cancel</button>
 
 
                             </div>
@@ -73,7 +76,9 @@ const Card = (props) => {
 
                 </form>
             </div>
-        </div>
+            </section>
+            </div>
+            </header>
     )
 }
 export default Card
