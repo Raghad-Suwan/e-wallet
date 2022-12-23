@@ -2,13 +2,12 @@
     background-color: #115262;
 }
 .avatar{
-    background-image: url("/src/images/avatar1.png");
+    background-image: url("../../../src/images/woman.png");
     background-size: 50px;
-    width: 54px;
+    width: 45px;
     margin-left: 30px;
-    border-radius: 50%;
-    border: 1px solid rgb(255, 255, 255);
-    height: 54px;
+    border-radius: 100%;
+    height: 45px;
     margin-right: 100px;
     margin-top: -10px;
 }
@@ -19,6 +18,7 @@
 }
 .name{
     color: white !important;
+    outline: none;
     height: 100px;
     font-family: sans-serif;
     border: 30px;
@@ -31,8 +31,8 @@ position: relative;
 .bi-bell{
    color: white;
    position: absolute;
-   right: 140px;
-   top:-60px;
+   right: 130px;
+   top:-62px;
    font-size: 30px;
 }
 .offcanvas-body{
@@ -77,12 +77,10 @@ position: relative;
 }
 .inside li{
     background-color: white;
-    margin-right: 50px;
+    padding-left:5px;
     color:black;
     font-size: 15px;
     border-radius: 10%;
     border: 10px black;
-}
-.inside li a{
-    margin-left: 15px;
+    width:400px;
 }
