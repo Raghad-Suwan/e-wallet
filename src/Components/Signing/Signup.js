@@ -172,7 +172,7 @@ function onchange_lastName(value){
 
             <Grid container justifyContent="center">
               <Grid item>
-                <Link to ="/login">
+                <Link to ="/login" >
                   Already have an account? Sign in
                 </Link>
               </Grid>

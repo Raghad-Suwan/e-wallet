@@ -41,3 +41,7 @@
   text-align: center;
   text-transform: uppercase;
 }
+.dropdown-item{
+  text-decoration: none;
+
+}

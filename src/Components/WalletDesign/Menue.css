@@ -2,12 +2,12 @@
     background-color: #115262;
 }
 .avatar{
-    background-image: url("/src/images/Avatart.jpg");
+    background-image: url("/src/images/avatar1.png");
     background-size: 50px;
     width: 54px;
     margin-left: 30px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     height: 54px;
     margin-right: 100px;
     margin-top: -10px;
