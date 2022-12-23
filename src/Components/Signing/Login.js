@@ -37,7 +37,7 @@ export default function Login() {
           sm={4}
           md={7}
           sx={{
-            backgroundImage: 'url(https://img.freepik.com/free-vector/tablet-login-concept-illustration_114360-7863.jpg?w=826&t=st=1671703121~exp=1671703721~hmac=85c45190a28d00722a19474a2b96f86ce901d3a580721a720231bf44b7166496)',
+            backgroundImage: 'url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Ftablet-login-concept-illustration_114360-7863.jpg%3Ft%3Dst%3D1671654857~exp%3D1671655457~hmac%3D0ffdf660de6e8dccd57543a9d8b036949b4f08c427dbc5695e27ab388fa62403)',
             backgroundRepeat: 'no-repeat',
             backgroundColor: (t) =>
               t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],

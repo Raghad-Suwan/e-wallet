@@ -6,7 +6,6 @@ import './ContactForm.css';
  import 'react-toastify/dist/ReactToastify.css';
 import Image from "./HeaderContact";
 import Navbar from "../Navbar/Navbar";
-import Robot from "../Im-Robot/Robot";
 import Footer from "../Footer/Footer";
 
 function ContactForm() {
@@ -75,10 +74,10 @@ function ContactForm() {
           <button className='submit-btn mb-5' type='submit' onClick={handleSubmit(notify)}>
             Send
           </button>
+         
           <ToastContainer />
         </form>
       </div>
-      <Robot/>
       <Footer/>
 
       </>
