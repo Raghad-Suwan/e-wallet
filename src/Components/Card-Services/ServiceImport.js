@@ -37,7 +37,7 @@ const ServiceImport = () => {
                         imgsrc={require('../../images/Payments_card-services.png')}
                         title="Pay bills"
                         textt="Now, through your e-wallet, you can pay your bills and save them directly and.."
-                        link="/billsmarchent"
+                        link="/payment"
                     />
                 </div>
             </section>

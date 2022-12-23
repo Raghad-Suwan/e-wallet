@@ -1,15 +1,18 @@
 
   .StyleTitle{
-    padding-left: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     color:coral;
   }
   .StyleParagraph{
-    padding-left: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-bottom: 1px;
   }
   
   .ShippingSteps{
-    padding-left: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .StyleBack{
     background-color: aliceblue;
@@ -25,6 +28,7 @@
   background-size: 100% 93% ;
   }
   .StyleLink{
-    padding-left: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
     
