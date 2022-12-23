@@ -20,6 +20,11 @@
   background-repeat: no-repeat;
   background-size: 100% 95%;
   }
+  @media (max-width: 844px){
+    .ment{
+      font-size:40px;
+    }
+  }
 .some-nots-on-paybills{
   padding-left: 130px;
   background-color: aliceblue;
