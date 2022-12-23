@@ -4,9 +4,9 @@ import "./services.css";
 import CardsServices from './CardsServices ';
 const ServiceImport = () => {
     return (
-        <div className="container-fluid d-flex justify-content-center bodyServices">
-            <section className="row  ">
-                <div className="col-10 col-md-5 col-lg-3 ">
+        <div className="container-fluid d-flex justify-content-center bodyServices mb-sm-3">
+            <section className="row">
+                <div className="col-10 col-md-5 col-lg-3 " data-aos="fade-right">
                     <CardsServices
                         imgsrc={require('../../images/withdraw-card-services.png')}
                         title="Money withdrawa"
@@ -14,7 +14,7 @@ const ServiceImport = () => {
                         link="/cashInthoughAgents"
                     />
                 </div>
-                <div className="col-10  col-md-5 col-lg-3 ">
+                <div className="col-10  col-md-5 col-lg-3 " data-aos="fade-right">
                     <CardsServices
                         imgsrc={require('../../images/transactions_card-services.png')}
                         title="Money transfer "
@@ -23,7 +23,7 @@ const ServiceImport = () => {
 
                     />
                 </div>
-                <div className="col-10 col-md-5 col-lg-3 ">
+                <div className="col-10 col-md-5 col-lg-3 " data-aos="fade-left">
                     <CardsServices
                         imgsrc={require('../../images/Savings_card-services.png')}
                         title="Deposite money "
@@ -32,7 +32,7 @@ const ServiceImport = () => {
 
                     />
                 </div>
-                <div className="col-10 col-md-5 col-lg-3 ">
+                <div className="col-10 col-md-5 col-lg-3 " data-aos="fade-left">
                     <CardsServices
                         imgsrc={require('../../images/Payments_card-services.png')}
                         title="Pay bills"

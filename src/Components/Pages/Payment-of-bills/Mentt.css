@@ -1,41 +1,27 @@
-.bills{
-    padding-left: 150px;
-    color: coral;
-
-  }
+.PAYMENTOFBILLSSERVICE{
+  padding-left: 130px;
+}
   .paybill{
-    padding: -1px;
-    padding-left: 150px;
     margin-bottom: 1px;
-    
-  }
-  
-  .right{
-    padding-left: 200px;
   }
   .descrip{
-    padding-left: 140px;
+    padding-left: 130px;
     background-color: aliceblue;
-    color: black;
   }
-  .HEAD{
+.HEADofthepage{
     color: coral;
-    padding-left: 140px;
+    margin-top: 10px;
   }
-  
   .ment{
-    color: #fff;
+    color: white;
+    margin-bottom: -8px;
     background-image: url("../../../images/payment.png") ;
-
-    width: 100%;
-    height: 100%;
-    background: cover;
-    transform: translateY(-10%);
-    background-blend-mode: luminosity;
     padding: 130px;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: 1540px 360px;
-  
+  background-size: 100% 95%;
   }
+.some-nots-on-paybills{
+  padding-left: 130px;
+  background-color: aliceblue;
   
+}

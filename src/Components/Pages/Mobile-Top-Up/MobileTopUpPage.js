@@ -4,6 +4,7 @@ import ShippingSteps from "./ShippingSteps";
 import ShippingNotes from "./ShippingNotes";
 import './MobileTopUp.css'
 import Navbar from "../../Navbar/Navbar";
+import Footer from "../../Footer/Footer";
 function MobileTopUpPage(){
     return(
         <header>
@@ -14,6 +15,8 @@ function MobileTopUpPage(){
             <ShippingSteps/>
             <ShippingNotes/>
         </div>
+    <Footer />
+
         </header>
     );
 

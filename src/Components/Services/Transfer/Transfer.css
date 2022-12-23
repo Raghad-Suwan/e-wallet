@@ -1,0 +1,42 @@
+
+.card_transfer{
+  border-radius: 50px !important;
+  background: linear-gradient(90deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
+    width: 40%;
+    height:50%;
+    font-size: 15px;
+    padding: 20px 20px 0;
+    left: 30%;
+    position: absolute;
+    border:solid black;
+}
+
+.adressss{
+  font-family: 'Lobster', cursive;
+  
+}
+
+.btn-groub_transfer {
+  margin: 30px;
+}
+
+.btn-groub_transfer .btn {
+  background-color: #02576a;
+  margin: 8px;
+  border-radius: 20px !important;
+
+  font-size: 20px;
+  border: 2px solid #000000;
+}
+.input-group-text_transfer {
+  background-color: #0e3b46;
+}
+
+.card-title-transfer {
+  font-family: 'Rubik Distressed', cursive;
+
+}
+
+.topic-transfer {
+  border-radius: 20px;
+}

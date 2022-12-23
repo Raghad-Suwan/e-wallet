@@ -1,19 +1,17 @@
 .card-header-malak1{
-   font-size: small;
-   color: #ffffff;
+   font-size: medium;
+   color: #d8712c;
    margin-top:1rem;
    margin-left:1rem;
 }
-
  .card-body-malak{
    padding: 1rem;
    
  }
 .card-title-malak1{
    font-size: large;
+   /* background-color: rgb(103, 176, 194); */
 }
-
-
 .malakContainer{
     background-color: #ffffff;
     border: 1px solid rgba(242, 241, 241, 0.1);
@@ -33,12 +31,11 @@
  .card-header-bar{
    margin-left:1rem;
    color: rgb(130, 128, 128);
-   font-size:90%;
+   font-size:small;
 } 
 
 .cardChart-bar{
-  padding:5px;
-  width:100%;
+  margin-top:1rem;
 }
 
 .card-body-bar{
@@ -46,16 +43,14 @@
 }
 
 .cardChart-line{
-font-size: xx-small;
-width:100%;
-padding:5px;
+   margin-top:1rem;
 }
 
 
 .card-header-line{
    margin-left:1rem;
    color: rgb(130, 128, 128);
-   font-size:150%;
+   font-size:small;
   
 }
 .card-body-line{

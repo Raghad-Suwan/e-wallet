@@ -1,0 +1,52 @@
+.name{
+    height: 60px;
+    width: 500px;
+    border: 1px solid indigo;
+    
+}
+.stylename{
+    font-size: 18px;
+    color: coral;
+    padding: 16px;
+    
+}
+.locname{
+    color: coral;
+    padding-left: 52%;
+    margin-top: -10%;
+    font-size: 18px;
+    
+}
+.email{
+    height: 60px;
+    width: 500px;
+    border:none
+}
+.styleemail{
+    font-size: 18px;
+    color: coral;
+    padding: 16px;
+}
+.locemail{
+    color: coral;
+    padding-left: 52%;
+    margin-top: -10%;
+    font-size: 18px;
+    
+}
+.profile{
+    padding-left: 40%;
+}
+.styleavtar{
+    height: 300px;
+    width: 250px;
+    border: 2px solid indianred;
+    background-image: url('../../avatar.png');
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    
+}
+.g{
+    margin-left: 18%;
+    margin-top: 80%;
+}
