@@ -6,7 +6,6 @@ import './ContactForm.css';
  import 'react-toastify/dist/ReactToastify.css';
 import Image from "./HeaderContact";
 import Navbar from "../Navbar/Navbar";
-import Robot from "../Im-Robot/Robot";
 import Footer from "../Footer/Footer";
 
 function ContactForm() {
@@ -78,7 +77,6 @@ function ContactForm() {
           <ToastContainer />
         </form>
       </div>
-      <Robot/>
       <Footer/>
 
       </>

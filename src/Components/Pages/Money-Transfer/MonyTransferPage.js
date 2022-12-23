@@ -4,6 +4,7 @@ import ConversionSteps from './ConversionSteps';
 import ConversionNotes from './ConversionNotes';
 import './MonyTransfer.css'
 import Navbar from '../../Navbar/Navbar';
+import Footer from '../../Footer/Footer';
 function MonyTransferPage(){
     return(
         <header>
@@ -15,6 +16,7 @@ function MonyTransferPage(){
             <ConversionNotes/>
            
         </div>
+        <Footer/>
         </header>
 
     );

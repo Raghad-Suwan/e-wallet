@@ -53,10 +53,7 @@ const CardPushUniversity = () => {
                                                         <div className="error-input-hadi">
                                                                 <ErrorMessage errors={errors} name="input3" />
                                                         </div>
-                                                        <h6 className='text-name text-name_university'>note (Not mandatory) </h6>
-                                                        <div className="note input-group note_university">
-                                                                <textarea name="message" className="note note_university"  > </textarea>
-                                                        </div>
+                                                        
                                                 </div>
                                                 <div className="btn-groub text-center text-black btn-groub_university">
                                                         <button type="button" className="btn btn-outline-light button_University" onClick={handleSubmit(showToastMessage)}>add money</button>

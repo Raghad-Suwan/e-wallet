@@ -6,6 +6,7 @@ import ShippingMethods from './ShippingMethods'
 import Navbar from '../../Navbar/Navbar';
 
 import './CashInthoughAgents.css'
+import Footer from '../../Footer/Footer'
 function CashInthoughAgents() {
     return (
         <header>
@@ -18,6 +19,7 @@ function CashInthoughAgents() {
                 <ShippingMethods />
 
             </div>
+            <Footer />
         </header>
 
     );

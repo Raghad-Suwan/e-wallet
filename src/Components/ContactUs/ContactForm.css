@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.header-img{
-  background-image: url('../../images/contact.photo.webp') ;
-  height:35rem;
+.header-img {
+  background-image: url('../../images/contact.photo.webp');
+  height: 35rem;
   left: 0%;
-  max-width:100%;
+  max-width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .hero-text {
@@ -26,99 +26,100 @@
   font-size: 25px;
   text-overflow: wrap;
   margin-top: 100px;
-  
+
 }
 
 
 .formInput1 {
-  padding:30px 30px;
-color: var(--black);
-margin-bottom: 3rem;
-height: 50px;
-border-radius: 30px; 
-width:100%;
+  padding: 30px 30px;
+  color: var(--black);
+  margin-bottom: 3rem;
+  height: 50px;
+  border-radius: 30px;
+  width: 100%;
 }
 
 .formInput2 {
-  padding:30px 30px;
-color: var(--black);
-margin-bottom: 3rem;
-height: 50px;
-border-radius:30px; 
-width:100%;
+  padding: 30px 30px;
+  color: var(--black);
+  margin-bottom: 3rem;
+  height: 50px;
+  border-radius: 30px;
+  width: 100%;
 }
 
 
 
 .formInput3 {
-padding:30px 30px;
-color: var(--black);
-margin-bottom: 3rem;
-height: 50px;
-border-radius:30px;
-width:100%;
+  padding: 30px 30px;
+  color: var(--black);
+  margin-bottom: 3rem;
+  height: 50px;
+  border-radius: 30px;
+  width: 100%;
 
 }
 
 
 .formInput4 {
-  padding:50px 50px;
- color: var(--black);
-margin-bottom: 3rem;
-height: 250px;
-border-radius:30px;
-width:100%;
+  padding: 50px 50px;
+  color: var(--black);
+  margin-bottom: 3rem;
+  height: 250px;
+  border-radius: 30px;
+  width: 100%;
 }
 
 
 .submit-btn {
   padding: 5px 20px;
-  border-radius:5px;
-  margin-top:10px;
- text-align: center;
-margin-left:9rem;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 9rem;
 }
-.submit-btn:hover{
+
+.submit-btn:hover {
   color: #51a2bb;
 }
 
 .h3-header {
-  margin-left:5cm;
+  margin-left: 5cm;
   color: coral;
- font-size: xx-large;
- 
+  font-size: xx-large;
+
 }
 
-.errorMsg{
+.errorMsg {
   color: crimson;
-  margin-bottom:3rem;
+  margin-bottom: 3rem;
 }
 
 
 
-@media (max-width: 844px){
-  .header-img{
-    font-size:40px;
+@media (max-width: 844px) {
+  .header-img {
+    font-size: 40px;
   }
 
   .h2-header {
-color: rgb(255, 255, 255);
-size: 50px;
-font-size: xx-large;
+    color: rgb(255, 255, 255);
+    size: 50px;
+    font-size: xx-large;
   }
- 
+
   .text-parent {
-    margin-right:30%;
+    margin-right: 30%;
   }
+
   .send-msg {
     display: inline;
-    font-weight:30%;
-    /* margin-right:100%;    */
+    font-weight: 30%;
   }
-  .mt-5{
+
+  .mt-5 {
     text-align: center;
-    margin-left:30px;
-    
+    margin-left: 30px;
+
   }
 }
-
