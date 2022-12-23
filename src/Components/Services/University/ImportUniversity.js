@@ -1,7 +1,6 @@
 import React from "react";
 
-import AdressPush from '../AdressCardpush';
-import './CardUniversityPush.css';
+import '../Services.css';
 import CardPushUniversity from './CardUniversityPush';
 import Menue from "../../WalletDesign/Menue";
 
@@ -11,8 +10,7 @@ const ImportUniversity = () => {
             <Menue />
             <div className="container-fluid d-flex justify-content-center ">
                 <section className="row  ">
-                    <div className="col-12 col-md-12 " data-aos="fade-right">
-                        <AdressPush />
+                    <div className="col-12 col-md-12 p-5" data-aos="fade-right">
                         <CardPushUniversity />
                     </div>
                 </section>

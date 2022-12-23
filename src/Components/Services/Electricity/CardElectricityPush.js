@@ -16,17 +16,17 @@ const CardElectricity=()=>{
             <div className='container' >
             <form onSubmit={handleSubmit(onSubmit)} >
 
-        <div className="card card_electricity">
-        <div className="topic text-center topic_electricity">
-                <h2 className="card-title text-white card-title_electricity">Charge the electricity card</h2>
-                <h5 className="card-text text-white">Enter your data in the table</h5>
+        <div className="card card_services">
+        <div className="topic text-center topic_srvices">
+                <h2 className="card-title text-white card-title_services">Charge the electricity card</h2>
+                <h5 className="card-text text-white card-text_services">Enter your data in the table</h5>
 
                 </div>
 
         <div className="card-body">
-        <h6 className="text-name text-name_electricity" >electricity_number</h6>
+        <h6 className="text-name ttext-name_services" >electricity_number</h6>
         <div className="input-group mb-4">
-        <input type="number" className="form-control" placeholder="userID" aria-label="userID"
+        <input type="text" className="form-control" placeholder="userID" aria-label="userID"
                         {...register("input1", { required: "Please,input valid number"})}
 
         />
@@ -35,23 +35,23 @@ const CardElectricity=()=>{
                         <ErrorMessage errors={errors} name="input1"/>
                         </div>
     
-        <h6 className="text-name text-name_electricity" >The amount to be shipped</h6> 
+        <h6 className="text-name text-name_services" >The amount to be shipped</h6> 
         <div className="input-group mb-4">
-        <input type="number" className="form-control" placeholder="Amount to be deposited" 
+        <input type="text" className="form-control" placeholder="Amount to be deposited" 
                         {...register("input2", { required: "Please,input The amount to be shipped"})}
                         />
-        <span className="input-group-text text-white input-group-text_electricity">.00</span> 
+        <span className="input-group-text input-group-text_services">.00</span> 
         </div>
         <div className="error-input-hadi">
                         <ErrorMessage errors={errors} name="input2"/>
                         </div>
-        <h6 className='text-name text-name_electricity'>note (Not mandatory) </h6>
-        <div className="note input-group note_electricity">
-        <textarea name="message" className="note note_electricity" > </textarea>
+        <h6 className='text-name text-name_services'>note (Not mandatory) </h6>
+        <div className="note input-group note_services">
+        <textarea name="message" className="note note_services" > </textarea>
         </div>
         </div>
-        <div className="btn-groub text-center text-black btn-groub_electricity">
-                <button type="button" className="btn btn-outline-light btn_electricity" onClick={handleSubmit(showToastMessage)}>add money</button>
+        <div className="btn-groub text-center text-black btn-groub_services">
+                <button type="button" className="btn btn-outline-light btn_services" onClick={handleSubmit(showToastMessage)}>add money</button>
                 
             </div>
             

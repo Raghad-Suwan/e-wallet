@@ -1,52 +1,49 @@
-.card_withdraw {
+.card_services {
     background: linear-gradient(60deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
-    height: 10%;
     font-size: 15px;
     padding: 20px 20px 0;
-    left: 29%;
-    width: 40%;
     border-radius: 50px !important;
     border: solid black;
 }
-.text-name_withdraw {
+.text-name_services {
     text-align: left;
 }
 
-.card-text_withdraw {
+.card-text_services {
     padding-bottom: 10%;
     color: rgb(214, 214, 214) ;
     
 }
 
-.topic_withdraw {
+.topic_srvices {
     border-radius: 8px;
 }
 
-.btn-groub_withdraw {
+.btn-groub_services {
     margin: 30px;
 }
 
-.btn-groub_withdraw .btn {
+.btn-groub_services .btn {
     background-color: #a1c4cc;
     margin: 8px;
     border-radius: 20px !important;
     font-size: 12px;
 }
 
-.btn_withdraw:hover {
+.btn_services:hover {
     background: rgb(34, 193, 195);
     background: linear-gradient(60deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
 }
 
-.input-group-text_withdraw {
+.input-group-text_services {
     background-color: #0e3b46;
 }
 
-.card-title_withdraw {
+.card-title_services {
     color: aliceblue;
 }
 
-.note_withdraw {
+.note_services {
     width: 100%;
     height: 100px;
 }
