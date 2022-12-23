@@ -1,12 +1,12 @@
 import React from 'react';
 import './Transfer.css';
-import Menue from '../WalletDesign/Menue';
+import Menue from '../../WalletDesign/Menue';
 const Transfer = () => {
     return (
 
         <div>
         <Menue />
-            <div className="container" >
+            <div className="container pt-4" >
                 <div className="card card_transfer">
                     <div className="topic text-center topic_transfer">
                         <h2 className="card-title text-white card-title_transfer">cash Transfer slip money</h2>
@@ -44,7 +44,7 @@ const Transfer = () => {
                         <div className="bassw">
                             <div className="col-md-5">
 
-                                <input type="password" placeholder="Enter Your Bassword" className="form-control" ></input>
+                                <input type="password" placeholder="Enter Your password" className="form-control" ></input>
                             </div> </div>
                         <p> Agree To Our <a href="#">Terms & Privacy</a>.</p>
                     </div>

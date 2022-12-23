@@ -13,7 +13,6 @@ export default function Payment() {
       <Headerpayment />
       <Paymentbills />
       <StepsToPayment/>
-      <Somenotson/>
     </div>
     <Footer />
     </header>

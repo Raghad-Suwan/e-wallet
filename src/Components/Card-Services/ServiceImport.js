@@ -4,8 +4,8 @@ import "./services.css";
 import CardsServices from './CardsServices ';
 const ServiceImport = () => {
     return (
-        <div className="container-fluid d-flex justify-content-center bodyServices">
-            <section className="row  ">
+        <div className="container-fluid d-flex justify-content-center bodyServices mb-sm-3">
+            <section className="row">
                 <div className="col-10 col-md-5 col-lg-3 " data-aos="fade-right">
                     <CardsServices
                         imgsrc={require('../../images/withdraw-card-services.png')}

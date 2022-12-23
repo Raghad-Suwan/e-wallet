@@ -13,12 +13,12 @@ const CardWithdraw = () => {
     return (
         <>
             <div>
-                <div className='container-fluid withdrawcontainer' >
+                <div className='container-fluid withdrawcontainer justify-content-center pt-5' >
                     <form onSubmit={handleSubmit(onSubmit)} >
-                        <div className="card card_withdraw  w-50">
+                        <div className="card card_withdraw ">
                             <div className="topic text-center topic_withdraw">
-                                <h2 className="card-title text-white card-title_withdraw text-capitalize">cash withdrawa slip money</h2>
-                                <h5 className="card-text text-white card-text_withdraw">Enter your data in the table</h5>
+                                <h2 className="card-title  card-title_withdraw text-capitalize">cash withdrawa slip money</h2>
+                                <h5 className="card-text  card-text_withdraw">Enter your data in the table</h5>
                             </div>
                             <div className="card-body">
 
@@ -56,15 +56,6 @@ const CardWithdraw = () => {
                 </div>
             </div>
         </>
-
-
-
     )
-
-
-
-
 }
-
-
 export default CardWithdraw
