@@ -1,13 +1,13 @@
 .PAYMENTOFBILLSSERVICE{
-  padding-left: 130px;
-    padding-right: 130px;
+  padding-left: 50px;
+    padding-right: 50px;
 }
   .paybill{
     margin-bottom: 1px;
   }
   .descrip{
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: aliceblue;
   }
 .HEADofthepage{
@@ -28,8 +28,8 @@
     }
   }
 .some-nots-on-paybills{
-  padding-left: 130px;
-  padding-right: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-color: aliceblue;
   
 }
