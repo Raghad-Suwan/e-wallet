@@ -1,20 +1,20 @@
 
-.card_transfer{
+.card_Transfer{
+  background: linear-gradient(60deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
+  height: 10%;
+  font-size: 15px;
+  padding: 20px 20px 0;
+  left: 29%;
+  width: 40%;
   border-radius: 50px !important;
-  background: linear-gradient(90deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
-    width: 40%;
-    height:50%;
-    font-size: 15px;
-    padding: 20px 20px 0;
-    left: 30%;
-    position: absolute;
-    border:solid black;
+  border: solid black;
 }
-
-.adressss{
-  font-family: 'Lobster', cursive;
+.card-text_Transfer {
+  padding-bottom: 6%;
+  color: rgb(214, 214, 214) ;
   
 }
+
 
 .btn-groub_transfer {
   margin: 30px;
@@ -26,7 +26,7 @@
   border-radius: 20px !important;
 
   font-size: 20px;
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
 }
 .input-group-text_transfer {
   background-color: #0e3b46;

@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
           <ul className='listFooter'>
             < a href='/'>HOME</a>
-            < a href='#'> PRIVCY</a>
+            < a href='/wallet'> E-Wallet</a>
             < a href='/contact'> CONTACT US </a>
             < a href='/about'> ABOUT US </a>
           </ul>
