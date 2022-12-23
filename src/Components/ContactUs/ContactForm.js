@@ -74,6 +74,7 @@ function ContactForm() {
           <button className='submit-btn mb-5' type='submit' onClick={handleSubmit(notify)}>
             Send
           </button>
+         
           <ToastContainer />
         </form>
       </div>

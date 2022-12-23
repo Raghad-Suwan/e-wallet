@@ -77,6 +77,7 @@
   margin-top: 10px;
   text-align: center;
   margin-left: 9rem;
+
 }
 
 .submit-btn:hover {
@@ -87,6 +88,7 @@
   margin-left: 5cm;
   color: coral;
   font-size: xx-large;
+
 
 }
 
@@ -115,11 +117,13 @@
   .send-msg {
     display: inline;
     font-weight: 30%;
+
   }
 
   .mt-5 {
     text-align: center;
     margin-left: 30px;
+
 
   }
 }

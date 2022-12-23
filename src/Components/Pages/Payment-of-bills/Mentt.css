@@ -1,42 +1,27 @@
-.bills {
-  padding-left: 100px;
-  color: coral;
-  margin-top: 20px;
+.PAYMENTOFBILLSSERVICE{
+  padding-left: 130px;
 }
-
-.paybill {
-  padding-left: 150px;
-  margin-bottom: 1px;
-}
-
-.right {
-  padding-left: 200px;
-}
-
-.descrip {
-  padding-left: 200px;
+  .paybill{
+    margin-bottom: 1px;
+  }
+  .descrip{
+    padding-left: 130px;
+    background-color: aliceblue;
+  }
+.HEADofthepage{
+    color: coral;
+    margin-top: 10px;
+  }
+  .ment{
+    color: white;
+    margin-bottom: -8px;
+    background-image: url("../../../images/payment.png") ;
+    padding: 130px;
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  }
+.some-nots-on-paybills{
+  padding-left: 130px;
   background-color: aliceblue;
-  color: black;
-}
-
-.HEAD {
-  padding-left: 100px;
-  margin-top: 1px;
-  color: coral;
-}
-
-.ment {
-  text-align: start;
-  padding: 10px;
-  text-transform: capitalize;
-  top: 20%;
-  left: 5%;
-  color: aliceblue;
-  position: absolute;
-  z-index: 2;
-}
-
-.mobile-app {
-  width: 100%;
-  height: 300px;
+  
 }
