@@ -18,7 +18,7 @@ function Home() {
       <section className='p-5 ' >
             <HowWorksImport />
       </section>
-      <section className='seconedPartOfHome '>
+      <section className='seconedPartOfHome pt-5'>
         <div className='container '>
           <div className='row '>
             <ServiceImport />

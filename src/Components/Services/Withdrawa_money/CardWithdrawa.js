@@ -15,7 +15,7 @@ const CardWithdraw = () => {
                     <form>
                         <div className="card card_services ">
                             <div className="topic text-center topic_srvices">
-                                <h2 className="card-title  card-title_services text-capitalize">cash withdrawa slip money</h2>
+                                <h2 className="card-title  card-title_services text-capitalize">cash withdraw slip money</h2>
                                 <h5 className="card-text  card-text_services">Enter your data in the table</h5>
                             </div>
                             <div className="card-body">

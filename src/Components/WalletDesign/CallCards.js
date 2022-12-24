@@ -12,14 +12,10 @@ const CallCards = () => {
         <Menue />
         <div className="container-fluid  malakContainer">
           <div className="row">
-            <Cards1 header="The amount of money deposited"
-            local={localStorage.getItem("amount")}></Cards1>
-            <Cards1 header="The amount of money withdrawn"
-              local={localStorage.getItem("withdarw")}
-            ></Cards1>
-            <Cards1 header="current balance"
-             local={localStorage.getItem("amount")} ></Cards1>
-            
+
+            <Cards1 header="The amount of money deposited" title="$0.00" />
+            <Cards1 header="The amount of money withdrawn" title="$0.00" />
+            <Cards1 header="current balance" title="$0.00" />
             <CardBarDemo />
             <CardLine />
           </div>

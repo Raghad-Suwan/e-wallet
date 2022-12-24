@@ -10,44 +10,45 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import {useRef,useState} from 'react';
+import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import "./Signing.css";
+function Signup() {
+  const data = useRef();
+  const [country, setcountry] = useState("")
+  const [firstName, setfirstName] = useState("")
+  const [email, setemail] = useState("")
+  const [lastName, setlastName] = useState("")
 
- function Signup() {
-  const data=useRef();
-  const [country,setcountry]=useState("")
-  const [firstName,setfirstName]=useState("")
-  const [email,setemail]=useState("")
-  const [lastName,setlastName]=useState("")
-
-function onchange_country(value){
-  console.log(value)
-  setcountry(value)
-}
-function onchange_firstName(value){
-  console.log(value)
-  setfirstName(value)
-}
-function onchange_email(value){
-  console.log(value)
-  setemail(value)
-}
-function onchange_lastName(value){
-  console.log(value)
-  setlastName(value)
-}
+  function onchange_country(value) {
+    console.log(value)
+    setcountry(value)
+  }
+  function onchange_firstName(value) {
+    console.log(value)
+    setfirstName(value)
+  }
+  function onchange_email(value) {
+    console.log(value)
+    setemail(value)
+  }
+  function onchange_lastName(value) {
+    console.log(value)
+    setlastName(value)
+  }
   const handleSubmit = () => {
-  console.log(data.current.value,"phone")
-  localStorage.setItem("phone",data.current.value)
-  localStorage.setItem("country",country)
-  localStorage.setItem("firstName",firstName)
-  localStorage.setItem("email",email)
-  localStorage.setItem("lastName",lastName)
+    console.log(data.current.value, "phone")
+    localStorage.setItem("phone", data.current.value)
+    localStorage.setItem("country", country)
+    localStorage.setItem("firstName", firstName)
+    localStorage.setItem("email", email)
+    localStorage.setItem("lastName", lastName)
   };
-  
+
 
 
   return (
+
     
       <Container  maxWidth="xs">
         <CssBaseline/>
@@ -158,10 +159,13 @@ function onchange_lastName(value){
                 />
               </Grid>
             </Grid>
+          </Grid>
 
-            <Button
-            onClick={ handleSubmit }
+          <Button
+            className='signupbuttonm'
+            onClick={handleSubmit}
             fullWidth
+
               type="submit"
             variant="contained"
               sx={{ mt:3, mb: 3 ,bgcolor:'#23697a'}}
@@ -176,11 +180,12 @@ function onchange_lastName(value){
                 </Link>
               </Grid>
             </Grid>
-          </Box>
+          </Grid>
         </Box>
-    
-      </Container>
-  
+      </Box>
+
+    </Container>
+
   );
 }
 
