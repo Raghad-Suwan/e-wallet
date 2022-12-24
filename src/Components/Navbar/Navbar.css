@@ -12,8 +12,15 @@
 }
 
 .navbarBasic li a {
-  color: darkgray;
+  color: rgb(206, 203, 203);
   text-align: center;
+}
+.navbarBasic li a:hover{
+  color: rgb(149, 155, 160);
+}
+.navbarBasic ul li :hover{
+  color: rgb(149, 155, 160);
+  
 }
 
 .navbarBasic .collapse {
@@ -31,7 +38,7 @@
 .dropBasic {
   background-color: #043a48;
 
- 
+
 }
 
 .navbarBasic ul li a {
