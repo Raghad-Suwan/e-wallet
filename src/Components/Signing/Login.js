@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import styles from './myStyle.module.css';
-import { Link, } from 'react-router-dom'; 
+import  {Link, useNavigate} from 'react-router-dom'; 
 const theme = createTheme();
 export default function Login() {
   const handleSubmit = (event) => {
@@ -23,7 +23,7 @@ export default function Login() {
       password: data.get('password'),
     });
   };
-  // const loginbutton = useNavigate();
+     const loginbutton = useNavigate();
   return (
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
@@ -76,7 +76,7 @@ export default function Login() {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
-              // onClick={() => loginbutton('/wallet')}
+              //  onClick={() => loginbutton('/wallet')}
             >
               Log In
             </Button>
