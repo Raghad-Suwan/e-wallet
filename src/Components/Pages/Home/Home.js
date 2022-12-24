@@ -5,7 +5,7 @@ import CardImport from '../../Properties/CardImport';
 import Footer from '../../Footer/Footer';
 import ServiceImport from '../../Card-Services/ServiceImport';
 import GetStarted from '../../Get-Started/GetStarted';
-import ImageHome from '../../Image-Home/ImageHome';
+import ImageHome from '../../../images/finaaaaaal.png';
 import HowWorksImport from '../../How-Works/HowWorksImport';
 
 function Home() {

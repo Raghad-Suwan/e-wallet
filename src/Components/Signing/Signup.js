@@ -10,9 +10,8 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import react, {useRef,useState} from 'react';
-import { Co2Sharp, Phone, Update } from '@mui/icons-material';
-import { Link } from '@mui/material';
+import  {useRef,useState} from 'react';
+import { Link } from 'react-router-dom';
  function Signup() {
   const data=useRef();
   const [country,setcountry]=useState("")
@@ -162,8 +161,8 @@ function onchange_lastName(value){
               type="button"
             variant="contained" color="warning"
               sx={{ mt:3, mb: 2}}
-              onClick={() => signupbutton('/walletdashbord')}
             >
+              <Link to='./login.js'></Link>
               Sign Up
             </Button>
 
