@@ -14,7 +14,7 @@ const CallCards = () => {
           <div className="row">
             <Cards1 header="Todays Fee" title="$0.0000000" />
             <Cards1 header="Total Fee" title="$0.00000000" />
-            <Cards1 header="current balance" title="$500.00" />
+            <Cards1 header="current balance" title="$0.0000000" />
             <CardBarDemo />
             <CardLine />
           </div>

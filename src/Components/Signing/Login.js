@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import {Link} from 'react-router-dom';
 import Paper from '@mui/material/Paper';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-
+import "./Signing.css";
 
 const theme = createTheme();
 
@@ -89,13 +89,14 @@ export default function Login() {
             />
 
             <Button
+            className='signupbuttonm'
              onClick={ handleSubmit}
              fullWidth
               type="submit" 
               variant="contained" color="warning"
               sx={{ mt: 3, mb: 2 }}
             >
-               <Link to='/wallet'>Log In</Link> 
+               <Link to='/wallet' >Log In</Link> 
             </Button>
 
             <Grid container>

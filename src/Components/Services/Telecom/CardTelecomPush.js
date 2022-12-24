@@ -4,7 +4,6 @@ import { useForm } from 'react-hook-form';
         import { ToastContainer, toast } from 'react-toastify';
 
         const CardTelecomPush=()=>{
-
                         const { register, formState: { errors }, handleSubmit } = useForm();
                         const onSubmit = data => console.log(data);
                         const showToastMessage = () => {
@@ -14,8 +13,6 @@ import { useForm } from 'react-hook-form';
                 return(
                 <>
                 <div>
-                        
-
                 <div className='container' >
                 <form onSubmit={handleSubmit(onSubmit)} >
                 <div className="card card_services">
