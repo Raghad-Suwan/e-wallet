@@ -4,6 +4,8 @@
 }
 
 .cardsevices {
+
+
     border: solid black;
     font-size: 15px;
     height: 100%;
@@ -21,10 +23,10 @@
 }
 
 .cardsevices:hover {
+    background: linear-gradient(0deg, rgb(206, 221, 221) 0%, rgb(210, 216, 219) 100%);
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.235) !important;
-    background: linear-gradient(0deg, rgb(206, 221, 221) 0%, rgba(117, 162, 187, 0.583) 100%);
     border-radius: 5rem;
-    border: solid #8698bb;
+    border: solid #a4afc4;
 }
 
 .cardsevices-textt {
@@ -34,14 +36,13 @@
 }
 
 .buttooon:hover {
-    background: #97999e !important;
+    background: #23697a !important;
 
 }
 
 .buttooon {
-
-    background: #60848d !important;
-    border: solid #c6c9cf !important;
+    background: #658992 !important;
+    border: solid #e1e3e6 !important;
     margin: 8px;
     border-radius: 20px !important;
 }
@@ -65,5 +66,6 @@
 }
 
 .cardsevices-title {
-    color: #60848d !important;
+   
+    color: #d389ac;
 }

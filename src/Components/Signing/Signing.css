@@ -1,7 +1,7 @@
 .signupbuttonm{
     text-decoration: none;
-    color: rgb(223, 127, 38);
+    color: #fdfdfd;
 }
-.signupbuttonm :hover{
-        color: rgb(189, 197, 204);
+.signupbuttonm:hover{
+
 }

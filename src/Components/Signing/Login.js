@@ -55,7 +55,7 @@ export default function Login() {
               alignItems: 'center',
             }}
           >
-          <Avatar sx={{ m: 1, bgcolor:'#23697a' }}>
+          <Avatar sx={{ m: 1, bgcolor:'#23697a' }} >
             <LockOutlinedIcon />
           </Avatar>
 
@@ -89,14 +89,18 @@ export default function Login() {
             />
 
             <Button
-            className='signupbuttonm'
+            
              onClick={ handleSubmit}
              fullWidth
               type="submit" 
               variant="contained"
-              sx={{ mt: 3, mb: 2,bgcolor:'#23697a' }}
+              sx={{ mt: 3, mb: 2,bgcolor:'#23697a'
+            }}
+              
             >
-               <Link to='/wallet' >Log In</Link> 
+               <Link to='/wallet'  className='signupbuttonm' 
+               sx={{ bgcolor:'#23697a' }}
+               >Log In</Link> 
             </Button>
 
             <Grid container>

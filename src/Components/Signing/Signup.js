@@ -10,46 +10,39 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import { useRef, useState } from 'react';
+import {useRef,useState} from 'react';
 import { Link } from 'react-router-dom';
-import "./Signing.css";
-function Signup() {
-  const data = useRef();
-  const [country, setcountry] = useState("")
-  const [firstName, setfirstName] = useState("")
-  const [email, setemail] = useState("")
-  const [lastName, setlastName] = useState("")
-
-  function onchange_country(value) {
-    console.log(value)
-    setcountry(value)
-  }
-  function onchange_firstName(value) {
-    console.log(value)
-    setfirstName(value)
-  }
-  function onchange_email(value) {
-    console.log(value)
-    setemail(value)
-  }
-  function onchange_lastName(value) {
-    console.log(value)
-    setlastName(value)
-  }
+ function Signup() {
+  const data=useRef();
+  const [country,setcountry]=useState("")
+  const [firstName,setfirstName]=useState("")
+  const [email,setemail]=useState("")
+  const [lastName,setlastName]=useState("")
+function onchange_country(value){
+  console.log(value)
+  setcountry(value)
+}
+function onchange_firstName(value){
+  console.log(value)
+  setfirstName(value)
+}
+function onchange_email(value){
+  console.log(value)
+  setemail(value)
+}
+function onchange_lastName(value){
+  console.log(value)
+  setlastName(value)
+}
   const handleSubmit = () => {
-    console.log(data.current.value, "phone")
-    localStorage.setItem("phone", data.current.value)
-    localStorage.setItem("country", country)
-    localStorage.setItem("firstName", firstName)
-    localStorage.setItem("email", email)
-    localStorage.setItem("lastName", lastName)
+  console.log(data.current.value,"phone")
+  localStorage.setItem("phone",data.current.value)
+  localStorage.setItem("country",country)
+  localStorage.setItem("firstName",firstName)
+  localStorage.setItem("email",email)
+  localStorage.setItem("lastName",lastName)
   };
-
-
-
   return (
-
-    
       <Container  maxWidth="xs">
         <CssBaseline/>
         <Box
@@ -66,7 +59,6 @@ function Signup() {
           <Typography>
             Sign up
           </Typography>
-
           <Box component="form" onSubmit={handleSubmit} sx={{ mt:2}}>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
@@ -82,7 +74,6 @@ function Signup() {
                   }}
                 />
               </Grid>
-
               <Grid item xs={12} sm={6}>
                 <TextField
                   fullWidth
@@ -96,7 +87,6 @@ function Signup() {
                   }}
                 />
               </Grid>
-
               <Grid item xs={12}>
                 <TextField
                   fullWidth
@@ -108,9 +98,8 @@ function Signup() {
                   onChange={(e)=>{
                     onchange_email(e.target.value)
                   }}
-                /> 
+                />
               </Grid>
-             
               <Grid item xs={12}>
                 <TextField
                  inputRef={data}
@@ -123,9 +112,8 @@ function Signup() {
                   onChange={(e)=>{
                     onchange_country(e.target.value)
                   }}
-                /> 
+                />
               </Grid>
-
               <Grid item xs={12}>
                 <TextField
                 inputRef={data}
@@ -136,10 +124,8 @@ function Signup() {
                   id="phone-num"
                   autoComplete="phone"
                   variant="outlined"
-                  
                 />
               </Grid>
-
               <Grid item xs={12}>
                 <TextField
                   fullWidth
@@ -151,7 +137,6 @@ function Signup() {
                   variant="outlined"
                 />
               </Grid>
-
               <Grid item xs={12}>
                 <FormControlLabel
                    control={<Checkbox/>}
@@ -159,20 +144,15 @@ function Signup() {
                 />
               </Grid>
             </Grid>
-          </Grid>
-
-          <Button
-            className='signupbuttonm'
-            onClick={handleSubmit}
+            <Button
+            onClick={ handleSubmit }
             fullWidth
-
               type="submit"
             variant="contained"
               sx={{ mt:3, mb: 3 ,bgcolor:'#23697a'}}
             >
-             <Link to='/wallet'>Sign Up</Link> 
+             <Link to='/wallet' className='signupbuttonm'>Sign Up</Link>
             </Button>
-
             <Grid container justifyContent="center">
               <Grid>
                 <Link to ="/login" >
@@ -180,13 +160,9 @@ function Signup() {
                 </Link>
               </Grid>
             </Grid>
-          </Grid>
+          </Box>
         </Box>
-      </Box>
-
-    </Container>
-
+      </Container>
   );
 }
-
 export default Signup;

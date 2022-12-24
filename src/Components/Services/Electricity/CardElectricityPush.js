@@ -16,7 +16,6 @@ const CardElectricity = () => {
     const navigate = useNavigate();
 
         return(
-
         <>
             <div className='container' >
                 <form onSubmit={handleSubmit(onSubmit)} >
@@ -64,6 +63,9 @@ const CardElectricity = () => {
                 <button type="button" className="btn btn-outline-light text-dark btn_services" onClick={()=>navigate('/wallet') }>cancel</button>
                 
             </div>
+            </form>
+            </div>
+
 
         </>
     )
