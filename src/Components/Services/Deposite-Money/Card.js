@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form';
 import { ErrorMessage } from '@hookform/error-message';
 import { ToastContainer, toast } from 'react-toastify';
 import Menue from '../../WalletDesign/Menue'
+import { useNavigate } from 'react-router';
 
 const Card = (props) => {
     const { register, formState: { errors }, handleSubmit } = useForm();
@@ -14,6 +15,7 @@ const Card = (props) => {
             position: toast.POSITION.TOP_RIGHT
         });
     }
+    const navigate = useNavigate();
     return (
 <header>
     <Menue />
@@ -65,8 +67,8 @@ const Card = (props) => {
                                 </select>
                             </div>
                             <div className="btn-groub text-center text-black btn-groub_services">
-                                <button type="button" className="btn btn-outline-light btn_services" onClick={handleSubmit(showToastMessage)} >add money</button>
-                                <button type="button" className="btn btn-outline-light btn_services">cancel</button>
+                                <button type="button" className="btn btn-outline-light text-dark btn_services" onClick={handleSubmit(showToastMessage)} >add money</button>
+                                <button type="button" className="btn btn-outline-light text-dark btn_services" onClick={()=>navigate('/wallet') }>cancel</button>
 
 
                             </div>
