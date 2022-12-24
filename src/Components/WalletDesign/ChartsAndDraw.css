@@ -1,5 +1,5 @@
 .card-header-malak1{
-   font-size: medium;
+   font-size: large;
    color: #d8712c;
    margin-top:1rem;
    margin-left:1rem;
@@ -10,7 +10,6 @@
  }
 .card-title-malak1{
    font-size: large;
-   /* background-color: rgb(103, 176, 194); */
 }
 .malakContainer{
     background-color: #ffffff;
