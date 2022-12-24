@@ -3,18 +3,18 @@ import { useNavigate } from 'react-router';
 import "./services.css";
 
 const CardsServices = (props) => {
-    const  navigate = useNavigate(); 
-    const routeChange = () =>{ 
+    const navigate = useNavigate();
+    const routeChange = () => {
         navigate(props.link);
     }
     return (
-        <div className='card text-center caaard '>
-            <div className='overflow ovver'>
-                <img src={props.imgsrc} alt="image1" className='caaard-img-top' />
+        <div className='card text-center cardsevices '>
+            <div className='overflow oversevices'>
+                <img src={props.imgsrc} alt="image1" className='cardsevices-img-top' />
             </div>
-            <div className='card-body text-dark caaard-bodyy'>
-                <h4 className='card-title caaard-title'><u>{props.title}</u></h4>
-                <p className='card-text text-secondary caaard-textt'>{props.textt}</p>
+            <div className='card-body text-dark cardsevices-bodyy'>
+                <h4 className='card-title cardsevices-title'><u>{props.title}</u></h4>
+                <p className='card-text cardsevices-textt'>{props.textt}</p>
                 <button onClick={routeChange} className='btn btn-outline-dark text-dark buttooon'>Read more</button>
             </div>
         </div>

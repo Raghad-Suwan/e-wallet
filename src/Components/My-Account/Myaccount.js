@@ -24,6 +24,6 @@ import './Myaccount.css'
      <h4 className='g'> {localStorage.getItem("firstName")} {localStorage.getItem("lastName")}  </h4> </div>
    </div>
    
-  )
+  );
 }
 export default Myaccount;

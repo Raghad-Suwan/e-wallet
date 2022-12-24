@@ -29,9 +29,9 @@
 }
 
 .dropBasic {
-  height: 150px;
-  width: 800px;
-  display: inline-block;
+  background-color: #043a48;
+
+ 
 }
 
 .navbarBasic ul li a {
@@ -40,4 +40,8 @@
   border-radius: 3px;
   text-align: center;
   text-transform: uppercase;
+}
+.dropdown-item{
+  text-decoration: none;
+
 }

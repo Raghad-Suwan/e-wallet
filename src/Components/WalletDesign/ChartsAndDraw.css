@@ -1,10 +1,9 @@
 .card-header-malak1{
-   font-size: small;
-   color: #ffffff;
+   font-size: large;
+   color: #d8712c;
    margin-top:1rem;
    margin-left:1rem;
 }
-
  .card-body-malak{
    padding: 1rem;
    
@@ -12,8 +11,6 @@
 .card-title-malak1{
    font-size: large;
 }
-
-
 .malakContainer{
     background-color: #ffffff;
     border: 1px solid rgba(242, 241, 241, 0.1);

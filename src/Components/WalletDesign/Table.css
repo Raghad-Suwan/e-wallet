@@ -1,23 +1,19 @@
+.table th {
+  border-bottom: 5px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
 
-  
-    table th{
-      text-align: center;
-    }
-  th {
-    border-bottom: 5px solid rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    
-  
-  }
-    
-  td {
-    text-align: center;
-    color: rgb(0, 0, 0);
- 
-  }
-  a{
-    text-align:start;
-  }
-.card-header-table {
+.table td {
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+}
+
+.table a{
+  text-align: start;
+}
+
+.table .card-header-table {
   margin-left: 1rem;
 }

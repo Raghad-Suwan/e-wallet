@@ -10,8 +10,9 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import  {useRef,useState} from 'react';
+import {useRef,useState} from 'react';
 import { Link } from 'react-router-dom';
+
  function Signup() {
   const data=useRef();
   const [country,setcountry]=useState("")
@@ -43,25 +44,29 @@ function onchange_lastName(value){
   localStorage.setItem("email",email)
   localStorage.setItem("lastName",lastName)
   };
+  
+
+
   return (
     
       <Container  maxWidth="xs">
         <CssBaseline/>
         <Box
           sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
+            display:'flex',
+            alignItems:'center',
+            marginTop: 4,
+            flexDirection:'column'
           }}
         >
-          <Avatar sx={{ m:5, bgcolor:'chocolate' }}>
+          <Avatar sx={{ m:3, bgcolor:'#23697a'}}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography>
             Sign up
           </Typography>
-          <Box component="form" onSubmit={handleSubmit} sx={{ mt:2}}>
 
+          <Box component="form" onSubmit={handleSubmit} sx={{ mt:2}}>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
@@ -148,28 +153,25 @@ function onchange_lastName(value){
 
               <Grid item xs={12}>
                 <FormControlLabel
-                  control={<Checkbox value="allowExtraEmails" color="warning" />}
-                  label="I agree to all Terms privacy policy and fees "
+                   control={<Checkbox/>}
+                  label="I agree to all Terms privacy policy and fees"
                 />
               </Grid>
             </Grid>
 
-        
-         
             <Button
             onClick={ handleSubmit }
-              type="button"
-            variant="contained" color="warning"
-              sx={{ mt:3, mb: 2}}
+            fullWidth
+              type="submit"
+            variant="contained"
+              sx={{ mt:3, mb: 3 ,bgcolor:'#23697a'}}
             >
-              <Link to='./login.js'></Link>
-              Sign Up
+             <Link to='/wallet'>Sign Up</Link> 
             </Button>
 
-
             <Grid container justifyContent="center">
-              <Grid item>
-                <Link to ="/login">
+              <Grid>
+                <Link to ="/login" >
                   Already have an account? Sign in
                 </Link>
               </Grid>

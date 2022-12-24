@@ -1,12 +1,14 @@
 import AdressTransfer from "./Adress"
 import './Transfer.css';
-import  Transfer from "./Transfer";
-const ImportTransfer=()=>{
-    return(
+
+import Transfer from "./Transfer";
+import Menue from "../WalletDesign/Menue";
+const ImportTransfer = () => {
+    return (
         <div>
-      <AdressTransfer/>
-            
-           <Transfer/>
+            <Menue />
+            <AdressTransfer />
+            <Transfer />
         </div>
     )
 }

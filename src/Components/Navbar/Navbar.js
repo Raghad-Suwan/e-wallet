@@ -15,10 +15,10 @@ const  Navbar= () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse " >
+                    <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                            <Link to="/contact"className= "nav-link ">Contact</Link>
+                            <Link to="/contact" className= "nav-link ">Contact</Link>
                             </li>
                             <li className="nav-item">
                             <Link to="/about" className="nav-link " >About</Link>
@@ -31,7 +31,7 @@ const  Navbar= () => {
                                     <li><Link to="/CashInthoughAgents" className="dropdown-item" >Money withdraw</Link></li>
                                     <li><Link to="/transfermoney" className="dropdown-item" >Money transfer</Link></li>
                                     <li><Link to="/mobiltop" className="dropdown-item" >Deposite money</Link></li>
-                                    <li><Link to="/wallet-pay-bills-Cards" className="dropdown-item" >Pay bills </Link></li>
+                                    <li><Link to="/payment" className="dropdown-item" >Pay bills </Link></li>
                                 </ul>
                             </li>
                         </ul>

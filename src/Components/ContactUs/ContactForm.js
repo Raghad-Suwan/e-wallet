@@ -6,6 +6,7 @@ import './ContactForm.css';
  import 'react-toastify/dist/ReactToastify.css';
 import Image from "./HeaderContact";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 function ContactForm() {
   const { register, formState: { errors }, handleSubmit } = useForm();
@@ -14,12 +15,11 @@ function ContactForm() {
 
   return (
     <>
-      <Navbar/>
+    <Navbar/>
       <Image />
-      <div className='container '>
+      <div className='container mb-5'>
         <form onSubmit={handleSubmit(onSubmit)} >
           <div className='row'>
-
             <div className=' col-xs col-sm-12 col-md-12 col-lg-6 col-xl-6 '>
               <input
                 className='form-control formInput1'
@@ -71,12 +71,15 @@ function ContactForm() {
             </div>
           </div>
 
-          <button className='submit-btn' type='submit' onClick={handleSubmit(notify)}>
+          <button className='submit-btn mb-5' type='submit' onClick={handleSubmit(notify)}>
             Send
           </button>
+         
           <ToastContainer />
         </form>
       </div>
+      <Footer/>
+
       </>
   );
 };

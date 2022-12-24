@@ -1,16 +1,18 @@
-
-  .transmissionSteps{
-    padding-left: 130px;
+.transmissionSteps{
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
   .conversionSteps{
-    padding-left: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: aliceblue;
     
    
   }
   .styleNote{
-    padding-left: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
   .headerTrans{
