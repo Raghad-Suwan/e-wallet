@@ -32,7 +32,6 @@
 
 .btn_services:hover {
     background: rgb(34, 193, 195);
-    background: linear-gradient(60deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
 }
 
 .input-group-text_services {

@@ -21,7 +21,7 @@ const CardWithdraw = () => {
                     <form onSubmit={handleSubmit(onSubmit)} >
                         <div className="card card_services ">
                             <div className="topic text-center topic_srvices">
-                                <h2 className="card-title  card-title_services text-capitalize">cash withdrawa slip money</h2>
+                                <h2 className="card-title  card-title_services text-capitalize">cash withdraw slip money</h2>
                                 <h5 className="card-text  card-text_services">Enter your data in the table</h5>
                             </div>
                             <div className="card-body">
@@ -52,8 +52,8 @@ const CardWithdraw = () => {
                                 </div>
                             </div>
                             <div className="btn-groub text-center text-black btn-groub_services">
-                                <button type="button" className="btn btn-outline-light text-dark text-dark btn_services" onClick={handleSubmit(showToastMessage)}>add money</button>
-                                <button type="button" className="btn btn-outline-light text-dark text-dark btn_services" onClick={()=>navigate('/wallet') }>cancel</button>
+                                <button type="button" className="btn btn-outline-light  text-dark btn_services" onClick={()=>navigate('/wallet') }>cancel</button>
+                                <button type="button" className="btn btn-outline-light  text-dark btn_services" onClick={handleSubmit(showToastMessage)}>add money</button>
 
                             </div>
                         </div>
