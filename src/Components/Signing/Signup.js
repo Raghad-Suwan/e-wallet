@@ -59,7 +59,7 @@ function onchange_lastName(value){
             flexDirection:'column'
           }}
         >
-          <Avatar sx={{ m:3, bgcolor:'chocolate'}}>
+          <Avatar sx={{ m:3, bgcolor:'#23697a'}}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography>
@@ -153,7 +153,7 @@ function onchange_lastName(value){
 
               <Grid item xs={12}>
                 <FormControlLabel
-                  control={<Checkbox value="allowExtraEmails" color="warning" />}
+                  control={<Checkbox value="allowExtraEmails" color="" />}
                   label="I agree to all Terms privacy policy and fees "
                 />
               </Grid>
@@ -163,7 +163,7 @@ function onchange_lastName(value){
             onClick={ handleSubmit }
             fullWidth
               type="submit"
-            variant="contained" color="warning"
+            variant="contained" color="#23697a"
 
               sx={{ mt:3, mb: 3}}
             >
