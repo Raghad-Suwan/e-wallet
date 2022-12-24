@@ -2,6 +2,8 @@ import React from "react";
 import { useForm } from 'react-hook-form';
         import { ErrorMessage } from '@hookform/error-message'; 
         import { ToastContainer, toast } from 'react-toastify';
+        import { useNavigate } from 'react-router';
+
 
         const CardTelecomPush=()=>{
                         const { register, formState: { errors }, handleSubmit } = useForm();
@@ -10,6 +12,8 @@ import { useForm } from 'react-hook-form';
                         toast.success('Success Notification !', {
                                 position: toast.POSITION.TOP_RIGHT
                         });}
+        const navigate = useNavigate();
+
                 return(
                 <>
                 <div>
@@ -57,7 +61,8 @@ import { useForm } from 'react-hook-form';
                                         </div>
                 </div>
                 <div className="btn-groub text-center text-black btn-groub_services">
-                        <button type="button" className="btn btn-outline-light btn_services" onClick={handleSubmit(showToastMessage)} >add money</button>
+                        <button type="button" className="btn btn-outline-light text-dark btn_services" onClick={handleSubmit(showToastMessage)} >add money</button>
+                        <button type="button" className="btn btn-outline-light text-dark btn_services" onClick={()=>navigate('/wallet') }>cancel</button>
                         
                         
                         

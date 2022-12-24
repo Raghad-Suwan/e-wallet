@@ -28,7 +28,7 @@
 }
 
 .cardsevices-textt {
-    color: #050911;
+    color: #000000;
     font-size: 0.9rem;
     padding: 0.4rem 1.9rem;
 }
@@ -40,7 +40,7 @@
 
 .buttooon {
 
-    background: #23697a !important;
+    background: #60848d !important;
     border: solid #c6c9cf !important;
     margin: 8px;
     border-radius: 20px !important;
@@ -65,5 +65,5 @@
 }
 
 .cardsevices-title {
-    color: #ca0c45;
+    color: #60848d !important;
 }

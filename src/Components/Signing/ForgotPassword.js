@@ -31,7 +31,7 @@ const forgetbutton= useNavigate();
             alignItems: 'center',
           }}
         >
-          <Avatar sx={{ m:2, bgcolor: 'chocolate' }}>
+          <Avatar sx={{ m:2, bgcolor:'#23697a' }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography variant="h5">
@@ -51,8 +51,8 @@ const forgetbutton= useNavigate();
             <Button
               type="submit"
               fullWidth
-              variant="contained" color="warning"
-              sx={{ mt:3, mb: 1}}
+              variant="contained" 
+              sx={{ mt:3, mb: 1,bgcolor:'#23697a'}}
               onClick={() => forgetbutton('/login')}
             >
               Submit

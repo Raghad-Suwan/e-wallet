@@ -12,9 +12,10 @@ const CallCards = () => {
         <Menue />
         <div className="container-fluid  malakContainer">
           <div className="row">
-            <Cards1 header="Todays Fee" title="$0.0000000" />
-            <Cards1 header="Total Fee" title="$0.00000000" />
-            <Cards1 header="current balance" title="$0.0000000" />
+
+            <Cards1 header="The amount of money deposited" title="$0.00" />
+            <Cards1 header="The amount of money withdrawn" title="$0.00" />
+            <Cards1 header="current balance" title="$0.00" />
             <CardBarDemo />
             <CardLine />
           </div>

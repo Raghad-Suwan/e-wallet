@@ -7,10 +7,9 @@
     border: none;
     color: aliceblue;
     border-radius: 20px !important;
-
+    size:70%;
 }
 .textGetStarted {
     color: aliceblue;
-    font-family: 'Courier New', monospace;
     font-size: xx-large;
 }

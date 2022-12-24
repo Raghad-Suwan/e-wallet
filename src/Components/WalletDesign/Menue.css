@@ -2,37 +2,37 @@
     background-color: #115262;
 }
 .avatar{
-    background-image: url("/src/images/avatar1.png");
-    background-size: 50px;
-    width: 54px;
+    background-image: url("../../../src/images/avatar-pic.jpg");
+    background-size: 40px;
+    width: 40px;
     margin-left: 30px;
-    border-radius: 50%;
-    border: 1px solid rgb(255, 255, 255);
-    height: 54px;
+    border-radius: 300px;
+    height:40px;
     margin-right: 100px;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 .bi-list {
     color: white;
     font-size: 30px;
     text-align: center;
 }
-.name{
+.nam{
+    border: none;
     color: white !important;
     height: 100px;
     font-family: sans-serif;
     border: 30px;
     font-size: 20px;
     position: relative;
-   top: 25px;
+   top: 15px;
 left: 90px;
 position: relative;
 }
 .bi-bell{
    color: white;
    position: absolute;
-   right: 140px;
-   top:-60px;
+   right: 120px;
+   top:-53px;
    font-size: 30px;
 }
 .offcanvas-body{
@@ -72,17 +72,15 @@ position: relative;
 .notification{
     color: aliceblue;
     font-size: 0;
-    top: 50px;
+    top: 30px;
     right: 40px;
 }
 .inside li{
     background-color: white;
-    margin-right: 50px;
+    padding-left:3px;
     color:black;
     font-size: 15px;
     border-radius: 10%;
     border: 10px black;
-}
-.inside li a{
-    margin-left: 15px;
+    width:200px;
 }

@@ -14,7 +14,7 @@ const CardsServices = (props) => {
             </div>
             <div className='card-body text-dark cardsevices-bodyy'>
                 <h4 className='card-title cardsevices-title'><u>{props.title}</u></h4>
-                <p className='card-text text-secondary cardsevices-textt'>{props.textt}</p>
+                <p className='card-text cardsevices-textt'>{props.textt}</p>
                 <button onClick={routeChange} className='btn btn-outline-dark text-dark buttooon'>Read more</button>
             </div>
         </div>
