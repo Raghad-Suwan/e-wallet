@@ -52,9 +52,8 @@ const CardWithdraw = () => {
                                 </div>
                             </div>
                             <div className="btn-groub text-center text-black btn-groub_services">
+                            <button type="button" className="btn btn-outline-light  text-dark btn_services" onClick={handleSubmit(showToastMessage)}>add money</button>
                                 <button type="button" className="btn btn-outline-light  text-dark btn_services" onClick={()=>navigate('/wallet') }>cancel</button>
-                                <button type="button" className="btn btn-outline-light  text-dark btn_services" onClick={handleSubmit(showToastMessage)}>add money</button>
-
                             </div>
                         </div>
                         <ToastContainer />
