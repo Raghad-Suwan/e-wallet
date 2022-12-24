@@ -12,13 +12,13 @@ export default function Menue() {
     <span ><i className='bi-list'></i></span>
     </button>
     <div className="flexbox-container">
-    <span className='name'>{localStorage.getItem("firstName")}</span> 
+    <span className='nam'>{localStorage.getItem("firstName")}</span> 
     <li className="notification dropdown">
 <a className="header-manu dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
 <i className='bi-bell'></i>
 </a>
 <ul className="dropdown-menu dropBasic inside">
-    <li><a>An amount has been successfully </a></li>
+    <li><a>amount has been successfully </a></li>
     <li><a>deposited into your account</a></li>
     <li><a>(Take a look at your account)</a></li>
     <li><a>7:30am</a></li>
