@@ -65,8 +65,8 @@ function onchange_lastName(value){
           <Typography>
             Sign up
           </Typography>
-          <Box component="form" onSubmit={handleSubmit} sx={{ mt:2}}>
 
+          <Box component="form" onSubmit={handleSubmit} sx={{ mt:2}}>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
@@ -153,8 +153,8 @@ function onchange_lastName(value){
 
               <Grid item xs={12}>
                 <FormControlLabel
-                  control={<Checkbox value="allowExtraEmails" color="" />}
-                  label="I agree to all Terms privacy policy and fees "
+                   control={<Checkbox/>}
+                  label="I agree to all Terms privacy policy and fees"
                 />
               </Grid>
             </Grid>
@@ -163,15 +163,14 @@ function onchange_lastName(value){
             onClick={ handleSubmit }
             fullWidth
               type="submit"
-            variant="contained" color="#23697a"
-
-              sx={{ mt:3, mb: 3}}
+            variant="contained"
+              sx={{ mt:3, mb: 3 ,bgcolor:'#23697a'}}
             >
              <Link to='/wallet'>Sign Up</Link> 
             </Button>
 
             <Grid container justifyContent="center">
-              <Grid item>
+              <Grid>
                 <Link to ="/login" >
                   Already have an account? Sign in
                 </Link>
