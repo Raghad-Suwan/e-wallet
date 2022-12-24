@@ -2,6 +2,8 @@ import React from "react";
 import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import { ErrorMessage } from '@hookform/error-message';
+import { useNavigate } from 'react-router';
+
 const CardWithdraw = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
     const onSubmit = data => console.log(data);
@@ -10,6 +12,8 @@ const CardWithdraw = () => {
             position: toast.POSITION.TOP_RIGHT
         });
     }
+    const navigate = useNavigate();
+
     return (
         <>
             <div>
@@ -17,7 +21,7 @@ const CardWithdraw = () => {
                     <form onSubmit={handleSubmit(onSubmit)} >
                         <div className="card card_services ">
                             <div className="topic text-center topic_srvices">
-                                <h2 className="card-title  card-title_services text-capitalize">cash withdrawa slip money</h2>
+                                <h2 className="card-title  card-title_services text-capitalize">cash withdraw slip money</h2>
                                 <h5 className="card-text  card-text_services">Enter your data in the table</h5>
                             </div>
                             <div className="card-body">
@@ -48,7 +52,8 @@ const CardWithdraw = () => {
                                 </div>
                             </div>
                             <div className="btn-groub text-center text-black btn-groub_services">
-                                <button type="button" className="btn btn-outline-light btn_services" onClick={handleSubmit(showToastMessage)}>add money</button>
+                            <button type="button" className="btn btn-outline-light  text-dark btn_services" onClick={handleSubmit(showToastMessage)}>add money</button>
+                                <button type="button" className="btn btn-outline-light  text-dark btn_services" onClick={()=>navigate('/wallet') }>cancel</button>
                             </div>
                         </div>
                         <ToastContainer />
