@@ -27,12 +27,11 @@
     background-color: #a1c4cc;
     margin: 8px;
     border-radius: 20px !important;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .btn_services:hover {
     background: rgb(34, 193, 195);
-    background: linear-gradient(60deg, rgb(1, 212, 226) 0%, rgb(36, 122, 145)35%, rgb(36, 112, 136) 100%);
 }
 
 .input-group-text_services {

@@ -33,7 +33,9 @@
   color: rgb(242, 238, 238);
   padding: 20px;
 }
-
+.footer ul :hover{
+  color: rgb(189, 197, 204);
+}
 
 
 .footer ul {
@@ -46,7 +48,9 @@
   text-align: center;
 
 }
-
+.listFooter a :hover{
+  color: rgb(100, 37, 95);
+}
 
 .copyright {
   text-align: center;

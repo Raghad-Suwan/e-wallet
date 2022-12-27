@@ -4,14 +4,13 @@ const Footer = () => {
   return (
     <div className="footer">
       <footer className="marginfooter">
-        <div class="container-fluid">
+        <div className="container-fluid">
           <div className='socialfooter'>
-
-            <a href="https://www.facebook.com/"><i class="fab fa-facebook" ></i></a>
-            <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
-            <a href="https://support.google.com/"><i class="fab fa-google-plus-g" ></i></a>
-            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin" ></i></a>
-            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/"><i className="fab fa-facebook" ></i></a>
+            <a href="https://twitter.com/i/flow/login"><i className="fab fa-twitter"></i></a>
+            <a href="https://support.google.com/"><i className="fab fa-google-plus-g" ></i></a>
+            <a href="https://www.linkedin.com/"><i className="fab fa-linkedin" ></i></a>
+            <a href="https://www.instagram.com"><i className="fab fa-instagram"></i></a>
           </div>
           <ul className='listFooter'>
             < a href='/'>HOME</a>

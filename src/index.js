@@ -22,7 +22,8 @@ import TablePage from './components/WalletDesign/Table';
 import ImportPushCards from './components/Services/Card-Imge-push/ImportPushCards';
 import Transfer from './components/Services/Transfer/Transfer';
 import Payment from './components/Pages/Payment-of-bills/Payment';
-import Myaccount from './components/My-Account/Myaccount';
+import Myaccount from './components/WalletDesign/My-Account/Myaccount';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

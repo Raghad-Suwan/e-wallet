@@ -14,7 +14,7 @@ const CardPush = (props) => {
             </div>
             <div className='card-body text-dark card-body_paybill'>
                 <p className='card-text text-secondary card-text_paybill'>{props.text}</p>
-                <button onClick={routChange} className='btn btn-outline-dark text-dark button_paybill'>continue </button>
+                <button onClick={routChange} className='btn btn-outline-dark text-white button_paybill'>continue </button>
             </div>
         </div>
     )
