@@ -1,8 +1,10 @@
 import React from 'react'
 import './Myaccount.css'
-
+import Menue from '../WalletDesign/Menue';
  function Myaccount() {
   return (
+    <header>
+      <Menue />
     <div className='profile'>
     <div className='name'>
       <h6 className='stylename'>FullName</h6>
@@ -23,7 +25,7 @@ import './Myaccount.css'
       <div className='styleavtar'>
      <h4 className='g'> {localStorage.getItem("firstName")} {localStorage.getItem("lastName")}  </h4> </div>
    </div>
-   
+   </header>
   );
 }
 export default Myaccount;
